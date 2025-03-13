@@ -3,6 +3,7 @@ import { Inter } from 'next/font/google'
 import '../globals.css'
 import Header from '@/components/layout/Header'
 import Footer from '@/components/layout/Footer'
+import Sidebar from '@/components/layout/Sidebar'
 import { getTranslations } from '@/utils/i18n'
 
 const inter = Inter({ subsets: ['latin'] })
@@ -12,6 +13,20 @@ export const metadata: Metadata = {
   description: 'Play your favorite retro games online. Collection of Nintendo, Sega, PlayStation, and Arcade classics.',
 }
 
+// 定义导航项
+const getNavItems = () => [
+  { icon: "🏠", label: "Home", href: "/" },
+  { icon: "🕒", label: "History", href: "/history" },
+  { icon: "🎲", label: "Random", href: "/random-game" },
+  { icon: "🔥", label: "Hot Games", href: "/hot-games" },
+  { icon: "✨", label: "New Games", href: "/new-games" },
+  { icon: "🎮", label: "Classic Bubble Shooter", href: "/classic-bubble-shooter" },
+  { icon: "🎯", label: "3D Bubble Shooter", href: "/3d-bubble-shooter" },
+  { icon: "🧩", label: "Puzzle Bubble Shooter", href: "/puzzle-bubble-shooter" },
+  { icon: "🎪", label: "Puzzle Games", href: "/puzzle-games" },
+  { icon: "🃏", label: "Card Games", href: "/card-games" }
+];
+
 export default async function RootLayout({
   children,
   params: { locale }
@@ -20,15 +35,22 @@ export default async function RootLayout({
   params: { locale: string }
 }) {
   const messages = await getTranslations(locale)
+  const navItems = getNavItems();
 
   return (
     <html lang={locale} suppressHydrationWarning>
       <body className={inter.className} suppressHydrationWarning>
         <div className="flex flex-col min-h-screen bg-white dark:bg-gray-900">
           <Header initialMessages={messages} />
-          <main className="flex-grow">
-            {children}
-          </main>
+          <div className="flex flex-1">
+            {/* 侧边栏 */}
+            <Sidebar navItems={navItems} locale={locale} />
+            
+            {/* 主内容区域 */}
+            <main className="flex-grow">
+              {children}
+            </main>
+          </div>
           <Footer locale={locale} initialMessages={messages} />
         </div>
       </body>
