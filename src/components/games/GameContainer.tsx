@@ -155,15 +155,17 @@ export default function GameContainer({ title, description, gameUrl, imageUrl }:
         {/* 游戏控制栏 - 当showGame为true时显示 */}
         {showGame && (
           <div className="flex items-center justify-between bg-gray-100 dark:bg-gray-800 p-2 border-t border-gray-300 dark:border-gray-700">
-            {/* 游戏名称 */}
-            <div className="font-medium text-gray-800 dark:text-white">{title}</div>
+            {/* 游戏名称 - 添加边框 */}
+            <div className="font-medium text-gray-800 dark:text-white px-3 py-1 border border-gray-300 dark:border-gray-600 rounded-md">
+              {title}
+            </div>
             
-            {/* 控制按钮组 */}
-            <div className="flex items-center space-x-3">
+            {/* 控制按钮组 - 添加边框 */}
+            <div className="flex items-center space-x-2 border border-gray-300 dark:border-gray-600 rounded-md p-1 bg-white dark:bg-gray-700">
               {/* 分享按钮 */}
               <button 
                 onClick={handleShare}
-                className="text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white"
+                className="text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white p-1 hover:bg-gray-100 dark:hover:bg-gray-600 rounded"
                 aria-label="Share"
                 title="分享"
               >
@@ -172,10 +174,13 @@ export default function GameContainer({ title, description, gameUrl, imageUrl }:
                 </svg>
               </button>
               
+              {/* 分隔线 */}
+              <div className="h-6 w-px bg-gray-300 dark:bg-gray-600"></div>
+              
               {/* 全屏模式按钮 */}
               <button 
                 onClick={handleFullscreen}
-                className={`text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white ${isFullscreen ? 'text-blue-500 dark:text-blue-400' : ''}`}
+                className={`p-1 hover:bg-gray-100 dark:hover:bg-gray-600 rounded ${isFullscreen ? 'text-blue-500 dark:text-blue-400' : 'text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white'}`}
                 aria-label="Fullscreen"
                 title="全屏模式"
               >
