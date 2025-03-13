@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import GameImage from './GameImage';
 
 interface GameContainerProps {
@@ -12,6 +12,14 @@ interface GameContainerProps {
 
 export default function GameContainer({ title, description, gameUrl, imageUrl }: GameContainerProps) {
   const [showGame, setShowGame] = useState(false);
+  const iframeRef = useRef<HTMLIFrameElement>(null);
+
+  // 在组件挂载时预加载iframe
+  useEffect(() => {
+    if (iframeRef.current) {
+      iframeRef.current.src = gameUrl;
+    }
+  }, [gameUrl]);
 
   const handlePlayClick = () => {
     setShowGame(true);
@@ -26,8 +34,9 @@ export default function GameContainer({ title, description, gameUrl, imageUrl }:
         marginLeft: '0', // 取消自动居中
         transform: 'translateX(-50px)' // 整体向左移动50px
       }}>
-        {!showGame ? (
-          <div className="absolute inset-0 flex flex-col md:flex-row items-center justify-center bg-gradient-to-br from-indigo-100 to-purple-100 dark:from-gray-700 dark:to-gray-800">
+        {/* 游戏介绍界面 - 当showGame为false时显示 */}
+        {!showGame && (
+          <div className="absolute inset-0 flex flex-col md:flex-row items-center justify-center bg-gradient-to-br from-indigo-100 to-purple-100 dark:from-gray-700 dark:to-gray-800 z-10">
             {/* 游戏标题 - 移到内容区域顶部 */}
             <div className="md:w-2/3 mb-8 md:mb-0 md:pr-8 text-center md:text-left px-6">
               {/* 游戏标题 */}
@@ -59,27 +68,29 @@ export default function GameContainer({ title, description, gameUrl, imageUrl }:
               />
             </div>
           </div>
-        ) : (
-          <iframe 
-            src={gameUrl} 
-            className="w-full h-full"
-            style={{ 
-              width: '100%', 
-              height: '100%',
-              border: 'none',
-              margin: 0,
-              padding: 0,
-              overflow: 'hidden',
-              display: 'block'
-            }}
-            allow="fullscreen; accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen
-            title={title}
-            id="game-frame"
-            scrolling="no"
-            frameBorder="0"
-          ></iframe>
         )}
+
+        {/* iframe - 始终存在，但根据showGame状态控制可见性 */}
+        <iframe 
+          ref={iframeRef}
+          className="w-full h-full"
+          style={{ 
+            width: '100%', 
+            height: '100%',
+            border: 'none',
+            margin: 0,
+            padding: 0,
+            overflow: 'hidden',
+            display: 'block',
+            visibility: showGame ? 'visible' : 'hidden' // 根据showGame状态控制可见性
+          }}
+          allow="fullscreen; accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+          title={title}
+          id="game-frame"
+          scrolling="no"
+          frameBorder="0"
+        ></iframe>
       </div>
     </div>
   );
