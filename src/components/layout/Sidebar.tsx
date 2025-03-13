@@ -18,8 +18,8 @@ export default function Sidebar({ navItems, locale }: SidebarProps) {
   const pathname = usePathname();
   
   return (
-    <aside className="w-full md:w-48 md:sticky md:top-0 md:h-screen bg-white dark:bg-gray-800 shadow-md overflow-y-auto border-r border-gray-200 dark:border-gray-700">
-      <div className="p-3">
+    <aside className="w-full md:w-48 md:fixed md:left-0 md:top-16 md:bottom-0 bg-white dark:bg-gray-800 shadow-md overflow-y-auto border-r border-gray-200 dark:border-gray-700">
+      <div className="p-4">
         {navItems.map((item, index) => {
           const href = `/${locale}${item.href}`;
           const isActive = pathname === href || pathname === `/${locale}${item.href}`;
@@ -33,7 +33,7 @@ export default function Sidebar({ navItems, locale }: SidebarProps) {
               }`}
             >
               <span className="text-base mr-1.5 flex-shrink-0">{item.icon}</span>
-              <span className="font-medium text-m leading-tight break-words">{item.label}</span>
+              <span className="font-medium text-sm leading-tight break-words">{item.label}</span>
             </a>
           );
         })}

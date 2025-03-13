@@ -46,8 +46,8 @@ export default async function RootLayout({
             {/* 侧边栏 */}
             <Sidebar navItems={navItems} locale={locale} />
             
-            {/* 主内容区域 */}
-            <main className="flex-grow">
+            {/* 主内容区域 - 添加左边距以适应固定侧边栏 */}
+            <main className="flex-grow md:ml-48 pt-2">
               {children}
             </main>
           </div>
