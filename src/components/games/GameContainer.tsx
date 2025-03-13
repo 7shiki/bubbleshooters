@@ -12,7 +12,10 @@ interface GameContainerProps {
 
 export default function GameContainer({ title, description, gameUrl, imageUrl }: GameContainerProps) {
   const [showGame, setShowGame] = useState(false);
+  const [isTheaterMode, setIsTheaterMode] = useState(false);
+  const [isFullscreen, setIsFullscreen] = useState(false);
   const iframeRef = useRef<HTMLIFrameElement>(null);
+  const containerRef = useRef<HTMLDivElement>(null);
 
   // 在组件挂载时预加载iframe
   useEffect(() => {
@@ -25,15 +28,64 @@ export default function GameContainer({ title, description, gameUrl, imageUrl }:
     setShowGame(true);
   };
 
+  // 分享功能 - 复制当前页面链接
+  const handleShare = () => {
+    navigator.clipboard.writeText(window.location.href)
+      .then(() => {
+        alert('链接已复制到剪贴板！');
+      })
+      .catch(err => {
+        console.error('无法复制链接: ', err);
+      });
+  };
+
+  // 剧院模式 - 增大游戏容器尺寸
+  const handleTheaterMode = () => {
+    setIsTheaterMode(!isTheaterMode);
+  };
+
+  // 全屏模式
+  const handleFullscreen = () => {
+    if (!isFullscreen) {
+      if (containerRef.current?.requestFullscreen) {
+        containerRef.current.requestFullscreen()
+          .then(() => setIsFullscreen(true))
+          .catch(err => console.error('全屏模式错误:', err));
+      }
+    } else {
+      if (document.exitFullscreen) {
+        document.exitFullscreen()
+          .then(() => setIsFullscreen(false))
+          .catch(err => console.error('退出全屏模式错误:', err));
+      }
+    }
+  };
+
+  // 监听全屏状态变化
+  useEffect(() => {
+    const handleFullscreenChange = () => {
+      setIsFullscreen(!!document.fullscreenElement);
+    };
+
+    document.addEventListener('fullscreenchange', handleFullscreenChange);
+    return () => {
+      document.removeEventListener('fullscreenchange', handleFullscreenChange);
+    };
+  }, []);
+
   return (
-    <div className="mb-8">
+    <div className={`mb-8 ${isTheaterMode ? 'w-full max-w-none' : ''}`}>
       {/* 游戏容器 - 固定尺寸，整体向左移动 */}
-      <div className="relative w-full" style={{ 
-        maxWidth: '1000px', 
-        aspectRatio: '4/3',
-        marginLeft: '0', // 取消自动居中
-        transform: 'translateX(-50px)' // 整体向左移动50px
-      }}>
+      <div 
+        ref={containerRef}
+        className={`relative w-full ${isTheaterMode ? 'max-w-none' : ''}`} 
+        style={{ 
+          maxWidth: isTheaterMode ? '100%' : '1000px', 
+          aspectRatio: '4/3',
+          marginLeft: isTheaterMode ? '0' : '0', // 取消自动居中
+          transform: isTheaterMode ? 'none' : 'translateX(-150px)' // 整体向左移动150px
+        }}
+      >
         {/* 游戏介绍界面 - 当showGame为false时显示 */}
         {!showGame && (
           <div className="absolute inset-0 flex flex-col md:flex-row items-center justify-center bg-gradient-to-br from-indigo-100 to-purple-100 dark:from-gray-700 dark:to-gray-800 z-10">
@@ -91,6 +143,59 @@ export default function GameContainer({ title, description, gameUrl, imageUrl }:
           scrolling="no"
           frameBorder="0"
         ></iframe>
+
+        {/* 游戏控制栏 - 当showGame为true时显示 */}
+        {showGame && (
+          <div className="flex items-center justify-between bg-gray-100 dark:bg-gray-800 p-2 border-t border-gray-300 dark:border-gray-700">
+            {/* 游戏名称 */}
+            <div className="font-medium text-gray-800 dark:text-white">{title}</div>
+            
+            {/* 控制按钮组 */}
+            <div className="flex items-center space-x-3">
+              {/* 分享按钮 */}
+              <button 
+                onClick={handleShare}
+                className="text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white"
+                aria-label="Share"
+                title="分享"
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.368 2.684 3 3 0 00-5.368-2.684z" />
+                </svg>
+              </button>
+              
+              {/* 剧院模式按钮 */}
+              <button 
+                onClick={handleTheaterMode}
+                className={`text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white ${isTheaterMode ? 'text-blue-500 dark:text-blue-400' : ''}`}
+                aria-label="Theater Mode"
+                title="剧院模式"
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16m-7 6h7" />
+                </svg>
+              </button>
+              
+              {/* 全屏模式按钮 */}
+              <button 
+                onClick={handleFullscreen}
+                className={`text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white ${isFullscreen ? 'text-blue-500 dark:text-blue-400' : ''}`}
+                aria-label="Fullscreen"
+                title="全屏模式"
+              >
+                {isFullscreen ? (
+                  <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                  </svg>
+                ) : (
+                  <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5v-4m0 4h-4m4 0l-5-5" />
+                  </svg>
+                )}
+              </button>
+            </div>
+          </div>
+        )}
       </div>
     </div>
   );
