@@ -152,51 +152,49 @@ export default function GameContainer({ title, description, gameUrl, imageUrl }:
           frameBorder="0"
         ></iframe>
 
-        {/* 游戏控制栏 - 当showGame为true时显示 */}
-        {showGame && (
-          <div className="flex items-center justify-between bg-gray-100 dark:bg-gray-800 p-2 border-t border-gray-300 dark:border-gray-700">
-            {/* 游戏名称 - 添加边框 */}
-            <div className="font-medium text-gray-800 dark:text-white px-3 py-1 border border-gray-300 dark:border-gray-600 rounded-md">
-              {title}
-            </div>
-            
-            {/* 控制按钮组 - 添加边框 */}
-            <div className="flex items-center space-x-2 border border-gray-300 dark:border-gray-600 rounded-md p-1 bg-white dark:bg-gray-700">
-              {/* 分享按钮 */}
-              <button 
-                onClick={handleShare}
-                className="text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white p-1 hover:bg-gray-100 dark:hover:bg-gray-600 rounded"
-                aria-label="Share"
-                title="分享"
-              >
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.368 2.684 3 3 0 00-5.368-2.684z" />
-                </svg>
-              </button>
-              
-              {/* 分隔线 */}
-              <div className="h-6 w-px bg-gray-300 dark:bg-gray-600"></div>
-              
-              {/* 全屏模式按钮 */}
-              <button 
-                onClick={handleFullscreen}
-                className={`p-1 hover:bg-gray-100 dark:hover:bg-gray-600 rounded ${isFullscreen ? 'text-blue-500 dark:text-blue-400' : 'text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white'}`}
-                aria-label="Fullscreen"
-                title="全屏模式"
-              >
-                {isFullscreen ? (
-                  <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-                  </svg>
-                ) : (
-                  <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5v-4m0 4h-4m4 0l-5-5" />
-                  </svg>
-                )}
-              </button>
-            </div>
+        {/* 游戏控制栏 - 始终显示，不再根据showGame状态控制 */}
+        <div className="flex items-center justify-between bg-gray-100 dark:bg-gray-800 p-2 border-t border-gray-300 dark:border-gray-700">
+          {/* 游戏名称 - 添加边框 */}
+          <div className="font-medium text-gray-800 dark:text-white px-3 py-1 border border-gray-300 dark:border-gray-600 rounded-md">
+            {title}
           </div>
-        )}
+          
+          {/* 控制按钮组 - 添加边框 */}
+          <div className="flex items-center space-x-2 border border-gray-300 dark:border-gray-600 rounded-md p-1 bg-white dark:bg-gray-700">
+            {/* 分享按钮 */}
+            <button 
+              onClick={handleShare}
+              className="text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white p-1 hover:bg-gray-100 dark:hover:bg-gray-600 rounded"
+              aria-label="Share"
+              title="分享"
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.368 2.684 3 3 0 00-5.368-2.684z" />
+              </svg>
+            </button>
+            
+            {/* 分隔线 */}
+            <div className="h-6 w-px bg-gray-300 dark:bg-gray-600"></div>
+            
+            {/* 全屏模式按钮 */}
+            <button 
+              onClick={handleFullscreen}
+              className={`p-1 hover:bg-gray-100 dark:hover:bg-gray-600 rounded ${isFullscreen ? 'text-blue-500 dark:text-blue-400' : 'text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white'}`}
+              aria-label="Fullscreen"
+              title="全屏模式"
+            >
+              {isFullscreen ? (
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                </svg>
+              ) : (
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5v-4m0 4h-4m4 0l-5-5" />
+                </svg>
+              )}
+            </button>
+          </div>
+        </div>
       </div>
     </div>
   );

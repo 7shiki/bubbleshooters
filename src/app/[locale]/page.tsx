@@ -212,7 +212,7 @@ export default async function Home({ params }: { params: { locale: string } }) {
       />
       
       {/* Game Container */}
-      <div className="max-w-6xl mx-auto p-4">
+      <div className="max-w-6xl mx-auto px-4">
         <GameContainer 
           title="Bubble Shooter Game"
           description="Mobile gamers have come to love the fast-paced and thrilling Bubble Shooter game. This free version gives players a taste of the entire game with colorful bubbles and addictive gameplay."
@@ -221,7 +221,7 @@ export default async function Home({ params }: { params: { locale: string } }) {
         />
         
         {/* Game Description Section with SEO-friendly structure */}
-        <section className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6 mb-8">
+        <section className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6 mb-8 max-w-[1000px] mx-auto">
           <h2 className="text-2xl font-semibold mb-3">The Ultimate Bubble Popping Experience</h2>
           
           <h3 className="text-xl font-semibold mb-2">How to Play Bubble Shooter</h3>
@@ -272,7 +272,7 @@ export default async function Home({ params }: { params: { locale: string } }) {
         </section>
 
         {/* Game Cards Grid */}
-        <section className="mb-8">
+        <section className="mb-8 max-w-[1000px] mx-auto">
           <h2 className="text-2xl font-bold mb-4 px-2">{messages.home.recommendedGames || 'Recommended Games'}</h2>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
             {formattedGames.slice(0, 10).map((game) => (
@@ -306,7 +306,7 @@ export default async function Home({ params }: { params: { locale: string } }) {
         </section>
         
         {/* Hot Games Section */}
-        <section className="mb-8">
+        <section className="mb-8 max-w-[1000px] mx-auto">
           <h2 className="text-2xl font-bold mb-4 px-2">{messages.home.hotGames || 'Hot Games'}</h2>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
             {formattedGames.slice(0, 5).map((game) => (
