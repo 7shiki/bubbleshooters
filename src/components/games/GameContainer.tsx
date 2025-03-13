@@ -12,15 +12,28 @@ interface GameContainerProps {
 
 export default function GameContainer({ title, description, gameUrl, imageUrl }: GameContainerProps) {
   const [showGame, setShowGame] = useState(false);
-  const [isTheaterMode, setIsTheaterMode] = useState(false);
   const [isFullscreen, setIsFullscreen] = useState(false);
   const iframeRef = useRef<HTMLIFrameElement>(null);
   const containerRef = useRef<HTMLDivElement>(null);
+  const [iframeLoaded, setIframeLoaded] = useState(false);
 
   // 在组件挂载时预加载iframe
   useEffect(() => {
     if (iframeRef.current) {
       iframeRef.current.src = gameUrl;
+      
+      // 监听iframe加载完成事件
+      const handleIframeLoad = () => {
+        setIframeLoaded(true);
+      };
+      
+      iframeRef.current.addEventListener('load', handleIframeLoad);
+      
+      return () => {
+        if (iframeRef.current) {
+          iframeRef.current.removeEventListener('load', handleIframeLoad);
+        }
+      };
     }
   }, [gameUrl]);
 
@@ -37,11 +50,6 @@ export default function GameContainer({ title, description, gameUrl, imageUrl }:
       .catch(err => {
         console.error('无法复制链接: ', err);
       });
-  };
-
-  // 剧院模式 - 增大游戏容器尺寸
-  const handleTheaterMode = () => {
-    setIsTheaterMode(!isTheaterMode);
   };
 
   // 全屏模式
@@ -74,16 +82,16 @@ export default function GameContainer({ title, description, gameUrl, imageUrl }:
   }, []);
 
   return (
-    <div className={`mb-8 ${isTheaterMode ? 'w-full max-w-none' : ''}`}>
+    <div className="mb-8">
       {/* 游戏容器 - 固定尺寸，整体向左移动 */}
       <div 
         ref={containerRef}
-        className={`relative w-full ${isTheaterMode ? 'max-w-none' : ''}`} 
+        className="relative w-full" 
         style={{ 
-          maxWidth: isTheaterMode ? '100%' : '1000px', 
+          maxWidth: '1000px', 
           aspectRatio: '4/3',
-          marginLeft: isTheaterMode ? '0' : '0', // 取消自动居中
-          transform: isTheaterMode ? 'none' : 'translateX(-150px)' // 整体向左移动150px
+          marginLeft: '0', // 取消自动居中
+          transform: 'translateX(-150px)' // 整体向左移动150px
         }}
       >
         {/* 游戏介绍界面 - 当showGame为false时显示 */}
@@ -122,7 +130,7 @@ export default function GameContainer({ title, description, gameUrl, imageUrl }:
           </div>
         )}
 
-        {/* iframe - 始终存在，但根据showGame状态控制可见性 */}
+        {/* 始终渲染iframe，但根据showGame状态控制可见性 */}
         <iframe 
           ref={iframeRef}
           className="w-full h-full"
@@ -134,7 +142,7 @@ export default function GameContainer({ title, description, gameUrl, imageUrl }:
             padding: 0,
             overflow: 'hidden',
             display: 'block',
-            visibility: showGame ? 'visible' : 'hidden' // 根据showGame状态控制可见性
+            visibility: showGame ? 'visible' : 'hidden' // 根据状态控制可见性
           }}
           allow="fullscreen; accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
@@ -161,18 +169,6 @@ export default function GameContainer({ title, description, gameUrl, imageUrl }:
               >
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.368 2.684 3 3 0 00-5.368-2.684z" />
-                </svg>
-              </button>
-              
-              {/* 剧院模式按钮 */}
-              <button 
-                onClick={handleTheaterMode}
-                className={`text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white ${isTheaterMode ? 'text-blue-500 dark:text-blue-400' : ''}`}
-                aria-label="Theater Mode"
-                title="剧院模式"
-              >
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16m-7 6h7" />
                 </svg>
               </button>
               
