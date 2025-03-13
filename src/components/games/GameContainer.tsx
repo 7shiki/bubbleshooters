@@ -19,14 +19,20 @@ export default function GameContainer({ title, description, gameUrl, imageUrl }:
 
   return (
     <div className="mb-8">
-      {/* 游戏容器 - 固定尺寸 */}
-      <div className="relative w-full mx-auto" style={{ maxWidth: '1000px', aspectRatio: '4/3' }}>
+      {/* 游戏容器 - 固定尺寸，整体向左移动 */}
+      <div className="relative w-full" style={{ 
+        maxWidth: '1000px', 
+        aspectRatio: '4/3',
+        marginLeft: '0', // 取消自动居中
+        transform: 'translateX(-50px)' // 整体向左移动50px
+      }}>
         {!showGame ? (
           <div className="absolute inset-0 flex flex-col md:flex-row items-center justify-center bg-gradient-to-br from-indigo-100 to-purple-100 dark:from-gray-700 dark:to-gray-800">
-            {/* 游戏标题 - 添加到顶部 */}
-            <h1 className="absolute top-4 left-0 right-0 text-2xl md:text-3xl font-bold text-center text-gray-800 dark:text-white">{title}</h1>
-            
-            <div className="md:w-2/3 mb-8 md:mb-0 md:pr-8 text-center md:text-left mt-12 md:mt-0 px-6">
+            {/* 游戏标题 - 移到内容区域顶部 */}
+            <div className="md:w-2/3 mb-8 md:mb-0 md:pr-8 text-center md:text-left px-6">
+              {/* 游戏标题 */}
+              <h1 className="text-2xl md:text-3xl font-bold mb-6 text-gray-800 dark:text-white">{title}</h1>
+              
               {/* 游戏描述 */}
               <div className="text-gray-700 dark:text-gray-300 mb-8 max-w-lg mx-auto md:mx-0">
                 <p className="mb-4 text-lg">{description}</p>
