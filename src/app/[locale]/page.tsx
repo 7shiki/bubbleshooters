@@ -100,7 +100,7 @@ export default async function Home({ params }: { params: { locale: string } }) {
       id: 1, 
       title: 'Classic Bubble Shooter', 
       slug: 'classic-bubble-shooter', 
-      imageUrl: '/images/games/Tekken 3.png', 
+      imageUrl: '/images/games/bubble-game-3.avif', 
       platform: 'Browser',
       description: 'The original bubble shooter game with classic gameplay and colorful bubbles.',
       embedUrl: 'https://cdn.bubbleshooter.com/games/bubbleshooter-game/'
@@ -109,7 +109,7 @@ export default async function Home({ params }: { params: { locale: string } }) {
       id: 2, 
       title: '3D Bubble Shooter', 
       slug: '3d-bubble-shooter', 
-      imageUrl: '/images/games/3d-bubble-shooter.jpg', 
+      imageUrl: '/images/games/bubble-game-3.avif', 
       platform: 'Browser',
       description: 'Experience bubble shooting in 3D with enhanced graphics and immersive gameplay.',
       embedUrl: 'https://cdn.bubbleshooter.com/games/3d-bubbleshooter-game/'
@@ -118,7 +118,7 @@ export default async function Home({ params }: { params: { locale: string } }) {
       id: 3, 
       title: 'Puzzle Bubble Shooter', 
       slug: 'puzzle-bubble-shooter', 
-      imageUrl: '/images/games/puzzle-bubble-shooter.jpg', 
+      imageUrl: '/images/games/bubble-game-3.avif', 
       platform: 'Browser',
       description: 'Challenging puzzle levels combined with bubble shooting mechanics.',
       embedUrl: 'https://cdn.bubbleshooter.com/games/puzzle-bubbleshooter-game/'
@@ -127,7 +127,7 @@ export default async function Home({ params }: { params: { locale: string } }) {
       id: 4, 
       title: 'Bubble Shooter Saga', 
       slug: 'bubble-shooter-saga', 
-      imageUrl: '/images/games/bubble-shooter-saga.jpg', 
+      imageUrl: '/images/games/bubble-game-3.avif', 
       platform: 'Browser',
       description: 'Epic saga with hundreds of levels of bubble shooting fun.',
       embedUrl: 'https://cdn.bubbleshooter.com/games/bubble-shooter-saga/'
@@ -136,7 +136,7 @@ export default async function Home({ params }: { params: { locale: string } }) {
       id: 5, 
       title: 'Bubble Shooter Blast', 
       slug: 'bubble-shooter-blast', 
-      imageUrl: '/images/games/bubble-shooter-blast.jpg', 
+      imageUrl: '/images/games/bubble-game-3.avif', 
       platform: 'Browser',
       description: 'Fast-paced bubble shooter with explosive power-ups and special effects.',
       embedUrl: 'https://cdn.bubbleshooter.com/games/bubble-shooter-blast/'
@@ -145,7 +145,7 @@ export default async function Home({ params }: { params: { locale: string } }) {
       id: 6, 
       title: 'Bubble Shooter Adventure', 
       slug: 'bubble-shooter-adventure', 
-      imageUrl: '/images/games/bubble-shooter-adventure.jpg', 
+      imageUrl: '/images/games/bubble-game-3.avif', 
       platform: 'Browser',
       description: 'Go on an adventure through different worlds while shooting bubbles.',
       embedUrl: 'https://cdn.bubbleshooter.com/games/bubble-shooter-adventure/'
@@ -154,7 +154,7 @@ export default async function Home({ params }: { params: { locale: string } }) {
       id: 7, 
       title: 'Bubble Shooter Challenge', 
       slug: 'bubble-shooter-challenge', 
-      imageUrl: '/images/games/bubble-shooter-challenge.jpg', 
+      imageUrl: '/images/games/bubble-game-3.avif', 
       platform: 'Browser',
       description: 'Test your skills with challenging bubble shooter levels.',
       embedUrl: 'https://cdn.bubbleshooter.com/games/bubble-shooter-challenge/'
@@ -163,7 +163,7 @@ export default async function Home({ params }: { params: { locale: string } }) {
       id: 8, 
       title: 'Bubble Shooter Pro', 
       slug: 'bubble-shooter-pro', 
-      imageUrl: '/images/games/bubble-shooter-pro.jpg', 
+      imageUrl: '/images/games/bubble-game-3.avif', 
       platform: 'Browser',
       description: 'Professional bubble shooter with advanced mechanics for expert players.',
       embedUrl: 'https://cdn.bubbleshooter.com/games/bubble-shooter-pro/'
@@ -172,7 +172,7 @@ export default async function Home({ params }: { params: { locale: string } }) {
       id: 9, 
       title: 'Bubble Shooter Deluxe', 
       slug: 'bubble-shooter-deluxe', 
-      imageUrl: '/images/games/bubble-shooter-deluxe.jpg', 
+      imageUrl: '/images/games/bubble-game-3.avif', 
       platform: 'Browser',
       description: 'Deluxe version with premium graphics and smooth gameplay.',
       embedUrl: 'https://cdn.bubbleshooter.com/games/bubble-shooter-deluxe/'
@@ -181,7 +181,7 @@ export default async function Home({ params }: { params: { locale: string } }) {
       id: 10, 
       title: 'Bubble Shooter Master', 
       slug: 'bubble-shooter-master', 
-      imageUrl: '/images/games/bubble-shooter-master.jpg', 
+      imageUrl: '/images/games/bubble-game-3.avif', 
       platform: 'Browser',
       description: 'Master the art of bubble shooting with this advanced version.',
       embedUrl: 'https://cdn.bubbleshooter.com/games/bubble-shooter-master/'
@@ -292,17 +292,6 @@ export default async function Home({ params }: { params: { locale: string } }) {
                         TOP RATED
                       </div>
                     </div>
-                    <div className="p-3">
-                      <h3 className="font-medium text-sm truncate">{game.title}</h3>
-                      <div className="flex items-center mt-1">
-                        <div className="flex">
-                          {[1, 2, 3, 4, 5].map((star) => (
-                            <span key={star} className="text-yellow-500 text-xs">★</span>
-                          ))}
-                        </div>
-                        <span className="text-xs ml-1 text-gray-500 dark:text-gray-400">4.2</span>
-                      </div>
-                    </div>
                   </a>
                 </div>
               ))}
@@ -324,17 +313,6 @@ export default async function Home({ params }: { params: { locale: string } }) {
                       />
                       <div className="absolute top-2 right-2 bg-red-500 text-xs font-bold px-2 py-1 rounded-full">
                         HOT
-                      </div>
-                    </div>
-                    <div className="p-3">
-                      <h3 className="font-medium text-sm truncate">{game.title}</h3>
-                      <div className="flex items-center mt-1">
-                        <div className="flex">
-                          {[1, 2, 3, 4, 5].map((star) => (
-                            <span key={star} className="text-yellow-500 text-xs">★</span>
-                          ))}
-                        </div>
-                        <span className="text-xs ml-1 text-gray-500 dark:text-gray-400">4.5</span>
                       </div>
                     </div>
                   </a>

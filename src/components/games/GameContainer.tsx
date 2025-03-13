@@ -89,9 +89,7 @@ export default function GameContainer({ title, description, gameUrl, imageUrl }:
         className="relative w-full" 
         style={{ 
           maxWidth: '1000px', 
-          aspectRatio: '4/3',
-          marginLeft: '0', // 取消自动居中
-          transform: 'translateX(-160px)' // 整体向左移动150px
+          aspectRatio: '4/3'
         }}
       >
         {/* 游戏介绍界面 - 当showGame为false时显示 */}
