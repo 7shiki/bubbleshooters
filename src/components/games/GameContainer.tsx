@@ -83,12 +83,11 @@ export default function GameContainer({ title, description, gameUrl, imageUrl }:
 
   return (
     <div className="mb-8">
-      {/* 游戏容器 - 固定尺寸，整体向左移动，添加圆角 */}
+      {/* 游戏容器 - 添加圆角 */}
       <div 
         ref={containerRef}
         className="relative w-full rounded-xl overflow-hidden shadow-lg" 
         style={{ 
-          maxWidth: '1000px', 
           aspectRatio: '4/3'
         }}
       >
