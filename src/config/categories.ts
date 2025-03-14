@@ -27,7 +27,7 @@ export const categoryMap = Object.entries(categories).reduce((acc, [company, ite
     items.forEach((item: CategoryItem) => {
         const key = item.href.replace('/', '').replace('-games', '')
         acc[key] = {
-            title: `${item.name} Games`,
+            title: `${item.name}`,
             platform: item.name,
             company,
             key: item.key

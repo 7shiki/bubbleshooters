@@ -112,7 +112,7 @@ export default async function CategoryPage({ params }: { params: { locale: strin
   const jsonLd = generateJsonLd()
 
   return (
-    <main className="min-h-screen">
+    <>
       {jsonLd && (
         <script
           type="application/ld+json"
@@ -125,6 +125,6 @@ export default async function CategoryPage({ params }: { params: { locale: strin
         initialMessages={messages}
         initialGames={gameList}
       />
-    </main>
+    </>
   )
 }

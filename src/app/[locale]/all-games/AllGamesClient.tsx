@@ -7,7 +7,7 @@ import GameImage from '@/components/games/GameImage'
 import { Game } from '@/utils/i18n'
 import Image from 'next/image'
 
-const GAMES_PER_PAGE = 20 // 每页显示的游戏数量
+const GAMES_PER_PAGE = 18 // 每页显示的游戏数量
 
 interface AllGamesClientProps {
   locale: string
