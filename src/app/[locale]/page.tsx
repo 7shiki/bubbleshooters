@@ -242,7 +242,7 @@ export default async function Home({ params }: { params: { locale: string } }) {
         {/* Main content area with game and sidebar */}
         <div className="w-full flex flex-col md:flex-row">
           {/* Left sidebar with game cards - No left margin/padding to remove empty space */}
-          <div className="w-full md:w-52 pr-0 pt-4">
+          <div className="w-full md:w-52 pr-0 pt-0.5">
             <div className="flex flex-col space-y-6 px-2 items-center">
               {formattedGames.slice(0, 15).map((game) => (
                 <div key={game.id}>
@@ -277,6 +277,30 @@ export default async function Home({ params }: { params: { locale: string } }) {
                 gameUrl="https://cdn.bubbleshooter.com/games/bubbleshooter-game/"
                 imageUrl={formattedGames[0].imageUrl}
               />
+
+               {/* Hot Games Section - Below the main content */}
+               <section className="mb-8 w-full">
+                <div className="flex flex-wrap gap-4">
+                  {formattedGames.slice(0, 5).map((game) => (
+                    <div key={game.id} className="bg-white dark:bg-gray-800 rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-all duration-300 hover:shadow-xl">
+                      <a href={`/${params.locale}/${game.href}`} className="block hover:opacity-95 transition-all">
+                        <div className="relative" style={{ width: '180px', height: '100px' }}>
+                          <GameImage 
+                            src={game.imageUrl} 
+                            alt={game.title} 
+                            className="w-full h-full object-cover"
+                          />
+                          <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black to-transparent p-2">
+                            <h3 className="text-white text-xs font-semibold truncate">
+                              {game.title.replace('Bubble Shooter', '').trim() || game.title}
+                            </h3>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  ))}
+                </div>
+              </section>
               
               {/* Game Description Section with SEO-friendly structure */}
               <section className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6 mb-8 w-full">
