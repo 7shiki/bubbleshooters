@@ -278,9 +278,9 @@ export default async function Home({ params }: { params: { locale: string } }) {
                 imageUrl={formattedGames[0].imageUrl}
               />
 
-               {/* Hot Games Section - Below the main content */}
-               <section className="mb-8 w-full">
-                <div className="flex flex-wrap gap-4">
+              {/* Hot Games Section - Below the main content */}
+              <section className="mb-8 w-full">
+                <div className="flex flex-wrap justify-center gap-4">
                   {formattedGames.slice(0, 5).map((game) => (
                     <div key={game.id} className="bg-white dark:bg-gray-800 rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-all duration-300 hover:shadow-xl">
                       <a href={`/${params.locale}/${game.href}`} className="block hover:opacity-95 transition-all">
@@ -301,9 +301,9 @@ export default async function Home({ params }: { params: { locale: string } }) {
                   ))}
                 </div>
               </section>
-              
-              {/* Game Description Section with SEO-friendly structure */}
-              <section className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6 mb-8 w-full">
+
+               {/* Game Description Section with SEO-friendly structure */}
+               <section className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6 mb-8 w-full">
                 <h2 className="text-2xl font-semibold mb-3">The Ultimate Bubble Popping Experience</h2>
                 
                 <h3 className="text-xl font-semibold mb-2">How to Play Bubble Shooter</h3>
@@ -355,8 +355,8 @@ export default async function Home({ params }: { params: { locale: string } }) {
               
               {/* Hot Games Section - Below the main content */}
               <section className="mb-8 w-full">
-                <div className="flex flex-wrap gap-4">
-                  {formattedGames.slice(0, 5).map((game) => (
+                <div className="flex flex-wrap justify-center gap-4">
+                  {formattedGames.slice(0, 10).map((game) => (
                     <div key={game.id} className="bg-white dark:bg-gray-800 rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-all duration-300 hover:shadow-xl">
                       <a href={`/${params.locale}/${game.href}`} className="block hover:opacity-95 transition-all">
                         <div className="relative" style={{ width: '180px', height: '100px' }}>
