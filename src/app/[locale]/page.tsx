@@ -230,18 +230,6 @@ export default async function Home({ params }: { params: { locale: string } }) {
                 ) : (
                   // 如果没有sections数据，则显示默认内容
                   <div>
-                    <h2 className="text-2xl font-semibold mb-3">About {featuredGame.title}</h2>
-                    <p className="mb-4">
-                      Enjoy playing {featuredGame.title} online for free. This game is available to play directly in your browser without any downloads required.
-                    </p>
-                    
-                    <h3 className="text-xl font-semibold mb-2">Game Features</h3>
-                    <ul className="list-disc pl-5 mb-4">
-                      <li>Play instantly in your browser</li>
-                      <li>No downloads or installations required</li>
-                      <li>Free to play</li>
-                      <li>Compatible with all modern devices</li>
-                    </ul>
                   </div>
                 )}
               </section>
