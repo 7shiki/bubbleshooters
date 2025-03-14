@@ -3,8 +3,7 @@
 import { useState, useEffect } from 'react'
 import { useSearchParams } from 'next/navigation'
 import SearchBar from '@/components/layout/SearchBar'
-import { categories } from '@/config/categories'
-import GameList from '@/components/games/GameList'
+import GameImage from '@/components/games/GameImage'
 import { Game } from '@/utils/i18n'
 import Image from 'next/image'
 
@@ -20,7 +19,6 @@ export default function AllGamesClient({ locale, initialMessages, initialGames }
   const searchParams = useSearchParams()
   const initialSearch = searchParams.get('search') || ''
 
-  const [selectedPlatform, setSelectedPlatform] = useState<string | null>(null)
   const [searchQuery, setSearchQuery] = useState(initialSearch)
   const [visibleGames, setVisibleGames] = useState(GAMES_PER_PAGE)
   const [games] = useState<Game[]>(initialGames)
@@ -31,20 +29,15 @@ export default function AllGamesClient({ locale, initialMessages, initialGames }
     setSearchQuery(initialSearch)
   }, [initialSearch])
 
-  // 根据平台和搜索词筛选游戏
+  // 根据搜索词筛选游戏
   const filteredGames = games.filter(game => {
-    const matchesPlatform = selectedPlatform
-      ? categories[selectedPlatform as keyof typeof categories].some(
-        item => item.name === game.platform
-      )
-      : true
-
     const matchesSearch = searchQuery
       ? game.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
-        game.platform.toLowerCase().includes(searchQuery.toLowerCase())
+        game.platform.toLowerCase().includes(searchQuery.toLowerCase()) ||
+        (game.description && game.description.toLowerCase().includes(searchQuery.toLowerCase()))
       : true
 
-    return matchesPlatform && matchesSearch
+    return matchesSearch
   })
 
   // 处理搜索
@@ -57,11 +50,6 @@ export default function AllGamesClient({ locale, initialMessages, initialGames }
   const handleLoadMore = () => {
     setVisibleGames(prev => prev + GAMES_PER_PAGE)
   }
-
-  // 当筛选条件改变时重置显示数量
-  useEffect(() => {
-    setVisibleGames(GAMES_PER_PAGE)
-  }, [selectedPlatform])
 
   // 获取当前可见的游戏
   const currentGames = filteredGames.slice(0, visibleGames)
@@ -107,38 +95,11 @@ export default function AllGamesClient({ locale, initialMessages, initialGames }
             </span>
           </h2>
 
-          {/* Filters */}
-          <div className="mb-8 flex flex-wrap gap-4">
-            <button
-              className={`px-4 py-2 rounded-full transition-colors ${
-                selectedPlatform === null
-                  ? 'bg-purple-500 text-white'
-                  : 'bg-purple-500/10 hover:bg-purple-500/20'
-              }`}
-              onClick={() => setSelectedPlatform(null)}
-            >
-              {messages.allGames.allPlatforms}
-            </button>
-            {Object.keys(categories).map((platform) => (
-              <button
-                key={platform}
-                className={`px-4 py-2 rounded-full transition-colors ${
-                  selectedPlatform === platform
-                    ? 'bg-purple-500 text-white'
-                    : 'bg-purple-500/10 hover:bg-purple-500/20'
-                }`}
-                onClick={() => setSelectedPlatform(platform)}
-              >
-                {platform}
-              </button>
-            ))}
-          </div>
-
           {/* Results Count */}
           <div className="mb-6 text-gray-400">
             {messages.allGames.foundGames
               .replace('{count}', filteredGames.length.toString())
-              .replace('{platform}', selectedPlatform ? ` ${selectedPlatform}` : '')
+              .replace('{platform}', '')
               .replace('{query}', searchQuery ? ` "${searchQuery}"` : '')}
           </div>
 
@@ -167,17 +128,40 @@ export default function AllGamesClient({ locale, initialMessages, initialGames }
             </div>
           )}
 
-          {/* Games Grid */}
-          <GameList
-            games={currentGames}
-            locale={locale}
-            showLoadMore={hasMore}
-            onLoadMore={handleLoadMore}
-            messages={{
-              playGame: messages.games.playGame,
-              loadMore: messages.games.loadMore
-            }}
-          />
+          {/* Games Grid - 使用与首页相同的卡片样式 */}
+          <div className="flex flex-wrap justify-center gap-4">
+            {currentGames.map((game) => (
+              <div key={game.id} className="bg-white dark:bg-gray-800 rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-all duration-300 hover:shadow-xl">
+                <a href={`/${locale}/${game.href}`} className="block hover:opacity-95 transition-all">
+                  <div className="relative" style={{ width: '180px', height: '100px' }}>
+                    <GameImage 
+                      src={game.imageUrl} 
+                      alt={game.title} 
+                      className="w-full h-full object-cover"
+                    />
+                    {/* 游戏名称悬浮层 - 鼠标悬停时显示 */}
+                    <div className="absolute inset-0 bg-black bg-opacity-70 opacity-0 hover:opacity-100 transition-opacity duration-300 flex items-center justify-center p-2">
+                      <p className="text-white text-center text-sm font-medium truncate w-full">
+                        {game.title.length > 20 ? `${game.title.substring(0, 20)}...` : game.title}
+                      </p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            ))}
+          </div>
+
+          {/* Load More Button */}
+          {hasMore && (
+            <div className="flex justify-center mt-8">
+              <button
+                onClick={handleLoadMore}
+                className="px-6 py-3 bg-purple-500 text-white rounded-lg hover:bg-purple-600 transition-colors"
+              >
+                {messages.games.loadMore}
+              </button>
+            </div>
+          )}
         </div>
       </section>
     </main>
