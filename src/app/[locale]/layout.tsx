@@ -6,6 +6,7 @@ import Footer from '@/components/layout/Footer'
 import Sidebar from '@/components/layout/Sidebar'
 import { getTranslations } from '@/utils/i18n'
 import { categories } from '@/config/categories'
+import { ThemeScript } from '@/components/layout/ThemeToggle'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -50,6 +51,9 @@ export default async function RootLayout({
 
   return (
     <html lang={locale} suppressHydrationWarning>
+      <head>
+        <ThemeScript />
+      </head>
       <body className={inter.className} suppressHydrationWarning>
         <div className="flex flex-col min-h-screen bg-white dark:bg-gray-900">
           <Header initialMessages={messages} />

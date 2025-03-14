@@ -14,6 +14,14 @@ export default function ThemeToggle() {
     const savedTheme = localStorage.getItem('theme') || (prefersDark ? 'dark' : 'light')
     setTheme(savedTheme)
     document.documentElement.setAttribute('data-theme', savedTheme)
+    
+    // 添加或移除dark类以支持Tailwind的暗色模式
+    if (savedTheme === 'dark') {
+      document.documentElement.classList.add('dark')
+    } else {
+      document.documentElement.classList.remove('dark')
+    }
+    
     setMounted(true)
   }, [])
 
@@ -22,6 +30,13 @@ export default function ThemeToggle() {
     setTheme(newTheme)
     localStorage.setItem('theme', newTheme)
     document.documentElement.setAttribute('data-theme', newTheme)
+    
+    // 添加或移除dark类以支持Tailwind的暗色模式
+    if (newTheme === 'dark') {
+      document.documentElement.classList.add('dark')
+    } else {
+      document.documentElement.classList.remove('dark')
+    }
   }
 
   // 在组件挂载前显示一个占位图标
@@ -59,6 +74,13 @@ export function ThemeScript() {
               localStorage.setItem('theme', theme)
             }
             document.documentElement.setAttribute('data-theme', theme)
+            
+            // 添加或移除dark类以支持Tailwind的暗色模式
+            if (theme === 'dark') {
+              document.documentElement.classList.add('dark')
+            } else {
+              document.documentElement.classList.remove('dark')
+            }
           } catch (e) {}
         `,
       }}
