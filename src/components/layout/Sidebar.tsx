@@ -49,7 +49,7 @@ export default function Sidebar({ navItems, locale }: SidebarProps) {
   }, []);
   
   return (
-    <aside className="w-full md:w-48 md:fixed md:left-0 md:top-16 md:bottom-0 bg-white dark:bg-gray-800 shadow-md border-r border-gray-200 dark:border-gray-700">
+    <aside className="hidden md:block md:w-48 md:fixed md:left-0 md:top-16 md:bottom-0 bg-white dark:bg-gray-800 shadow-md border-r border-gray-200 dark:border-gray-700">
       {/* 使用独立的滚动容器 */}
       <div 
         ref={sidebarRef}

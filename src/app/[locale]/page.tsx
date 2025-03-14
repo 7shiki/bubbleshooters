@@ -109,7 +109,7 @@ export default async function Home({ params }: { params: { locale: string } }) {
       id: 2, 
       title: '3D Bubble Shooter', 
       slug: '3d-bubble-shooter', 
-      imageUrl: '/images/games/bubble-game-3.avif', 
+      imageUrl: '/images/games/bubble-shooter-ultimate.avif', 
       platform: 'Browser',
       description: 'Experience bubble shooting in 3D with enhanced graphics and immersive gameplay.',
       embedUrl: 'https://cdn.bubbleshooter.com/games/3d-bubbleshooter-game/'
@@ -127,7 +127,7 @@ export default async function Home({ params }: { params: { locale: string } }) {
       id: 4, 
       title: 'Bubble Shooter Saga', 
       slug: 'bubble-shooter-saga', 
-      imageUrl: '/images/games/bubble-game-3.avif', 
+      imageUrl: '/images/games/bubble-shooter-ultimate.avif', 
       platform: 'Browser',
       description: 'Epic saga with hundreds of levels of bubble shooting fun.',
       embedUrl: 'https://cdn.bubbleshooter.com/games/bubble-shooter-saga/'
@@ -145,7 +145,7 @@ export default async function Home({ params }: { params: { locale: string } }) {
       id: 6, 
       title: 'Bubble Shooter Adventure', 
       slug: 'bubble-shooter-adventure', 
-      imageUrl: '/images/games/bubble-game-3.avif', 
+      imageUrl: '/images/games/bubble-shooter-ultimate.avif', 
       platform: 'Browser',
       description: 'Go on an adventure through different worlds while shooting bubbles.',
       embedUrl: 'https://cdn.bubbleshooter.com/games/bubble-shooter-adventure/'
@@ -163,7 +163,7 @@ export default async function Home({ params }: { params: { locale: string } }) {
       id: 8, 
       title: 'Bubble Shooter Pro', 
       slug: 'bubble-shooter-pro', 
-      imageUrl: '/images/games/bubble-game-3.avif', 
+      imageUrl: '/images/games/bubble-shooter-ultimate.avif', 
       platform: 'Browser',
       description: 'Professional bubble shooter with advanced mechanics for expert players.',
       embedUrl: 'https://cdn.bubbleshooter.com/games/bubble-shooter-pro/'
@@ -181,7 +181,7 @@ export default async function Home({ params }: { params: { locale: string } }) {
       id: 10, 
       title: 'Bubble Shooter Master', 
       slug: 'bubble-shooter-master', 
-      imageUrl: '/images/games/bubble-game-3.avif', 
+      imageUrl: '/images/games/bubble-shooter-ultimate.avif', 
       platform: 'Browser',
       description: 'Master the art of bubble shooting with this advanced version.',
       embedUrl: 'https://cdn.bubbleshooter.com/games/bubble-shooter-master/'
@@ -211,94 +211,100 @@ export default async function Home({ params }: { params: { locale: string } }) {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
       
-      <div className="flex flex-col items-center">
-        {/* Game Container */}
-        <div className="w-full" style={{ maxWidth: '1000px' }}>
-          <GameContainer 
-            title="Bubble Shooter Game"
-            description="Mobile gamers have come to love the fast-paced and thrilling Bubble Shooter game. This free version gives players a taste of the entire game with colorful bubbles and addictive gameplay."
-            gameUrl="https://cdn.bubbleshooter.com/games/bubbleshooter-game/"
-            imageUrl={formattedGames[0].imageUrl}
-          />
-        </div>
-        
-        {/* 内容区域 - 与iframe完全对齐 */}
-        <div className="w-full flex flex-col" style={{ maxWidth: '1000px' }}>
-          {/* Game Description Section with SEO-friendly structure */}
-          <section className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6 mb-8 w-full">
-            <h2 className="text-2xl font-semibold mb-3">The Ultimate Bubble Popping Experience</h2>
-            
-            <h3 className="text-xl font-semibold mb-2">How to Play Bubble Shooter</h3>
-            <p className="mb-4">
-              Aim and shoot colorful bubbles to match three or more of the same color. Clear all bubbles from the board to advance to the next level. 
-              Use strategy to create chain reactions and score big points!
-            </p>
-            
-            <h4 className="text-lg font-semibold mb-2">Game Features</h4>
-            <ul className="list-disc pl-5 mb-4">
-              <li>Multiple levels with increasing difficulty</li>
-              <li>Colorful graphics and smooth gameplay</li>
-              <li>Special power-ups and boosters</li>
-              <li>Relaxing yet challenging gameplay</li>
-              <li>Perfect for players of all ages</li>
-            </ul>
-            
-            <h5 className="text-base font-semibold mb-2">Frequently Asked Questions</h5>
-            <div className="mb-4">
-              <p className="font-medium">Is Bubble Shooter free to play?</p>
-              <p className="mb-2">Yes, Bubble Shooter is completely free to play in your browser with no downloads required.</p>
-              
-              <p className="font-medium">Can I play Bubble Shooter on mobile?</p>
-              <p className="mb-2">Absolutely! Our Bubble Shooter game is fully responsive and works on smartphones and tablets.</p>
-              
-              <p className="font-medium">Are there different difficulty levels?</p>
-              <p>Yes, the game features progressive difficulty to challenge players of all skill levels.</p>
-            </div>
-            
-            <h6 className="text-base font-semibold mb-2">Additional Information</h6>
-            <p className="mb-4">
-              Bubble Shooter is a classic arcade-style puzzle game that has been entertaining players since the 1990s. 
-              Our version brings this timeless game to modern browsers with enhanced graphics and smooth controls.
-            </p>
-            
-            {/* Social Share Buttons */}
-            <div className="flex flex-wrap gap-2 mt-6">
-              <button className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg flex items-center">
-                <span>Share on Facebook</span>
-              </button>
-              <button className="bg-blue-400 hover:bg-blue-500 text-white px-4 py-2 rounded-lg flex items-center">
-                <span>Share on Twitter</span>
-              </button>
-              <button className="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-lg flex items-center">
-                <span>Share on Reddit</span>
-              </button>
-            </div>
-          </section>
-
-          {/* Game Cards Grid */}
-          <section className="mb-8 w-full">
-            <h2 className="text-2xl font-bold mb-4 px-2">{messages.home.recommendedGames || 'Recommended Games'}</h2>
-            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
-              {formattedGames.slice(0, 10).map((game) => (
-                <div key={game.id} className="bg-white dark:bg-gray-800 rounded-lg shadow overflow-hidden transform hover:scale-105 transition-transform">
-                  <a href={`/${params.locale}/${game.href}`}>
-                    <div className="relative">
+      <div className="flex flex-col md:ml-48">
+        {/* Main content area with game and sidebar */}
+        <div className="w-full flex flex-col md:flex-row">
+          {/* Left sidebar with game cards - No left margin/padding to remove empty space */}
+          <div className="w-full md:w-52 pr-0 pt-4">
+            <div className="flex flex-col space-y-6 px-2 items-center">
+              {formattedGames.slice(0, 15).map((game) => (
+                <div key={game.id}>
+                  <a href={`/${params.locale}/${game.href}`} className="block hover:opacity-95 transition-all">
+                    <div 
+                      className="relative shadow-lg rounded-lg overflow-hidden transform hover:scale-105 transition-all duration-300 hover:shadow-xl" 
+                      style={{ width: '180px', height: '100px' }}
+                    >
                       <GameImage 
                         src={game.imageUrl} 
                         alt={game.title} 
-                        className="w-full h-32 object-cover"
+                        className="w-full h-full object-cover"
                       />
-                      <div className="absolute top-2 right-2 bg-yellow-500 text-xs font-bold px-2 py-1 rounded-full">
-                        TOP RATED
+                      <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black to-transparent p-2">
+                        <h3 className="text-white text-xs font-semibold truncate">
+                          {game.title.replace('Bubble Shooter', '').trim() || game.title}
+                        </h3>
                       </div>
                     </div>
                   </a>
                 </div>
               ))}
             </div>
-          </section>
+          </div>
           
-          {/* Hot Games Section */}
+          {/* Game Container - Main content */}
+          <div className="w-full md:flex-1 md:pl-8">
+            <GameContainer 
+              title="Bubble Shooter Game"
+              description="Mobile gamers have come to love the fast-paced and thrilling Bubble Shooter game. This free version gives players a taste of the entire game with colorful bubbles and addictive gameplay."
+              gameUrl="https://cdn.bubbleshooter.com/games/bubbleshooter-game/"
+              imageUrl={formattedGames[0].imageUrl}
+            />
+            
+            {/* Game Description Section with SEO-friendly structure */}
+            <section className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6 mb-8 w-full">
+              <h2 className="text-2xl font-semibold mb-3">The Ultimate Bubble Popping Experience</h2>
+              
+              <h3 className="text-xl font-semibold mb-2">How to Play Bubble Shooter</h3>
+              <p className="mb-4">
+                Aim and shoot colorful bubbles to match three or more of the same color. Clear all bubbles from the board to advance to the next level. 
+                Use strategy to create chain reactions and score big points!
+              </p>
+              
+              <h4 className="text-lg font-semibold mb-2">Game Features</h4>
+              <ul className="list-disc pl-5 mb-4">
+                <li>Multiple levels with increasing difficulty</li>
+                <li>Colorful graphics and smooth gameplay</li>
+                <li>Special power-ups and boosters</li>
+                <li>Relaxing yet challenging gameplay</li>
+                <li>Perfect for players of all ages</li>
+              </ul>
+              
+              <h5 className="text-base font-semibold mb-2">Frequently Asked Questions</h5>
+              <div className="mb-4">
+                <p className="font-medium">Is Bubble Shooter free to play?</p>
+                <p className="mb-2">Yes, Bubble Shooter is completely free to play in your browser with no downloads required.</p>
+                
+                <p className="font-medium">Can I play Bubble Shooter on mobile?</p>
+                <p className="mb-2">Absolutely! Our Bubble Shooter game is fully responsive and works on smartphones and tablets.</p>
+                
+                <p className="font-medium">Are there different difficulty levels?</p>
+                <p>Yes, the game features progressive difficulty to challenge players of all skill levels.</p>
+              </div>
+              
+              <h6 className="text-base font-semibold mb-2">Additional Information</h6>
+              <p className="mb-4">
+                Bubble Shooter is a classic arcade-style puzzle game that has been entertaining players since the 1990s. 
+                Our version brings this timeless game to modern browsers with enhanced graphics and smooth controls.
+              </p>
+              
+              {/* Social Share Buttons */}
+              <div className="flex flex-wrap gap-2 mt-6">
+                <button className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg flex items-center">
+                  <span>Share on Facebook</span>
+                </button>
+                <button className="bg-blue-400 hover:bg-blue-500 text-white px-4 py-2 rounded-lg flex items-center">
+                  <span>Share on Twitter</span>
+                </button>
+                <button className="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-lg flex items-center">
+                  <span>Share on Reddit</span>
+                </button>
+              </div>
+            </section>
+          </div>
+        </div>
+        
+        {/* Hot Games Section - Below the main content */}
+        <div className="w-full" style={{ maxWidth: '1200px' }}>
           <section className="mb-8 w-full">
             <h2 className="text-2xl font-bold mb-4 px-2">{messages.home.hotGames || 'Hot Games'}</h2>
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
