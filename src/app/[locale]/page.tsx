@@ -283,8 +283,11 @@ export default async function Home({ params }: { params: { locale: string } }) {
                         alt={game.title} 
                         className="w-full h-full object-cover"
                       />
-                      <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black to-transparent p-2">
-                          {game.title}
+                      {/* 游戏名称悬浮层 - 鼠标悬停时显示 */}
+                      <div className="absolute inset-0 bg-black bg-opacity-70 opacity-0 hover:opacity-100 transition-opacity duration-300 flex items-center justify-center p-2">
+                        <p className="text-white text-center text-sm font-medium truncate w-full">
+                          {game.title.length > 20 ? `${game.title.substring(0, 20)}...` : game.title}
+                        </p>
                       </div>
                     </div>
                   </a>
@@ -315,8 +318,11 @@ export default async function Home({ params }: { params: { locale: string } }) {
                             alt={game.title} 
                             className="w-full h-full object-cover"
                           />
-                          <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black to-transparent p-2">
-                              {game.title}
+                          {/* 游戏名称悬浮层 - 鼠标悬停时显示 */}
+                          <div className="absolute inset-0 bg-black bg-opacity-70 opacity-0 hover:opacity-100 transition-opacity duration-300 flex items-center justify-center p-2">
+                            <p className="text-white text-center text-sm font-medium truncate w-full">
+                              {game.title.length > 20 ? `${game.title.substring(0, 20)}...` : game.title}
+                            </p>
                           </div>
                         </div>
                       </a>
@@ -376,8 +382,11 @@ export default async function Home({ params }: { params: { locale: string } }) {
                             alt={game.title} 
                             className="w-full h-full object-cover"
                           />
-                          <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black to-transparent p-2">
-                              {game.title}
+                          {/* 游戏名称悬浮层 - 鼠标悬停时显示 */}
+                          <div className="absolute inset-0 bg-black bg-opacity-70 opacity-0 hover:opacity-100 transition-opacity duration-300 flex items-center justify-center p-2">
+                            <p className="text-white text-center text-sm font-medium truncate w-full">
+                              {game.title.length > 20 ? `${game.title.substring(0, 20)}...` : game.title}
+                            </p>
                           </div>
                         </div>
                       </a>
