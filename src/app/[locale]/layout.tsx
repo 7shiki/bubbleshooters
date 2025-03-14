@@ -17,14 +17,7 @@ export const metadata: Metadata = {
 const getNavItems = () => [
   { icon: "🏠", label: "Home", href: "/" },
   { icon: "🕒", label: "History", href: "/history" },
-  { icon: "🎲", label: "Random", href: "/random-game" },
-  { icon: "🔥", label: "Hot Games", href: "/hot-games" },
-  { icon: "✨", label: "New Games", href: "/new-games" },
-  { icon: "🎮", label: "Classic Bubble Shooter", href: "/classic-bubble-shooter" },
-  { icon: "🎯", label: "3D Bubble Shooter", href: "/3d-bubble-shooter" },
-  { icon: "🧩", label: "Puzzle Bubble Shooter", href: "/puzzle-bubble-shooter" },
-  { icon: "🎪", label: "Puzzle Games", href: "/puzzle-games" },
-  { icon: "🃏", label: "Card Games", href: "/card-games" }
+  { icon: "🎲", label: "Random", href: "/random-game" }
 ];
 
 export default async function RootLayout({
