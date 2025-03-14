@@ -12,6 +12,7 @@ interface GameHistoryItem {
   slug: string;
   imageUrl: string;
   lastPlayed: string; // ISO 日期字符串
+  category?: string;
 }
 
 interface HistoryClientProps {
@@ -110,7 +111,11 @@ export default function HistoryClient({ locale, initialMessages }: HistoryClient
             {gameHistory.map((game) => (
               <Link 
                 key={`${game.id}-${game.lastPlayed}`} 
-                href={`/${locale}/all-games/${game.slug}`}
+                href={game.id === 1 
+                  ? (locale === 'en' ? '/' : `/${locale}`) 
+                  : (locale === 'en' 
+                    ? `/${game.category || 'all-games'}/${game.slug}`
+                    : `/${locale}/${game.category || 'all-games'}/${game.slug}`)}
                 className="block"
               >
                 <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden transform hover:scale-105 transition-all duration-300 hover:shadow-xl">

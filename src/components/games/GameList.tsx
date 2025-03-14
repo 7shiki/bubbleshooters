@@ -24,7 +24,7 @@ export default function GameList({
       <div className="flex flex-wrap justify-center gap-4">
         {games.map((game) => (
           <div key={game.id} className="bg-white dark:bg-gray-800 rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-all duration-300 hover:shadow-xl">
-            <a href={`/${locale}/${game.href}`} className="block hover:opacity-95 transition-all">
+            <a href={locale === 'en' ? game.href : `/${locale}${game.href}`} className="block hover:opacity-95 transition-all">
               <div className="relative" style={{ width: '180px', height: '100px' }}>
                 <GameImage 
                   src={game.imageUrl} 

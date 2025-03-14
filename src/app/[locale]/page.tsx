@@ -163,7 +163,8 @@ export default async function Home({ params }: { params: { locale: string } }) {
                 gameUrl={featuredGame.embedUrl}
                 imageUrl={featuredGame.imageUrl}
                 gameId={featuredGame.id}
-                slug={featuredGame.href.split('/').pop() || "/"}
+                slug={featuredGame.href === "/" ? "bubble-shooter" : featuredGame.href.split('/').pop() || "/"}
+                category="bubble-games"
               />
 
               {/* Hot Games Section - Below the main content */}

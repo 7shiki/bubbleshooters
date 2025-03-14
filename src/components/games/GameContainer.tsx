@@ -10,6 +10,7 @@ interface GameContainerProps {
   imageUrl: string;
   gameId?: number; // 添加游戏ID
   slug?: string;   // 添加游戏slug
+  category?: string; // 添加游戏类别
 }
 
 // 游戏历史记录类型
@@ -19,6 +20,7 @@ interface GameHistoryItem {
   slug: string;
   imageUrl: string;
   lastPlayed: string; // ISO 日期字符串
+  category?: string;  // 添加游戏类别
 }
 
 // 最大历史记录数量
@@ -30,7 +32,8 @@ export default function GameContainer({
   gameUrl, 
   imageUrl,
   gameId = 0,
-  slug = ''
+  slug = '',
+  category = 'all-games' // 默认类别为 all-games
 }: GameContainerProps) {
   const [showGame, setShowGame] = useState(false);
   const [isFullscreen, setIsFullscreen] = useState(false);
@@ -80,7 +83,8 @@ export default function GameContainer({
         title: title,
         slug: slug,
         imageUrl: imageUrl,
-        lastPlayed: new Date().toISOString()
+        lastPlayed: new Date().toISOString(),
+        category: category // 保存游戏类别
       };
       
       // 如果游戏已存在，则更新它

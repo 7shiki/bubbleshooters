@@ -185,7 +185,7 @@ export default async function GamePage({ params }: Props) {
             <div className="flex flex-col space-y-6 px-2 items-center">
               {gameList.slice(1, 21).map((sidebarGame: Game) => (
                 <div key={sidebarGame.id}>
-                  <a href={`/${params.locale}/${sidebarGame.href}`} className="block hover:opacity-95 transition-all">
+                  <a href={params.locale === 'en' ? sidebarGame.href : `/${params.locale}${sidebarGame.href}`} className="block hover:opacity-95 transition-all">
                     <div 
                       className="relative shadow-lg rounded-lg overflow-hidden transform hover:scale-105 transition-all duration-300 hover:shadow-xl" 
                       style={{ width: '180px', height: '100px' }}
@@ -218,6 +218,7 @@ export default async function GamePage({ params }: Props) {
                 imageUrl={game.imageUrl}
                 gameId={game.id}
                 slug={params.game}
+                category={params.category}
               />
 
               {/* 相关游戏 - 同一分类的其他游戏 */}
@@ -225,7 +226,7 @@ export default async function GamePage({ params }: Props) {
                 <div className="flex flex-wrap justify-center gap-4">
                   {relatedGames.map((relatedGame: Game) => (
                     <div key={relatedGame.id} className="bg-white dark:bg-gray-800 rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-all duration-300 hover:shadow-xl">
-                      <a href={`/${params.locale}/${relatedGame.href}`} className="block hover:opacity-95 transition-all">
+                      <a href={params.locale === 'en' ? relatedGame.href : `/${params.locale}${relatedGame.href}`} className="block hover:opacity-95 transition-all">
                         <div className="relative" style={{ width: '180px', height: '100px' }}>
                           <GameImage 
                             src={relatedGame.imageUrl} 
@@ -300,7 +301,7 @@ export default async function GamePage({ params }: Props) {
                 <div className="flex flex-wrap justify-center gap-4">
                   {gameList.slice(5, 15).map((moreGame: Game) => (
                     <div key={moreGame.id} className="bg-white dark:bg-gray-800 rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-all duration-300 hover:shadow-xl">
-                      <a href={`/${params.locale}/${moreGame.href}`} className="block hover:opacity-95 transition-all">
+                      <a href={params.locale === 'en' ? moreGame.href : `/${params.locale}${moreGame.href}`} className="block hover:opacity-95 transition-all">
                         <div className="relative" style={{ width: '180px', height: '100px' }}>
                           <GameImage 
                             src={moreGame.imageUrl} 

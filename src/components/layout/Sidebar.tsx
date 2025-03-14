@@ -58,7 +58,7 @@ export default function Sidebar({ navItems, locale }: SidebarProps) {
       >
         <div className="p-4">
           {navItems.map((item, index) => {
-            const href = `/${locale}${item.href}`;
+            const href = locale === 'en' ? item.href : `/${locale}${item.href}`;
             const isActive = pathname === href || pathname === `/${locale}${item.href}`;
             
             return (
