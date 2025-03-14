@@ -83,18 +83,18 @@ export default function GameContainer({ title, description, gameUrl, imageUrl }:
 
   return (
     <div className="mb-8">
-      {/* 游戏容器 - 固定尺寸，整体向左移动 */}
+      {/* 游戏容器 - 固定尺寸，整体向左移动，添加圆角 */}
       <div 
         ref={containerRef}
-        className="relative w-full" 
+        className="relative w-full rounded-xl overflow-hidden shadow-lg" 
         style={{ 
           maxWidth: '1000px', 
           aspectRatio: '4/3'
         }}
       >
-        {/* 游戏介绍界面 - 当showGame为false时显示 */}
+        {/* 游戏介绍界面 - 当showGame为false时显示，添加圆角 */}
         {!showGame && (
-          <div className="absolute inset-0 flex flex-col md:flex-row items-center justify-center bg-gradient-to-br from-indigo-100 to-purple-100 dark:from-gray-700 dark:to-gray-800 z-10">
+          <div className="absolute inset-0 flex flex-col md:flex-row items-center justify-center bg-gradient-to-br from-indigo-100 to-purple-100 dark:from-gray-700 dark:to-gray-800 z-10 rounded-xl">
             {/* 游戏标题 - 移到内容区域顶部 */}
             <div className="md:w-2/3 mb-8 md:mb-0 md:pr-8 text-center md:text-left px-6">
               {/* 游戏标题 */}
@@ -128,10 +128,10 @@ export default function GameContainer({ title, description, gameUrl, imageUrl }:
           </div>
         )}
 
-        {/* 始终渲染iframe，但根据showGame状态控制可见性 */}
+        {/* 始终渲染iframe，但根据showGame状态控制可见性，添加圆角 */}
         <iframe 
           ref={iframeRef}
-          className="w-full h-full"
+          className="w-full h-full rounded-t-xl"
           style={{ 
             width: '100%', 
             height: '100%',
@@ -151,7 +151,7 @@ export default function GameContainer({ title, description, gameUrl, imageUrl }:
         ></iframe>
 
         {/* 游戏控制栏 - 始终显示，不再根据showGame状态控制 */}
-        <div className="flex items-center justify-between bg-gray-100 dark:bg-gray-800 p-2 border-t border-gray-300 dark:border-gray-700">
+        <div className="flex items-center justify-between bg-gray-100 dark:bg-gray-800 p-2 border-t border-gray-300 dark:border-gray-700 rounded-b-xl">
           {/* 游戏名称 - 添加边框 */}
           <div className="font-medium text-gray-800 dark:text-white px-3 py-1 border border-gray-300 dark:border-gray-600 rounded-md">
             {title}
