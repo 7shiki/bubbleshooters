@@ -5,6 +5,7 @@ import Header from '@/components/layout/Header'
 import Footer from '@/components/layout/Footer'
 import Sidebar from '@/components/layout/Sidebar'
 import { getTranslations } from '@/utils/i18n'
+import { categories } from '@/config/categories'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -13,12 +14,29 @@ export const metadata: Metadata = {
   description: 'Play your favorite retro games online. Collection of Nintendo, Sega, PlayStation, and Arcade classics.',
 }
 
-// 定义导航项
-const getNavItems = () => [
+// 定义固定导航项
+const getFixedNavItems = () => [
   { icon: "🏠", label: "Home", href: "/" },
   { icon: "🕒", label: "History", href: "/history" },
   { icon: "🎲", label: "Random", href: "/random-game" }
 ];
+
+// 从categories中获取分类导航项
+const getCategoryNavItems = () => {
+  return categories.categories.map(category => ({
+    icon: category.icon,
+    label: category.name,
+    href: category.href
+  }));
+};
+
+// 合并固定导航项和分类导航项
+const getAllNavItems = () => {
+  const fixedItems = getFixedNavItems();
+  const categoryItems = getCategoryNavItems();
+  
+  return [...fixedItems, ...categoryItems];
+};
 
 export default async function RootLayout({
   children,
@@ -28,7 +46,7 @@ export default async function RootLayout({
   params: { locale: string }
 }) {
   const messages = await getTranslations(locale)
-  const navItems = getNavItems();
+  const navItems = getAllNavItems();
 
   return (
     <html lang={locale} suppressHydrationWarning>

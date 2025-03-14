@@ -7,16 +7,42 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import ThemeToggle from './ThemeToggle'
 import LanguageToggle from './LanguageToggle'
 import SearchBar from './SearchBar'
+import { categories } from '@/config/categories'
 
 interface HeaderProps {
   initialMessages: any
 }
+
+// 定义固定导航项
+const getFixedNavItems = () => [
+  { icon: "🏠", label: "Home", href: "/" },
+  { icon: "🕒", label: "History", href: "/history" },
+  { icon: "🎲", label: "Random", href: "/random-game" }
+];
+
+// 从categories中获取分类导航项
+const getCategoryNavItems = () => {
+  return categories.categories.map(category => ({
+    icon: category.icon,
+    label: category.name,
+    href: category.href
+  }));
+};
+
+// 合并固定导航项和分类导航项
+const getAllNavItems = () => {
+  const fixedItems = getFixedNavItems();
+  const categoryItems = getCategoryNavItems();
+  
+  return [...fixedItems, ...categoryItems];
+};
 
 export default function Header({ initialMessages }: HeaderProps) {
     const pathname = usePathname()
     const params = useParams()
     const locale = params.locale as string || 'en'
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
+    const navItems = getAllNavItems();
 
     // 控制 body 滚动
     useEffect(() => {
@@ -88,7 +114,7 @@ export default function Header({ initialMessages }: HeaderProps) {
                 </div>
             </header>
 
-            {/* Mobile Navigation Drawer - 只保留语言和主题切换 */}
+            {/* Mobile Navigation Drawer - 显示所有导航项 */}
             <div
                 className={`fixed inset-0 bg-black/50 backdrop-blur-sm transition-opacity md:hidden z-[9999] ${
                     isMobileMenuOpen ? 'opacity-100' : 'opacity-0 pointer-events-none'
@@ -116,10 +142,25 @@ export default function Header({ initialMessages }: HeaderProps) {
                         </div>
 
                         <div className="p-4 space-y-6">
-                            {/* 移动端菜单内容 - 可以添加其他选项 */}
-                            <div className="pt-4 flex flex-col space-y-4">
-                                <div className="text-lg font-medium text-gray-700 dark:text-gray-200">Settings</div>
-                                <div className="flex items-center justify-between">
+                            {/* 移动端导航菜单 - 显示所有导航项 */}
+                            <div className="pt-4 flex flex-col space-y-2">
+                                {navItems.map((item, index) => (
+                                    <Link
+                                        key={index}
+                                        href={locale === 'en' ? item.href : `/${locale}${item.href}`}
+                                        className="flex items-center py-2 px-3 rounded-lg hover:bg-purple-500/10 text-gray-700 dark:text-gray-200"
+                                        onClick={() => setIsMobileMenuOpen(false)}
+                                    >
+                                        <span className="mr-2">{item.icon}</span>
+                                        <span>{item.label}</span>
+                                    </Link>
+                                ))}
+                            </div>
+                            
+                            {/* 设置部分 */}
+                            <div className="pt-4 border-t border-purple-500/10">
+                                <div className="text-lg font-medium text-gray-700 dark:text-gray-200 mb-4">Settings</div>
+                                <div className="flex items-center justify-between mb-3">
                                     <span className="text-gray-600 dark:text-gray-300">Language</span>
                                     <LanguageToggle />
                                 </div>
