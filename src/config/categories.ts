@@ -11,13 +11,13 @@ interface Categories {
 
 export const categories: Categories = {
     categories: [
-        { name: 'HOT', href: '/hot-games', alt: 'Nintendo Entertainment System Games Online', key: 'hot' },
-        { name: 'NEW', href: '/new-games', alt: 'Famicom Disk System Games Online', key: 'new' },
-        { name: 'PUZZLE', href: '/puzzle-games', alt: 'Super Nintendo Entertainment System Games Online', key: 'puzzle' },
-        { name: 'SHOOTER', href: '/shooter-games', alt: 'Nintendo Game Boy Color Games Online', key: 'shooter' },
-        { name: 'CARD', href: '/card-games', alt: 'Nintendo Game Boy Advance Games Online', key: 'card' },
-        { name: 'JUNPING', href: '/junping-games', alt: 'Nintendo 64 Games Online', key: 'junping' },
-        { name: 'MUSIC', href: '/music-games', alt: 'Nintendo DS Games Online', key: 'music' }
+        { name: 'Hot Games', href: '/hot-games', alt: 'Nintendo Entertainment System Games Online', key: 'hot' },
+        { name: 'New Games', href: '/new-games', alt: 'Famicom Disk System Games Online', key: 'new' },
+        { name: 'Puzzle Games', href: '/puzzle-games', alt: 'Super Nintendo Entertainment System Games Online', key: 'puzzle' },
+        { name: 'Shooter Games', href: '/shooter-games', alt: 'Nintendo Game Boy Color Games Online', key: 'shooter' },
+        { name: 'Card Games', href: '/card-games', alt: 'Nintendo Game Boy Advance Games Online', key: 'card' },
+        { name: 'Junping Games', href: '/junping-games', alt: 'Nintendo 64 Games Online', key: 'junping' },
+        { name: 'Music Games', href: '/music-games', alt: 'Nintendo DS Games Online', key: 'music' }
     ]
 } as const
 
