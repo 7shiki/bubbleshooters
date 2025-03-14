@@ -1,5 +1,5 @@
 import { Metadata } from 'next'
-import { getTranslations, Game } from '../../utils/i18n'
+import { getTranslations, Game, getGameData } from '../../utils/i18n'
 import GameCard from '@/components/games/GameCard'
 import GameImage from '@/components/games/GameImage'
 import PlayButton from '@/components/games/PlayButton'
@@ -60,6 +60,8 @@ export async function generateMetadata({ params }: { params: { locale: string } 
 
 export default async function Home({ params }: { params: { locale: string } }) {
   const messages = await getTranslations(params.locale)
+  // 从getGameData函数获取游戏数据
+  const { gameList, popularGames } = await getGameData(params.locale)
   
   // Generate JSON-LD for SEO
   const generateJsonLd = () => {
@@ -94,168 +96,23 @@ export default async function Home({ params }: { params: { locale: string } }) {
 
   const jsonLd = generateJsonLd()
 
-  // Mock data for recommended games with all required Game properties
-  const recommendedGames = [
-    { 
-      id: 1, 
-      title: 'Classic Bubble Shooter', 
-      slug: 'classic-bubble-shooter', 
-      imageUrl: '/images/games/bubble-shooter-ultimate.avif', 
-      platform: 'Browser',
-      description: 'The original bubble shooter game with classic gameplay and colorful bubbles.',
-      embedUrl: 'https://cdn.bubbleshooter.com/games/bubbleshooter-game/'
-    },
-    { 
-      id: 2, 
-      title: '3D Bubble Shooter', 
-      slug: '3d-bubble-shooter', 
-      imageUrl: '/images/games/bubble-shooter-ultimate.avif', 
-      platform: 'Browser',
-      description: 'Experience bubble shooting in 3D with enhanced graphics and immersive gameplay.',
-      embedUrl: 'https://cdn.bubbleshooter.com/games/3d-bubbleshooter-game/'
-    },
-    { 
-      id: 3, 
-      title: 'Puzzle Bubble Shooter', 
-      slug: 'puzzle-bubble-shooter', 
-      imageUrl: '/images/games/bubble-game-3.avif', 
-      platform: 'Browser',
-      description: 'Challenging puzzle levels combined with bubble shooting mechanics.',
-      embedUrl: 'https://cdn.bubbleshooter.com/games/puzzle-bubbleshooter-game/'
-    },
-    { 
-      id: 4, 
-      title: 'Bubble Shooter Saga', 
-      slug: 'bubble-shooter-saga', 
-      imageUrl: '/images/games/bubble-shooter-ultimate.avif', 
-      platform: 'Browser',
-      description: 'Epic saga with hundreds of levels of bubble shooting fun.',
-      embedUrl: 'https://cdn.bubbleshooter.com/games/bubble-shooter-saga/'
-    },
-    { 
-      id: 5, 
-      title: 'Bubble Shooter Blast', 
-      slug: 'bubble-shooter-blast', 
-      imageUrl: '/images/games/bubble-game-3.avif', 
-      platform: 'Browser',
-      description: 'Fast-paced bubble shooter with explosive power-ups and special effects.',
-      embedUrl: 'https://cdn.bubbleshooter.com/games/bubble-shooter-blast/'
-    },
-    { 
-      id: 6, 
-      title: 'Bubble Shooter Adventure', 
-      slug: 'bubble-shooter-adventure', 
-      imageUrl: '/images/games/bubble-shooter-ultimate.avif', 
-      platform: 'Browser',
-      description: 'Go on an adventure through different worlds while shooting bubbles.',
-      embedUrl: 'https://cdn.bubbleshooter.com/games/bubble-shooter-adventure/'
-    },
-    { 
-      id: 7, 
-      title: 'Bubble Shooter Challenge', 
-      slug: 'bubble-shooter-challenge', 
-      imageUrl: '/images/games/bubble-game-3.avif', 
-      platform: 'Browser',
-      description: 'Test your skills with challenging bubble shooter levels.',
-      embedUrl: 'https://cdn.bubbleshooter.com/games/bubble-shooter-challenge/'
-    },
-    { 
-      id: 8, 
-      title: 'Bubble Shooter Pro', 
-      slug: 'bubble-shooter-pro', 
-      imageUrl: '/images/games/bubble-shooter-ultimate.avif', 
-      platform: 'Browser',
-      description: 'Professional bubble shooter with advanced mechanics for expert players.',
-      embedUrl: 'https://cdn.bubbleshooter.com/games/bubble-shooter-pro/'
-    },
-    { 
-      id: 9, 
-      title: 'Bubble Shooter Deluxe', 
-      slug: 'bubble-shooter-deluxe', 
-      imageUrl: '/images/games/bubble-game-3.avif', 
-      platform: 'Browser',
-      description: 'Deluxe version with premium graphics and smooth gameplay.',
-      embedUrl: 'https://cdn.bubbleshooter.com/games/bubble-shooter-deluxe/'
-    },
-    { 
-      id: 10, 
-      title: 'Bubble Shooter Master', 
-      slug: 'bubble-shooter-master', 
-      imageUrl: '/images/games/bubble-shooter-ultimate.avif', 
-      platform: 'Browser',
-      description: 'Master the art of bubble shooting with this advanced version.',
-      embedUrl: 'https://cdn.bubbleshooter.com/games/bubble-shooter-master/'
-    },
-    { 
-      id: 11, 
-      title: 'Bubble Shooter Deluxe', 
-      slug: 'bubble-shooter-deluxe', 
-      imageUrl: '/images/games/bubble-game-3.avif', 
-      platform: 'Browser',
-      description: 'Deluxe version with premium graphics and smooth gameplay.',
-      embedUrl: 'https://cdn.bubbleshooter.com/games/bubble-shooter-deluxe/'
-    },
-    { 
-      id: 12, 
-      title: 'Bubble Shooter Master', 
-      slug: 'bubble-shooter-master', 
-      imageUrl: '/images/games/bubble-shooter-ultimate.avif', 
-      platform: 'Browser',
-      description: 'Master the art of bubble shooting with this advanced version.',
-      embedUrl: 'https://cdn.bubbleshooter.com/games/bubble-shooter-master/'
-    },
-    { 
-      id: 13, 
-      title: 'Bubble Shooter Master', 
-      slug: 'bubble-shooter-master', 
-      imageUrl: '/images/games/bubble-shooter-ultimate.avif', 
-      platform: 'Browser',
-      description: 'Master the art of bubble shooting with this advanced version.',
-      embedUrl: 'https://cdn.bubbleshooter.com/games/bubble-shooter-master/'
-    },
-    { 
-      id: 14, 
-      title: 'Bubble Shooter Deluxe', 
-      slug: 'bubble-shooter-deluxe', 
-      imageUrl: '/images/games/bubble-game-3.avif', 
-      platform: 'Browser',
-      description: 'Deluxe version with premium graphics and smooth gameplay.',
-      embedUrl: 'https://cdn.bubbleshooter.com/games/bubble-shooter-deluxe/'
-    },
-    { 
-      id: 15, 
-      title: 'Bubble Shooter Master', 
-      slug: 'bubble-shooter-master', 
-      imageUrl: '/images/games/bubble-shooter-ultimate.avif', 
-      platform: 'Browser',
-      description: 'Master the art of bubble shooting with this advanced version.',
-      embedUrl: 'https://cdn.bubbleshooter.com/games/bubble-shooter-master/'
-    },
-    { 
-      id: 16, 
-      title: 'Bubble Shooter Master', 
-      slug: 'bubble-shooter-master', 
-      imageUrl: '/images/games/bubble-shooter-ultimate.avif', 
-      platform: 'Browser',
-      description: 'Master the art of bubble shooting with this advanced version.',
-      embedUrl: 'https://cdn.bubbleshooter.com/games/bubble-shooter-master/'
-    }
-  ];
-
-  // Format games to match the Game type expected by GameCard
-  const formattedGames: Game[] = recommendedGames.map(game => ({
+  // 使用从getGameData获取的游戏数据
+  const formattedGames: Game[] = gameList.map((game: Game) => ({
     id: game.id,
     title: game.title,
-    href: `/${game.slug}`,
+    href: game.href,
     imageUrl: game.imageUrl,
     platform: game.platform,
     description: game.description,
     embedUrl: game.embedUrl
   }));
 
+  // 获取第一个游戏作为主游戏展示
+  const featuredGame = formattedGames[0];
+
   // Mock messages for GameCard
   const gameCardMessages = {
-    playGame: messages.home?.playGame || 'Play Game'
+    playGame: messages.home?.playGame
   };
 
   return (
@@ -271,7 +128,7 @@ export default async function Home({ params }: { params: { locale: string } }) {
           {/* Left sidebar with game cards - No left margin/padding to remove empty space */}
           <div className="w-full md:w-52 pr-0 pt-0.5">
             <div className="flex flex-col space-y-6 px-2 items-center">
-              {formattedGames.slice(0, 15).map((game) => (
+              {formattedGames.slice(1, 21).map((game) => (
                 <div key={game.id}>
                   <a href={`/${params.locale}/${game.href}`} className="block hover:opacity-95 transition-all">
                     <div 
@@ -300,18 +157,18 @@ export default async function Home({ params }: { params: { locale: string } }) {
           <div className="w-full md:flex-1 md:pl-8">
             <div className="max-w-[1000px]">
               <GameContainer 
-                title="Bubble Shooter"
-                description="Mobile gamers have come to love the fast-paced and thrilling Bubble Shooter game. This free version gives players a taste of the entire game with colorful bubbles and addictive gameplay."
-                gameUrl="https://cdn.bubbleshooter.com/games/bubbleshooter-game/"
-                imageUrl={formattedGames[0].imageUrl}
-                gameId={1}
-                slug="bubble-shooter"
+                title={featuredGame.title}
+                description={featuredGame.description}
+                gameUrl={featuredGame.embedUrl}
+                imageUrl={featuredGame.imageUrl}
+                gameId={featuredGame.id}
+                slug={featuredGame.href.split('/').pop() || "/"}
               />
 
               {/* Hot Games Section - Below the main content */}
               <section className="mb-8 w-full">
                 <div className="flex flex-wrap justify-center gap-4">
-                  {formattedGames.slice(0, 5).map((game) => (
+                  {(formattedGames.slice(1, 6)).map((game: Game) => (
                     <div key={game.id} className="bg-white dark:bg-gray-800 rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-all duration-300 hover:shadow-xl">
                       <a href={`/${params.locale}/${game.href}`} className="block hover:opacity-95 transition-all">
                         <div className="relative" style={{ width: '180px', height: '100px' }}>
@@ -407,10 +264,10 @@ export default async function Home({ params }: { params: { locale: string } }) {
                 
               </section>
               
-              {/* Hot Games Section - Below the main content */}
+              {/* More Games Section - Below the main content */}
               <section className="mb-8 w-full">
                 <div className="flex flex-wrap justify-center gap-4">
-                  {formattedGames.slice(0, 10).map((game) => (
+                  {formattedGames.slice(5, 15).map((game: Game) => (
                     <div key={game.id} className="bg-white dark:bg-gray-800 rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-all duration-300 hover:shadow-xl">
                       <a href={`/${params.locale}/${game.href}`} className="block hover:opacity-95 transition-all">
                         <div className="relative" style={{ width: '180px', height: '100px' }}>

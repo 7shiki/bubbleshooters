@@ -2,12 +2,12 @@
     "gameList": [
         {
             "id": 1,
-            "title": "Tekken 3",
-            "platform": "PlayStation",
+            "title": "Bubble Shooter",
+            "platform": "Hot Games",
             "imageUrl": "/images/games/bubble-shooter-ultimate.avif",
-            "href": "/playstation-games/tekken-3",
-            "description": "",
-            "embedUrl": "https://www.retrogames.cc/embed/40238-tekken-3.html",
+            "href": "/",
+            "description": "Mobile gamers have come to love the fast-paced and thrilling Bubble Shooter game. This free version gives players a taste of the entire game with colorful bubbles and addictive gameplay.",
+            "embedUrl": "https://cdn.bubbleshooter.com/games/bubbleshooter-game/",
             "seoDescription": {
                 "overview": {
                     "title": "What's Tekken 3?",
@@ -45,7 +45,7 @@
             "title": "Sonic 1 Beta Remake",
             "platform": "Hot Games",
             "imageUrl": "/images/games/bubble-game-3.avif",
-            "href": "/genesis-games/sonic-1-beta-remake",
+            "href": "/hot-games/sonic-1-beta-remake",
             "description": "",
             "embedUrl": "https://www.retrogames.cc/embed/45223-sonic-1-beta-remake.html",
             "seoDescription": {
@@ -85,7 +85,7 @@
             "title": "Squash (Ver. 1.0)",
             "platform": "Hot Games",
             "imageUrl": "/images/games/bubble-game-3.avif",
-            "href": "/arcade-games/squash-ver-1-0",
+            "href": "/hot-games/squash-ver-1-0",
             "description": "",
             "embedUrl": "https://www.retrogames.cc/embed/9936-squash-ver-1-0.html",
             "seoDescription": {
@@ -123,7 +123,7 @@
             "title": "Super Mario World Hack 6",
             "platform": "Hot Games",
             "imageUrl": "/images/games/bubble-shooter-ultimate.avif",
-            "href": "/snes-games/super-mario-world-hack-6",
+            "href": "/new-games/super-mario-world-hack-6",
             "description": "",
             "embedUrl": "https://www.retrogames.cc/embed/44412-super-mario-world-hack-6.html",
             "seoDescription": {
@@ -161,7 +161,7 @@
             "title": "Pokemon Emerald Rogue EX 1.2.0",
             "platform": "Hot Games",
             "imageUrl": "/images/games/bubble-shooter-ultimate.avif",
-            "href": "/gameboyadvance-games/pokemon-emerald-rogue-ex-1-2-0",
+            "href": "/new-games/pokemon-emerald-rogue-ex-1-2-0",
             "description": "",
             "embedUrl": "https://www.retrogames.cc/embed/43564-pokemon-emerald-rogue-ex-1-2-0.html",
             "seoDescription": {
@@ -199,7 +199,7 @@
             "title": "Rayman",
             "platform": "Hot Games",
             "imageUrl": "/images/games/bubble-game-3.avif",
-            "href": "/playstation-games/rayman",
+            "href": "/puzzle-games/rayman",
             "description": "",
             "embedUrl": "https://www.retrogames.cc/embed/40795-rayman.html",
             "seoDescription": {
@@ -236,7 +236,7 @@
             "title": "Street Fighter (US set 1)",
             "platform": "Hot Games",
             "imageUrl": "/images/games/bubble-shooter-ultimate.avif",
-            "href": "/arcade-games/street-fighter-us-set-1",
+            "href": "/puzzle-games/street-fighter-us-set-1",
             "description": "",
             "embedUrl": "https://www.retrogames.cc/embed/9955-street-fighter-us-set-1.html",
             "seoDescription": {
@@ -271,7 +271,7 @@
             "title": "Sonic Classic Heroes",
             "platform": "Hot Games",
             "imageUrl": "/images/games/bubble-game-3.avif",
-            "href": "/genesis-games/sonic-classic-heroes",
+            "href": "/shooter-games/sonic-classic-heroes",
             "description": "",
             "embedUrl": "https://www.retrogames.cc/embed/42046-sonic-classic-heroes.html",
             "seoDescription": {
@@ -303,7 +303,7 @@
             "title": "JoJo's Bizarre Adventure: Heritage for the Future / JoJo no Kimyou na Bouken: Mirai e no Isan (Japan 990927, NO CD)",
             "platform": "Hot Games",
             "imageUrl": "/images/games/bubble-game-3.avif",
-            "href": "/arcade-games/jojos-bizarre-adventure-heritage-for-the-future",
+            "href": "/shooter-games/jojos-bizarre-adventure-heritage-for-the-future",
             "description": "",
             "embedUrl": "https://www.retrogames.cc/embed/8843-jojos-bizarre-adventure%3A-heritage-for-the-future-jojo-no-kimyou-na-bouken%3A-mirai-e-no-isan-japan-990927-no-cd.html",
             "seoDescription": {
@@ -335,7 +335,7 @@
             "title": "Marvel vs Capcom - clash of super heroes (980123 USA)",
             "platform": "Hot Games",
             "imageUrl": "/images/games/bubble-shooter-ultimate.avif",
-            "href": "/arcade-games/marvel-vs-capcom-clash-of-super-heroes-980123-usa",
+            "href": "/puzzle-games/marvel-vs-capcom-clash-of-super-heroes-980123-usa",
             "description": "",
             "embedUrl": "https://www.retrogames.cc/embed/9123-marvel-vs-capcom-clash-of-super-heroes-980123-usa.html",
             "seoDescription": {
@@ -366,7 +366,7 @@
             "title": "Tekken 3",
             "platform": "PlayStation",
             "imageUrl": "/images/games/bubble-shooter-ultimate.avif",
-            "href": "/playstation-games/tekken-3",
+            "href": "/hot-games/tekken-3",
             "description": "",
             "embedUrl": "https://www.retrogames.cc/embed/40238-tekken-3.html",
             "seoDescription": {
@@ -406,7 +406,7 @@
             "title": "Sonic 1 Beta Remake",
             "platform": "Hot Games",
             "imageUrl": "/images/games/bubble-game-3.avif",
-            "href": "/genesis-games/sonic-1-beta-remake",
+            "href": "/card-games/sonic-1-beta-remake",
             "description": "",
             "embedUrl": "https://www.retrogames.cc/embed/45223-sonic-1-beta-remake.html",
             "seoDescription": {
@@ -446,7 +446,7 @@
             "title": "Squash (Ver. 1.0)",
             "platform": "Hot Games",
             "imageUrl": "/images/games/bubble-game-3.avif",
-            "href": "/arcade-games/squash-ver-1-0",
+            "href": "/junping-games/squash-ver-1-0",
             "description": "",
             "embedUrl": "https://www.retrogames.cc/embed/9936-squash-ver-1-0.html",
             "seoDescription": {
@@ -484,7 +484,7 @@
             "title": "Super Mario World Hack 6",
             "platform": "Hot Games",
             "imageUrl": "/images/games/bubble-shooter-ultimate.avif",
-            "href": "/snes-games/super-mario-world-hack-6",
+            "href": "/new-games/super-mario-world-hack-6",
             "description": "",
             "embedUrl": "https://www.retrogames.cc/embed/44412-super-mario-world-hack-6.html",
             "seoDescription": {
@@ -522,7 +522,7 @@
             "title": "Pokemon Emerald Rogue EX 1.2.0",
             "platform": "Hot Games",
             "imageUrl": "/images/games/bubble-shooter-ultimate.avif",
-            "href": "/gameboyadvance-games/pokemon-emerald-rogue-ex-1-2-0",
+            "href": "/card-games/pokemon-emerald-rogue-ex-1-2-0",
             "description": "",
             "embedUrl": "https://www.retrogames.cc/embed/43564-pokemon-emerald-rogue-ex-1-2-0.html",
             "seoDescription": {
@@ -560,7 +560,7 @@
             "title": "Rayman",
             "platform": "Hot Games",
             "imageUrl": "/images/games/bubble-game-3.avif",
-            "href": "/playstation-games/rayman",
+            "href": "/puzzle-games/rayman",
             "description": "",
             "embedUrl": "https://www.retrogames.cc/embed/40795-rayman.html",
             "seoDescription": {
@@ -597,7 +597,7 @@
             "title": "Street Fighter (US set 1)",
             "platform": "Hot Games",
             "imageUrl": "/images/games/bubble-shooter-ultimate.avif",
-            "href": "/arcade-games/street-fighter-us-set-1",
+            "href": "/junping-games/street-fighter-us-set-1",
             "description": "",
             "embedUrl": "https://www.retrogames.cc/embed/9955-street-fighter-us-set-1.html",
             "seoDescription": {
@@ -632,7 +632,7 @@
             "title": "Sonic Classic Heroes",
             "platform": "Hot Games",
             "imageUrl": "/images/games/bubble-game-3.avif",
-            "href": "/genesis-games/sonic-classic-heroes",
+            "href": "/music-games/sonic-classic-heroes",
             "description": "",
             "embedUrl": "https://www.retrogames.cc/embed/42046-sonic-classic-heroes.html",
             "seoDescription": {
@@ -664,7 +664,7 @@
             "title": "JoJo's Bizarre Adventure: Heritage for the Future / JoJo no Kimyou na Bouken: Mirai e no Isan (Japan 990927, NO CD)",
             "platform": "Hot Games",
             "imageUrl": "/images/games/bubble-game-3.avif",
-            "href": "/arcade-games/jojos-bizarre-adventure-heritage-for-the-future",
+            "href": "/junping-games/jojos-bizarre-adventure-heritage-for-the-future",
             "description": "",
             "embedUrl": "https://www.retrogames.cc/embed/8843-jojos-bizarre-adventure%3A-heritage-for-the-future-jojo-no-kimyou-na-bouken%3A-mirai-e-no-isan-japan-990927-no-cd.html",
             "seoDescription": {
@@ -696,7 +696,7 @@
             "title": "Marvel vs Capcom - clash of super heroes (980123 USA)",
             "platform": "Hot Games",
             "imageUrl": "/images/games/bubble-shooter-ultimate.avif",
-            "href": "/arcade-games/marvel-vs-capcom-clash-of-super-heroes-980123-usa",
+            "href": "/music-games/marvel-vs-capcom-clash-of-super-heroes-980123-usa",
             "description": "",
             "embedUrl": "https://www.retrogames.cc/embed/9123-marvel-vs-capcom-clash-of-super-heroes-980123-usa.html",
             "seoDescription": {
@@ -727,7 +727,7 @@
             "title": "Tekken 3",
             "platform": "PlayStation",
             "imageUrl": "/images/games/bubble-shooter-ultimate.avif",
-            "href": "/playstation-games/tekken-3",
+            "href": "/music-games/tekken-3",
             "description": "",
             "embedUrl": "https://www.retrogames.cc/embed/40238-tekken-3.html",
             "seoDescription": {
@@ -767,7 +767,7 @@
             "title": "Sonic 1 Beta Remake",
             "platform": "Hot Games",
             "imageUrl": "/images/games/bubble-game-3.avif",
-            "href": "/genesis-games/sonic-1-beta-remake",
+            "href": "/card-games/sonic-1-beta-remake",
             "description": "",
             "embedUrl": "https://www.retrogames.cc/embed/45223-sonic-1-beta-remake.html",
             "seoDescription": {
@@ -807,7 +807,7 @@
             "title": "Squash (Ver. 1.0)",
             "platform": "Hot Games",
             "imageUrl": "/images/games/bubble-game-3.avif",
-            "href": "/arcade-games/squash-ver-1-0",
+            "href": "/junping-games/squash-ver-1-0",
             "description": "",
             "embedUrl": "https://www.retrogames.cc/embed/9936-squash-ver-1-0.html",
             "seoDescription": {
@@ -845,7 +845,7 @@
             "title": "Super Mario World Hack 6",
             "platform": "Hot Games",
             "imageUrl": "/images/games/bubble-shooter-ultimate.avif",
-            "href": "/snes-games/super-mario-world-hack-6",
+            "href": "/hot-games/super-mario-world-hack-6",
             "description": "",
             "embedUrl": "https://www.retrogames.cc/embed/44412-super-mario-world-hack-6.html",
             "seoDescription": {
@@ -883,7 +883,7 @@
             "title": "Pokemon Emerald Rogue EX 1.2.0",
             "platform": "Hot Games",
             "imageUrl": "/images/games/bubble-shooter-ultimate.avif",
-            "href": "/gameboyadvance-games/pokemon-emerald-rogue-ex-1-2-0",
+            "href": "/new-games/pokemon-emerald-rogue-ex-1-2-0",
             "description": "",
             "embedUrl": "https://www.retrogames.cc/embed/43564-pokemon-emerald-rogue-ex-1-2-0.html",
             "seoDescription": {
@@ -921,7 +921,7 @@
             "title": "Rayman",
             "platform": "Hot Games",
             "imageUrl": "/images/games/bubble-game-3.avif",
-            "href": "/playstation-games/rayman",
+            "href": "/puzzle-games/rayman",
             "description": "",
             "embedUrl": "https://www.retrogames.cc/embed/40795-rayman.html",
             "seoDescription": {
@@ -958,7 +958,7 @@
             "title": "Street Fighter (US set 1)",
             "platform": "Hot Games",
             "imageUrl": "/images/games/bubble-shooter-ultimate.avif",
-            "href": "/arcade-games/street-fighter-us-set-1",
+            "href": "/junping-games/street-fighter-us-set-1",
             "description": "",
             "embedUrl": "https://www.retrogames.cc/embed/9955-street-fighter-us-set-1.html",
             "seoDescription": {
@@ -993,7 +993,7 @@
             "title": "Sonic Classic Heroes",
             "platform": "Hot Games",
             "imageUrl": "/images/games/bubble-game-3.avif",
-            "href": "/genesis-games/sonic-classic-heroes",
+            "href": "/music-games/sonic-classic-heroes",
             "description": "",
             "embedUrl": "https://www.retrogames.cc/embed/42046-sonic-classic-heroes.html",
             "seoDescription": {
@@ -1025,7 +1025,7 @@
             "title": "JoJo's Bizarre Adventure: Heritage for the Future / JoJo no Kimyou na Bouken: Mirai e no Isan (Japan 990927, NO CD)",
             "platform": "Hot Games",
             "imageUrl": "/images/games/bubble-game-3.avif",
-            "href": "/arcade-games/jojos-bizarre-adventure-heritage-for-the-future",
+            "href": "/junping-games/jojos-bizarre-adventure-heritage-for-the-future",
             "description": "",
             "embedUrl": "https://www.retrogames.cc/embed/8843-jojos-bizarre-adventure%3A-heritage-for-the-future-jojo-no-kimyou-na-bouken%3A-mirai-e-no-isan-japan-990927-no-cd.html",
             "seoDescription": {
@@ -1057,7 +1057,7 @@
             "title": "Marvel vs Capcom - clash of super heroes (980123 USA)",
             "platform": "Hot Games",
             "imageUrl": "/images/games/bubble-shooter-ultimate.avif",
-            "href": "/arcade-games/marvel-vs-capcom-clash-of-super-heroes-980123-usa",
+            "href": "/music-games/marvel-vs-capcom-clash-of-super-heroes-980123-usa",
             "description": "",
             "embedUrl": "https://www.retrogames.cc/embed/9123-marvel-vs-capcom-clash-of-super-heroes-980123-usa.html",
             "seoDescription": {
@@ -1082,448 +1082,6 @@
                     }
                 }
             }
-        }
-    ],
-    "popularGames": [
-        {
-            "id": 10001,
-            "title": "Tekken 3",
-            "platform": "PlayStation",
-            "imageUrl": "/images/games/Tekken 3.png",
-            "href": "/playstation-games/tekken-3",
-            "description": ""
-        },
-        {
-            "id": 10002,
-            "title": "JoJo's Bizarre Adventure: Heritage for the Future / JoJo no Kimyou na Bouken: Mirai e no Isan (Japan 990927, NO CD)",
-            "platform": "Arcade",
-            "imageUrl": "/images/games/arcade-game-JoJo's Bizarre Adventure Heritage for the Future.png",
-            "href": "/arcade-games/jojos-bizarre-adventure-heritage-for-the-future",
-            "description": ""
-        },
-        {
-            "id": 10003,
-            "title": "Sonic Classic Heroes",
-            "platform": "Genesis",
-            "imageUrl": "/images/games/genesis-game-Sonic Classic Heroes.png",
-            "href": "/genesis-games/sonic-classic-heroes",
-            "description": ""
-        },
-        {
-            "id": 10004,
-            "title": "Street Fighter (US set 1)",
-            "platform": "Arcade",
-            "imageUrl": "/images/games/arcade-game-Street Fighter (US set 1).png",
-            "href": "/arcade-games/street-fighter-us-set-1",
-            "description": ""
-        },
-        {
-            "id": 10005,
-            "title": "Marvel vs Capcom - clash of super heroes (980123 USA)",
-            "platform": "Arcade",
-            "imageUrl": "/images/games/arcade-game-Marvel vs Capcom - clash of super heroes (980123 USA).png",
-            "href": "/arcade-games/marvel-vs-capcom-clash-of-super-heroes-980123-usa",
-            "description": ""
-        },
-        {
-            "id": 10006,
-            "title": "Super Mario World Hack 6",
-            "platform": "SNES",
-            "imageUrl": "/images/games/snes-game-Super Mario World Hack 6.png",
-            "href": "/snes-games/super-mario-world-hack-6",
-            "description": ""
-        },
-        {
-            "id": 10007,
-            "title": "Pokemon Emerald Rogue EX 1.2.0",
-            "platform": "GBA",
-            "imageUrl": "/images/games/game-boy-advance-game-Pokemon Emerald Rogue EX 1.2.0.png",
-            "href": "/gameboyadvance-games/pokemon-emerald-rogue-ex-1-2-0",
-            "description": ""
-        },
-        {
-            "id": 10008,
-            "title": "Rayman",
-            "platform": "PlayStation",
-            "imageUrl": "/images/games/playstation-game-Rayman.png",
-            "href": "/playstation-games/rayman",
-            "description": ""
-        },
-        {
-            "id": 10009,
-            "title": "Dragon Ball Z - Supersonic Warriors (K)(ProjectG)",
-            "platform": "GBA",
-            "imageUrl": "/images/games/gameboyadvance-game-Dragon Ball Z - Supersonic Warriors (K)(ProjectG).png",
-            "href": "/gameboyadvance-games/dragon-ball-z-supersonic-warriors-k-projectg",
-            "description": ""
-        },
-        {
-            "id": 10010,
-            "title": "Super Smash Bros. (USA)",
-            "platform": "N64",
-            "imageUrl": "/images/games/n64-game-Super Smash Bros. (USA).png",
-            "href": "/n64-games/super-smash-bros-usa",
-            "description": ""
-        },
-        {
-            "id": 10011,
-            "title": "Crash Team Racing",
-            "platform": "PlayStation",
-            "imageUrl": "/images/games/playstation-game-Crash Team Racing.png",
-            "href": "/playstation-games/crash-team-racing",
-            "description": ""
-        },
-        {
-            "id": 10012,
-            "title": "Crash Bandicoot",
-            "platform": "PlayStation",
-            "imageUrl": "/images/games/playstation-game-Crash Bandicoot.png",
-            "href": "/playstation-games/crash-bandicoot",
-            "description": ""
-        },
-        {
-            "id": 10013,
-            "title": "Tetris (USA)",
-            "platform": "NES",
-            "imageUrl": "/images/games/nes-game-Tetris (USA).png",
-            "href": "/nes-games/tetris-usa",
-            "description": ""
-        },
-        {
-            "id": 10014,
-            "title": "Super Sonic Bros",
-            "platform": "NES",
-            "imageUrl": "/images/games/nes-game-Super Sonic Bros.png",
-            "href": "/nes-games/super-sonic-bros",
-            "description": ""
-        },
-        {
-            "id": 10015,
-            "title": "Super Mario Bros. (Japan)",
-            "platform": "FDS",
-            "imageUrl": "/images/games/famicom-disk-system-game-Super Mario Bros. (Japan).png",
-            "href": "/fds-games/super-mario-bros-japan",
-            "description": ""
-        },
-        {
-            "id": 10016,
-            "title": "All Night Nippon Super Mario Bros. (Japan) (Promo)",
-            "platform": "FDS",
-            "imageUrl": "/images/games/famicom-disk-system-game-All Night Nippon Super Mario Bros. (Japan) (Promo).png",
-            "href": "/fds-games/all-night-nippon-super-mario-bros-japan-promo",
-            "description": ""
-        },
-        {
-            "id": 10017,
-            "title": "Super Bomberman 4 (English - Translated)",
-            "platform": "SNES",
-            "imageUrl": "/images/games/snes-game-Super Bomberman 4 (English - Translated).png",
-            "href": "/snes-games/super-bomberman-4-english-translated",
-            "description": ""
-        },
-        {
-            "id": 10018,
-            "title": "Top Gear (USA)",
-            "platform": "SNES",
-            "imageUrl": "/images/games/snes-game-Top Gear (USA).png",
-            "href": "/snes-games/top-gear-usa",
-            "description": ""
-        },
-        {
-            "id": 10019,
-            "title": "Kirby's Dream Land 2 (USA, Europe)",
-            "platform": "GB",
-            "imageUrl": "/images/games/gameboy-game-Kirby's Dream Land 2 (USA, Europe).png",
-            "href": "/gameboy-games/kirby-s-dream-land-2-usa-europe",
-            "description": ""
-        },
-        {
-            "id": 10020,
-            "title": "Kirby's Dream Land (USA, Europe)",
-            "platform": "GB",
-            "imageUrl": "/images/games/gameboy-game-Kirby's Dream Land (USA, Europe).png",
-            "href": "/gameboy-games/kirby-s-dream-land-usa-europe",
-            "description": ""
-        },
-        {
-            "id": 10021,
-            "title": "Pokemon Red Full Color Hack",
-            "platform": "GB",
-            "imageUrl": "/images/games/gameboy-game-Pokemon Red Full Color Hack.png",
-            "href": "/gameboy-games/pokemon-red-full-color-hack",
-            "description": ""
-        },
-        {
-            "id": 10022,
-            "title": "Worms Armageddon (USA) (En,Fr,Es)",
-            "platform": "GBC",
-            "imageUrl": "/images/games/gameboy-color-game-Worms Armageddon (USA) (En,Fr,Es).png",
-            "href": "/gameboycolor-games/worms-armageddon-usa-en-fr-es",
-            "description": ""
-        },
-        {
-            "id": 10023,
-            "title": "Pocket Monsters Geum (Korea)",
-            "platform": "GBC",
-            "imageUrl": "/images/games/gameboy-color-game-Pocket Monsters Geum (Korea).png",
-            "href": "/gameboycolor-games/pocket-monsters-geum-korea",
-            "description": ""
-        },
-        {
-            "id": 10025,
-            "title": "Smash Remix 1.4.0",
-            "platform": "N64",
-            "imageUrl": "/images/games/n64-game-Smash Remix 1.4.0.png",
-            "href": "/n64-games/smash-remix-1-4-0",
-            "description": ""
-        },
-        {
-            "id": 10026,
-            "title": "Naruto - Ninja Destiny (USA) (En,Fr)",
-            "platform": "NDS",
-            "imageUrl": "/images/games/nintendo-ds-game-Naruto - Ninja Destiny (USA) (En,Fr).png",
-            "href": "/nds-games/naruto-ninja-destiny-usa-en-fr",
-            "description": ""
-        },
-        {
-            "id": 10027,
-            "title": "Kirby - Squeak Squad (USA)",
-            "platform": "NDS",
-            "imageUrl": "/images/games/nintendo-ds-game-Kirby - Squeak Squad (USA).png",
-            "href": "/nds-games/kirby-squeak-squad-usa",
-            "description": ""
-        },
-        {
-            "id": 10028,
-            "title": "Sonic The Hedgehog (USA, Europe)",
-            "platform": "Master System",
-            "imageUrl": "/images/games/sega-mastersystem-game-Sonic The Hedgehog (USA, Europe).png",
-            "href": "/master-system-games/sonic-the-hedgehog-usa-europe",
-            "description": ""
-        },
-        {
-            "id": 10029,
-            "title": "Sonic Chaos (Europe)",
-            "platform": "Master System",
-            "imageUrl": "/images/games/sega-mastersystem-game-Sonic Chaos (Europe).png",
-            "href": "/master-system-games/sonic-chaos-europe",
-            "description": ""
-        },
-        {
-            "id": 10030,
-            "title": "Sonic The Hedgehog (World) (v1.1)",
-            "platform": "Game Gear",
-            "imageUrl": "/images/games/sega-gamegear-game-Sonic The Hedgehog (World) (v1.1).png",
-            "href": "/game-gear-games/sonic-the-hedgehog-world-v1-1",
-            "description": ""
-        },
-        {
-            "id": 10031,
-            "title": "Sonic Chaos (USA, Europe)",
-            "platform": "Game Gear",
-            "imageUrl": "/images/games/sega-gamegear-game-Sonic Chaos (USA, Europe).png",
-            "href": "/game-gear-games/sonic-chaos-usa-europe",
-            "description": ""
-        },
-        {
-            "id": 10032,
-            "title": "Sonic in Chaotix",
-            "platform": "32X",
-            "imageUrl": "/images/games/sega-32x-game-Sonic in Chaotix.png",
-            "href": "/sega32x-games/sonic-in-chaotix",
-            "description": ""
-        },
-        {
-            "id": 10033,
-            "title": "Sonic 4: Cybernetic Outbreak",
-            "platform": "32X",
-            "imageUrl": "/images/games/sega-32x-game-Sonic 4 Cybernetic Outbreak.png",
-            "href": "/sega32x-games/sonic-4-cybernetic-outbreak",
-            "description": ""
-        },
-        {
-            "id": 10034,
-            "title": "Sonic CD (USA)",
-            "platform": "Sega CD",
-            "imageUrl": "/images/games/sega-cd-game-Sonic CD (USA).png",
-            "href": "/sega-cd-games/sonic-cd-usa",
-            "description": ""
-        },
-        {
-            "id": 10035,
-            "title": "Sonic the Hedgehog Megamix 4.0b",
-            "platform": "Sega CD",
-            "imageUrl": "/images/games/sega-cd-game-Sonic the Hedgehog Megamix 4.0b.png",
-            "href": "/sega-cd-games/sonic-the-hedgehog-megamix-4-0b",
-            "description": ""
-        },
-        {
-            "id": 10036,
-            "title": "Galaga '90 (USA)",
-            "platform": "Turbografx-16",
-            "imageUrl": "/images/games/turbografx-16-game-Galaga '90 (USA).png",
-            "href": "/turbografx-16-games/galaga-90-usa",
-            "description": ""
-        },
-        {
-            "id": 10037,
-            "title": "Military Madness (USA)",
-            "platform": "Turbografx-16",
-            "imageUrl": "/images/games/turbografx-16-game-Military Madness (USA).png",
-            "href": "/turbografx-16-games/military-madness-usa",
-            "description": ""
-        },
-        {
-            "id": 10038,
-            "title": "Godzilla",
-            "platform": "Turbografx CD",
-            "imageUrl": "/images/games/turbografx-cd-game-Godzilla.png",
-            "href": "/turbografx-cd-games/godzilla",
-            "description": ""
-        },
-        {
-            "id": 10039,
-            "title": "Prince of Persia",
-            "platform": "Turbografx CD",
-            "imageUrl": "/images/games/turbografx-cd-game-Prince of Persia.png",
-            "href": "/turbografx-cd-games/prince-of-persia",
-            "description": ""
-        },
-        {
-            "id": 10040,
-            "title": "Fighting Street",
-            "platform": "Turbografx CD",
-            "imageUrl": "/images/games/turbografx-cd-game-Fighting Street.png",
-            "href": "/turbografx-cd-games/fighting-street",
-            "description": ""
-        },
-        {
-            "id": 10041,
-            "title": "Dragonball Z - Idainaru Son Gokuu Densetsu",
-            "platform": "PC Engine CD",
-            "imageUrl": "/images/games/pc-engine-cd-game-Dragonball Z - Idainaru Son Gokuu Densetsu.png",
-            "href": "/pc-engine-cd-games/dragonball-z-idainaru-son-gokuu-densetsu",
-            "description": ""
-        },
-        {
-            "id": 10042,
-            "title": "Akumajou Dracula X - Chi no Rondo",
-            "platform": "PC Engine CD",
-            "imageUrl": "/images/games/pc-engine-cd-game-Akumajou Dracula X - Chi no Rondo.png",
-            "href": "/pc-engine-cd-games/akumajou-dracula-x-chi-no-rondo",
-            "description": ""
-        },
-        {
-            "id": 10043,
-            "title": "Donkey Kong (USA)",
-            "platform": "Atari 7800",
-            "imageUrl": "/images/games/atari-7800-game-Donkey Kong (USA).png",
-            "href": "/atari-7800-games/donkey-kong-usa",
-            "description": ""
-        },
-        {
-            "id": 10044,
-            "title": "Centipede (USA)",
-            "platform": "Atari 7800",
-            "imageUrl": "/images/games/atari-7800-game-Centipede (USA).png",
-            "href": "/atari-7800-games/centipede-usa",
-            "description": ""
-        },
-        {
-            "id": 10045,
-            "title": "Ms. Pac-Man (USA)",
-            "platform": "Atari 7800",
-            "imageUrl": "/images/games/atari-7800-game-Ms. Pac-Man (USA).png",
-            "href": "/atari-7800-games/ms-pac-man-usa",
-            "description": ""
-        },
-        {
-            "id": 10046,
-            "title": "Aladdin (USA)",
-            "platform": "SNES",
-            "imageUrl": "/images/games/snes-game-Aladdin (USA).png",
-            "href": "/snes-games/aladdin-usa",
-            "description": ""
-        }
-    ],
-    "newGames": [
-        {
-            "id": 20001,
-            "title": "Sonic 1 Beta Remake",
-            "platform": "Genesis",
-            "imageUrl": "/images/games/sonic-1-beta-remake.png",
-            "href": "/genesis-games/sonic-1-beta-remake",
-            "description": ""
-        },
-        {
-            "id": 20002,
-            "title": "Squash (Ver. 1.0)",
-            "platform": "Arcade",
-            "imageUrl": "/images/games/arcade-game-Squash (Ver. 1.0).png",
-            "href": "/arcade-games/squash-ver-1-0",
-            "description": ""
-        },
-        {
-            "id": 20003,
-            "title": "Sonic The Hedgehog - Pocket Adventure (World)",
-            "platform": "Neo Geo Pocket",
-            "imageUrl": "/images/games/neo-geo-pocket-game-Sonic The Hedgehog - Pocket Adventure (World).png",
-            "href": "/neo-geo-pocket-games/sonic-the-hedgehog-pocket-adventure-world",
-            "description": ""
-        },
-        {
-            "id": 20004,
-            "title": "SNK vs. Capcom - The Match of the Millennium (World) (En,Ja)",
-            "platform": "Neo Geo Pocket",
-            "imageUrl": "/images/games/neo-geo-pocket-game-SNK vs. Capcom - The Match of the Millennium (World) (En,Ja).png",
-            "href": "/neo-geo-pocket-games/snk-vs-capcom-the-match-of-the-millennium-world-en-ja",
-            "description": ""
-        },
-        {
-            "id": 20005,
-            "title": "Pac-Man",
-            "platform": "MSX",
-            "imageUrl": "/images/games/msx-game-Pac-Man.png",
-            "href": "/msx-games/pac-man",
-            "description": ""
-        },
-        {
-            "id": 20006,
-            "title": "Tank Battalion",
-            "platform": "MSX",
-            "imageUrl": "/images/games/msx-game-Tank Battalion.png",
-            "href": "/msx-games/tank-battalion",
-            "description": ""
-        },
-        {
-            "id": 20007,
-            "title": "Metal Gear 1",
-            "platform": "MSX 2",
-            "imageUrl": "/images/games/msx-2-game-Metal Gear 1.png",
-            "href": "/msx-2-games/metal-gear-1",
-            "description": ""
-        },
-        {
-            "id": 20008,
-            "title": "Metal Gear 2 - Solid Snake",
-            "platform": "MSX 2",
-            "imageUrl": "/images/games/msx-2-game-Metal Gear 2 - Solid Snake.png",
-            "href": "/msx-2-games/metal-gear-2-solid-snake",
-            "description": ""
-        },
-        {
-            "id": 20009,
-            "title": "Mega Man 3 (USA)",
-            "platform": "NES",
-            "imageUrl": "/images/games/nes-game-Mega Man 3 (USA).png",
-            "href": "/nes-games/mega-man-3-usa"
-        },
-        {
-            "id": 20010,
-            "title": "Mega Man 4 (USA)",
-            "platform": "NES",
-            "imageUrl": "/images/games/nes-game-Mega Man 4 (USA).png",
-            "href": "/nes-games/mega-man-4-usa"
         }
     ]
 }
