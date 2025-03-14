@@ -131,7 +131,7 @@ export default async function Home({ params }: { params: { locale: string } }) {
             <div className="flex flex-col space-y-6 px-2 items-center">
               {formattedGames.slice(1, 21).map((game) => (
                 <div key={game.id}>
-                  <a href={`/${params.locale}/${game.href}`} className="block hover:opacity-95 transition-all">
+                  <a href={params.locale === 'en' ? game.href : `/${params.locale}${game.href}`} className="block hover:opacity-95 transition-all">
                     <div 
                       className="relative shadow-lg rounded-lg overflow-hidden transform hover:scale-105 transition-all duration-300 hover:shadow-xl" 
                       style={{ width: '180px', height: '100px' }}
@@ -171,7 +171,7 @@ export default async function Home({ params }: { params: { locale: string } }) {
                 <div className="flex flex-wrap justify-center gap-4">
                   {(formattedGames.slice(1, 6)).map((game: Game) => (
                     <div key={game.id} className="bg-white dark:bg-gray-800 rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-all duration-300 hover:shadow-xl">
-                      <a href={`/${params.locale}/${game.href}`} className="block hover:opacity-95 transition-all">
+                      <a href={params.locale === 'en' ? game.href : `/${params.locale}${game.href}`} className="block hover:opacity-95 transition-all">
                         <div className="relative" style={{ width: '180px', height: '100px' }}>
                           <GameImage 
                             src={game.imageUrl} 
@@ -246,7 +246,7 @@ export default async function Home({ params }: { params: { locale: string } }) {
                 <div className="flex flex-wrap justify-center gap-4">
                   {formattedGames.slice(5, 15).map((game: Game) => (
                     <div key={game.id} className="bg-white dark:bg-gray-800 rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-all duration-300 hover:shadow-xl">
-                      <a href={`/${params.locale}/${game.href}`} className="block hover:opacity-95 transition-all">
+                      <a href={params.locale === 'en' ? game.href : `/${params.locale}${game.href}`} className="block hover:opacity-95 transition-all">
                         <div className="relative" style={{ width: '180px', height: '100px' }}>
                           <GameImage 
                             src={game.imageUrl} 
