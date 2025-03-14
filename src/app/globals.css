@@ -58,7 +58,7 @@ body {
 
 /* 复古文字效果 */
 .retro-text {
-  color: rgb(88, 28, 135);        /* 深紫色 */
+  color: rgb(0, 0, 0);        /* 深紫色 */
   font-weight: 800;
   text-shadow: 
     2px 2px 0 rgba(88, 28, 135, 0.3),
