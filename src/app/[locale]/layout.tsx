@@ -19,7 +19,7 @@ export const metadata: Metadata = {
 const getFixedNavItems = () => [
   { icon: "🏠", label: "Home", href: "/" },
   { icon: "🕒", label: "History", href: "/history" },
-  { icon: "🎲", label: "Random", href: "/random-game" }
+  { icon: "🎲", label: "Random", href: "javascript:void(0)", isRandom: true }
 ];
 
 // 从categories中获取分类导航项
@@ -27,7 +27,8 @@ const getCategoryNavItems = () => {
   return categories.categories.map(category => ({
     icon: category.icon,
     label: category.name,
-    href: category.href
+    href: category.href,
+    isRandom: false
   }));
 };
 

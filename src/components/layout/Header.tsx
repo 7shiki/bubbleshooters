@@ -8,29 +8,39 @@ import ThemeToggle from './ThemeToggle'
 import LanguageToggle from './LanguageToggle'
 import SearchBar from './SearchBar'
 import { categories } from '@/config/categories'
+import RandomGameLink from './RandomGameLink'
 
 interface HeaderProps {
   initialMessages: any
 }
 
+// 定义导航项接口
+interface NavItem {
+  icon: string;
+  label: string;
+  href: string;
+  isRandom?: boolean;
+}
+
 // 定义固定导航项
-const getFixedNavItems = () => [
-  { icon: "🏠", label: "Home", href: "/" },
-  { icon: "🕒", label: "History", href: "/history" },
-  { icon: "🎲", label: "Random", href: "/random-game" }
+const getFixedNavItems = (): NavItem[] => [
+  { icon: "🏠", label: "Home", href: "/", isRandom: false },
+  { icon: "🕒", label: "History", href: "/history", isRandom: false },
+  { icon: "🎲", label: "Random", href: "javascript:void(0)", isRandom: true }
 ];
 
 // 从categories中获取分类导航项
-const getCategoryNavItems = () => {
+const getCategoryNavItems = (): NavItem[] => {
   return categories.categories.map(category => ({
     icon: category.icon,
     label: category.name,
-    href: category.href
+    href: category.href,
+    isRandom: false
   }));
 };
 
 // 合并固定导航项和分类导航项
-const getAllNavItems = () => {
+const getAllNavItems = (): NavItem[] => {
   const fixedItems = getFixedNavItems();
   const categoryItems = getCategoryNavItems();
   
@@ -144,17 +154,36 @@ export default function Header({ initialMessages }: HeaderProps) {
                         <div className="p-4 space-y-6">
                             {/* 移动端导航菜单 - 显示所有导航项 */}
                             <div className="pt-4 flex flex-col space-y-2">
-                                {navItems.map((item, index) => (
-                                    <Link
-                                        key={index}
-                                        href={locale === 'en' ? item.href : `/${locale}${item.href}`}
-                                        className="flex items-center py-2 px-3 rounded-lg hover:bg-purple-500/10 text-gray-700 dark:text-gray-200"
-                                        onClick={() => setIsMobileMenuOpen(false)}
-                                    >
-                                        <span className="mr-2">{item.icon}</span>
-                                        <span>{item.label}</span>
-                                    </Link>
-                                ))}
+                                {navItems.map((item, index) => {
+                                    const linkClass = "flex items-center py-2 px-3 rounded-lg hover:bg-purple-500/10 text-gray-700 dark:text-gray-200";
+                                    
+                                    // 如果是随机游戏链接，使用RandomGameLink组件
+                                    if (item.isRandom) {
+                                        return (
+                                            <RandomGameLink
+                                                key={index}
+                                                className={linkClass}
+                                                locale={locale}
+                                            >
+                                                <span className="mr-2">{item.icon}</span>
+                                                <span>{item.label}</span>
+                                            </RandomGameLink>
+                                        );
+                                    }
+                                    
+                                    // 普通链接
+                                    return (
+                                        <Link
+                                            key={index}
+                                            href={locale === 'en' ? item.href : `/${locale}${item.href}`}
+                                            className={linkClass}
+                                            onClick={() => setIsMobileMenuOpen(false)}
+                                        >
+                                            <span className="mr-2">{item.icon}</span>
+                                            <span>{item.label}</span>
+                                        </Link>
+                                    );
+                                })}
                             </div>
                             
                             {/* 设置部分 */}

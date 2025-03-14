@@ -2,11 +2,13 @@
 
 import React, { useEffect, useRef } from 'react';
 import { usePathname } from 'next/navigation';
+import RandomGameLink from './RandomGameLink';
 
 interface NavItem {
   icon: string;
   label: string | React.ReactNode;
   href: string;
+  isRandom?: boolean;
 }
 
 interface SidebarProps {
@@ -60,14 +62,30 @@ export default function Sidebar({ navItems, locale }: SidebarProps) {
           {navItems.map((item, index) => {
             const href = locale === 'en' ? item.href : `/${locale}${item.href}`;
             const isActive = pathname === href || pathname === `/${locale}${item.href}`;
+            const linkClass = `flex items-start p-3 mb-3 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors ${
+              isActive ? 'bg-gray-100 dark:bg-gray-700' : ''
+            }`;
             
+            // 如果是随机游戏链接，使用RandomGameLink组件
+            if (item.isRandom) {
+              return (
+                <RandomGameLink 
+                  key={index}
+                  className={linkClass}
+                  locale={locale}
+                >
+                  <span className="text-base mr-1.5 flex-shrink-0">{item.icon}</span>
+                  <span className="font-medium text-sm leading-tight break-words">{item.label}</span>
+                </RandomGameLink>
+              );
+            }
+            
+            // 普通链接
             return (
               <a 
                 key={index} 
                 href={href}
-                className={`flex items-start p-3 mb-3 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors ${
-                  isActive ? 'bg-gray-100 dark:bg-gray-700' : ''
-                }`}
+                className={linkClass}
               >
                 <span className="text-base mr-1.5 flex-shrink-0">{item.icon}</span>
                 <span className="font-medium text-sm leading-tight break-words">{item.label}</span>
