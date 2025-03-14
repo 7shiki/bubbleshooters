@@ -1,0 +1,331 @@
+{
+  "home": {
+    "metadata": {
+      "title": "Retro Games - Spielen Sie Retro-Spiele online. Kein Download erforderlich.",
+      "description": "Spielen Sie Retro-Spiele von NES, SNES, GB, GBC, GBA, SEGA Genesis, PSX, PS1 und klassische Arcade-Spiele direkt in Ihrem Browser. Kostenlos und ohne Download.",
+      "keywords": "",
+      "og": {
+        "title": "Retro Games - Klassische Spiele online spielen",
+        "description": "Spielen Sie Retro-Spiele von NES, SNES, GB, GBC, GBA, SEGA Genesis, PSX, PS1 und klassische Arcade-Spiele direkt in Ihrem Browser. Kostenlos und ohne Download.",
+        "imageAlt": "Retro Games - Klassische Spielesammlung"
+      }
+    },
+    "hero": {
+      "title": {
+        "play": "Spielen",
+        "retroGames": "Retro Games"
+      },
+      "description": "Erleben Sie die Freude und Nostalgie Ihrer Kindheit mit unserer Sammlung von Retro-Spielen, mit zeitlosen Klassikern von Nintendo, Sega, NEC, Atari, PlayStation und Arcade. Kein Download erforderlich."
+    }
+  },
+  "games": {
+    "popularGames": "Beliebteste Retro-Spiele",
+    "newGames": "Neue Retro-Spiele",
+    "viewAll": "Alle Retro-Spiele anzeigen",
+    "playGame": "Spiel starten",
+    "loadMore": "Mehr Spiele laden",
+    "updatedDaily": "Täglich aktualisiert"
+  },
+  "allGames": {
+    "metadata": {
+      "title": "Alle Retro-Spiele - Klassische Spiele online spielen",
+      "description": "Durchstöbern Sie unsere komplette Sammlung klassischer Retro-Spiele",
+      "keywords": ""
+    },
+    "title": "Alle Retro-Spiele",
+    "description": "Durchstöbern Sie unsere komplette Sammlung von klassischen Retro-Spielen zum Online-Spielen.",
+    "subDescription": "Entdecken Sie Ihre Kindheitserinnerungen neu und erleben Sie diese magischen Spielmomente wieder.",
+    "browseGames": "Spiele durchsuchen",
+    "allPlatforms": "Alle Plattformen",
+    "foundGames": "{count} Spiele gefunden{platform}{query}",
+    "noGamesFound": "Keine Spiele gefunden, die Ihren Kriterien entsprechen.",
+    "clearSearch": "Suche löschen"
+  },
+  "category": {
+    "metadata": {
+      "title": "{company}{platform} Online spielen - Retro Games",
+      "description": "Spielen Sie {platform}-Spiele kostenlos in Ihrem Browser. Kein Download erforderlich. Genießen Sie klassische {platform}-Spiele sofort.",
+      "keywords": ""
+    },
+    "notFound": {
+      "title": "Kategorie nicht gefunden - RetroGames",
+      "description": "Die angeforderte Spielkategorie konnte nicht gefunden werden."
+    }
+  },
+  "platforms": {
+    "nes": {
+      "alt": "Nintendo Entertainment System Spiele Online",
+      "description": "Das Nintendo Entertainment System ist eine 8-Bit-Heimvideospielkonsole, die von Nintendo entwickelt und hergestellt wurde. Sie wurde erstmals am 15. Juli 1983 in Japan als Family Computer veröffentlicht und später 1985 in Nordamerika, 1986 in Europa und 1987 in Australien eingeführt. In Südkorea war sie als Hyundai Comboy bekannt und wurde von SK Hynix vertrieben, die damals als Hyundai Electronics bekannt war. Sie wurde vom Super Nintendo Entertainment System abgelöst."
+    },
+    "fds": {
+      "alt": "Famicom Disk System Spiele Online",
+      "description": "Das Famicom Disk System (FDS) ist ein Japan-exklusives Zusatzgerät für das Family Computer (Famicom), das 1986 von Nintendo veröffentlicht wurde. Es führte wiederbeschreibbare Diskettenspeicher ein, die größere Spielgrößen und Speicherfunktionen ermöglichten, wurde aber aufgrund des Aufstiegs von Modulen schließlich eingestellt."
+    },
+    "snes": {
+      "alt": "Super Nintendo Entertainment System Spiele Online",
+      "description": "Das Super Nintendo Entertainment System ist eine 16-Bit-Heimvideospielkonsole von Nintendo, die 1990 in Japan und Südkorea, 1991 in Nordamerika, 1992 in Europa und Australasien und 1993 in Südamerika veröffentlicht wurde. In Japan heißt das System Super Famicom oder kurz SFC. In Südkorea ist es als Super Comboy bekannt und wurde von Hyundai Electronics vertrieben."
+    },
+    "gameboy": {
+      "alt": "Nintendo Game Boy Spiele Online",
+      "description": "Der Game Boy ist ein 8-Bit-Handheld-Videospielgerät mit austauschbaren Modulen, das von Nintendo entwickelt und hergestellt wurde. Es wurde erstmals am 21. April 1989 in Japan, am 31. Juli 1989 in Nordamerika und am 28. September 1990 in Europa veröffentlicht. Es ist die erste Handheld-Konsole der Game Boy-Reihe und wurde von Gunpei Yokoi und Nintendo Research & Development 1 entwickelt."
+    },
+    "gameboycolor": {
+      "alt": "Nintendo Game Boy Color Spiele Online",
+      "description": "Der Game Boy Color, auch als GBC bezeichnet, ist eine Handheld-Spielkonsole von Nintendo, die am 21. Oktober 1998 in Japan und im November desselben Jahres international veröffentlicht wurde. Er ist der Nachfolger des Game Boy."
+    },
+    "gameboyadvance": {
+      "alt": "Nintendo Game Boy Advance Spiele Online",
+      "description": "Der Game Boy Advance (abgekürzt GBA) ist eine 32-Bit-Handheld-Spielkonsole, die von Nintendo als Nachfolger des Game Boy Color entwickelt, hergestellt und vermarktet wurde. Sie wurde am 21. März 2001 in Japan, am 11. Juni 2001 in Nordamerika und am 22. Juni 2001 in Australien und Europa veröffentlicht."
+    },
+    "n64": {
+      "alt": "Nintendo 64 Spiele Online",
+      "description": "Das Nintendo 64 (N64) ist eine Heimvideospielkonsole der fünften Generation, die 1996 in Japan und Nordamerika und 1997 in Europa und Australien von Nintendo veröffentlicht wurde. Es war die erste Nintendo-Konsole mit 3D-Grafik und verwendete Module statt CDs, im Wettbewerb mit der PlayStation und Sega Saturn."
+    },
+    "nds": {
+      "alt": "Nintendo DS Spiele Online",
+      "description": "Der Nintendo DS (NDS) ist eine Handheld-Spielkonsole mit zwei Bildschirmen, die 2004 von Nintendo veröffentlicht wurde. Mit Touchscreen, drahtloser Verbindung und Abwärtskompatibilität zu Game Boy Advance-Spielen wurde sie zu einem der meistverkauften Spielsysteme aller Zeiten."
+    },
+    "master-system": {
+      "alt": "Sega Master System Spiele Online",
+      "description": "Das Sega Master System ist eine 8-Bit-Heimvideospielkonsole von Sega, die 1985 in Japan als Sega Mark III erschien und später international als Master System vermarktet wurde. Es war ein Konkurrent zum Nintendo Entertainment System, erreichte aber größeren Erfolg in Europa und Brasilien."
+    },
+    "game-gear": {
+      "alt": "Sega Game Gear Spiele Online",
+      "description": "Der Game Gear ist eine 8-Bit-Handheld-Spielkonsole von Sega, die am 6. Oktober 1990 in Japan, 1991 in Nordamerika und Europa und 1992 in Australien veröffentlicht wurde. Mit einem vollfarbigen, hintergrundbeleuchteten Bildschirm im Querformat positionierte Sega den Game Gear als technologisch überlegene Alternative zum Game Boy."
+    },
+    "genesis": {
+      "alt": "Sega Genesis/Mega Drive Spiele Online",
+      "description": "Der Sega Genesis, außerhalb Nordamerikas als Mega Drive bekannt, ist eine 16-Bit-Heimvideospielkonsole, die von Sega Enterprises, Ltd. entwickelt und vertrieben wurde. Der Genesis war Segas dritte Konsole und Nachfolger des Master Systems. Sega veröffentlichte die Konsole 1988 in Japan als Mega Drive, gefolgt vom nordamerikanischen Debüt als Genesis 1989."
+    },
+    "sega32x": {
+      "alt": "Sega 32X Spiele Online",
+      "description": "Das Sega 32X ist eine Erweiterung für den Sega Genesis/Mega Drive, die 1994 veröffentlicht wurde. Es wurde entwickelt, um die Grafik- und Verarbeitungsleistung der Konsole zu verbessern, hatte aber aufgrund der Einführung des Sega Saturn eine kurze Lebensdauer."
+    },
+    "sega-cd": {
+      "alt": "Sega CD/Mega CD Spiele Online",
+      "description": "Das Sega CD (außerhalb Nordamerikas als Mega-CD bekannt) war eine CD-ROM-Erweiterung für den Sega Genesis, die 1991 in Japan und 1992 in Nordamerika veröffentlicht wurde. Es führte Vollbewegtvideo und CD-Audioqualität ein, hatte aber aufgrund hoher Kosten und einer begrenzten Spielebibliothek Schwierigkeiten."
+    },
+    "turbografx-16": {
+      "alt": "NEC TurboGrafx-16 Spiele Online",
+      "description": "Das TurboGrafx-16 Entertainment SuperSystem, in Japan und Frankreich als PC Engine bekannt, ist eine Heimvideospielkonsole, die gemeinsam von Hudson Soft und NEC Home Electronics entwickelt wurde. Sie wurde am 30. Oktober 1987 in Japan und am 29. August 1989 in den USA veröffentlicht."
+    },
+    "turbografx-cd": {
+      "alt": "NEC TurboGrafx-CD Spiele Online",
+      "description": "Das TurboGrafx-CD ist eine Erweiterung für das TurboGrafx-16/PC Engine, die 1988 in Japan und später in Nordamerika veröffentlicht wurde. Es führte CD-basiertes Gaming für NECs Plattform ein und ermöglichte bessere Audioqualität und erweiterten Spielspeicher."
+    },
+    "pc-engine-cd": {
+      "alt": "NEC PC Engine CD-ROM² Spiele Online",
+      "description": "Das PC Engine CD-ROM² war die erste CD-basierte Konsolenerweiterung, die 1988 in Japan veröffentlicht wurde. Es erweiterte die Fähigkeiten der PC Engine und ermöglichte größere Spiele mit verbessertem Audio und Animation, was zukünftige CD-basierte Spielsysteme beeinflusste."
+    },
+    "atari-7800": {
+      "alt": "Atari 7800 ProSystem Spiele Online",
+      "description": "Das Atari 7800 ProSystem ist eine Heimvideospielkonsole, die 1986 von Atari Corporation veröffentlicht wurde. Sie wurde für die Abwärtskompatibilität mit Atari 2600-Spielen entwickelt und bot verbesserte Grafik und Leistung. Trotz ihrer Fähigkeiten hatte sie Schwierigkeiten, gegen das Nintendo Entertainment System und das Sega Master System zu konkurrieren."
+    },
+    "atari-lynx": {
+      "alt": "Atari Lynx Handheld Spiele Online",
+      "description": "Der Atari Lynx ist eine Handheld-Spielkonsole, die 1989 von Atari veröffentlicht wurde. Es war die erste Handheld-Konsole mit einem Farb-LCD-Bildschirm und hatte für seine Zeit fortschrittliche Hardware, einschließlich Sprite-Skalierung und Mehrspielerfunktionen. Allerdings sah sie sich starker Konkurrenz durch den Nintendo Game Boy und Sega Game Gear ausgesetzt."
+    },
+    "atari-jaguar": {
+      "alt": "Atari Jaguar Spiele Online",
+      "description": "Der Atari Jaguar ist eine Heimvideospielkonsole, die 1993 von Atari Corporation veröffentlicht wurde. Als erstes 64-Bit-Spielsystem vermarktet, bot es im Vergleich zu seinen 16-Bit-Konkurrenten überlegene Rechenleistung. Der Jaguar hatte jedoch aufgrund mangelnder Entwicklerunterstützung und starker Konkurrenz durch die Sony PlayStation und Sega Saturn Schwierigkeiten."
+    },
+    "playstation": {
+      "alt": "Sony PlayStation Spiele Online",
+      "description": "Die PlayStation (PS1) ist eine 32-Bit-Heimvideospielkonsole, die 1994 in Japan und 1995 weltweit von Sony veröffentlicht wurde. Sie war die erste Konsole, die über 100 Millionen Einheiten verkaufte und führte CD-basiertes Gaming, 3D-Grafik und eine umfangreiche Bibliothek ikonischer Spiele ein."
+    },
+    "arcade": {
+      "alt": "Klassische Arcade Spiele Online",
+      "description": "Arcade-Spiele sind münzbetriebene Videospiele, die in öffentlichen Räumen wie Einkaufszentren und Spielhallen zu finden sind. Beliebt im späten 20. Jahrhundert, umfassen sie Klassiker wie Pac-Man, Street Fighter und Metal Slug, von denen viele für Heimkonsolen adaptiert wurden."
+    },
+    "wonderswan": {
+      "alt": "Bandai WonderSwan Spiele Online",
+      "description": "Der WonderSwan ist eine Handheld-Spielkonsole, die 1999 von Bandai exklusiv in Japan veröffentlicht wurde. Als Konkurrent zum Game Boy Color konzipiert, verfügte er über eine einzigartige vertikale und horizontale Bildschirmausrichtung. Eine verbesserte Version, der WonderSwan Color, wurde 2000 veröffentlicht und bot ein Farbdisplay und bessere Hardware-Fähigkeiten."
+    },
+    "neo-geo-pocket": {
+      "alt": "SNK Neo Geo Pocket Spiele Online",
+      "description": "Der Neo Geo Pocket ist eine Handheld-Spielkonsole, die 1998 von SNK veröffentlicht wurde. Der Nachfolger Neo Geo Pocket Color wurde 1999 eingeführt und brachte einen Farbbildschirm und verbesserte Software-Unterstützung. Das System bot hochwertige Arcade-Spiele, insbesondere aus SNKs Serien wie King of Fighters und Samurai Shodown."
+    },
+    "msx": {
+      "alt": "MSX Spiele Online",
+      "description": "Der MSX ist eine Heimcomputer-Plattform, die 1983 von Microsoft und ASCII Corporation eingeführt wurde, um eine standardisierte Computerumgebung zu schaffen. Er war besonders in Japan, Europa und Südamerika beliebt und diente als Plattform für viele frühe Konami- und Hudson-Soft-Spiele. Das System spielte eine wichtige Rolle bei der frühen Entwicklung von Serien wie Metal Gear und Bomberman."
+    },
+    "msx-2": {
+      "alt": "MSX 2 Spiele Online",
+      "description": "Der MSX2 ist eine verbesserte Version des ursprünglichen MSX-Computerstandards aus dem Jahr 1985. Er bot verbesserte Grafikfähigkeiten, einschließlich Unterstützung für höhere Auflösungen und eine größere Farbpalette. Viele klassische Spiele, wie Metal Gear 2: Solid Snake, wurden für den MSX2 entwickelt."
+    }
+  },
+  "game": {
+    "metadata": {
+      "title": "Spielen Sie {title} Online. Kein Download erforderlich - Retro Games",
+      "description": "Spielen Sie {title} ({platform}) kostenlos in Ihrem Browser. Kein Download erforderlich.",
+      "keywords": ""
+    },
+    "notFound": {
+      "title": "Spiel nicht gefunden - RetroGames",
+      "description": "Das angeforderte Spiel konnte nicht gefunden werden."
+    },
+    "relatedGames": {
+      "title": "Das könnte Sie interessieren",
+      "heading": "Ähnliche Spiele"
+    },
+    "page": {
+      "description": "Spielen Sie {title} online in Ihrem Browser. Kein Download erforderlich.",
+      "shareText": "Spielen Sie {title} kostenlos in Ihrem Browser! Kein Download erforderlich.",
+      "share": {
+        "label": "Teilen",
+        "twitter": "Auf Twitter teilen",
+        "facebook": "Auf Facebook teilen",
+        "reddit": "Auf Reddit teilen",
+        "linkedin": "Auf LinkedIn teilen"
+      },
+      "playButton": "Spiel starten",
+      "about": "Über {title} :",
+      "breadcrumb": {
+        "home": "Startseite"
+      }
+    }
+  },
+  "footer": {
+    "description": "Erleben Sie die Nostalgie der Retro-Spiele auf unserer Website, wo Sie Kindheitserinnerungen mit klassischen Titeln von Nintendo, Sega, NEC, Atari, PlayStation und Arcade wiedererleben können - alle online spielbar! Kein Download erforderlich.",
+    "others": {
+      "title": "Sonstiges",
+      "privacy": "Datenschutzerklärung",
+      "terms": "Nutzungsbedingungen"
+    },
+    "terms": {
+      "title": "Nutzungsbedingungen",
+      "description": "Bitte lesen Sie diese Nutzungsbedingungen sorgfältig durch, bevor Sie RetroGames nutzen.",
+      "lastUpdated": "Zuletzt aktualisiert: 20. Februar 2025",
+      "intro": {
+        "text1": "Willkommen bei ",
+        "text2": ". Durch den Zugriff auf und die Nutzung dieser Website akzeptieren Sie die Bedingungen dieser Vereinbarung."
+      },
+      "service": {
+        "title": "Servicebeschreibung",
+        "text1": " bietet eine Plattform für Benutzer, um Retro-Spiele über ihren Webbrowser zu spielen. Unser Service umfasst:",
+        "items": [
+          "Browser-basierte Retro-Spiel-Emulation",
+          "Spielinformationen und Beschreibungen",
+          "Verwandte Spielinhalte"
+        ]
+      },
+      "content": {
+        "title": "Inhalt und Urheberrecht",
+        "text1": "Alle über unseren Service verfügbaren Spiele und verwandten Inhalte sind:",
+        "items": [
+          "Von Drittanbietern bezogen und gehostet",
+          "Unterliegen den Urheberrechten und geistigen Eigentumsrechten ihrer jeweiligen Eigentümer",
+          "Nicht im Besitz oder unter der Kontrolle von RetroGames"
+        ],
+        "text2": "Wir erheben keinen Anspruch auf Eigentum an Spielen, ROMs oder verwandten Inhalten, die über unseren Service bereitgestellt werden. Alle Marken, Dienstleistungsmarken und Handelsnamen sind Eigentum ihrer jeweiligen Inhaber."
+      },
+      "disclaimer": {
+        "title": "Haftungsausschluss",
+        "text1": "Unsere Dienste werden \"wie besehen\" ohne jegliche ausdrückliche oder stillschweigende Gewährleistung bereitgestellt. RetroGames garantiert nicht, dass:",
+        "items": [
+          "Der Service unterbrechungs- oder fehlerfrei sein wird",
+          "Spiele oder Inhalte immer verfügbar sein werden",
+          "Fehler oder Mängel behoben werden"
+        ],
+        "text2": "Wir sind nicht verantwortlich für von Dritten bereitgestellte Inhalte oder für Fehler oder Auslassungen in den Inhalten."
+      },
+      "conduct": {
+        "title": "Benutzerverhalten",
+        "text1": "Durch die Nutzung unseres Services stimmen Sie zu, nicht:",
+        "items": [
+          "Den Service für illegale Zwecke zu nutzen",
+          "Zu versuchen, unbefugten Zugriff auf Teile des Services zu erlangen",
+          "Den Service oder die Server zu stören oder zu beeinträchtigen",
+          "Sicherheitsfunktionen zu umgehen, zu deaktivieren oder anderweitig zu beeinträchtigen"
+        ]
+      },
+      "modifications": {
+        "title": "Änderungen am Service",
+        "text1": "Wir behalten uns das Recht vor:",
+        "items": [
+          "Jeden Teil unseres Services ohne Vorankündigung zu ändern oder einzustellen",
+          "Diese Nutzungsbedingungen jederzeit zu aktualisieren",
+          "Die über unseren Service verfügbaren Spiele und Inhalte zu ändern"
+        ],
+        "text2": "Ihre weitere Nutzung des Services nach Änderungen stellt Ihre Zustimmung zu diesen Änderungen dar."
+      },
+      "governing": {
+        "title": "Geltendes Recht",
+        "text1": "Diese Bedingungen unterliegen dem geltenden Recht und werden in Übereinstimmung mit diesem ausgelegt, ohne Berücksichtigung von Kollisionsnormen."
+      },
+      "contact": {
+        "title": "Kontakt",
+        "text1": "Bei Fragen zu diesen Bedingungen kontaktieren Sie uns bitte unter:"
+      }
+    },
+    "privacy": {
+      "title": "Datenschutzerklärung",
+      "description": "Diese Datenschutzerklärung beschreibt, wie Ihre personenbezogenen Daten bei Ihrem Besuch auf RetroGames erfasst, verwendet und weitergegeben werden.",
+      "lastUpdated": "Zuletzt aktualisiert: 20. Februar 2025",
+      "intro": {
+        "text1": "Es ist unsere Politik, Ihre Privatsphäre in Bezug auf alle Informationen zu respektieren, die während des Betriebs unserer Website sammeln können. ",
+        "text2": " respektiert Ihre Privatsphäre und verpflichtet sich, alle Informationen zu schützen, die Sie uns über diese Website zur Verfügung stellen.",
+        "text3": "Diese Datenschutzerklärung erläutert, welche Informationen wir sammeln, wie wir sie verwenden und unter welchen Umständen wir sie an Dritte weitergeben können. Diese Datenschutzerklärung gilt für ",
+        "text4": " (nachfolgend \"uns\", \"wir\" oder \"RetroGames\")."
+      },
+      "collection": {
+        "title": "Datenerfassung",
+        "description": "Unsere Website erfordert keine Benutzerregistrierung oder Anmeldung. Wir erfassen keine personenbezogenen Daten von unseren Nutzern. Die einzigen Daten, die wir sammeln, sind:",
+        "items": [
+          "Browser-Cookies, die für die Funktionalität der Website erforderlich sind",
+          "Anonyme Nutzungsstatistiken zur Verbesserung unseres Services"
+        ]
+      },
+      "thirdParty": {
+        "title": "Inhalte von Drittanbietern",
+        "description": "Die auf unserer Website verfügbaren Spiele und verwandten Inhalte stammen von Drittanbieter-Plattformen. Wir beanspruchen kein Eigentum an diesen Inhalten und:",
+        "items": [
+          "Alle Spiele werden von Drittanbietern gehostet und gestreamt",
+          "Spielinformationen, Bilder und Beschreibungen werden von Drittquellen bereitgestellt",
+          "Wir übernehmen keine Garantie für die Richtigkeit oder Verfügbarkeit dieser Inhalte"
+        ]
+      },
+      "cookies": {
+        "title": "Verwendung von Cookies",
+        "description": "Wir verwenden Cookies, um Ihr Browsing-Erlebnis zu verbessern. Diese Cookies sind:",
+        "items": [
+          "Wesentlich für die grundlegende Website-Funktionalität",
+          "Werden verwendet, um Ihre Anzeigeeinstellungen zu speichern",
+          "Werden nicht für Tracking- oder Werbezwecke verwendet"
+        ],
+        "control": "Sie können die Cookie-Einstellungen über Ihre Browser-Einstellungen steuern."
+      },
+      "links": {
+        "title": "Externe Links",
+        "description": "Unsere Website enthält Links zu externen Websites, die nicht von uns betrieben werden. Wenn Sie auf einen Link eines Drittanbieters klicken, werden Sie auf die Website dieses Drittanbieters weitergeleitet. Wir empfehlen Ihnen dringend, die Datenschutzerklärung und Nutzungsbedingungen jeder Website zu überprüfen, die Sie besuchen.",
+        "disclaimer": "Wir haben keine Kontrolle über die Inhalte, Datenschutzrichtlinien oder Praktiken von Websites, Produkten oder Diensten Dritter und übernehmen dafür keine Verantwortung."
+      },
+      "updates": {
+        "title": "Aktualisierungen der Richtlinie",
+        "description": "Wir können diese Datenschutzerklärung von Zeit zu Zeit aktualisieren. Wir werden Sie über Änderungen informieren, indem wir die neue Datenschutzerklärung auf dieser Seite veröffentlichen. Wir empfehlen Ihnen, diese Datenschutzerklärung regelmäßig auf Änderungen zu überprüfen.",
+        "consent": "Ihre weitere Nutzung unserer Website nach der Veröffentlichung von Änderungen an der Datenschutzerklärung stellt Ihre Kenntnisnahme der Änderungen und Ihre Zustimmung dar, an die geänderte Datenschutzerklärung gebunden zu sein."
+      },
+      "contact": {
+        "title": "Kontakt",
+        "description": "Wenn Sie Fragen zu dieser Datenschutzerklärung haben, kontaktieren Sie uns bitte über unsere Website.",
+        "email": "support@retro-games.org"
+      }
+    },
+    "contact": {
+      "title": "Kontakt",
+      "disclaimer": "Haftungsausschluss: Alle Spiele auf dieser Website werden von Dritten gehostet. Wir hosten oder laden keine Spiele hoch. Wir sind nicht verantwortlich für Inhalte, die auf Websites Dritter gehostet werden. RetroGames ist eine unabhängige Website und ist mit keiner Organisation verbunden.",
+      "rights": "Alle Rechte vorbehalten."
+    }
+  },
+  "search": {
+    "searchTip": "Suchen Sie nach Ihren Lieblingsretro-Spielen",
+    "placeholder": "Retro-Spiele durchsuchen ...",
+    "clearSearch": "Suche löschen",
+    "search": "Suchen"
+  },
+  "common": {
+    "logo": {
+      "title": "Retro-Spiele – Klassische Spiele online spielen"
+    }
+  }
+}

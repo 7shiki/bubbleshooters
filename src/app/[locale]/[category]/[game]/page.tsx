@@ -5,7 +5,7 @@ import { categoryMap } from '@/config/categories'
 import Script from 'next/script'
 import Link from 'next/link'
 import Image from 'next/image'
-import FullscreenButton from '@/components/games/FullscreenButton'
+import GameContainer from '@/components/games/GameContainer'
 
 interface Props {
   params: {
@@ -257,7 +257,7 @@ export default async function GamePage({ params }: Props) {
               <span>{game.title}</span>
             </div>
 
-            {/* 游戏标题 */}
+            {/* 游戏标题和描述 */}
             <h1 className="text-4xl font-bold mb-4">
               <span className="retro-logo">{game.title}</span>
             </h1>
@@ -265,23 +265,16 @@ export default async function GamePage({ params }: Props) {
               {game.description || description}
             </p>
 
-            {/* 游戏模拟器 */}
+            {/* 游戏容器 - 使用GameContainer组件 */}
             <div className="max-w-5xl mx-auto">
-              {/* 桌面端使用 16:9 宽高比，移动端使用 9:14 宽高比 */}
-              <div className="md:aspect-video aspect-[9/14] bg-gray-800 rounded-lg overflow-hidden">
-                <iframe
-                  id="game-iframe"
-                  src={iframeSrc}
-                  className="w-full h-full"
-                  allowFullScreen
-                  frameBorder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  sandbox="allow-same-origin allow-scripts allow-popups allow-forms"
-                  loading="lazy"
-                />
-              </div>
-              
-              <FullscreenButton targetSelector="#game-iframe" />
+              <GameContainer 
+                title={game.title}
+                description={game.description || description}
+                gameUrl={iframeSrc}
+                imageUrl={game.imageUrl}
+                gameId={game.id}
+                slug={params.game}
+              />
 
               <div className="mt-6 flex items-center justify-center gap-4">
                 <div className="flex items-center gap-1">
@@ -334,7 +327,6 @@ export default async function GamePage({ params }: Props) {
                   </svg>
                 </a>
               </div>
-
 
               {/* 游戏详细描述 - SEO 部分 */}
               <div className="mt-16 max-w-4xl mx-auto">
@@ -420,7 +412,6 @@ export default async function GamePage({ params }: Props) {
                   )}
                 </div>
               </div>
-
 
               {/* 相关游戏 */}
               <div className="mt-16">

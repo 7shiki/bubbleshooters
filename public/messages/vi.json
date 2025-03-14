@@ -1,0 +1,331 @@
+{
+  "home": {
+    "metadata": {
+      "title": "🎮 Retro Games - Chơi game cổ điển trực tuyến. Không cần tải xuống.",
+      "description": "Chơi game cổ điển trực tuyến từ NES, SNES, GB, GBC, GBA, SEGA Genesis, PSX, PS1 và game Arcade cổ điển trên trình duyệt của bạn. Miễn phí và không cần tải xuống.",
+      "keywords": "",
+      "og": {
+        "title": "Retro Games - Play Classic Games Online",
+        "description": "Chơi game cổ điển trực tuyến từ NES, SNES, GB, GBC, GBA, SEGA Genesis, PSX, PS1 và game Arcade cổ điển trên trình duyệt của bạn. Miễn phí và không cần tải xuống.",
+        "imageAlt": "Retro Games - Bộ sưu tập game cổ điển"
+      }
+    },
+    "hero": {
+      "title": {
+        "play": "Chơi",
+        "retroGames": "Trò chơi cổ điển"
+      },
+      "description": "Hồi tưởng niềm vui tuổi thơ và hoài niệm với bộ sưu tập game cổ điển của chúng tôi, bao gồm những tựa game kinh điển vượt thời gian từ Nintendo, Sega, NEC, Atari, PlayStation và Arcade. Không cần tải xuống."
+    }
+  },
+  "games": {
+    "popularGames": "Những game cổ điển phổ biến nhất",
+    "newGames": "Game cổ điển mới",
+    "viewAll": "Xem tất cả game cổ điển",
+    "playGame": "Chơi game",
+    "loadMore": "Tải thêm game",
+    "updatedDaily": "Cập nhật hàng ngày"
+  },
+  "allGames": {
+    "metadata": {
+      "title": "Retro-Games.org - Tất cả game cổ điển. Chơi game kinh điển trực tuyến",
+      "description": "Duyệt qua bộ sưu tập đầy đủ các game cổ điển từ Nintendo, Sega, PlayStation và hơn thế nữa. Chơi những game cổ điển yêu thích của bạn trực tuyến.",
+      "keywords": ""
+    },
+    "title": "Tất cả game cổ điển",
+    "description": "Duyệt qua bộ sưu tập đầy đủ các game cổ điển có thể chơi trực tuyến.",
+    "subDescription": "Hồi tưởng những kỷ niệm tuổi thơ và sống lại những khoảnh khắc chơi game kỳ diệu.",
+    "browseGames": "Duyệt game",
+    "allPlatforms": "Tất cả nền tảng",
+    "foundGames": "Đã tìm thấy {count} game phù hợp với tiêu chí{platform}{query}",
+    "noGamesFound": "Không tìm thấy game nào phù hợp với tiêu chí của bạn.",
+    "clearSearch": "Xóa tìm kiếm"
+  },
+  "category": {
+    "metadata": {
+      "title": "Chơi {company}{platform} Trực tuyến - Game Cổ điển",
+      "description": "Chơi game {platform} trực tuyến miễn phí trên trình duyệt của bạn. Không cần tải xuống. Thưởng thức ngay các game {platform} cổ điển.",
+      "keywords": ""
+    },
+    "notFound": {
+      "title": "Không Tìm Thấy Danh Mục - RetroGames",
+      "description": "Không thể tìm thấy danh mục game được yêu cầu."
+    }
+  },
+  "platforms": {
+    "nes": {
+      "alt": "Game Nintendo Entertainment System Trực Tuyến",
+      "description": "Nintendo Entertainment System là một máy chơi game điện tử 8-bit được phát triển và sản xuất bởi Nintendo. Ban đầu được phát hành tại Nhật Bản với tên Family Computer vào ngày 15 tháng 7 năm 1983, và sau đó được phát hành tại Bắc Mỹ trong năm 1985, tại Châu Âu trong năm 1986, và Úc vào năm 1987."
+    },
+    "fds": {
+      "alt": "Game Famicom Disk System Trực Tuyến",
+      "description": "Famicom Disk System (FDS) là một phụ kiện độc quyền của Nhật Bản cho Family Computer (Famicom), được Nintendo phát hành năm 1986. Nó giới thiệu khả năng lưu trữ đĩa mềm có thể ghi lại, cho phép mở rộng kích thước game và chức năng lưu trữ."
+    },
+    "snes": {
+      "alt": "Game Super Nintendo Entertainment System Trực Tuyến",
+      "description": "Super Nintendo Entertainment System là một máy chơi game điện tử 16-bit được phát triển bởi Nintendo, được phát hành vào năm 1990 tại Nhật Bản và Hàn Quốc, năm 1991 tại Bắc Mỹ, năm 1992 tại Châu Âu và Úc Châu, và năm 1993 tại Nam Mỹ."
+    },
+    "gameboy": {
+      "alt": "Game Nintendo Game Boy Trực Tuyến",
+      "description": "Game Boy là một thiết bị chơi game cầm tay 8-bit với các băng game có thể thay đổi được phát triển và sản xuất bởi Nintendo, lần đầu tiên được phát hành tại Nhật Bản vào ngày 21 tháng 4 năm 1989, tại Bắc Mỹ vào ngày 31 tháng 7 năm 1989 và tại Châu Âu vào ngày 28 tháng 9 năm 1990."
+    },
+    "gameboycolor": {
+      "alt": "Game Nintendo Game Boy Color Trực Tuyến",
+      "description": "Game Boy Color, viết tắt là GBC, là một máy chơi game cầm tay được sản xuất bởi Nintendo, được phát hành vào ngày 21 tháng 10 năm 1998 tại Nhật Bản và vào tháng 11 cùng năm tại thị trường quốc tế. Đây là phiên bản kế nhiệm của Game Boy."
+    },
+    "gameboyadvance": {
+      "alt": "Game Nintendo Game Boy Advance Trực Tuyến",
+      "description": "Game Boy Advance (viết tắt là GBA) là một máy chơi game cầm tay 32-bit được phát triển, sản xuất và tiếp thị bởi Nintendo như người kế nhiệm của Game Boy Color. Nó được phát hành tại Nhật Bản vào ngày 21 tháng 3 năm 2001, tại Bắc Mỹ vào ngày 11 tháng 6 năm 2001, tại Úc và Châu Âu vào ngày 22 tháng 6 năm 2001."
+    },
+    "n64": {
+      "alt": "Game Nintendo 64 Trực Tuyến",
+      "description": "Nintendo 64 (N64) là một máy chơi game điện tử thế hệ thứ năm được phát triển bởi Nintendo và phát hành vào năm 1996 tại Nhật Bản và Bắc Mỹ, và năm 1997 tại Châu Âu và Úc. Đây là máy chơi game Nintendo đầu tiên có đồ họa 3D và sử dụng băng game thay vì đĩa CD, cạnh tranh với PlayStation và Sega Saturn."
+    },
+    "nds": {
+      "alt": "Game Nintendo DS Trực Tuyến",
+      "description": "Nintendo DS (NDS) là một máy chơi game cầm tay hai màn hình được phát hành bởi Nintendo vào năm 2004. Với màn hình cảm ứng, kết nối không dây và khả năng tương thích ngược với các game Game Boy Advance, nó trở thành một trong những hệ thống chơi game bán chạy nhất mọi thời đại."
+    },
+    "master-system": {
+      "alt": "Game Sega Master System Trực Tuyến",
+      "description": "Sega Master System là một máy chơi game điện tử 8-bit được phát triển bởi Sega, lần đầu tiên được phát hành năm 1985 tại Nhật Bản với tên Sega Mark III, và sau đó được đổi tên thành Master System cho phiên bản quốc tế. Nó là đối thủ cạnh tranh của Nintendo Entertainment System nhưng đạt được thành công lớn hơn tại Châu Âu và Brazil."
+    },
+    "game-gear": {
+      "alt": "Game Sega Game Gear Trực Tuyến",
+      "description": "Game Gear là một máy chơi game cầm tay 8-bit được phát hành bởi Sega vào ngày 6 tháng 10 năm 1990 tại Nhật Bản, năm 1991 tại Bắc Mỹ và Châu Âu, và năm 1992 tại Úc. Game Gear chủ yếu cạnh tranh với Game Boy của Nintendo, Atari Lynx và TurboExpress của NEC. Máy chia sẻ nhiều phần cứng với Master System và có thể chơi được cả game của riêng nó và game của Master System thông qua bộ chuyển đổi."
+    },
+    "genesis": {
+      "alt": "Game Sega Genesis/Mega Drive Trực Tuyến",
+      "description": "Sega Genesis, được biết đến với tên Mega Drive ở hầu hết các khu vực ngoài Bắc Mỹ, là một máy chơi game điện tử 16-bit được phát triển và bán bởi Sega Enterprises, Ltd. Genesis là máy console thứ ba của Sega và là người kế nhiệm của Master System. Sega đầu tiên phát hành máy console như Mega Drive tại Nhật Bản năm 1988, tiếp theo là ra mắt tại Bắc Mỹ dưới tên Genesis năm 1989."
+    },
+    "sega32x": {
+      "alt": "Game Sega 32X Trực Tuyến",
+      "description": "Sega 32X là một phụ kiện cho Sega Genesis/Mega Drive được phát hành năm 1994. Nó được thiết kế để nâng cao đồ họa và sức mạnh xử lý của máy console, nhưng có tuổi thọ ngắn do sự xuất hiện của Sega Saturn."
+    },
+    "sega-cd": {
+      "alt": "Game Sega CD/Mega CD Trực Tuyến",
+      "description": "Sega CD (Mega-CD ngoài Bắc Mỹ) là một phần mở rộng CD-ROM cho Sega Genesis, được phát hành năm 1991 tại Nhật Bản và năm 1992 tại Bắc Mỹ. Nó giới thiệu video chuyển động đầy đủ và âm thanh chất lượng CD nhưng gặp khó khăn do chi phí cao và thư viện game hạn chế."
+    },
+    "turbografx-16": {
+      "alt": "Game NEC TurboGrafx-16 Trực Tuyến",
+      "description": "TurboGrafx-16 Entertainment SuperSystem, được biết đến ở Nhật Bản và Pháp với tên PC Engine, là một máy chơi game điện tử được phát triển chung bởi Hudson Soft và NEC Home Electronics, phát hành tại Nhật Bản vào ngày 30 tháng 10 năm 1987 và tại Hoa Kỳ vào ngày 29 tháng 8 năm 1989."
+    },
+    "turbografx-cd": {
+      "alt": "Game NEC TurboGrafx-CD Trực Tuyến",
+      "description": "TurboGrafx-CD là một phụ kiện cho TurboGrafx-16/PC Engine, được phát hành năm 1988 tại Nhật Bản và sau đó tại Bắc Mỹ. Nó giới thiệu game dựa trên CD cho nền tảng của NEC, cho phép âm thanh chất lượng cao hơn và mở rộng dung lượng lưu trữ game."
+    },
+    "pc-engine-cd": {
+      "alt": "Game NEC PC Engine CD-ROM² Trực Tuyến",
+      "description": "PC Engine CD-ROM² là phụ kiện console dựa trên CD đầu tiên, được phát hành năm 1988 tại Nhật Bản. Nó mở rộng khả năng của PC Engine, cho phép game lớn hơn với âm thanh và hoạt ảnh được cải thiện, ảnh hưởng đến các hệ thống game dựa trên CD trong tương lai."
+    },
+    "atari-7800": {
+      "alt": "Game Atari 7800 ProSystem Trực Tuyến",
+      "description": "Atari 7800 ProSystem là một máy chơi game điện tử gia đình được phát hành bởi Atari Corporation vào năm 1986. Nó được thiết kế để tương thích ngược với các game Atari 2600 trong khi cung cấp đồ họa và hiệu suất được cải thiện. Mặc dù có những khả năng này, nó đã gặp khó khăn trong việc cạnh tranh với Nintendo Entertainment System và Sega Master System trong suốt vòng đời của nó."
+    },
+    "atari-lynx": {
+      "alt": "Game Atari Lynx Cầm tay Trực Tuyến",
+      "description": "Atari Lynx là một máy chơi game cầm tay được phát hành bởi Atari vào năm 1989. Đây là máy console cầm tay đầu tiên có màn hình LCD màu và có phần cứng tiên tiến cho thời điểm đó, bao gồm khả năng co giãn sprite và hỗ trợ chơi nhiều người. Tuy nhiên, nó đã phải đối mặt với sự cạnh tranh gay gắt từ Nintendo Game Boy và Sega Game Gear, hạn chế thành công thị trường của nó."
+    },
+    "atari-jaguar": {
+      "alt": "Game Atari Jaguar Trực Tuyến",
+      "description": "Atari Jaguar là một máy chơi game điện tử gia đình được phát hành năm 1993 bởi Atari Corporation. Được quảng cáo là hệ thống chơi game 64-bit đầu tiên, nó tự hào có sức mạnh xử lý vượt trội so với các đối thủ 16-bit. Tuy nhiên, Jaguar đã gặp khó khăn do thiếu sự hỗ trợ từ các nhà phát triển và sự cạnh tranh mạnh mẽ từ Sony PlayStation và Sega Saturn, cuối cùng dẫn đến việc Atari rút lui khỏi thị trường console."
+    },
+    "playstation": {
+      "alt": "Game Sony PlayStation Trực Tuyến",
+      "description": "PlayStation (PS1) là một máy chơi game điện tử 32-bit được Sony phát hành năm 1994 tại Nhật Bản và năm 1995 trên toàn thế giới. Đây là máy console đầu tiên bán được hơn 100 triệu đơn vị và giới thiệu game dựa trên CD, đồ họa 3D, và một thư viện game biểu tượng rộng lớn."
+    },
+    "arcade": {
+      "alt": "Game Arcade Cổ điển Trực Tuyến",
+      "description": "Game arcade là những game điện tử hoạt động bằng tiền xu được tìm thấy ở những nơi công cộng như trung tâm thương mại và phòng game. Phổ biến trong cuối thế kỷ 20, chúng bao gồm những game kinh điển như Pac-Man, Street Fighter và Metal Slug, nhiều game trong số đó đã được chuyển thể cho các máy console gia đình."
+    },
+    "wonderswan": {
+      "alt": "Game Bandai WonderSwan Trực Tuyến",
+      "description": "WonderSwan là một máy chơi game cầm tay được phát hành năm 1999 bởi Bandai độc quyền tại Nhật Bản. Được thiết kế như một đối thủ cạnh tranh với Game Boy Color, nó có tính năng độc đáo là màn hình có thể xoay dọc và ngang. Một phiên bản cải tiến, WonderSwan Color, được phát hành năm 2000, cung cấp màn hình màu và khả năng phần cứng tốt hơn."
+    },
+    "neo-geo-pocket": {
+      "alt": "Game SNK Neo Geo Pocket Trực Tuyến",
+      "description": "Neo Geo Pocket là một máy chơi game cầm tay được phát hành bởi SNK năm 1998. Sau đó được thay thế bởi Neo Geo Pocket Color vào năm 1999, giới thiệu màn hình màu và hỗ trợ phần mềm được cải thiện. Hệ thống có các game phong cách arcade chất lượng cao, đặc biệt là từ các thương hiệu của SNK như King of Fighters và Samurai Shodown."
+    },
+    "msx": {
+      "alt": "Game MSX Trực Tuyến",
+      "description": "MSX là một nền tảng máy tính gia đình được giới thiệu năm 1983 bởi Microsoft và ASCII Corporation để thiết lập một môi trường máy tính tiêu chuẩn hóa. Nó đặc biệt phổ biến tại Nhật Bản, Châu Âu và Nam Mỹ, là nền tảng cho nhiều game ban đầu của Konami và Hudson Soft. Hệ thống đóng vai trò quan trọng trong sự phát triển ban đầu của các thương hiệu như Metal Gear và Bomberman."
+    },
+    "msx-2": {
+      "alt": "Game MSX 2 Trực Tuyến",
+      "description": "MSX2 là phiên bản nâng cấp của tiêu chuẩn máy tính MSX gốc, được phát hành năm 1985. Nó có khả năng đồ họa được cải thiện, bao gồm hỗ trợ độ phân giải cao hơn và bảng màu lớn hơn, làm cho nó trở thành một hệ thống chơi game và máy tính mạnh mẽ hơn. Nhiều game kinh điển, như Metal Gear 2: Solid Snake, đã được phát triển cho MSX2."
+    }
+  },
+  "game": {
+    "metadata": {
+      "title": "Chơi {title} Trực tuyến. Không cần tải xuống - Game Cổ điển",
+      "description": "Chơi {title} ({platform}) trực tuyến miễn phí trên trình duyệt của bạn. Không cần tải xuống.",
+      "keywords": ""
+    },
+    "notFound": {
+      "title": "Không Tìm Thấy Game - RetroGames",
+      "description": "Không thể tìm thấy game được yêu cầu."
+    },
+    "relatedGames": {
+      "title": "Bạn có thể quan tâm",
+      "heading": "Game Liên Quan"
+    },
+    "page": {
+      "description": "Chơi {title} trực tuyến trên trình duyệt của bạn. Không cần tải xuống.",
+      "shareText": "Chơi {title} trực tuyến miễn phí trên trình duyệt của bạn! Không cần tải xuống.",
+      "share": {
+        "label": "Chia sẻ",
+        "twitter": "Chia sẻ trên Twitter",
+        "facebook": "Chia sẻ trên Facebook",
+        "reddit": "Chia sẻ trên Reddit",
+        "linkedin": "Chia sẻ trên LinkedIn"
+      },
+      "playButton": "Chơi Game",
+      "about": "Về {title} :",
+      "breadcrumb": {
+        "home": "Trang chủ"
+      }
+    }
+  },
+  "footer": {
+    "description": "Trải nghiệm hoài niệm với Game Cổ điển trên trang web của chúng tôi, nơi bạn có thể sống lại những kỷ niệm tuổi thơ với những tựa game kinh điển từ Nintendo, Sega, NEC, Atari, PlayStation và Arcade—tất cả đều có thể chơi trực tuyến! Không cần tải xuống.",
+    "others": {
+      "title": "Khác",
+      "privacy": "Chính sách Bảo mật",
+      "terms": "Điều khoản Dịch vụ"
+    },
+    "terms": {
+      "title": "Điều khoản Dịch vụ",
+      "description": "Vui lòng đọc kỹ các Điều khoản Dịch vụ này trước khi sử dụng RetroGames.",
+      "lastUpdated": "Cập nhật Lần cuối: Ngày 20 tháng 2 năm 2025",
+      "intro": {
+        "text1": "Chào mừng đến với ",
+        "text2": ". Bằng việc truy cập và sử dụng trang web này, bạn chấp nhận và đồng ý bị ràng buộc bởi các điều khoản và điều khoản của thỏa thuận này."
+      },
+      "service": {
+        "title": "Mô tả Dịch vụ",
+        "text1": " cung cấp nền tảng cho người dùng chơi game cổ điển thông qua trình duyệt web của họ. Dịch vụ của chúng tôi bao gồm:",
+        "items": [
+          "Giả lập game cổ điển trên trình duyệt",
+          "Thông tin và mô tả game",
+          "Nội dung game liên quan"
+        ]
+      },
+      "content": {
+        "title": "Nội dung và Bản quyền",
+        "text1": "Tất cả các game và nội dung liên quan có sẵn thông qua dịch vụ của chúng tôi là:",
+        "items": [
+          "Được cung cấp và lưu trữ bởi các dịch vụ bên thứ ba",
+          "Tuân theo bản quyền và quyền sở hữu trí tuệ của chủ sở hữu tương ứng",
+          "Không thuộc sở hữu hoặc kiểm soát bởi RetroGames"
+        ],
+        "text2": "Chúng tôi không tuyên bố quyền sở hữu đối với bất kỳ game, ROM hoặc nội dung liên quan nào được cung cấp thông qua dịch vụ của chúng tôi. Tất cả các nhãn hiệu, nhãn hiệu dịch vụ và tên thương mại đều là tài sản của chủ sở hữu tương ứng."
+      },
+      "disclaimer": {
+        "title": "Tuyên bố Từ chối Trách nhiệm",
+        "text1": "Dịch vụ của chúng tôi được cung cấp \"nguyên trạng\" mà không có bất kỳ bảo đảm nào, dù rõ ràng hay ngầm định. RetroGames không đảm bảo rằng:",
+        "items": [
+          "Dịch vụ sẽ không bị gián đoạn hoặc không có lỗi",
+          "Game hoặc nội dung sẽ luôn có sẵn",
+          "Bất kỳ lỗi hoặc khiếm khuyết nào sẽ được sửa chữa"
+        ],
+        "text2": "Chúng tôi không chịu trách nhiệm về bất kỳ nội dung nào được cung cấp bởi bên thứ ba hoặc về bất kỳ lỗi hoặc thiếu sót nào trong nội dung."
+      },
+      "conduct": {
+        "title": "Quy tắc Ứng xử của Người dùng",
+        "text1": "Bằng việc sử dụng dịch vụ của chúng tôi, bạn đồng ý không:",
+        "items": [
+          "Sử dụng dịch vụ cho bất kỳ mục đích bất hợp pháp nào",
+          "Cố gắng truy cập trái phép vào bất kỳ phần nào của dịch vụ",
+          "Can thiệp hoặc phá hoại dịch vụ hoặc máy chủ",
+          "Phá vỡ, vô hiệu hóa hoặc can thiệp vào các tính năng bảo mật"
+        ]
+      },
+      "modifications": {
+        "title": "Thay đổi Dịch vụ",
+        "text1": "Chúng tôi bảo lưu quyền:",
+        "items": [
+          "Sửa đổi hoặc ngừng bất kỳ phần nào của dịch vụ mà không cần thông báo",
+          "Cập nhật các điều khoản dịch vụ này bất cứ lúc nào",
+          "Thay đổi các game và nội dung có sẵn thông qua dịch vụ của chúng tôi"
+        ],
+        "text2": "Việc bạn tiếp tục sử dụng dịch vụ sau bất kỳ thay đổi nào đồng nghĩa với việc bạn chấp nhận những thay đổi đó."
+      },
+      "governing": {
+        "title": "Luật Điều chỉnh",
+        "text1": "Các điều khoản này sẽ được điều chỉnh và giải thích theo luật pháp hiện hành, không phụ thuộc vào các nguyên tắc xung đột pháp luật."
+      },
+      "contact": {
+        "title": "Liên hệ",
+        "text1": "Đối với bất kỳ câu hỏi nào về các điều khoản này, vui lòng liên hệ với chúng tôi tại:"
+      }
+    },
+    "privacy": {
+      "title": "Chính sách Bảo mật",
+      "description": "Chính sách Bảo mật này mô tả cách thông tin cá nhân của bạn được thu thập, sử dụng và chia sẻ khi bạn truy cập RetroGames.",
+      "lastUpdated": "Cập nhật Lần cuối: Ngày 20 tháng 2 năm 2025",
+      "intro": {
+        "text1": "Chính sách của chúng tôi là tôn trọng quyền riêng tư của bạn đối với bất kỳ thông tin nào chúng tôi có thể thu thập trong quá trình vận hành trang web của mình. ",
+        "text2": " tôn trọng quyền riêng tư của bạn và cam kết bảo vệ mọi thông tin bạn có thể cung cấp cho chúng tôi thông qua trang web này.",
+        "text3": "Chính sách Bảo mật này giải thích những thông tin chúng tôi thu thập, cách chúng tôi sử dụng và trong những trường hợp nào chúng tôi có thể tiết lộ cho bên thứ ba. Chính sách Bảo mật này áp dụng cho ",
+        "text4": " (sau đây gọi là \"chúng tôi\" hoặc \"RetroGames\")."
+      },
+      "collection": {
+        "title": "Thu thập Thông tin",
+        "description": "Trang web của chúng tôi không yêu cầu đăng ký hoặc đăng nhập người dùng. Chúng tôi không thu thập bất kỳ thông tin nhận dạng cá nhân nào từ người dùng. Chỉ có dữ liệu chúng tôi thu thập là:",
+        "items": [
+          "Cookie trình duyệt cần thiết cho chức năng của trang web",
+          "Thống kê sử dụng ẩn danh để cải thiện dịch vụ của chúng tôi"
+        ]
+      },
+      "thirdParty": {
+        "title": "Nội dung Bên thứ ba",
+        "description": "Các game và nội dung liên quan có sẵn trên trang web của chúng tôi được lấy từ các nền tảng bên thứ ba. Chúng tôi không tuyên bố quyền sở hữu đối với nội dung này và:",
+        "items": [
+          "Tất cả game được lưu trữ và phát trực tuyến từ các dịch vụ bên thứ ba",
+          "Thông tin game, hình ảnh và mô tả được cung cấp bởi các nguồn bên thứ ba",
+          "Chúng tôi không đảm bảo về tính chính xác hoặc sự sẵn có của nội dung này"
+        ]
+      },
+      "cookies": {
+        "title": "Sử dụng Cookie",
+        "description": "Chúng tôi sử dụng cookie để nâng cao trải nghiệm duyệt web của bạn. Những cookie này là:",
+        "items": [
+          "Cần thiết cho chức năng cơ bản của trang web",
+          "Được sử dụng để ghi nhớ tùy chọn hiển thị của bạn",
+          "Không được sử dụng cho mục đích theo dõi hoặc quảng cáo"
+        ],
+        "control": "Bạn có thể kiểm soát cài đặt cookie thông qua tùy chọn trình duyệt của bạn."
+      },
+      "links": {
+        "title": "Liên kết Ngoài",
+        "description": "Trang web của chúng tôi chứa các liên kết đến các trang web bên ngoài không được vận hành bởi chúng tôi. Nếu bạn nhấp vào liên kết của bên thứ ba, bạn sẽ được chuyển hướng đến trang web của bên thứ ba đó. Chúng tôi khuyến nghị bạn nên xem xét Chính sách Bảo mật và Điều khoản Dịch vụ của mọi trang web bạn truy cập.",
+        "disclaimer": "Chúng tôi không kiểm soát và không chịu trách nhiệm về nội dung, chính sách bảo mật hoặc thực tiễn của bất kỳ trang web, sản phẩm hoặc dịch vụ bên thứ ba nào."
+      },
+      "updates": {
+        "title": "Cập nhật Chính sách",
+        "description": "Chúng tôi có thể cập nhật Chính sách Bảo mật này theo thời gian. Chúng tôi sẽ thông báo cho bạn về bất kỳ thay đổi nào bằng cách đăng Chính sách Bảo mật mới trên trang này. Bạn nên xem xét Chính sách Bảo mật này định kỳ để biết các thay đổi.",
+        "consent": "Việc bạn tiếp tục sử dụng trang web của chúng tôi sau khi chúng tôi đăng bất kỳ sửa đổi nào đối với Chính sách Bảo mật sẽ cấu thành sự thừa nhận của bạn về các sửa đổi và sự đồng ý của bạn để tuân theo và bị ràng buộc bởi Chính sách Bảo mật đã sửa đổi."
+      },
+      "contact": {
+        "title": "Liên hệ với Chúng tôi",
+        "description": "Nếu bạn có bất kỳ câu hỏi nào về Chính sách Bảo mật này, vui lòng liên hệ với chúng tôi thông qua trang web của chúng tôi.",
+        "email": "support@retro-games.org"
+      }
+    },
+    "contact": {
+      "title": "Liên hệ với Chúng tôi",
+      "disclaimer": "Tuyên bố từ chối trách nhiệm: Tất cả các game trên trang web này được lưu trữ bởi các bên thứ ba. Chúng tôi không lưu trữ hoặc tải lên bất kỳ game nào. Chúng tôi không chịu trách nhiệm về bất kỳ nội dung nào được lưu trữ trên các trang web của bên thứ ba. RetroGames là một trang web độc lập và không liên kết với bất kỳ tổ chức nào.",
+      "rights": "Bảo lưu mọi quyền."
+    }
+  },
+  "search": {
+    "searchTip": "Tìm kiếm game cổ điển bạn muốn chơi",
+    "placeholder": "Tìm kiếm Game Cổ điển ...",
+    "clearSearch": "Xóa tìm kiếm",
+    "search": "Tìm kiếm"
+  },
+  "common": {
+    "logo": {
+      "title": "Trò chơi retro - Chơi game cổ điển trực tuyến"
+    }
+  }
+}

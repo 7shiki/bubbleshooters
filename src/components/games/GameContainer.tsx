@@ -8,9 +8,30 @@ interface GameContainerProps {
   description: string;
   gameUrl: string;
   imageUrl: string;
+  gameId?: number; // 添加游戏ID
+  slug?: string;   // 添加游戏slug
 }
 
-export default function GameContainer({ title, description, gameUrl, imageUrl }: GameContainerProps) {
+// 游戏历史记录类型
+interface GameHistoryItem {
+  id: number;
+  title: string;
+  slug: string;
+  imageUrl: string;
+  lastPlayed: string; // ISO 日期字符串
+}
+
+// 最大历史记录数量
+const MAX_HISTORY_ITEMS = 20;
+
+export default function GameContainer({ 
+  title, 
+  description, 
+  gameUrl, 
+  imageUrl,
+  gameId = 0,
+  slug = ''
+}: GameContainerProps) {
   const [showGame, setShowGame] = useState(false);
   const [isFullscreen, setIsFullscreen] = useState(false);
   const iframeRef = useRef<HTMLIFrameElement>(null);
@@ -37,8 +58,59 @@ export default function GameContainer({ title, description, gameUrl, imageUrl }:
     }
   }, [gameUrl]);
 
+  // 保存游戏到历史记录
+  const saveToHistory = () => {
+    if (typeof window === 'undefined' || !gameId || !slug) return;
+    
+    try {
+      // 获取现有历史记录
+      const savedHistory = localStorage.getItem('gameHistory');
+      let gameHistory: GameHistoryItem[] = [];
+      
+      if (savedHistory) {
+        gameHistory = JSON.parse(savedHistory);
+      }
+      
+      // 检查游戏是否已在历史记录中
+      const existingIndex = gameHistory.findIndex(item => item.id === gameId);
+      
+      // 创建新的历史记录项
+      const historyItem: GameHistoryItem = {
+        id: gameId,
+        title: title,
+        slug: slug,
+        imageUrl: imageUrl,
+        lastPlayed: new Date().toISOString()
+      };
+      
+      // 如果游戏已存在，则更新它
+      if (existingIndex !== -1) {
+        gameHistory[existingIndex] = historyItem;
+      } else {
+        // 否则添加到历史记录
+        gameHistory.push(historyItem);
+      }
+      
+      // 如果历史记录超过最大数量，则删除最旧的记录
+      if (gameHistory.length > MAX_HISTORY_ITEMS) {
+        // 按最后玩的时间排序
+        gameHistory.sort((a, b) => 
+          new Date(b.lastPlayed).getTime() - new Date(a.lastPlayed).getTime()
+        );
+        // 保留最近的MAX_HISTORY_ITEMS条记录
+        gameHistory = gameHistory.slice(0, MAX_HISTORY_ITEMS);
+      }
+      
+      // 保存回localStorage
+      localStorage.setItem('gameHistory', JSON.stringify(gameHistory));
+    } catch (error) {
+      console.error('Failed to save game history:', error);
+    }
+  };
+
   const handlePlayClick = () => {
     setShowGame(true);
+    saveToHistory(); // 保存游戏到历史记录
   };
 
   // 分享功能 - 复制当前页面链接

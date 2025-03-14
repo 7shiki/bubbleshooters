@@ -1,0 +1,336 @@
+{
+  "home": {
+    "metadata": {
+      "title": "🎮 复古游戏 - 在线免费玩经典游戏。无需下载。",
+      "description": "在浏览器中在线玩 NES、SNES、GB、GBC、GBA、SEGA Genesis、PSX、PS1 和经典街机游戏。免费且无需下载。",
+      "keywords": "",
+      "og": {
+        "title": "复古游戏 - 在线玩经典游戏",
+        "description": "在浏览器中在线玩 NES、SNES、GB、GBC、GBA、SEGA Genesis、PSX、PS1 和经典街机游戏。免费且无需下载。",
+        "imageAlt": "复古游戏 - 经典游戏合集"
+      }
+    },
+    "hero": {
+      "title": {
+        "play": "游玩",
+        "retroGames": "复古游戏"
+      },
+      "description": "重温您童年的欢乐和怀旧时光，体验我们的复古游戏合集，包含来自任天堂、世嘉、NEC、雅达利、PlayStation 和街机的永恒经典。无需下载。"
+    }
+  },
+  "games": {
+    "popularGames": "最热门复古游戏",
+    "newGames": "最新复古游戏",
+    "viewAll": "查看所有复古游戏",
+    "playGame": "开始游戏",
+    "loadMore": "加载更多游戏",
+    "updatedDaily": "每日更新"
+  },
+  "allGames": {
+    "metadata": {
+      "title": "Retro-Games.org - 所有复古游戏。在线玩经典游戏",
+      "description": "浏览我们完整的经典复古游戏合集，包含任天堂、世嘉、PlayStation 等平台的游戏。在线玩您最爱的复古游戏。",
+      "keywords": ""
+    },
+    "title": "所有复古游戏",
+    "description": "浏览我们可供在线游玩的完整经典复古游戏合集。",
+    "subDescription": "重新发现您的童年回忆，重温那些神奇的游戏时刻。",
+    "browseGames": "浏览游戏",
+    "allPlatforms": "所有平台",
+    "foundGames": "找到 {count} 个符合{platform}{query}条件的游戏",
+    "noGamesFound": "找不到符合您条件的游戏。",
+    "clearSearch": "清除搜索"
+  },
+  "category": {
+    "metadata": {
+      "title": "在线玩{company}{platform}游戏 - 复古游戏",
+      "description": "在浏览器中免费玩{platform}游戏。无需下载，即刻享受经典{platform}游戏。",
+      "keywords": ""
+    },
+    "notFound": {
+      "title": "未找到分类 - 复古游戏",
+      "description": "请求的游戏分类未找到。"
+    }
+  },
+  "platforms": {
+    "nes": {
+      "alt": "任天堂红白机游戏在线玩",
+      "description": "任天堂红白机（Nintendo Entertainment System）是一款由任天堂开发和制造的 8 位家用游戏机。最初于 1983 年 7 月 15 日在日本以 Family Computer 的名称发售，随后于 1985 年在北美、1986 年在欧洲和 1987 年在澳大利亚发售。在韩国，它被称为现代 Comboy，由当时被称为现代电子的 SK 海力士分销。"
+    },
+    "fds": {
+      "alt": "任天堂红白机磁盘机游戏在线玩",
+      "description": "任天堂红白机磁盘机（Famicom Disk System，简称 FDS）是任天堂于 1986 年在日本发售的红白机专用扩展配件。它引入了可重写的软盘存储功能，允许更大的游戏容量和存档功能，但最终因卡带游戏的兴起而停产。"
+    },
+    "snes": {
+      "alt": "超级任天堂游戏在线玩",
+      "description": "超级任天堂（Super Nintendo Entertainment System）是一款由任天堂开发的 16 位家用游戏机，于 1990 年在日本和韩国、1991 年在北美、1992 年在欧洲和大洋洲、1993 年在南美洲发售。在日本，该系统被称为 Super Famicom（简称 SFC）。"
+    },
+    "gameboy": {
+      "alt": "任天堂 Game Boy 游戏在线玩",
+      "description": "Game Boy 是一款由任天堂开发和制造的 8 位掌上游戏机，具有可更换卡带功能。它于 1989 年 4 月 21 日在日本首次发售，1989 年 7 月 31 日在北美发售，1990 年 9 月 28 日在欧洲发售。这是 Game Boy 系列的第一款掌上游戏机，由横井军平和任天堂研发一部开发。"
+    },
+    "gameboycolor": {
+      "alt": "任天堂 Game Boy Color 游戏在线玩",
+      "description": "Game Boy Color（简称 GBC）是由任天堂制造的掌上游戏机，于 1998 年 10 月 21 日在日本发售，同年 11 月在国际市场发售。这是 Game Boy 的后继机种。"
+    },
+    "gameboyadvance": {
+      "alt": "任天堂 Game Boy Advance 游戏在线玩",
+      "description": "Game Boy Advance（简称 GBA）是一款 32 位掌上游戏机，由任天堂开发、制造和销售，作为 Game Boy Color 的后继机种。它于 2001 年 3 月 21 日在日本发售，2001 年 6 月 11 日在北美发售，2001 年 6 月 22 日在澳大利亚和欧洲发售。"
+    },
+    "n64": {
+      "alt": "任天堂 64 游戏在线玩",
+      "description": "任天堂 64（N64）是任天堂开发的第五代家用游戏机，于 1996 年在日本和北美发售，1997 年在欧洲和澳大利亚发售。这是任天堂第一款具有 3D 图形功能的游戏机，使用卡带而不是 CD，与 PlayStation 和世嘉土星竞争。"
+    },
+    "nds": {
+      "alt": "任天堂 DS 游戏在线玩",
+      "description": "任天堂 DS（NDS）是任天堂于 2004 年发售的双屏幕掌上游戏机。具有触控屏幕、无线连接功能，并且可以向下兼容 Game Boy Advance 游戏，成为有史以来最畅销的游戏系统之一。"
+    },
+    "master-system": {
+      "alt": "世嘉 Master System 游戏在线玩",
+      "description": "世嘉 Master System 是世嘉开发的 8 位家用游戏机，最初于 1985 年在日本以 Sega Mark III 的名称发售，后来改名为 Master System 在国际市场发售。它是任天堂红白机的竞争对手，但在欧洲和巴西取得了更大的成功。"
+    },
+    "game-gear": {
+      "alt": "世嘉 Game Gear 游戏在线玩",
+      "description": "Game Gear 是世嘉于 1990 年 10 月 6 日在日本发售、1991 年在北美和欧洲发售、1992 年在澳大利亚发售的 8 位掌上游戏机。Game Gear 主要与任天堂的 Game Boy、雅达利的 Lynx 和 NEC 的 TurboExpress 竞争。这款掌机与 Master System 共享许多硬件，并且能够通过转接器玩自己的游戏以及 Master System 的游戏。"
+    },
+    "genesis": {
+      "alt": "世嘉 Genesis/Mega Drive 游戏在线玩",
+      "description": "世嘉 Genesis，在北美以外的大多数地区称为 Mega Drive，是一款由世嘉企业开发和销售的 16 位家用游戏机。Genesis 是世嘉的第三款游戏机，也是 Master System 的后继机种。世嘉最初于 1988 年在日本以 Mega Drive 的名称发售该游戏机，随后于 1989 年以 Genesis 的名称在北美发售。"
+    },
+    "sega32x": {
+      "alt": "世嘉 32X 游戏在线玩",
+      "description": "世嘉 32X 是 1994 年发售的世嘉 Genesis/Mega Drive 扩展配件。它旨在提升主机的图形和处理能力，但由于世嘉土星的推出而寿命短暂。"
+    },
+    "sega-cd": {
+      "alt": "世嘉 CD/Mega CD 游戏在线玩",
+      "description": "世嘉 CD（在北美以外地区称为 Mega-CD）是世嘉 Genesis 的 CD-ROM 扩展配件，于 1991 年在日本发售，1992 年在北美发售。它引入了全动态视频和 CD 品质音频，但由于高成本和游戏库有限而表现不佳。"
+    },
+    "turbografx-16": {
+      "alt": "NEC TurboGrafx-16 游戏在线玩",
+      "description": "TurboGrafx-16，在日本称为 PC Engine，是由 Hudson Soft 和 NEC 开发的家用游戏机，于 1987 年在日本发售，1989 年在北美发售。它是 16 位时代发售的第一款游戏机，尽管使用 8 位 CPU。该系统与世嘉 Genesis 和超级任天堂竞争。"
+    },
+    "turbografx-cd": {
+      "alt": "NEC TurboGrafx-CD 游戏在线玩",
+      "description": "TurboGrafx-CD 是 TurboGrafx-16/PC Engine 的扩展配件，于 1988 年在日本发售，后来在北美发售。它为 NEC 的平台引入了基于 CD 的游戏，允许更高品质的音频和扩展的游戏存储。"
+    },
+    "pc-engine-cd": {
+      "alt": "NEC PC Engine CD-ROM² 游戏在线玩",
+      "description": "PC Engine CD-ROM² 是第一个基于 CD 的游戏机扩展配件，于 1988 年在日本发售。它扩展了 PC Engine 的功能，允许更大的游戏容量，改进的音频和动画，影响了未来基于 CD 的游戏系统。"
+    },
+    "atari-7800": {
+      "alt": "雅达利 7800 ProSystem 游戏在线玩",
+      "description": "雅达利 7800 ProSystem 是雅达利公司于 1986 年发售的家用游戏机。它设计为可向下兼容雅达利 2600 的游戏，同时提供改进的图形和性能。尽管具有这些功能，但在其生命周期内仍难以与任天堂红白机和世嘉 Master System 竞争。"
+    },
+    "atari-lynx": {
+      "alt": "雅达利 Lynx 掌上游戏机在线玩",
+      "description": "雅达利 Lynx 是雅达利于 1989 年发售的掌上游戏机。它是第一款具有彩色 LCD 屏幕的掌上游戏机，并具有当时先进的硬件，包括精灵缩放和多人游戏支持。然而，它面临来自任天堂 Game Boy 和世嘉 Game Gear 的激烈竞争。"
+    },
+    "atari-jaguar": {
+      "alt": "雅达利 Jaguar 游戏在线玩",
+      "description": "雅达利 Jaguar 是雅达利公司于 1993 年发售的家用游戏机。作为第一款 64 位游戏系统进行营销，它相比 16 位竞争对手拥有更强大的处理能力。然而，由于缺乏开发者支持和来自索尼 PlayStation 和世嘉土星的强烈竞争，Jaguar 表现不佳，最终导致雅达利退出游戏机市场。"
+    },
+    "playstation": {
+      "alt": "索尼 PlayStation 游戏在线玩",
+      "description": "PlayStation（PS1）是一款 32 位家用游戏机，由索尼于 1994 年在日本发售，1995 年在全球发售。它是第一款销量超过 1 亿台的游戏机，引入了基于 CD 的游戏、3D 图形，并拥有庞大的经典游戏库，彻底改变了游戏产业。"
+    },
+    "arcade": {
+      "alt": "经典街机游戏在线玩",
+      "description": "街机游戏是在商业场所安装的投币式娱乐设备。街机游戏的黄金时代以吃豆人、太空侵略者和大金刚等经典游戏为代表，这些游戏为现代游戏奠定了基础，至今仍影响着游戏设计。"
+    },
+    "wonderswan": {
+      "alt": "万代 WonderSwan 游戏在线玩",
+      "description": "WonderSwan 是万代于 1999 年在日本独家发售的掌上游戏机。由横井军平设计，具有独特的垂直和水平屏幕方向功能。尽管面临任天堂 Game Boy 的强大竞争，它凭借优质游戏和创新功能在日本获得了一定人气。"
+    },
+    "neo-geo-pocket": {
+      "alt": "SNK Neo Geo Pocket 游戏在线玩",
+      "description": "Neo Geo Pocket 是 SNK 于 1998 年发售的掌上游戏机，随后在 1999 年推出了 Neo Geo Pocket Color。以其优质格斗游戏和精确的微动开关摇杆闻名，提供了独特的游戏体验，但在与任天堂主导的 Game Boy 系列的竞争中处于劣势。"
+    },
+    "msx": {
+      "alt": "MSX 游戏在线玩",
+      "description": "MSX 是由微软和 ASCII 公司于 1983 年设计的标准化家用电脑架构。在日本、欧洲和巴西广受欢迎，它是许多经典游戏的平台，并催生了包括合金装备和炸弹人在内的多个著名系列。"
+    },
+    "msx-2": {
+      "alt": "MSX 2 游戏在线玩",
+      "description": "MSX2 是原始 MSX 电脑标准的升级版本，于 1985 年发售。它具有改进的图形功能，包括支持更高分辨率和更大的调色板，使其成为更强大的游戏和计算系统。许多经典游戏，如合金装备 2：固体蛇，都是为 MSX2 开发的。"
+    }
+  },
+  "game": {
+    "metadata": {
+      "title": "在线玩 {title}。无需下载 - 复古游戏",
+      "description": "在浏览器中免费在线玩 {title} ({platform})。无需下载。",
+      "keywords": ""
+    },
+    "notFound": {
+      "title": "未找到游戏 - 复古游戏",
+      "description": "找不到请求的游戏。"
+    },
+    "relatedGames": {
+      "title": "您可能感兴趣",
+      "heading": "相关游戏"
+    },
+    "page": {
+      "description": "在浏览器中在线玩 {title}。无需下载。",
+      "shareText": "在浏览器中免费玩 {title}！无需下载。",
+      "share": {
+        "label": "分享",
+        "twitter": "分享到 Twitter",
+        "facebook": "分享到 Facebook",
+        "reddit": "分享到 Reddit",
+        "linkedin": "分享到 LinkedIn"
+      },
+      "playButton": "开始游戏",
+      "about": "关于 {title} :",
+      "breadcrumb": {
+        "home": "首页"
+      }
+    }
+  },
+  "footer": {
+    "description": "在我们的网站上体验复古游戏的怀旧感，您可以重温来自任天堂、世嘉、NEC、雅达利、PlayStation和街机的经典游戏 - 全部可在线游玩！无需下载。",
+    "others": {
+      "title": "其他",
+      "privacy": "隐私政策",
+      "terms": "服务条款"
+    },
+    "terms": {
+      "title": "服务条款",
+      "description": "在使用 RetroGames 之前，请仔细阅读这些服务条款。",
+      "lastUpdated": "最后更新：2025年2月20日",
+      "intro": {
+        "text1": "欢迎访问 ",
+        "text2": "。通过访问和使用本网站，您接受并同意受本协议条款和规定的约束。"
+      },
+      "service": {
+        "title": "服务说明",
+        "text1": " 为用户提供通过网络浏览器玩复古游戏的平台。我们的服务包括：",
+        "items": [
+          "基于浏览器的复古游戏模拟",
+          "游戏信息和描述",
+          "相关游戏内容"
+        ]
+      },
+      "content": {
+        "title": "内容和版权",
+        "text1": "通过我们服务提供的所有游戏和相关内容：",
+        "items": [
+          "来源于并托管在第三方服务上",
+          "受其各自所有者的版权和知识产权保护",
+          "不归 RetroGames 所有或控制"
+        ],
+        "text2": "我们不对通过我们服务提供的任何游戏、ROM 或相关内容主张所有权。所有商标、服务标记和商品名称均为其各自所有者的财产。"
+      },
+      "disclaimer": {
+        "title": "免责声明",
+        "text1": "我们的服务按\"原样\"提供，不提供任何明示或暗示的保证。RetroGames 不保证：",
+        "items": [
+          "服务将不会中断或无错误",
+          "游戏或内容将始终可用",
+          "任何错误或缺陷都会被修正"
+        ],
+        "text2": "我们对第三方提供的任何内容或内容中的任何错误或遗漏不承担责任。"
+      },
+      "conduct": {
+        "title": "用户行为",
+        "text1": "使用我们的服务，即表示您同意不会：",
+        "items": [
+          "将服务用于任何非法目的",
+          "试图未经授权访问服务的任何部分",
+          "干扰或破坏服务或服务器",
+          "规避、禁用或以其他方式干扰安全功能"
+        ]
+      },
+      "modifications": {
+        "title": "服务修改",
+        "text1": "我们保留以下权利：",
+        "items": [
+          "无需通知即可修改或终止我们服务的任何部分",
+          "随时更新这些服务条款",
+          "更改通过我们服务提供的游戏和内容"
+        ],
+        "text2": "在任何更改后继续使用本服务即表示您接受这些更改。"
+      },
+      "governing": {
+        "title": "适用法律",
+        "text1": "这些条款应受适用法律管辖并据其解释，不考虑法律冲突原则。"
+      },
+      "contact": {
+        "title": "联系方式",
+        "text1": "如果您对这些条款有任何问题，请通过以下方式联系我们："
+      }
+    },
+    "privacy": {
+      "title": "隐私政策",
+      "description": "本隐私政策描述了当您访问 RetroGames 时，您的个人信息是如何被收集、使用和共享的。",
+      "lastUpdated": "最后更新：2025年2月20日",
+      "intro": {
+        "text1": "我们的政策是尊重您在使用我们网站时可能收集的任何信息的隐私。",
+        "text2": "尊重您的隐私，并致力于保护您通过本网站可能提供给我们的任何信息。",
+        "text3": "本隐私政策解释了我们收集哪些信息、如何使用这些信息，以及在什么情况下我们可能会向第三方披露这些信息。本隐私政策适用于",
+        "text4": "（以下简称\"我们\"或\"RetroGames\"）。"
+      },
+      "collection": {
+        "title": "信息收集",
+        "description": "我们的网站不需要用户注册或登录。我们不收集用户的任何个人身份信息。我们只收集以下数据：",
+        "items": [
+          "网站功能所必需的浏览器 cookie",
+          "用于改进服务的匿名使用统计"
+        ]
+      },
+      "thirdParty": {
+        "title": "第三方内容",
+        "description": "我们网站上提供的游戏和相关内容来自第三方平台。我们不对这些内容主张所有权，并且：",
+        "items": [
+          "所有游戏都托管在第三方服务上并从其串流",
+          "游戏信息、图片和描述由第三方来源提供",
+          "我们不对这些内容的准确性或可用性做出任何保证"
+        ]
+      },
+      "cookies": {
+        "title": "Cookie 使用",
+        "description": "我们使用 cookie 来改善您的浏览体验。这些 cookie 是：",
+        "items": [
+          "基本网站功能所必需的",
+          "用于记住您的显示偏好",
+          "不用于跟踪或广告目的"
+        ],
+        "control": "您可以通过浏览器首选项控制 cookie 设置。"
+      },
+      "links": {
+        "title": "外部链接",
+        "description": "我们的网站包含指向非我们运营的外部网站的链接。如果您点击第三方链接，您将被引导至该第三方的网站。我们强烈建议您查看您访问的每个网站的隐私政策和服务条款。",
+        "disclaimer": "我们对任何第三方网站、产品或服务的内容、隐私政策或做法不具有控制权，也不承担任何责任。"
+      },
+      "updates": {
+        "title": "政策更新",
+        "description": "我们可能会不时更新本隐私政策。我们会通过在本页面上发布新的隐私政策来通知您任何更改。建议您定期查看本隐私政策以了解任何变更。",
+        "consent": "在我们发布对隐私政策的任何修改后，您继续使用我们的网站将构成您对这些修改的确认，并表示您同意遵守修改后的隐私政策。"
+      },
+      "contact": {
+        "title": "联系我们",
+        "description": "如果您对本隐私政策有任何问题，请通过我们的网站联系我们。",
+        "email": "support@retro-games.org"
+      }
+    },
+    "contact": {
+      "title": "联系我们",
+      "disclaimer": "免责声明：本网站上的所有游戏均由第三方托管。我们不托管或上传任何游戏。我们对第三方网站托管的任何内容不承担责任。RetroGames是一个独立的网站，不隶属于任何组织。",
+      "rights": "版权所有"
+    }
+  },
+  "search": {
+    "searchTip": "搜索您想玩的复古游戏",
+    "placeholder": "搜索复古游戏 ...",
+    "clearSearch": "清除搜索",
+    "search": "搜索"
+  },
+  "common": {
+    "logo": {
+      "title": "复古游戏 - 在线游玩经典游戏"
+    }
+  },
+  "notFound": {
+    "title": "页面未找到",
+    "description": "抱歉，您请求的页面不存在或已被移除。",
+    "backHome": "返回首页"
+  }
+}

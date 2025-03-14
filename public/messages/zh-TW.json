@@ -1,0 +1,330 @@
+{
+    "home": {
+        "metadata": {
+            "title": "🎮 復古遊戲 - 線上玩經典遊戲。無需下載。",
+            "description": "在瀏覽器中線上玩 NES、SNES、GB、GBC、GBA、SEGA Genesis、PSX、PS1 和經典街機遊戲。免費且無需下載。",
+            "keywords": "",
+            "og": {
+                "title": "復古遊戲 - 線上玩經典遊戲",
+                "description": "在瀏覽器中線上玩 NES、SNES、GB、GBC、GBA、SEGA Genesis、PSX、PS1 和經典街機遊戲。免費且無需下載。",
+                "imageAlt": "復古遊戲 - 經典遊戲合集"
+            }
+        },
+        "hero": {
+            "title": {
+                "play": "遊玩",
+                "retroGames": "復古遊戲"
+            },
+            "description": "重溫您童年的歡樂和懷舊時光，體驗我們的復古遊戲合集，包含來自任天堂、世嘉、NEC、雅達利、PlayStation 和街機的永恆經典。無需下載。"
+        }
+    },
+    "games": {
+        "popularGames": "最熱門復古遊戲",
+        "newGames": "最新復古遊戲",
+        "viewAll": "查看所有復古遊戲",
+        "playGame": "開始遊戲",
+        "loadMore": "載入更多遊戲",
+        "updatedDaily": "每日更新"
+    },
+    "allGames": {
+        "metadata": {
+            "title": "Retro-Games.org - 所有復古遊戲。線上玩經典遊戲",
+            "description": "瀏覽我們完整的經典復古遊戲合集，包含任天堂、世嘉、PlayStation 等平台的遊戲。線上玩您最愛的復古遊戲。",
+            "keywords": ""
+        },
+        "title": "所有復古遊戲",
+        "description": "瀏覽我們可供線上遊玩的完整經典復古遊戲合集。",
+        "subDescription": "重新發現您的童年回憶，重溫那些神奇的遊戲時刻。",
+        "browseGames": "瀏覽遊戲",
+        "allPlatforms": "所有平台",
+        "foundGames": "找到 {count} 個符合{platform}{query}條件的遊戲",
+        "noGamesFound": "找不到符合您條件的遊戲。",
+        "clearSearch": "清除搜尋"
+    },
+    "category": {
+        "metadata": {
+            "title": "線上玩 {company}{platform} - 復古遊戲",
+            "description": "在瀏覽器中免費線上玩 {platform} 遊戲。無需下載。立即享受經典 {platform} 遊戲。",
+            "keywords": ""
+        },
+        "notFound": {
+            "title": "找不到分類 - RetroGames",
+            "description": "找不到請求的遊戲分類。"
+        }
+    },
+    "platforms": {
+        "nes": {
+            "alt": "任天堂紅白機遊戲線上玩",
+            "description": "任天堂紅白機（Nintendo Entertainment System）是一款由任天堂開發和製造的 8 位元家用遊戲機。最初於 1983 年 7 月 15 日在日本以 Family Computer 的名稱發售，隨後於 1985 年在北美、1986 年在歐洲和 1987 年在澳洲發售。在南韓，它被稱為現代 Comboy，由當時被稱為現代電子的 SK 海力士分銷。"
+        },
+        "fds": {
+            "alt": "任天堂紅白機磁碟機遊戲線上玩",
+            "description": "任天堂紅白機磁碟機（Famicom Disk System，簡稱 FDS）是任天堂於 1986 年在日本發售的紅白機專用擴充配件。它引入了可重寫的軟碟儲存功能，允許更大的遊戲容量和存檔功能，但最終因卡帶遊戲的興起而停產。"
+        },
+        "snes": {
+            "alt": "超級任天堂遊戲線上玩",
+            "description": "超級任天堂（Super Nintendo Entertainment System）是一款由任天堂開發的 16 位元家用遊戲機，於 1990 年在日本和南韓、1991 年在北美、1992 年在歐洲和大洋洲、1993 年在南美洲發售。在日本，該系統被稱為 Super Famicom（簡稱 SFC）。"
+        },
+        "gameboy": {
+            "alt": "任天堂 Game Boy 遊戲線上玩",
+            "description": "Game Boy 是一款由任天堂開發和製造的 8 位元掌上遊戲機，具有可更換卡帶功能。它於 1989 年 4 月 21 日在日本首次發售，1989 年 7 月 31 日在北美發售，1990 年 9 月 28 日在歐洲發售。這是 Game Boy 系列的第一款掌上遊戲機，由橫井軍平和任天堂研發一部開發。這是同一個開發了 Game & Watch 系列以及多款任天堂紅白機熱門遊戲的團隊。改良版本分別於 1996 年和 1998 年以 Game Boy Pocket 和 Game Boy Light 的形式發售。"
+        },
+        "gameboycolor": {
+            "alt": "任天堂 Game Boy Color 遊戲線上玩",
+            "description": "Game Boy Color（簡稱 GBC）是由任天堂製造的掌上遊戲機，於 1998 年 10 月 21 日在日本發售，同年 11 月在國際市場發售。這是 Game Boy 的後繼機種。"
+        },
+        "gameboyadvance": {
+            "alt": "任天堂 Game Boy Advance 遊戲線上玩",
+            "description": "Game Boy Advance（簡稱 GBA）是一款 32 位元掌上遊戲機，由任天堂開發、製造和銷售，作為 Game Boy Color 的後繼機種。它於 2001 年 3 月 21 日在日本發售，2001 年 6 月 11 日在北美發售，2001 年 6 月 22 日在澳洲和歐洲發售，2004 年 6 月 8 日在中國大陸發售（不包括香港）。當時任天堂在掌機市場的競爭對手有 Neo Geo Pocket Color、WonderSwan、GP32、Tapwave Zodiac 和 N-Gage。儘管競爭對手們盡了最大努力，任天堂仍然憑藉 Game Boy Advance 保持了主要市場份額。"
+        },
+        "n64": {
+            "alt": "任天堂 64 遊戲線上玩",
+            "description": "任天堂 64（N64）是任天堂開發的第五代家用遊戲機，於 1996 年在日本和北美發售，1997 年在歐洲和澳洲發售。這是任天堂第一款具有 3D 圖形功能的遊戲機，使用卡帶而不是 CD，與 PlayStation 和世嘉土星競爭。"
+        },
+        "nds": {
+            "alt": "任天堂 DS 遊戲線上玩",
+            "description": "任天堂 DS（NDS）是任天堂於 2004 年發售的雙屏幕掌上遊戲機。具有觸控屏幕、無線連接功能，並且可以向下相容 Game Boy Advance 遊戲，成為有史以來最暢銷的遊戲系統之一。"
+        },
+        "master-system": {
+            "alt": "世嘉 Master System 遊戲線上玩",
+            "description": "世嘉 Master System 是世嘉開發的 8 位元家用遊戲機，最初於 1985 年在日本以 Sega Mark III 的名稱發售，後來改名為 Master System 在國際市場發售。它是任天堂紅白機的競爭對手，但在歐洲和巴西取得了更大的成功。"
+        },
+        "game-gear": {
+            "alt": "世嘉 Game Gear 遊戲線上玩",
+            "description": "Game Gear 是世嘉於 1990 年 10 月 6 日在日本發售、1991 年在北美和歐洲發售、1992 年在澳洲發售的 8 位元掌上遊戲機。Game Gear 主要與任天堂的 Game Boy、雅達利的 Lynx 和 NEC 的 TurboExpress 競爭。這款掌機與 Master System 共享許多硬體，並且能夠通過轉接器玩自己的遊戲以及 Master System 的遊戲。配備全彩背光螢幕和橫向格式，世嘉將 Game Gear 定位為技術上優於 Game Boy 的掌上遊戲機。"
+        },
+        "genesis": {
+            "alt": "世嘉 Genesis/Mega Drive 遊戲線上玩",
+            "description": "世嘉 Genesis，在北美以外的大多數地區稱為 Mega Drive，是一款由世嘉企業開發和銷售的 16 位元家用遊戲機。Genesis 是世嘉的第三款遊戲機，也是 Master System 的後繼機種。世嘉最初於 1988 年在日本以 Mega Drive 的名稱發售該遊戲機，隨後於 1989 年以 Genesis 的名稱在北美發售。1990 年，該遊戲機由 Virgin Mastertronic 在歐洲、Ozisoft 在大洋洲、Tec Toy 在巴西以 Mega Drive 的名稱發售。在南韓，該系統由三星分銷，被稱為 Super Gam*Boy，後來改名為 Super Aladdin Boy。"
+        },
+        "sega32x": {
+            "alt": "世嘉 32X 遊戲線上玩",
+            "description": "世嘉 32X 是 1994 年發售的世嘉 Genesis/Mega Drive 擴充配件。它旨在提升主機的圖形和處理能力，但由於世嘉土星的推出而壽命短暫。"
+        },
+        "sega-cd": {
+            "alt": "世嘉 CD/Mega CD 遊戲線上玩",
+            "description": "世嘉 CD（在北美以外地區稱為 Mega-CD）是世嘉 Genesis 的 CD-ROM 擴充配件，於 1991 年在日本發售，1992 年在北美發售。它引入了全動態視訊和 CD 品質音訊，但由於高成本和遊戲庫有限而表現不佳。"
+        },
+        "turbografx-16": {
+            "alt": "NEC TurboGrafx-16 遊戲線上玩",
+            "description": "TurboGrafx-16 Entertainment SuperSystem，在日本和法國稱為 PC Engine（PCエンジン），是由 Hudson Soft 和 NEC Home Electronics 共同開發的家用遊戲機，於 1987 年 10 月 30 日在日本發售，1989 年 8 月 29 日在美國發售。它也在 1990 年在英國和西班牙有限量發售，簡稱 TurboGrafx，基於美國型號，而日本型號則在 1989 年被引進並在法國發售。它是 16 位元時代發售的第一款遊戲機，儘管仍使用 8 位元 CPU。最初打算與任天堂紅白機競爭，最終卻與世嘉 Genesis，後來又與超級任天堂競爭。"
+        },
+        "turbografx-cd": {
+            "alt": "NEC TurboGrafx-CD 遊戲線上玩",
+            "description": "TurboGrafx-CD 是 TurboGrafx-16/PC Engine 的擴充配件，於 1988 年在日本發售，後來在北美發售。它為 NEC 的平台引入了基於 CD 的遊戲，允許更高品質的音訊和擴展的遊戲儲存空間。"
+        },
+        "pc-engine-cd": {
+            "alt": "NEC PC Engine CD-ROM² 遊戲線上玩",
+            "description": "PC Engine CD-ROM² 是第一個基於 CD 的遊戲機擴充配件，於 1988 年在日本發售。它擴展了 PC Engine 的功能，允許更大的遊戲容量，改進的音訊和動畫，影響了未來基於 CD 的遊戲系統。"
+        },
+        "atari-7800": {
+            "alt": "雅達利 7800 ProSystem 遊戲線上玩",
+            "description": "雅達利 7800 ProSystem 是雅達利公司於 1986 年發售的家用遊戲機。它設計為可向下相容雅達利 2600 的遊戲，同時提供改進的圖形和性能。儘管具有這些功能，但在其生命週期內仍難以與任天堂紅白機和世嘉 Master System 競爭。"
+        },
+        "atari-lynx": {
+            "alt": "雅達利 Lynx 掌上遊戲機線上玩",
+            "description": "雅達利 Lynx 是雅達利於 1989 年發售的掌上遊戲機。它是第一款具有彩色 LCD 螢幕的掌上遊戲機，並具有當時先進的硬體，包括精靈縮放和多人遊戲支援。然而，它面臨來自任天堂 Game Boy 和世嘉 Game Gear 的激烈競爭，限制了其市場成功。"
+        },
+        "atari-jaguar": {
+            "alt": "雅達利 Jaguar 遊戲線上玩",
+            "description": "雅達利 Jaguar 是雅達利公司於 1993 年發售的家用遊戲機。作為第一款 64 位元遊戲系統進行營銷，它相比 16 位元競爭對手擁有更強大的處理能力。然而，由於缺乏開發者支持和來自索尼 PlayStation 和世嘉土星的強烈競爭，Jaguar 表現不佳，最終導致雅達利退出遊戲機市場。"
+        },
+        "playstation": {
+            "alt": "索尼 PlayStation 遊戲線上玩",
+            "description": "PlayStation（PS1）是一款 32 位元家用遊戲機，由索尼於 1994 年在日本發售，1995 年在全球發售。它是第一款銷量超過 1 億台的遊戲機，引入了基於 CD 的遊戲、3D 圖形，並擁有龐大的經典遊戲庫。"
+        },
+        "arcade": {
+            "alt": "經典街機遊戲線上玩",
+            "description": "街機遊戲是在商場和遊戲廳等公共場所中投幣運行的電子遊戲。在 20 世紀末非常流行，包括像吃豆人、快打旋風和合金彈頭等經典遊戲，其中許多已被改編為家用遊戲機版本。"
+        },
+        "wonderswan": {
+            "alt": "萬代 WonderSwan 遊戲線上玩",
+            "description": "WonderSwan 是萬代於 1999 年在日本獨家發售的掌上遊戲機。作為 Game Boy Color 的競爭對手而設計，它具有獨特的垂直和水平螢幕方向功能。改進版本 WonderSwan Color 於 2000 年發售，提供彩色顯示和更好的硬體性能。儘管設計創新，但在任天堂主導的掌機市場中仍然難以競爭。"
+        },
+        "neo-geo-pocket": {
+            "alt": "SNK Neo Geo Pocket 遊戲線上玩",
+            "description": "Neo Geo Pocket 是 SNK 於 1998 年發售的掌上遊戲機。後來在 1999 年推出了 Neo Geo Pocket Color，引入了彩色螢幕和改進的軟體支援。該系統擁有高品質的街機風格遊戲，特別是來自 SNK 的系列如拳皇和侍魂，但在與任天堂 Game Boy 系列的競爭中處於劣勢。"
+        },
+        "msx": {
+            "alt": "MSX 遊戲線上玩",
+            "description": "MSX 是由微軟和 ASCII 公司於 1983 年推出的家用電腦平台，旨在建立標準化的計算環境。它在日本、歐洲和南美特別受歡迎，是早期科樂美和哈德遜軟件公司遊戲的平台。該系統在潛龍諜影和炸彈人等系列的早期開發中發揮了重要作用。"
+        },
+        "msx-2": {
+            "alt": "MSX 2 遊戲線上玩",
+            "description": "MSX2 是原始 MSX 電腦標準的升級版本，於 1985 年發售。它具有改進的圖形功能，包括支援更高解析度和更大的調色板，使其成為更強大的遊戲和計算系統。許多經典遊戲，如潛龍諜影 2：固體蛇，都是為 MSX2 開發的，展示了它當時先進的硬體。"
+        }
+    },
+    "game": {
+        "metadata": {
+            "title": "線上玩 {title}。無需下載 - 復古遊戲",
+            "description": "在瀏覽器中免費線上玩 {title} ({platform})。無需下載。",
+            "keywords": ""
+        },
+        "notFound": {
+            "title": "找不到遊戲 - RetroGames",
+            "description": "找不到請求的遊戲。"
+        },
+        "relatedGames": {
+            "title": "您可能感興趣的",
+            "heading": "相關遊戲"
+        },
+        "page": {
+            "description": "在瀏覽器中線上玩 {title}。無需下載。",
+            "shareText": "在瀏覽器中免費線上玩 {title}！無需下載。",
+            "share": {
+                "label": "分享",
+                "twitter": "分享到 Twitter",
+                "facebook": "分享到 Facebook",
+                "reddit": "分享到 Reddit",
+                "linkedin": "分享到 LinkedIn"
+            },
+            "playButton": "開始遊戲",
+            "about": "關於 {title} :",
+            "breadcrumb": {
+                "home": "首頁"
+            }
+        }
+    },
+    "footer": {
+        "description": "在我們的網站上體驗復古遊戲的懷舊感，您可以重溫童年回憶，遊玩來自任天堂、世嘉、NEC、雅達利、PlayStation 和街機的經典遊戲—全部都可以線上遊玩！無需下載。",
+        "others": {
+            "title": "其他",
+            "privacy": "隱私政策",
+            "terms": "服務條款"
+        },
+        "terms": {
+            "title": "服務條款",
+            "description": "請在使用 RetroGames 之前仔細閱讀這些服務條款。",
+            "lastUpdated": "最後更新：2025 年 2 月 20 日",
+            "intro": {
+                "text1": "歡迎來到 ",
+                "text2": "。通過訪問和使用本網站，您接受並同意受本協議的條款和規定的約束。"
+            },
+            "service": {
+                "title": "服務說明",
+                "text1": " 提供一個讓用戶通過網頁瀏覽器玩復古遊戲的平台。我們的服務包括：",
+                "items": [
+                    "基於瀏覽器的復古遊戲模擬",
+                    "遊戲資訊和描述",
+                    "相關遊戲內容"
+                ]
+            },
+            "content": {
+                "title": "內容和版權",
+                "text1": "通過我們服務提供的所有遊戲和相關內容都是：",
+                "items": [
+                    "來源於並託管於第三方服務",
+                    "受其各自所有者的版權和知識產權保護",
+                    "不屬於或受控於 RetroGames"
+                ],
+                "text2": "我們不對通過我們服務提供的任何遊戲、ROM 或相關內容主張所有權。所有商標、服務標記和商品名稱都是其各自所有者的財產。"
+            },
+            "disclaimer": {
+                "title": "免責聲明",
+                "text1": "我們的服務按「現狀」提供，不提供任何明示或暗示的保證。RetroGames 不保證：",
+                "items": [
+                    "服務將不會中斷或無錯誤",
+                    "遊戲或內容將始終可用",
+                    "任何錯誤或缺陷都會被修正"
+                ]
+            },
+            "conduct": {
+                "title": "用戶行為",
+                "text1": "使用我們的服務即表示您同意不會：",
+                "items": [
+                    "將服務用於任何非法目的",
+                    "嘗試未經授權訪問服務的任何部分",
+                    "干擾或破壞服務或伺服器",
+                    "規避、停用或以其他方式干擾安全功能"
+                ]
+            },
+            "modifications": {
+                "title": "服務修改",
+                "text1": "我們保留以下權利：",
+                "items": [
+                    "無需通知即可修改或終止我們服務的任何部分",
+                    "隨時更新這些服務條款",
+                    "更改通過我們服務提供的遊戲和內容"
+                ],
+                "text2": "在任何變更後繼續使用服務即表示您接受這些變更。"
+            },
+            "governing": {
+                "title": "適用法律",
+                "text1": "這些條款應受適用法律管轄並據其解釋，不考慮法律衝突原則。"
+            },
+            "contact": {
+                "title": "聯絡我們",
+                "text1": "如果您對這些條款有任何問題，請通過以下方式聯絡我們："
+            }
+        },
+        "privacy": {
+            "title": "隱私政策",
+            "description": "本隱私政策說明當您訪問 RetroGames 時，您的個人信息如何被收集、使用和共享。",
+            "lastUpdated": "最後更新：2025 年 2 月 20 日",
+            "intro": {
+                "text1": "我們的政策是尊重您的隱私，包括在運營網站時可能收集的任何信息。",
+                "text2": " 尊重您的隱私，並致力於保護您通過本網站可能提供給我們的任何信息。",
+                "text3": "本隱私政策解釋了我們收集哪些信息、如何使用這些信息，以及在什麼情況下我們可能將其披露給第三方。本隱私政策適用於 ",
+                "text4": "（以下簡稱「我們」或「RetroGames」）。"
+            },
+            "collection": {
+                "title": "信息收集",
+                "description": "我們的網站不需要用戶註冊或登錄。我們不收集用戶的任何個人身份信息。我們僅收集以下數據：",
+                "items": [
+                    "網站功能所必需的瀏覽器 cookie",
+                    "用於改進服務的匿名使用統計"
+                ]
+            },
+            "thirdParty": {
+                "title": "第三方內容",
+                "description": "我們網站上提供的遊戲和相關內容來自第三方平台。我們不對這些內容主張所有權，並且：",
+                "items": [
+                    "所有遊戲都託管在第三方服務上並從其串流",
+                    "遊戲信息、圖片和描述由第三方來源提供",
+                    "我們不對此內容的準確性或可用性做出任何保證"
+                ]
+            },
+            "cookies": {
+                "title": "Cookie 使用",
+                "description": "我們使用 cookie 來改善您的瀏覽體驗。這些 cookie 是：",
+                "items": [
+                    "基本網站功能所必需的",
+                    "用於記住您的顯示偏好",
+                    "不用於追蹤或廣告目的"
+                ],
+                "control": "您可以通過瀏覽器偏好設置控制 cookie 設置。"
+            },
+            "links": {
+                "title": "外部連結",
+                "description": "我們的網站包含指向非我們運營的外部網站的連結。如果您點擊第三方連結，您將被導向該第三方的網站。我們強烈建議您查看您訪問的每個網站的隱私政策和服務條款。",
+                "disclaimer": "我們無法控制任何第三方網站、產品或服務的內容、隱私政策或做法，也不對其承擔任何責任。"
+            },
+            "updates": {
+                "title": "政策更新",
+                "description": "我們可能會不時更新本隱私政策。我們會通過在本頁面發布新的隱私政策來通知您任何變更。建議您定期查看本隱私政策以了解任何變更。",
+                "consent": "在我們發布對隱私政策的任何修改後，您繼續使用我們的網站將構成您對這些修改的確認，以及您同意遵守並受修改後的隱私政策約束。"
+            },
+            "contact": {
+                "title": "聯絡我們",
+                "description": "如果您對本隱私政策有任何問題，請通過我們的網站聯絡我們。",
+                "email": "support@retro-games.org"
+            }
+        },
+        "contact": {
+            "title": "聯絡我們",
+            "disclaimer": "免責聲明：本網站上的所有遊戲都由第三方託管。我們不託管或上傳任何遊戲。我們對託管在第三方網站上的任何內容不承擔責任。RetroGames 是一個獨立網站，不隸屬於任何組織。",
+            "rights": "保留所有權利。"
+        }
+    },
+    "search": {
+        "searchTip": "搜尋您想玩的復古遊戲",
+        "placeholder": "搜尋復古遊戲 ...",
+        "clearSearch": "清除搜尋",
+        "search": "搜尋"
+    },
+    "common": {
+        "logo": {
+            "title": "復古遊戲 - 在線遊玩經典遊戲"
+        }
+    }
+}

@@ -1,0 +1,331 @@
+{
+  "home": {
+    "metadata": {
+      "title": "Jogos Retrô - Jogue Jogos Retrô Online. Sem Necessidade de Download.",
+      "description": "Jogue jogos retrô online do NES, SNES, GB, GBC, GBA, SEGA Genesis, PSX, PS1 e Jogos Arcade Clássicos no seu navegador. Gratuito e sem necessidade de download.",
+      "keywords": "",
+      "og": {
+        "title": "Jogos Retrô - Jogue Jogos Clássicos Online",
+        "description": "Jogue jogos retrô online do NES, SNES, GB, GBC, GBA, SEGA Genesis, PSX, PS1 e Jogos Arcade Clássicos no seu navegador. Gratuito e sem necessidade de download.",
+        "imageAlt": "Jogos Retrô - Coleção de Jogos Clássicos"
+      }
+    },
+    "hero": {
+      "title": {
+        "play": "Jogar",
+        "retroGames": "Jogos Retrô"
+      },
+      "description": "Reviva a alegria e nostalgia da sua infância com nossa coleção de Jogos Retrô, apresentando clássicos atemporais da Nintendo, Sega, NEC, Atari, PlayStation e Arcade. Sem necessidade de download."
+    }
+  },
+  "games": {
+    "popularGames": "Jogos Retrô Mais Populares",
+    "newGames": "Novos Jogos Retrô",
+    "viewAll": "Ver Todos os Jogos Retrô",
+    "playGame": "Jogar",
+    "loadMore": "Carregar Mais Jogos",
+    "updatedDaily": "Atualizado diariamente"
+  },
+  "allGames": {
+    "metadata": {
+      "title": "Retro-Games.org - Todos os Jogos Retrô. Jogue Jogos Clássicos Online",
+      "description": "Explore nossa coleção completa de jogos retrô clássicos da Nintendo, Sega, PlayStation e mais. Jogue seus jogos retrô favoritos online.",
+      "keywords": ""
+    },
+    "title": "Todos os Jogos Retrô",
+    "description": "Explore nossa coleção completa de jogos retrô clássicos disponíveis para jogar online.",
+    "subDescription": "Redescubra suas memórias de infância e reviva aqueles momentos mágicos dos jogos.",
+    "browseGames": "Explorar Jogos",
+    "allPlatforms": "Todas as Plataformas",
+    "foundGames": "Encontrados {count} jogos correspondentes aos critérios {platform}{query}",
+    "noGamesFound": "Nenhum jogo encontrado correspondente aos seus critérios.",
+    "clearSearch": "Limpar busca"
+  },
+  "category": {
+    "metadata": {
+      "title": "Jogue {company}{platform} Online - Jogos Retrô",
+      "description": "Jogue jogos do {platform} online gratuitamente no seu navegador. Sem necessidade de download. Aproveite os jogos clássicos do {platform} instantaneamente.",
+      "keywords": ""
+    },
+    "notFound": {
+      "title": "Categoria Não Encontrada - RetroGames",
+      "description": "A categoria de jogo solicitada não pôde ser encontrada."
+    }
+  },
+  "platforms": {
+    "nes": {
+      "alt": "Jogos do Nintendo Entertainment System Online",
+      "description": "O Nintendo Entertainment System é um console de videogame doméstico de 8 bits desenvolvido e fabricado pela Nintendo. Foi lançado inicialmente no Japão como Family Computer em 15 de julho de 1983, e posteriormente lançado na América do Norte em 1985, na Europa em 1986 e na Austrália em 1987."
+    },
+    "fds": {
+      "alt": "Jogos do Famicom Disk System Online",
+      "description": "O Famicom Disk System (FDS) é um periférico exclusivo do Japão para o Family Computer (Famicom), lançado pela Nintendo em 1986. Ele introduziu armazenamento em disquete regravável, permitindo jogos maiores e função de salvamento, mas foi eventualmente descontinuado devido ao crescimento dos jogos em cartucho."
+    },
+    "snes": {
+      "alt": "Jogos do Super Nintendo Entertainment System Online",
+      "description": "O Super Nintendo Entertainment System é um console de videogame doméstico de 16 bits desenvolvido pela Nintendo que foi lançado em 1990 no Japão e Coreia do Sul, 1991 na América do Norte, 1992 na Europa e Australásia, e 1993 na América do Sul."
+    },
+    "gameboy": {
+      "alt": "Jogos do Nintendo Game Boy Online",
+      "description": "O Game Boy é um dispositivo de videogame portátil de 8 bits com cartuchos intercambiáveis desenvolvido e fabricado pela Nintendo, que foi lançado primeiro no Japão em 21 de abril de 1989, na América do Norte em 31 de julho de 1989 e na Europa em 28 de setembro de 1990."
+    },
+    "gameboycolor": {
+      "alt": "Jogos do Nintendo Game Boy Color Online",
+      "description": "O Game Boy Color, conhecido como GBC, é um console portátil fabricado pela Nintendo, que foi lançado em 21 de outubro de 1998 no Japão e em novembro do mesmo ano nos mercados internacionais. É o sucessor do Game Boy."
+    },
+    "gameboyadvance": {
+      "alt": "Jogos do Nintendo Game Boy Advance Online",
+      "description": "O Game Boy Advance (abreviado como GBA) é um console portátil de 32 bits desenvolvido, fabricado e comercializado pela Nintendo como sucessor do Game Boy Color. Foi lançado no Japão em 21 de março de 2001, na América do Norte em 11 de junho de 2001, na Austrália e Europa em 22 de junho de 2001, e na República Popular da China em 8 de junho de 2004."
+    },
+    "n64": {
+      "alt": "Jogos do Nintendo 64 Online",
+      "description": "O Nintendo 64 (N64) é um console de videogame doméstico de quinta geração desenvolvido pela Nintendo e lançado em 1996 no Japão e América do Norte, e em 1997 na Europa e Austrália. Foi o primeiro console da Nintendo a apresentar gráficos 3D e usava cartuchos em vez de CDs, competindo com o PlayStation e o Sega Saturn."
+    },
+    "nds": {
+      "alt": "Jogos do Nintendo DS Online",
+      "description": "O Nintendo DS (NDS) é um console portátil de tela dupla lançado pela Nintendo em 2004. Com tela sensível ao toque, conectividade sem fio e compatibilidade retroativa com jogos do Game Boy Advance, tornou-se um dos sistemas de jogos mais vendidos de todos os tempos."
+    },
+    "master-system": {
+      "alt": "Jogos do Sega Master System Online",
+      "description": "O Sega Master System é um console de videogame doméstico de 8 bits desenvolvido pela Sega, lançado primeiro em 1985 no Japão como Sega Mark III, e depois renomeado como Master System para seu lançamento internacional. Foi um concorrente do Nintendo Entertainment System, mas alcançou maior sucesso na Europa e no Brasil."
+    },
+    "game-gear": {
+      "alt": "Jogos do Sega Game Gear Online",
+      "description": "O Game Gear é um console portátil de 8 bits lançado pela Sega em 6 de outubro de 1990 no Japão, 1991 na América do Norte e Europa, e 1992 na Austrália. O Game Gear competia principalmente com o Game Boy da Nintendo, o Atari Lynx e o TurboExpress da NEC. O portátil compartilha muito do seu hardware com o Master System e pode rodar seus próprios títulos, bem como os do Master System, este último possibilitado pelo uso de um adaptador. Com uma tela retroiluminada colorida em formato paisagem, a Sega posicionou o Game Gear como um portátil tecnologicamente superior ao Game Boy."
+    },
+    "genesis": {
+      "alt": "Jogos do Sega Genesis/Mega Drive Online",
+      "description": "O Sega Genesis, conhecido como Mega Drive na maioria das regiões fora da América do Norte, é um console de videogame doméstico de 16 bits desenvolvido e vendido pela Sega Enterprises, Ltd. O Genesis foi o terceiro console da Sega e sucessor do Master System. A Sega lançou primeiro o console como Mega Drive no Japão em 1988, seguido por uma estreia norte-americana sob o nome Genesis em 1989. Em 1990, o console foi distribuído como Mega Drive pela Virgin Mastertronic na Europa, pela Ozisoft na Australásia e pela Tec Toy no Brasil."
+    },
+    "sega32x": {
+      "alt": "Jogos do Sega 32X Online",
+      "description": "O Sega 32X é um periférico para o Sega Genesis/Mega Drive lançado em 1994. Foi projetado para melhorar os gráficos e o poder de processamento do console, mas teve uma vida curta devido à chegada do Sega Saturn."
+    },
+    "sega-cd": {
+      "alt": "Jogos do Sega CD/Mega CD Online",
+      "description": "O Sega CD (Mega-CD fora da América do Norte) foi uma expansão de CD-ROM para o Sega Genesis, lançada em 1991 no Japão e 1992 na América do Norte. Introduziu vídeo em movimento completo e áudio com qualidade de CD, mas enfrentou dificuldades devido aos altos custos e biblioteca limitada de jogos."
+    },
+    "turbografx-16": {
+      "alt": "Jogos do NEC TurboGrafx-16 Online",
+      "description": "O TurboGrafx-16 Entertainment SuperSystem, conhecido no Japão e na França como PC Engine, é um console de videogame doméstico desenvolvido em conjunto pela Hudson Soft e NEC Home Electronics, lançado no Japão em 30 de outubro de 1987 e nos Estados Unidos em 29 de agosto de 1989. Foi o primeiro console lançado na era dos 16 bits, embora ainda utilizasse uma CPU de 8 bits. Originalmente destinado a competir com o Nintendo Entertainment System (NES), acabou competindo com o Sega Genesis e, posteriormente, com o Super Nintendo Entertainment System (SNES)."
+    },
+    "turbografx-cd": {
+      "alt": "Jogos do NEC TurboGrafx-CD Online",
+      "description": "O TurboGrafx-CD é um periférico para o TurboGrafx-16/PC Engine, lançado em 1988 no Japão e posteriormente na América do Norte. Introduziu jogos baseados em CD na plataforma da NEC, permitindo áudio de maior qualidade e armazenamento expandido de jogos."
+    },
+    "pc-engine-cd": {
+      "alt": "Jogos do NEC PC Engine CD-ROM² Online",
+      "description": "O PC Engine CD-ROM² foi o primeiro periférico de console baseado em CD, lançado em 1988 no Japão. Expandiu as capacidades do PC Engine, permitindo jogos maiores com áudio e animação aprimorados, influenciando futuros sistemas de jogos baseados em CD."
+    },
+    "atari-7800": {
+      "alt": "Jogos do Atari 7800 ProSystem Online",
+      "description": "O Atari 7800 ProSystem é um console de videogame doméstico lançado pela Atari Corporation em 1986. Foi projetado para ser retrocompatível com jogos do Atari 2600, oferecendo gráficos e desempenho aprimorados. Apesar de suas capacidades, teve dificuldades para competir com o Nintendo Entertainment System e o Sega Master System durante sua vida útil."
+    },
+    "atari-lynx": {
+      "alt": "Jogos do Atari Lynx Online",
+      "description": "O Atari Lynx é um console portátil lançado pela Atari em 1989. Foi o primeiro console portátil com tela LCD colorida e tinha hardware avançado para sua época, incluindo escalonamento de sprites e suporte a multijogador. No entanto, enfrentou forte concorrência do Nintendo Game Boy e Sega Game Gear, limitando seu sucesso no mercado."
+    },
+    "atari-jaguar": {
+      "alt": "Jogos do Atari Jaguar Online",
+      "description": "O Atari Jaguar é um console de videogame doméstico lançado em 1993 pela Atari Corporation. Comercializado como o primeiro sistema de jogos de 64 bits, ostentava poder de processamento superior em comparação com seus concorrentes de 16 bits. No entanto, o Jaguar teve dificuldades devido à falta de suporte dos desenvolvedores e forte concorrência do Sony PlayStation e Sega Saturn, levando finalmente à saída da Atari do mercado de consoles."
+    },
+    "playstation": {
+      "alt": "Jogos do Sony PlayStation Online",
+      "description": "O PlayStation (PS1) é um console de videogame doméstico de 32 bits lançado pela Sony em 1994 no Japão e 1995 mundialmente. Foi o primeiro console a vender mais de 100 milhões de unidades e introduziu jogos baseados em CD, gráficos 3D e uma vasta biblioteca de jogos icônicos."
+    },
+    "arcade": {
+      "alt": "Jogos Arcade Clássicos Online",
+      "description": "Jogos arcade são videogames operados por moedas encontrados em lugares públicos como shoppings e fliperamas. Populares durante o final do século XX, incluem clássicos como Pac-Man, Street Fighter e Metal Slug, muitos dos quais foram adaptados para consoles domésticos."
+    },
+    "wonderswan": {
+      "alt": "Jogos do Bandai WonderSwan Online",
+      "description": "O WonderSwan é um console portátil lançado em 1999 pela Bandai exclusivamente no Japão. Projetado como concorrente do Game Boy Color, apresentava uma orientação única de tela vertical e horizontal. Uma versão aprimorada, o WonderSwan Color, foi lançada em 2000, oferecendo tela colorida e melhores capacidades de hardware. Apesar de seu design inovador, teve dificuldades para competir com a dominância da Nintendo no mercado de portáteis."
+    },
+    "neo-geo-pocket": {
+      "alt": "Jogos do SNK Neo Geo Pocket Online",
+      "description": "O Neo Geo Pocket é um console portátil lançado pela SNK em 1998. Foi sucedido pelo Neo Geo Pocket Color em 1999, que introduziu uma tela colorida e melhor suporte de software. O sistema apresentava jogos de alta qualidade no estilo arcade, particularmente das franquias da SNK como King of Fighters e Samurai Shodown, mas teve dificuldades contra a linha Game Boy da Nintendo."
+    },
+    "msx": {
+      "alt": "Jogos do MSX Online",
+      "description": "O MSX é uma plataforma de computador doméstico introduzida em 1983 pela Microsoft e ASCII Corporation para estabelecer um ambiente de computação padronizado. Foi particularmente popular no Japão, Europa e América do Sul, servindo como plataforma para muitos jogos iniciais da Konami e Hudson Soft. O sistema teve um papel significativo no desenvolvimento inicial de franquias como Metal Gear e Bomberman."
+    },
+    "msx-2": {
+      "alt": "Jogos do MSX 2 Online",
+      "description": "O MSX2 é uma versão aprimorada do padrão de computador MSX original, lançada em 1985. Apresentava capacidades gráficas melhoradas, incluindo suporte para resoluções mais altas e uma paleta de cores maior, tornando-o um sistema de jogos e computação mais poderoso. Muitos jogos clássicos, como Metal Gear 2: Solid Snake, foram desenvolvidos para o MSX2, demonstrando seu hardware avançado para a época."
+    }
+  },
+  "game": {
+    "metadata": {
+      "title": "Jogue {title} Online. Sem necessidade de download - Jogos Retrô",
+      "description": "Jogue {title} ({platform}) online gratuitamente no seu navegador. Sem necessidade de download.",
+      "keywords": ""
+    },
+    "notFound": {
+      "title": "Jogo Não Encontrado - RetroGames",
+      "description": "O jogo solicitado não pôde ser encontrado."
+    },
+    "relatedGames": {
+      "title": "Você também pode gostar",
+      "heading": "Jogos Relacionados"
+    },
+    "page": {
+      "description": "Jogue {title} online no seu navegador. Sem necessidade de download.",
+      "shareText": "Jogue {title} gratuitamente no seu navegador! Sem necessidade de download.",
+      "share": {
+        "label": "Compartilhar",
+        "twitter": "Compartilhar no Twitter",
+        "facebook": "Compartilhar no Facebook",
+        "reddit": "Compartilhar no Reddit",
+        "linkedin": "Compartilhar no LinkedIn"
+      },
+      "playButton": "Jogar",
+      "about": "Sobre {title}:",
+      "breadcrumb": {
+        "home": "Início"
+      }
+    }
+  },
+  "footer": {
+    "description": "Experimente a nostalgia dos Jogos Retrô em nosso site, onde você pode reviver memórias da infância com títulos clássicos da Nintendo, Sega, NEC, Atari, PlayStation e Arcade—todos jogáveis online! Sem necessidade de download.",
+    "others": {
+      "title": "Outros",
+      "privacy": "Política de Privacidade",
+      "terms": "Termos de Serviço"
+    },
+    "terms": {
+      "title": "Termos de Serviço",
+      "description": "Por favor, leia estes Termos de Serviço cuidadosamente antes de usar o RetroGames.",
+      "lastUpdated": "Última Atualização: 20 de fevereiro de 2025",
+      "intro": {
+        "text1": "Bem-vindo ao ",
+        "text2": ". Ao acessar e usar este site, você aceita e concorda em estar vinculado aos termos e disposições deste acordo."
+      },
+      "service": {
+        "title": "Descrição do Serviço",
+        "text1": " fornece uma plataforma para usuários jogarem jogos retrô através de seus navegadores web. Nosso serviço inclui:",
+        "items": [
+          "Emulação de jogos retrô baseada no navegador",
+          "Informações e descrições dos jogos",
+          "Conteúdo relacionado a jogos"
+        ]
+      },
+      "content": {
+        "title": "Conteúdo e Direitos Autorais",
+        "text1": "Todos os jogos e conteúdo relacionado disponíveis através do nosso serviço são:",
+        "items": [
+          "Originados e hospedados por serviços de terceiros",
+          "Sujeitos aos direitos autorais e de propriedade intelectual de seus respectivos proprietários",
+          "Não são de propriedade ou controlados pela RetroGames"
+        ],
+        "text2": "Não reivindicamos a propriedade de quaisquer jogos, ROMs ou conteúdo relacionado fornecido através do nosso serviço. Todas as marcas registradas, marcas de serviço e nomes comerciais são propriedade de seus respectivos donos."
+      },
+      "disclaimer": {
+        "title": "Aviso Legal",
+        "text1": "Nossos serviços são fornecidos \"como estão\" sem quaisquer garantias, expressas ou implícitas. A RetroGames não garante que:",
+        "items": [
+          "O serviço será ininterrupto ou livre de erros",
+          "Jogos ou conteúdo estarão sempre disponíveis",
+          "Quaisquer erros ou defeitos serão corrigidos"
+        ],
+        "text2": "Não somos responsáveis por qualquer conteúdo fornecido por terceiros ou por quaisquer erros ou omissões no conteúdo."
+      },
+      "conduct": {
+        "title": "Conduta do Usuário",
+        "text1": "Ao usar nosso serviço, você concorda em não:",
+        "items": [
+          "Usar o serviço para qualquer propósito ilegal",
+          "Tentar obter acesso não autorizado a qualquer parte do serviço",
+          "Interferir ou interromper o serviço ou servidores",
+          "Contornar, desativar ou interferir com recursos de segurança"
+        ]
+      },
+      "modifications": {
+        "title": "Modificações do Serviço",
+        "text1": "Reservamos o direito de:",
+        "items": [
+          "Modificar ou descontinuar qualquer parte do nosso serviço sem aviso prévio",
+          "Atualizar estes termos de serviço a qualquer momento",
+          "Alterar os jogos e conteúdo disponíveis através do nosso serviço"
+        ],
+        "text2": "Seu uso continuado do serviço após quaisquer alterações constitui sua aceitação dessas alterações."
+      },
+      "governing": {
+        "title": "Lei Aplicável",
+        "text1": "Estes termos serão regidos e interpretados de acordo com as leis aplicáveis, sem considerar conflitos de princípios legais."
+      },
+      "contact": {
+        "title": "Contato",
+        "text1": "Para quaisquer dúvidas sobre estes termos, entre em contato conosco em:"
+      }
+    },
+    "privacy": {
+      "title": "Política de Privacidade",
+      "description": "Esta Política de Privacidade descreve como suas informações pessoais são coletadas, usadas e compartilhadas quando você visita o RetroGames.",
+      "lastUpdated": "Última Atualização: 20 de fevereiro de 2025",
+      "intro": {
+        "text1": "É nossa política respeitar sua privacidade em relação a qualquer informação que possamos coletar durante a operação do nosso site. ",
+        "text2": " respeita sua privacidade e está comprometido em proteger qualquer informação que você possa nos fornecer através deste site.",
+        "text3": "Esta Política de Privacidade explica quais informações coletamos, como as usamos e em quais circunstâncias podemos divulgá-las a terceiros. Esta Política de Privacidade se aplica a ",
+        "text4": " (doravante, \"nós\", \"nosso\", ou \"RetroGames\")."
+      },
+      "collection": {
+        "title": "Coleta de Informações",
+        "description": "Nosso site não requer registro ou login do usuário. Não coletamos nenhuma informação pessoal identificável de nossos usuários. Os únicos dados que coletamos são:",
+        "items": [
+          "Cookies do navegador essenciais para a funcionalidade do site",
+          "Estatísticas de uso anônimas para melhorar nosso serviço"
+        ]
+      },
+      "thirdParty": {
+        "title": "Conteúdo de Terceiros",
+        "description": "Os jogos e conteúdo relacionado disponíveis em nosso site são provenientes de plataformas de terceiros. Não reivindicamos a propriedade deste conteúdo e:",
+        "items": [
+          "Todos os jogos são hospedados e transmitidos de serviços de terceiros",
+          "Informações, imagens e descrições dos jogos são fornecidas por fontes de terceiros",
+          "Não fazemos garantias quanto à precisão ou disponibilidade deste conteúdo"
+        ]
+      },
+      "cookies": {
+        "title": "Uso de Cookies",
+        "description": "Usamos cookies para melhorar sua experiência de navegação. Estes cookies são:",
+        "items": [
+          "Essenciais para a funcionalidade básica do site",
+          "Usados para lembrar suas preferências de exibição",
+          "Não são usados para fins de rastreamento ou publicidade"
+        ],
+        "control": "Você pode controlar as configurações de cookies através das preferências do seu navegador."
+      },
+      "links": {
+        "title": "Links Externos",
+        "description": "Nosso site contém links para sites externos que não são operados por nós. Se você clicar em um link de terceiros, será direcionado para o site desse terceiro. Recomendamos fortemente que você revise a Política de Privacidade e os Termos de Serviço de cada site que visitar.",
+        "disclaimer": "Não temos controle sobre, e não assumimos responsabilidade pelo conteúdo, políticas de privacidade ou práticas de quaisquer sites, produtos ou serviços de terceiros."
+      },
+      "updates": {
+        "title": "Atualizações da Política",
+        "description": "Podemos atualizar esta Política de Privacidade periodicamente. Notificaremos você sobre quaisquer alterações publicando a nova Política de Privacidade nesta página. Recomendamos que você revise esta Política de Privacidade periodicamente para verificar alterações.",
+        "consent": "Seu uso continuado do nosso site após publicarmos quaisquer modificações na Política de Privacidade constituirá seu reconhecimento das modificações e seu consentimento em cumprir e estar vinculado à Política de Privacidade modificada."
+      },
+      "contact": {
+        "title": "Contate-nos",
+        "description": "Se você tiver alguma dúvida sobre esta Política de Privacidade, entre em contato conosco através do nosso site.",
+        "email": "support@retro-games.org"
+      }
+    },
+    "contact": {
+      "title": "Contate-nos",
+      "disclaimer": "Aviso Legal: Todos os jogos neste site são hospedados por terceiros. Não hospedamos ou fazemos upload de nenhum jogo. Não somos responsáveis por qualquer conteúdo hospedado em sites de terceiros. RetroGames é um site independente e não é afiliado a nenhuma organização.",
+      "rights": "Todos os direitos reservados."
+    }
+  },
+  "search": {
+    "searchTip": "Pesquise por jogos retrô que você deseja jogar",
+    "placeholder": "Pesquisar Jogos Retrô...",
+    "clearSearch": "Limpar pesquisa",
+    "search": "Pesquisar"
+  },
+  "common": {
+    "logo": {
+      "title": "Jogos retrô – Jogue jogos clássicos online"
+    }
+  }
+}

@@ -13,7 +13,7 @@ export function isValidLocale(locale: string): locale is Locale {
   return SUPPORTED_LOCALES.includes(locale as Locale)
 }
 
-// 获取翻译文件
+// 服务器端获取翻译文件
 export async function getTranslations(locale: string) {
   // 如果不是支持的语言，使用默认语言
   const validLocale = isValidLocale(locale) ? locale : DEFAULT_LOCALE
@@ -33,6 +33,40 @@ export async function getTranslations(locale: string) {
     
     // 如果是默认语言都加载失败，返回空对象
     return {}
+  }
+}
+
+// 客户端获取翻译的函数
+export async function getClientTranslations(locale: string) {
+  // 如果不是支持的语言，使用默认语言
+  const validLocale = isValidLocale(locale) ? locale : DEFAULT_LOCALE
+  
+  try {
+    // 使用fetch API从公共目录获取翻译文件
+    const response = await fetch(`/messages/${validLocale}.json`)
+    if (!response.ok) {
+      throw new Error(`Failed to fetch translations for ${validLocale}`)
+    }
+    return await response.json()
+  } catch (error) {
+    console.error(`Error loading translations for ${locale}:`, error)
+    
+    // 如果出错且不是默认语言，尝试加载默认语言
+    if (validLocale !== DEFAULT_LOCALE) {
+      return getClientTranslations(DEFAULT_LOCALE)
+    }
+    
+    // 如果是默认语言都加载失败，返回默认翻译对象
+    return {
+      history: {
+        title: 'Play History',
+        description: 'Games you have played recently',
+        noHistory: 'You have not played any games yet',
+        clearHistory: 'Clear History',
+        lastPlayed: 'Last played',
+        emptyMessage: 'Your play history will appear here',
+      }
+    }
   }
 }
 
@@ -90,6 +124,20 @@ export interface Translations {
     playGame: string
     loadMore: string
     updatedDaily: string
+  }
+  history?: {
+    metadata?: {
+      title: string
+      description: string
+      keywords: string
+    }
+    title: string
+    description: string
+    noHistory: string
+    clearHistory: string
+    lastPlayed: string
+    emptyMessage: string
+    confirmClear: string
   }
 }
 

@@ -304,6 +304,8 @@ export default async function Home({ params }: { params: { locale: string } }) {
                 description="Mobile gamers have come to love the fast-paced and thrilling Bubble Shooter game. This free version gives players a taste of the entire game with colorful bubbles and addictive gameplay."
                 gameUrl="https://cdn.bubbleshooter.com/games/bubbleshooter-game/"
                 imageUrl={formattedGames[0].imageUrl}
+                gameId={1}
+                slug="bubble-shooter"
               />
 
               {/* Hot Games Section - Below the main content */}
