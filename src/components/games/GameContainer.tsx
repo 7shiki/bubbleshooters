@@ -117,7 +117,7 @@ export default function GameContainer({ title, description, gameUrl, imageUrl }:
             </div>
             
             {/* 游戏图片 */}
-            <div className="w-48 h-48 md:w-64 md:h-64 rounded-full flex-shrink-0 flex items-center justify-center overflow-hidden shadow-lg border-4 border-white mx-6">
+            <div className="w-48 h-48 md:w-48 md:h-48 rounded-full flex-shrink-0 flex items-center justify-center overflow-hidden shadow-lg border-4 border-white mx-6">
               <GameImage 
                 src={imageUrl} 
                 alt={`${title} Logo`}

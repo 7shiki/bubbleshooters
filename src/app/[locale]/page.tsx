@@ -100,7 +100,7 @@ export default async function Home({ params }: { params: { locale: string } }) {
       id: 1, 
       title: 'Classic Bubble Shooter', 
       slug: 'classic-bubble-shooter', 
-      imageUrl: '/images/games/bubble-game-3.avif', 
+      imageUrl: '/images/games/bubble-shooter-ultimate.avif', 
       platform: 'Browser',
       description: 'The original bubble shooter game with classic gameplay and colorful bubbles.',
       embedUrl: 'https://cdn.bubbleshooter.com/games/bubbleshooter-game/'
