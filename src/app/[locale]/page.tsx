@@ -4,6 +4,7 @@ import GameCard from '@/components/games/GameCard'
 import GameImage from '@/components/games/GameImage'
 import PlayButton from '@/components/games/PlayButton'
 import GameContainer from '@/components/games/GameContainer'
+import Breadcrumb from '@/components/common/Breadcrumb'
 
 // 动态生成 metadata
 export async function generateMetadata({ params }: { params: { locale: string } }): Promise<Metadata> {
@@ -193,6 +194,13 @@ export default async function Home({ params }: { params: { locale: string } }) {
 
                {/* Game Description Section with SEO-friendly structure */}
                <section className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6 mb-8 w-full">
+                {/* 面包屑导航 */}
+                <Breadcrumb 
+                  items={[]} 
+                  locale={params.locale} 
+                  homeLabel={messages.game?.breadcrumb?.home || "Home"} 
+                />
+                
                 {featuredGame.seoDescription?.sections && featuredGame.seoDescription.sections.length > 0 ? (
                   // 如果有sections数据，则动态渲染
                   featuredGame.seoDescription.sections.map((section: Section, sectionIndex: number) => (

@@ -116,8 +116,9 @@ export default async function GamePage({ params }: Props) {
   }
 
   // 获取分类名称
-  const categoryName = messages.platforms?.[params.category]?.alt || 
-                       params.category.charAt(0).toUpperCase() + params.category.slice(1).replace(/-/g, ' ')
+  const categoryName = category?.title || 
+                       messages.platforms?.[params.category]?.alt || 
+                       params.category.split('-').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
 
   // 面包屑项
   const breadcrumbItems = [
@@ -210,13 +211,6 @@ export default async function GamePage({ params }: Props) {
           {/* Game Container - Main content */}
           <div className="w-full md:flex-1 md:pl-8">
             <div className="max-w-[1000px]">
-              {/* 面包屑导航 */}
-              <Breadcrumb 
-                items={breadcrumbItems} 
-                locale={params.locale} 
-                homeLabel={messages.game?.breadcrumb?.home || "Home"} 
-              />
-
               <GameContainer 
                 title={game.title}
                 description={game.description}
@@ -253,6 +247,13 @@ export default async function GamePage({ params }: Props) {
 
               {/* Game Description Section with SEO-friendly structure */}
               <section className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6 mb-8 w-full">
+                {/* 面包屑导航 */}
+                <Breadcrumb 
+                  items={breadcrumbItems} 
+                  locale={params.locale} 
+                  homeLabel={messages.game?.breadcrumb?.home || "Home"} 
+                />
+                
                 {game.seoDescription?.sections && game.seoDescription.sections.length > 0 ? (
                   // 如果有sections数据，则动态渲染
                   game.seoDescription.sections.map((section: Section, sectionIndex: number) => (

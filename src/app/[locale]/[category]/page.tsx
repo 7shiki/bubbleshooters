@@ -111,6 +111,20 @@ export default async function CategoryPage({ params }: { params: { locale: strin
 
   const jsonLd = generateJsonLd()
 
+  // 获取分类名称
+  const categoryName = info?.title || 
+                       messages.platforms?.[params.category]?.alt || 
+                       params.category.split('-').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
+  
+  // 面包屑项
+  const breadcrumbItems = [
+    {
+      label: categoryName,
+      href: `/${params.category}`,
+      isCurrentPage: true
+    }
+  ]
+
   return (
     <>
       {jsonLd && (
