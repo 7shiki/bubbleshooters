@@ -300,7 +300,7 @@ export default async function Home({ params }: { params: { locale: string } }) {
           <div className="w-full md:flex-1 md:pl-8">
             <div className="max-w-[1000px]">
               <GameContainer 
-                title="Bubble Shooter Game"
+                title="Bubble Shooter"
                 description="Mobile gamers have come to love the fast-paced and thrilling Bubble Shooter game. This free version gives players a taste of the entire game with colorful bubbles and addictive gameplay."
                 gameUrl="https://cdn.bubbleshooter.com/games/bubbleshooter-game/"
                 imageUrl={formattedGames[0].imageUrl}
@@ -333,7 +333,7 @@ export default async function Home({ params }: { params: { locale: string } }) {
 
                {/* Game Description Section with SEO-friendly structure */}
                <section className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6 mb-8 w-full">
-                <h2 className="text-2xl font-semibold mb-3">The Ultimate Bubble Popping Experience</h2>
+                <h2 className="text-2xl font-semibold mb-3">About Bubble Shooter</h2>
                 
                 <h3 className="text-xl font-semibold mb-2">How to Play Bubble Shooter</h3>
                 <p className="mb-4">
@@ -341,7 +341,31 @@ export default async function Home({ params }: { params: { locale: string } }) {
                   Use strategy to create chain reactions and score big points!
                 </p>
                 
-                <h4 className="text-lg font-semibold mb-2">Game Features</h4>
+                <h2 className="text-xl font-semibold mb-3">Who made Bubble Shooter Game?</h2>
+                
+                <h3 className="text-lg font-semibold mb-2">The Origins of Bubble Shooter</h3>
+                <p className="mb-3">
+                  The original Bubble Shooter game was created by Absolutist Games in 2002. It was inspired by the classic arcade game Puzzle Bobble (also known as Bust-a-Move), which was developed by Taito Corporation in 1994. Our version of Bubble Shooter builds upon this rich legacy while adding modern features and improved graphics.
+                </p>
+                
+                
+                <h2 className="text-xl font-semibold mb-3">Game Features</h2>
+                
+                <h3 className="text-lg font-semibold mb-2">Exciting Gameplay Mechanics</h3>
+                <p className="mb-3">
+                  Bubble Shooter offers intuitive and addictive gameplay that's easy to learn but challenging to master. The simple point-and-shoot mechanics combined with strategic bubble placement create a perfect balance of casual fun and tactical thinking.
+                </p>
+                
+                <h3 className="text-lg font-semibold mb-2">Power-ups and Special Items</h3>
+                <p className="mb-3">
+                  Discover various power-ups that can help you clear difficult levels. From color bombs that remove all bubbles of a specific color to lightning bolts that clear entire rows, these special items add an extra layer of strategy to your gameplay.
+                </p>
+                
+                <h3 className="text-lg font-semibold mb-2">Progressive Difficulty</h3>
+                <p className="mb-4">
+                  As you advance through the game, you'll encounter increasingly challenging layouts and bubble patterns. The progressive difficulty ensures that both beginners and experienced players will find the game engaging and rewarding.
+                </p>
+                
                 <ul className="list-disc pl-5 mb-4">
                   <li>Multiple levels with increasing difficulty</li>
                   <li>Colorful graphics and smooth gameplay</li>
@@ -350,23 +374,34 @@ export default async function Home({ params }: { params: { locale: string } }) {
                   <li>Perfect for players of all ages</li>
                 </ul>
                 
-                <h5 className="text-base font-semibold mb-2">Frequently Asked Questions</h5>
-                <div className="mb-4">
+                <h2 className="text-xl font-semibold mb-3">Frequently Asked Questions</h2>
+                
+                <h3 className="text-lg font-semibold mb-2">Game Accessibility</h3>
+                <div className="mb-3">
                   <p className="font-medium">Is Bubble Shooter free to play?</p>
                   <p className="mb-2">Yes, Bubble Shooter is completely free to play in your browser with no downloads required.</p>
                   
                   <p className="font-medium">Can I play Bubble Shooter on mobile?</p>
                   <p className="mb-2">Absolutely! Our Bubble Shooter game is fully responsive and works on smartphones and tablets.</p>
-                  
-                  <p className="font-medium">Are there different difficulty levels?</p>
-                  <p>Yes, the game features progressive difficulty to challenge players of all skill levels.</p>
                 </div>
                 
-                <h6 className="text-base font-semibold mb-2">Additional Information</h6>
-                <p className="mb-4">
-                  Bubble Shooter is a classic arcade-style puzzle game that has been entertaining players since the 1990s. 
-                  Our version brings this timeless game to modern browsers with enhanced graphics and smooth controls.
-                </p>
+                <h3 className="text-lg font-semibold mb-2">Game Difficulty</h3>
+                <div className="mb-3">
+                  <p className="font-medium">Are there different difficulty levels?</p>
+                  <p className="mb-2">Yes, the game features progressive difficulty to challenge players of all skill levels.</p>
+                  
+                  <p className="font-medium">Is there a way to get hints if I'm stuck?</p>
+                  <p className="mb-2">The game offers optional hints and power-ups that can help you overcome challenging levels without diminishing the fun.</p>
+                </div>
+                
+                <h3 className="text-lg font-semibold mb-2">Technical Requirements</h3>
+                <div className="mb-4">
+                  <p className="font-medium">What browsers support Bubble Shooter?</p>
+                  <p className="mb-2">Bubble Shooter works on all modern browsers including Chrome, Firefox, Safari, and Edge.</p>
+                  
+                  <p className="font-medium">Do I need to install any plugins?</p>
+                  <p>No, our game is built with modern web technologies and doesn't require any additional plugins or installations.</p>
+                </div>
                 
               </section>
               
