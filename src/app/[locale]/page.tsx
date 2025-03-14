@@ -1,6 +1,5 @@
 import { Metadata } from 'next'
 import { getTranslations, Game, getGameData, Section, Subsection, FAQ } from '../../utils/i18n'
-import GameCard from '@/components/games/GameCard'
 import GameImage from '@/components/games/GameImage'
 import PlayButton from '@/components/games/PlayButton'
 import GameContainer from '@/components/games/GameContainer'
