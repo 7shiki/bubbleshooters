@@ -155,10 +155,32 @@ export interface Game {
   href: string
   description: string
   embedUrl: string
-  seoDescription?: {
-    overview: string[]
-    features: string[]
-    gameplay: string
-    history: string[]
-  }
+  seoDescription?: SeoDescription
+}
+
+// 添加SEO描述相关的类型定义
+export interface SeoDescription {
+  sections?: Section[]
+  overview?: string[]
+  features?: string[]
+  gameplay?: string
+  history?: string[]
+}
+
+export interface Section {
+  title: string
+  content: string
+  subsections?: Subsection[]
+  bulletPoints?: string[]
+}
+
+export interface Subsection {
+  title: string
+  content: string
+  faqs?: FAQ[]
+}
+
+export interface FAQ {
+  question: string
+  answer: string
 } 

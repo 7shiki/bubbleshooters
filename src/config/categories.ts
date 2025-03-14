@@ -15,7 +15,7 @@ export const categories: Categories = {
         { icon: "🔥", name: 'Hot Games', href: '/hot-games', alt: 'Nintendo Entertainment System Games Online', key: 'hot' },
         { icon: "✨", name: 'New Games', href: '/new-games', alt: 'Famicom Disk System Games Online', key: 'new' },
         { icon: "🧩", name: 'Puzzle Games', href: '/puzzle-games', alt: 'Super Nintendo Entertainment System Games Online', key: 'puzzle' },
-        { icon: "🎯", name: 'Shooter Games', href: '/shooter-games', alt: 'Nintendo Game Boy Color Games Online', key: 'shooter' },
+        { icon: "🎯", name: 'Bubble Games', href: '/bubble-games', alt: 'Nintendo Game Boy Color Games Online', key: 'bubble' },
         { icon: "🃏", name: 'Card Games', href: '/card-games', alt: 'Nintendo Game Boy Advance Games Online', key: 'card' },
         { icon: "🏃", name: 'Junping Games', href: '/junping-games', alt: 'Nintendo 64 Games Online', key: 'junping' },
         { icon: "🎶", name: 'Music Games', href: '/music-games', alt: 'Nintendo DS Games Online', key: 'music' }

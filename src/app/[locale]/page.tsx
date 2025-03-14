@@ -1,5 +1,5 @@
 import { Metadata } from 'next'
-import { getTranslations, Game, getGameData } from '../../utils/i18n'
+import { getTranslations, Game, getGameData, Section, Subsection, FAQ } from '../../utils/i18n'
 import GameCard from '@/components/games/GameCard'
 import GameImage from '@/components/games/GameImage'
 import PlayButton from '@/components/games/PlayButton'
@@ -104,7 +104,8 @@ export default async function Home({ params }: { params: { locale: string } }) {
     imageUrl: game.imageUrl,
     platform: game.platform,
     description: game.description,
-    embedUrl: game.embedUrl
+    embedUrl: game.embedUrl,
+    seoDescription: game.seoDescription
   }));
 
   // 获取第一个游戏作为主游戏展示
@@ -192,76 +193,57 @@ export default async function Home({ params }: { params: { locale: string } }) {
 
                {/* Game Description Section with SEO-friendly structure */}
                <section className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6 mb-8 w-full">
-                <h2 className="text-2xl font-semibold mb-3">About Bubble Shooter</h2>
-                
-                <h3 className="text-xl font-semibold mb-2">How to Play Bubble Shooter</h3>
-                <p className="mb-4">
-                  Aim and shoot colorful bubbles to match three or more of the same color. Clear all bubbles from the board to advance to the next level. 
-                  Use strategy to create chain reactions and score big points!
-                </p>
-                
-                <h2 className="text-xl font-semibold mb-3">Who made Bubble Shooter Game?</h2>
-                
-                <h3 className="text-lg font-semibold mb-2">The Origins of Bubble Shooter</h3>
-                <p className="mb-3">
-                  The original Bubble Shooter game was created by Absolutist Games in 2002. It was inspired by the classic arcade game Puzzle Bobble (also known as Bust-a-Move), which was developed by Taito Corporation in 1994. Our version of Bubble Shooter builds upon this rich legacy while adding modern features and improved graphics.
-                </p>
-                
-                
-                <h2 className="text-xl font-semibold mb-3">Game Features</h2>
-                
-                <h3 className="text-lg font-semibold mb-2">Exciting Gameplay Mechanics</h3>
-                <p className="mb-3">
-                  Bubble Shooter offers intuitive and addictive gameplay that's easy to learn but challenging to master. The simple point-and-shoot mechanics combined with strategic bubble placement create a perfect balance of casual fun and tactical thinking.
-                </p>
-                
-                <h3 className="text-lg font-semibold mb-2">Power-ups and Special Items</h3>
-                <p className="mb-3">
-                  Discover various power-ups that can help you clear difficult levels. From color bombs that remove all bubbles of a specific color to lightning bolts that clear entire rows, these special items add an extra layer of strategy to your gameplay.
-                </p>
-                
-                <h3 className="text-lg font-semibold mb-2">Progressive Difficulty</h3>
-                <p className="mb-4">
-                  As you advance through the game, you'll encounter increasingly challenging layouts and bubble patterns. The progressive difficulty ensures that both beginners and experienced players will find the game engaging and rewarding.
-                </p>
-                
-                <ul className="list-disc pl-5 mb-4">
-                  <li>Multiple levels with increasing difficulty</li>
-                  <li>Colorful graphics and smooth gameplay</li>
-                  <li>Special power-ups and boosters</li>
-                  <li>Relaxing yet challenging gameplay</li>
-                  <li>Perfect for players of all ages</li>
-                </ul>
-                
-                <h2 className="text-xl font-semibold mb-3">Frequently Asked Questions</h2>
-                
-                <h3 className="text-lg font-semibold mb-2">Game Accessibility</h3>
-                <div className="mb-3">
-                  <p className="font-medium">Is Bubble Shooter free to play?</p>
-                  <p className="mb-2">Yes, Bubble Shooter is completely free to play in your browser with no downloads required.</p>
-                  
-                  <p className="font-medium">Can I play Bubble Shooter on mobile?</p>
-                  <p className="mb-2">Absolutely! Our Bubble Shooter game is fully responsive and works on smartphones and tablets.</p>
-                </div>
-                
-                <h3 className="text-lg font-semibold mb-2">Game Difficulty</h3>
-                <div className="mb-3">
-                  <p className="font-medium">Are there different difficulty levels?</p>
-                  <p className="mb-2">Yes, the game features progressive difficulty to challenge players of all skill levels.</p>
-                  
-                  <p className="font-medium">Is there a way to get hints if I'm stuck?</p>
-                  <p className="mb-2">The game offers optional hints and power-ups that can help you overcome challenging levels without diminishing the fun.</p>
-                </div>
-                
-                <h3 className="text-lg font-semibold mb-2">Technical Requirements</h3>
-                <div className="mb-4">
-                  <p className="font-medium">What browsers support Bubble Shooter?</p>
-                  <p className="mb-2">Bubble Shooter works on all modern browsers including Chrome, Firefox, Safari, and Edge.</p>
-                  
-                  <p className="font-medium">Do I need to install any plugins?</p>
-                  <p>No, our game is built with modern web technologies and doesn't require any additional plugins or installations.</p>
-                </div>
-                
+                {featuredGame.seoDescription?.sections && featuredGame.seoDescription.sections.length > 0 ? (
+                  // 如果有sections数据，则动态渲染
+                  featuredGame.seoDescription.sections.map((section: Section, sectionIndex: number) => (
+                    <div key={`section-${sectionIndex}`} className={sectionIndex > 0 ? "mt-8" : ""}>
+                      <h2 className="text-2xl font-semibold mb-3">{section.title}</h2>
+                      
+                      {section.content && <p className="mb-4">{section.content}</p>}
+                      
+                      {section.subsections?.map((subsection: Subsection, subsectionIndex: number) => (
+                        <div key={`subsection-${sectionIndex}-${subsectionIndex}`} className={subsectionIndex > 0 ? "mt-6" : ""}>
+                          <h3 className="text-xl font-semibold mb-2">{subsection.title}</h3>
+                          
+                          {subsection.content && <p className="mb-3">{subsection.content}</p>}
+                          
+                          {/* 渲染FAQ列表 */}
+                          {subsection.faqs?.map((faq: FAQ, faqIndex: number) => (
+                            <div key={`faq-${sectionIndex}-${subsectionIndex}-${faqIndex}`} className="mb-2">
+                              <p className="font-medium">{faq.question}</p>
+                              <p className="mb-2">{faq.answer}</p>
+                            </div>
+                          ))}
+                        </div>
+                      ))}
+                      
+                      {/* 渲染项目符号列表 */}
+                      {section.bulletPoints && (
+                        <ul className="list-disc pl-5 mb-4">
+                          {section.bulletPoints.map((point: string, pointIndex: number) => (
+                            <li key={`point-${sectionIndex}-${pointIndex}`}>{point}</li>
+                          ))}
+                        </ul>
+                      )}
+                    </div>
+                  ))
+                ) : (
+                  // 如果没有sections数据，则显示默认内容
+                  <div>
+                    <h2 className="text-2xl font-semibold mb-3">About {featuredGame.title}</h2>
+                    <p className="mb-4">
+                      Enjoy playing {featuredGame.title} online for free. This game is available to play directly in your browser without any downloads required.
+                    </p>
+                    
+                    <h3 className="text-xl font-semibold mb-2">Game Features</h3>
+                    <ul className="list-disc pl-5 mb-4">
+                      <li>Play instantly in your browser</li>
+                      <li>No downloads or installations required</li>
+                      <li>Free to play</li>
+                      <li>Compatible with all modern devices</li>
+                    </ul>
+                  </div>
+                )}
               </section>
               
               {/* More Games Section - Below the main content */}
