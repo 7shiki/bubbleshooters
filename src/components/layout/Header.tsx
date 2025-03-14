@@ -31,9 +31,9 @@ export default function Header({ initialMessages }: HeaderProps) {
     }, [isMobileMenuOpen])
 
     const handleSearch = (query: string) => {
-        // 实现搜索功能，可以跳转到搜索结果页面
+        // 实现搜索功能，跳转到all-games页面并带上搜索参数
         if (query.trim()) {
-            window.location.href = `/${locale}/search?q=${encodeURIComponent(query)}`
+            window.location.href = `/${locale}/all-games?search=${encodeURIComponent(query)}`
         }
     }
 
