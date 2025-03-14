@@ -284,9 +284,7 @@ export default async function Home({ params }: { params: { locale: string } }) {
                         className="w-full h-full object-cover"
                       />
                       <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black to-transparent p-2">
-                        <h3 className="text-white text-xs font-semibold truncate">
                           {game.title}
-                        </h3>
                       </div>
                     </div>
                   </a>
@@ -318,9 +316,7 @@ export default async function Home({ params }: { params: { locale: string } }) {
                             className="w-full h-full object-cover"
                           />
                           <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black to-transparent p-2">
-                            <h3 className="text-white text-xs font-semibold truncate">
                               {game.title}
-                            </h3>
                           </div>
                         </div>
                       </a>
@@ -381,9 +377,7 @@ export default async function Home({ params }: { params: { locale: string } }) {
                             className="w-full h-full object-cover"
                           />
                           <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black to-transparent p-2">
-                            <h3 className="text-white text-xs font-semibold truncate">
                               {game.title}
-                            </h3>
                           </div>
                         </div>
                       </a>
