@@ -285,7 +285,7 @@ export default async function Home({ params }: { params: { locale: string } }) {
                       />
                       <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black to-transparent p-2">
                         <h3 className="text-white text-xs font-semibold truncate">
-                          {game.title.replace('Bubble Shooter', '').trim() || game.title}
+                          {game.title}
                         </h3>
                       </div>
                     </div>
@@ -319,7 +319,7 @@ export default async function Home({ params }: { params: { locale: string } }) {
                           />
                           <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black to-transparent p-2">
                             <h3 className="text-white text-xs font-semibold truncate">
-                              {game.title.replace('Bubble Shooter', '').trim() || game.title}
+                              {game.title}
                             </h3>
                           </div>
                         </div>
@@ -366,18 +366,6 @@ export default async function Home({ params }: { params: { locale: string } }) {
                   Our version brings this timeless game to modern browsers with enhanced graphics and smooth controls.
                 </p>
                 
-                {/* Social Share Buttons */}
-                <div className="flex flex-wrap gap-2 mt-6">
-                  <button className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg flex items-center">
-                    <span>Share on Facebook</span>
-                  </button>
-                  <button className="bg-blue-400 hover:bg-blue-500 text-white px-4 py-2 rounded-lg flex items-center">
-                    <span>Share on Twitter</span>
-                  </button>
-                  <button className="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-lg flex items-center">
-                    <span>Share on Reddit</span>
-                  </button>
-                </div>
               </section>
               
               {/* Hot Games Section - Below the main content */}
@@ -394,7 +382,7 @@ export default async function Home({ params }: { params: { locale: string } }) {
                           />
                           <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black to-transparent p-2">
                             <h3 className="text-white text-xs font-semibold truncate">
-                              {game.title.replace('Bubble Shooter', '').trim() || game.title}
+                              {game.title}
                             </h3>
                           </div>
                         </div>
