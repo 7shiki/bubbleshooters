@@ -212,6 +212,33 @@ export default async function Home({ params }: { params: { locale: string } }) {
       platform: 'Browser',
       description: 'Master the art of bubble shooting with this advanced version.',
       embedUrl: 'https://cdn.bubbleshooter.com/games/bubble-shooter-master/'
+    },
+    { 
+      id: 14, 
+      title: 'Bubble Shooter Deluxe', 
+      slug: 'bubble-shooter-deluxe', 
+      imageUrl: '/images/games/bubble-game-3.avif', 
+      platform: 'Browser',
+      description: 'Deluxe version with premium graphics and smooth gameplay.',
+      embedUrl: 'https://cdn.bubbleshooter.com/games/bubble-shooter-deluxe/'
+    },
+    { 
+      id: 15, 
+      title: 'Bubble Shooter Master', 
+      slug: 'bubble-shooter-master', 
+      imageUrl: '/images/games/bubble-shooter-ultimate.avif', 
+      platform: 'Browser',
+      description: 'Master the art of bubble shooting with this advanced version.',
+      embedUrl: 'https://cdn.bubbleshooter.com/games/bubble-shooter-master/'
+    },
+    { 
+      id: 16, 
+      title: 'Bubble Shooter Master', 
+      slug: 'bubble-shooter-master', 
+      imageUrl: '/images/games/bubble-shooter-ultimate.avif', 
+      platform: 'Browser',
+      description: 'Master the art of bubble shooting with this advanced version.',
+      embedUrl: 'https://cdn.bubbleshooter.com/games/bubble-shooter-master/'
     }
   ];
 

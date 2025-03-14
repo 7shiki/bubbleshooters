@@ -6,7 +6,7 @@ import { useState, useEffect } from 'react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import ThemeToggle from './ThemeToggle'
 import LanguageToggle from './LanguageToggle'
-import { categories, type CategoryItem } from '@/config/categories'
+import SearchBar from './SearchBar'
 
 interface HeaderProps {
   initialMessages: any
@@ -16,11 +16,7 @@ export default function Header({ initialMessages }: HeaderProps) {
     const pathname = usePathname()
     const params = useParams()
     const locale = params.locale as string || 'en'
-    const [openMenu, setOpenMenu] = useState<string | null>(null)
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
-
-    // 获取翻译
-    const messages = initialMessages.platforms
 
     // 控制 body 滚动
     useEffect(() => {
@@ -34,25 +30,46 @@ export default function Header({ initialMessages }: HeaderProps) {
         }
     }, [isMobileMenuOpen])
 
+    const handleSearch = (query: string) => {
+        // 实现搜索功能，可以跳转到搜索结果页面
+        if (query.trim()) {
+            window.location.href = `/${locale}/search?q=${encodeURIComponent(query)}`
+        }
+    }
+
     return (
         <>
             <header className="sticky top-0 z-50 bg-nav backdrop-blur-md border-b border-purple-500/10">
                 <div className="max-w-7xl mx-auto px-4">
                     <div className="flex items-center justify-between h-16">
-                        {/* Left section: Logo and Mobile Menu Button */}
-                        <div className="flex items-center gap-2">
+                        {/* Logo */}
+                        <div className="flex-shrink-0">
                             <Link 
                                 href={locale === 'en' ? '/' : `/${locale}`} 
                                 className="flex items-center"
                                 title={initialMessages.common.logo.title}
                             >
-                                <span className="retro-logo text-xl md:text-2xl">RetroGames</span>
+                                <span className="retro-logo text-xl md:text-2xl">Bubble Shooter</span>
                             </Link>
+                        </div>
 
+                        {/* Search Bar - 居中显示 */}
+                        <div className="hidden md:block w-auto">
+                            <SearchBar onSearch={handleSearch} initialMessages={initialMessages} />
+                        </div>
+
+                        {/* Right section: Language and Theme Controls */}
+                        <div className="flex items-center">
+                            <div className="flex items-center bg-nav rounded-lg">
+                                <LanguageToggle />
+                                <div className="h-full border-r border-purple-500/10" />
+                                <ThemeToggle />
+                            </div>
+                            
                             {/* Mobile menu button */}
                             <button
                                 type="button"
-                                className="md:hidden p-2 rounded-lg hover:bg-purple-500/10"
+                                className="md:hidden ml-2 p-2 rounded-lg hover:bg-purple-500/10"
                                 onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
                             >
                                 {isMobileMenuOpen ? (
@@ -62,52 +79,16 @@ export default function Header({ initialMessages }: HeaderProps) {
                                 )}
                             </button>
                         </div>
-
-                        {/* Desktop Navigation */}
-                        <nav className="hidden md:flex items-center space-x-4">
-                            {Object.entries(categories).map(([key, items]) => (
-                                <div
-                                    key={key}
-                                    className="relative"
-                                    onMouseEnter={() => setOpenMenu(key)}
-                                    onMouseLeave={() => setOpenMenu(null)}
-                                >
-                                    <button className="nav-link">
-                                        {key}
-                                    </button>
-                                    {openMenu === key && (
-                                        <div className="absolute top-full left-0 mt-1 py-2 w-48 bg-nav rounded-lg shadow-xl border border-purple-500/10">
-                                            {items.map((item: CategoryItem) => (
-                                                <Link
-                                                    key={item.name}
-                                                    href={locale === 'en' ? item.href : `/${locale}${item.href}`}
-                                                    title={messages[item.key]?.alt}
-                                                    className={`block px-4 py-2 hover:bg-purple-500/10 ${
-                                                        pathname === item.href ? 'text-primary bg-purple-500/10' : ''
-                                                    }`}
-                                                >
-                                                    {item.name}
-                                                </Link>
-                                            ))}
-                                        </div>
-                                    )}
-                                </div>
-                            ))}
-                        </nav>
-
-                        {/* Right section: Language and Theme Controls */}
-                        <div className="flex items-center">
-                            <div className="flex items-center bg-nav rounded-lg">
-                                <LanguageToggle />
-                                <div className="h-full border-r border-purple-500/10" />
-                                <ThemeToggle />
-                            </div>
-                        </div>
                     </div>
+                </div>
+                
+                {/* 移动端搜索栏 - 直接显示在导航栏下方 */}
+                <div className="md:hidden border-t border-purple-500/10 px-4 py-2">
+                    <SearchBar onSearch={handleSearch} initialMessages={initialMessages} />
                 </div>
             </header>
 
-            {/* Mobile Navigation Drawer */}
+            {/* Mobile Navigation Drawer - 只保留语言和主题切换 */}
             <div
                 className={`fixed inset-0 bg-black/50 backdrop-blur-sm transition-opacity md:hidden z-[9999] ${
                     isMobileMenuOpen ? 'opacity-100' : 'opacity-0 pointer-events-none'
@@ -122,7 +103,8 @@ export default function Header({ initialMessages }: HeaderProps) {
                 >
                     <div className="h-full overflow-y-auto">
                         <div className="sticky top-0 p-4 bg-white dark:bg-gray-950 border-b border-purple-500/10">
-                            <div className="flex items-center justify-end">
+                            <div className="flex items-center justify-between">
+                                <span className="retro-logo text-xl">Bubble Shooter</span>
                                 <button
                                     type="button"
                                     className="p-2 rounded-lg hover:bg-purple-500/10 text-gray-800 dark:text-white"
@@ -134,28 +116,18 @@ export default function Header({ initialMessages }: HeaderProps) {
                         </div>
 
                         <div className="p-4 space-y-6">
-                            {Object.entries(categories).map(([key, items]) => (
-                                <div key={key} className="space-y-2">
-                                    <div className="font-medium text-lg text-gray-800 dark:text-white">
-                                        {key}
-                                    </div>
-                                    <div className="space-y-1">
-                                        {items.map((item: CategoryItem) => (
-                                            <Link
-                                                key={item.name}
-                                                href={locale === 'en' ? item.href : `/${locale}${item.href}`}
-                                                title={messages[item.key]?.alt}
-                                                className={`block py-2 text-base hover:bg-purple-500/10 rounded-lg px-3 transition-colors ${
-                                                    pathname === item.href ? 'text-primary bg-purple-500/10' : 'text-gray-700 dark:text-gray-200'
-                                                }`}
-                                                onClick={() => setIsMobileMenuOpen(false)}
-                                            >
-                                                {item.name}
-                                            </Link>
-                                        ))}
-                                    </div>
+                            {/* 移动端菜单内容 - 可以添加其他选项 */}
+                            <div className="pt-4 flex flex-col space-y-4">
+                                <div className="text-lg font-medium text-gray-700 dark:text-gray-200">Settings</div>
+                                <div className="flex items-center justify-between">
+                                    <span className="text-gray-600 dark:text-gray-300">Language</span>
+                                    <LanguageToggle />
                                 </div>
-                            ))}
+                                <div className="flex items-center justify-between">
+                                    <span className="text-gray-600 dark:text-gray-300">Theme</span>
+                                    <ThemeToggle />
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
