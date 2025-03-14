@@ -203,6 +203,15 @@ export default async function Home({ params }: { params: { locale: string } }) {
       platform: 'Browser',
       description: 'Master the art of bubble shooting with this advanced version.',
       embedUrl: 'https://cdn.bubbleshooter.com/games/bubble-shooter-master/'
+    },
+    { 
+      id: 13, 
+      title: 'Bubble Shooter Master', 
+      slug: 'bubble-shooter-master', 
+      imageUrl: '/images/games/bubble-shooter-ultimate.avif', 
+      platform: 'Browser',
+      description: 'Master the art of bubble shooting with this advanced version.',
+      embedUrl: 'https://cdn.bubbleshooter.com/games/bubble-shooter-master/'
     }
   ];
 
@@ -322,16 +331,21 @@ export default async function Home({ params }: { params: { locale: string } }) {
               
               {/* Hot Games Section - Below the main content */}
               <section className="mb-8 w-full">
-                <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
+                <div className="flex flex-wrap gap-4">
                   {formattedGames.slice(0, 5).map((game) => (
-                    <div key={game.id} className="bg-white dark:bg-gray-800 rounded-lg shadow overflow-hidden transform hover:scale-105 transition-transform">
-                      <a href={`/${params.locale}/${game.href}`}>
-                        <div className="relative">
+                    <div key={game.id} className="bg-white dark:bg-gray-800 rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-all duration-300 hover:shadow-xl">
+                      <a href={`/${params.locale}/${game.href}`} className="block hover:opacity-95 transition-all">
+                        <div className="relative" style={{ width: '180px', height: '100px' }}>
                           <GameImage 
                             src={game.imageUrl} 
                             alt={game.title} 
-                            className="w-full h-32 object-cover"
+                            className="w-full h-full object-cover"
                           />
+                          <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black to-transparent p-2">
+                            <h3 className="text-white text-xs font-semibold truncate">
+                              {game.title.replace('Bubble Shooter', '').trim() || game.title}
+                            </h3>
+                          </div>
                         </div>
                       </a>
                     </div>

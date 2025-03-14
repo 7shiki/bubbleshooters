@@ -47,7 +47,7 @@ export default async function RootLayout({
             <Sidebar navItems={navItems} locale={locale} />
             
             {/* 主内容区域 - 移除左边距 */}
-            <main className="flex-grow md:ml-5 pt-1 px-0">
+            <main className="flex-grow md:ml-5 pt-2 px-0">
               {children}
             </main>
           </div>
