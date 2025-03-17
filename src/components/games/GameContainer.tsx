@@ -169,36 +169,38 @@ export default function GameContainer({
       >
         {/* 游戏介绍界面 - 当showGame为false时显示，添加圆角 */}
         {!showGame && (
-          <div className="absolute inset-0 flex flex-col md:flex-row items-center justify-center bg-gradient-to-br from-indigo-100 to-purple-100 dark:from-gray-700 dark:to-gray-800 z-10 rounded-xl">
-            {/* 游戏标题 - 移到内容区域顶部 */}
-            <div className="md:w-2/3 mb-8 md:mb-0 md:pr-8 text-center md:text-left px-6">
+          <div className="absolute inset-0 flex flex-col md:flex-row items-center justify-center bg-gradient-to-br from-indigo-100 to-purple-100 dark:from-gray-700 dark:to-gray-800 z-10 rounded-xl p-4">
+            {/* 游戏图片 - 移动端放在顶部，桌面端放在右侧 */}
+            <div className="w-24 h-24 md:w-48 md:h-48 rounded-full flex-shrink-0 flex items-center justify-center overflow-hidden shadow-lg border-4 border-white mb-3 md:mb-0 md:order-2 md:ml-6">
+              <GameImage 
+                src={imageUrl} 
+                alt={`${title} Logo`}
+                className="w-full h-full object-cover"
+              />
+            </div>
+            
+            {/* 游戏标题和描述 - 移动端放在图片下方，桌面端放在左侧 */}
+            <div className="w-full md:w-2/3 text-center md:text-left md:order-1 md:pr-4">
               {/* 游戏标题 */}
-              <h1 className="text-2xl md:text-3xl font-bold mb-6 text-gray-800 dark:text-white">{title}</h1>
+              <h1 className="text-lg md:text-3xl font-bold mb-2 md:mb-6 text-gray-800 dark:text-white">{title}</h1>
               
-              {/* 游戏描述 */}
-              <div className="text-gray-700 dark:text-gray-300 mb-8 max-w-lg mx-auto md:mx-0">
-                <p className="mb-4 text-lg">{description}</p>
+              {/* 游戏描述 - 使用CSS控制移动端文本截断 */}
+              <div className="text-gray-700 dark:text-gray-300 mb-3 md:mb-8 max-w-lg mx-auto md:mx-0">
+                <p className="text-sm md:text-lg md:line-clamp-none line-clamp-5 overflow-hidden">
+                  {description}
+                </p>
               </div>
               
               {/* 播放按钮 */}
               <div className="flex justify-center md:justify-start">
                 <button 
                   onClick={handlePlayClick}
-                  className="bg-black hover:bg-gray-800 text-white font-bold py-4 px-12 rounded-full shadow-lg flex items-center justify-center text-lg transform hover:scale-105 transition-transform"
+                  className="bg-black hover:bg-gray-800 text-white font-bold py-2 px-6 md:py-4 md:px-12 rounded-full shadow-lg flex items-center justify-center text-sm md:text-lg transform hover:scale-105 transition-transform"
                   aria-label="Play Game"
                 >
                   <span className="mr-2">▶</span> PLAY GAME
                 </button>
               </div>
-            </div>
-            
-            {/* 游戏图片 */}
-            <div className="w-48 h-48 md:w-48 md:h-48 rounded-full flex-shrink-0 flex items-center justify-center overflow-hidden shadow-lg border-4 border-white mx-6">
-              <GameImage 
-                src={imageUrl} 
-                alt={`${title} Logo`}
-                className="w-full h-full object-cover"
-              />
             </div>
           </div>
         )}
