@@ -126,8 +126,8 @@ export default async function Home({ params }: { params: { locale: string } }) {
       <div className="flex flex-col md:ml-48">
         {/* Main content area with game and sidebar */}
         <div className="w-full flex flex-col md:flex-row">
-          {/* Left sidebar with game cards - No left margin/padding to remove empty space */}
-          <div className="w-full md:w-52 pr-0 pt-0.5">
+          {/* Left sidebar with game cards - 仅在桌面端显示 */}
+          <div className="hidden md:block md:w-52 pr-0 pt-0.5">
             <div className="flex flex-col space-y-6 px-2 items-center">
               {formattedGames.slice(1, 21).map((game) => (
                 <div key={game.id}>
