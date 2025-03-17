@@ -9,14 +9,16 @@ interface NavItem {
   label: string | React.ReactNode;
   href: string;
   isRandom?: boolean;
+  key?: string; // 添加key属性用于匹配platforms中的alt文本
 }
 
 interface SidebarProps {
   navItems: NavItem[];
   locale: string;
+  messages: any; // 添加messages属性用于获取多语言文本
 }
 
-export default function Sidebar({ navItems, locale }: SidebarProps) {
+export default function Sidebar({ navItems, locale, messages }: SidebarProps) {
   const pathname = usePathname();
   const sidebarRef = useRef<HTMLDivElement>(null);
   
@@ -50,6 +52,22 @@ export default function Sidebar({ navItems, locale }: SidebarProps) {
     };
   }, []);
   
+  // 获取alt文本的辅助函数
+  const getAltText = (item: NavItem) => {
+    // 如果是随机游戏链接，使用固定的alt文本
+    if (item.isRandom) {
+      return messages?.platforms?.random?.alt || "Random Game";
+    }
+    
+    // 对于分类导航项，使用platforms中对应的alt文本
+    if (item.key && messages?.platforms?.[item.key]?.alt) {
+      return messages.platforms[item.key].alt;
+    }
+    
+    // 默认使用label作为alt文本
+    return typeof item.label === 'string' ? item.label : "Navigation item";
+  };
+  
   return (
     <aside className="hidden md:block md:w-48 md:fixed md:left-0 md:top-16 md:bottom-0 bg-white dark:bg-gray-800 shadow-md border-r border-gray-200 dark:border-gray-700">
       {/* 使用独立的滚动容器 */}
@@ -65,6 +83,7 @@ export default function Sidebar({ navItems, locale }: SidebarProps) {
             const linkClass = `flex items-start p-3 mb-3 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors ${
               isActive ? 'bg-gray-100 dark:bg-gray-700' : ''
             }`;
+            const altText = getAltText(item);
             
             // 如果是随机游戏链接，使用RandomGameLink组件
             if (item.isRandom) {
@@ -73,8 +92,9 @@ export default function Sidebar({ navItems, locale }: SidebarProps) {
                   key={index}
                   className={linkClass}
                   locale={locale}
+                  title={altText} // 使用title属性作为tooltip
                 >
-                  <span className="text-base mr-1.5 flex-shrink-0">{item.icon}</span>
+                  <span className="text-base mr-1.5 flex-shrink-0" aria-hidden="true">{item.icon}</span>
                   <span className="font-medium text-sm leading-tight break-words">{item.label}</span>
                 </RandomGameLink>
               );
@@ -86,8 +106,10 @@ export default function Sidebar({ navItems, locale }: SidebarProps) {
                 key={index} 
                 href={href}
                 className={linkClass}
+                title={altText} // 使用title属性作为tooltip
+                aria-label={altText} // 使用aria-label属性提高可访问性
               >
-                <span className="text-base mr-1.5 flex-shrink-0">{item.icon}</span>
+                <span className="text-base mr-1.5 flex-shrink-0" aria-hidden="true">{item.icon}</span>
                 <span className="font-medium text-sm leading-tight break-words">{item.label}</span>
               </a>
             );

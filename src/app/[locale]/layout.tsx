@@ -16,26 +16,27 @@ export const metadata: Metadata = {
 }
 
 // 定义固定导航项
-const getFixedNavItems = () => [
-  { icon: "🏠", label: "Home", href: "/" },
-  { icon: "🕒", label: "History", href: "/history" },
-  { icon: "🎲", label: "Random", href: "javascript:void(0)", isRandom: true }
+const getFixedNavItems = (messages: any) => [
+  { icon: "🏠", label: messages.navigation?.home || "Home", href: "/", isRandom: false, key: "home" },
+  { icon: "🕒", label: messages.navigation?.history || "History", href: "/history", isRandom: false, key: "history" },
+  { icon: "🎲", label: messages.navigation?.random || "Random", href: "#", isRandom: true, key: "random" }
 ];
 
 // 从categories中获取分类导航项
-const getCategoryNavItems = () => {
+const getCategoryNavItems = (messages: any) => {
   return categories.categories.map(category => ({
     icon: category.icon,
-    label: category.name,
+    label: messages.platforms?.[category.key]?.alt || category.name,
     href: category.href,
-    isRandom: false
+    isRandom: false,
+    key: category.key
   }));
 };
 
 // 合并固定导航项和分类导航项
-const getAllNavItems = () => {
-  const fixedItems = getFixedNavItems();
-  const categoryItems = getCategoryNavItems();
+const getAllNavItems = (messages: any) => {
+  const fixedItems = getFixedNavItems(messages);
+  const categoryItems = getCategoryNavItems(messages);
   
   return [...fixedItems, ...categoryItems];
 };
@@ -48,7 +49,7 @@ export default async function RootLayout({
   params: { locale: string }
 }) {
   const messages = await getTranslations(locale)
-  const navItems = getAllNavItems();
+  const navItems = getAllNavItems(messages);
 
   return (
     <html lang={locale} suppressHydrationWarning>
@@ -59,10 +60,10 @@ export default async function RootLayout({
         <div className="flex flex-col min-h-screen bg-white dark:bg-gray-900">
           <Header initialMessages={messages} />
           <div className="flex flex-1">
-            {/* 侧边栏 */}
-            <Sidebar navItems={navItems} locale={locale} />
+            {/* 侧边栏 - 传递messages */}
+            <Sidebar navItems={navItems} locale={locale} messages={messages} />
             
-            {/* 主内容区域 - 移除左边距 */}
+            {/* 主内容区域 */}
             <main className="flex-grow md:ml-5 pt-2 px-0">
               {children}
             </main>

@@ -1,4 +1,10 @@
 {
+  "navigation": {
+    "home": "首页",
+    "history": "历史记录",
+    "random": "随机游戏",
+    "allGames": "所有游戏"
+  },
   "home": {
     "metadata": {
       "title": "🎮 复古游戏 - 在线免费玩经典游戏。无需下载。",
@@ -53,105 +59,45 @@
     }
   },
   "platforms": {
-    "nes": {
-      "alt": "任天堂红白机游戏在线玩",
-      "description": "任天堂红白机（Nintendo Entertainment System）是一款由任天堂开发和制造的 8 位家用游戏机。最初于 1983 年 7 月 15 日在日本以 Family Computer 的名称发售，随后于 1985 年在北美、1986 年在欧洲和 1987 年在澳大利亚发售。在韩国，它被称为现代 Comboy，由当时被称为现代电子的 SK 海力士分销。"
+    "home": {
+      "alt": "首页",
+      "description": "返回网站首页"
     },
-    "fds": {
-      "alt": "任天堂红白机磁盘机游戏在线玩",
-      "description": "任天堂红白机磁盘机（Famicom Disk System，简称 FDS）是任天堂于 1986 年在日本发售的红白机专用扩展配件。它引入了可重写的软盘存储功能，允许更大的游戏容量和存档功能，但最终因卡带游戏的兴起而停产。"
+    "history": {
+      "alt": "历史记录",
+      "description": "查看您最近玩过的游戏"
     },
-    "snes": {
-      "alt": "超级任天堂游戏在线玩",
-      "description": "超级任天堂（Super Nintendo Entertainment System）是一款由任天堂开发的 16 位家用游戏机，于 1990 年在日本和韩国、1991 年在北美、1992 年在欧洲和大洋洲、1993 年在南美洲发售。在日本，该系统被称为 Super Famicom（简称 SFC）。"
+    "random": {
+      "alt": "随机游戏",
+      "description": "随机选择一个游戏进行游玩"
     },
-    "gameboy": {
-      "alt": "任天堂 Game Boy 游戏在线玩",
-      "description": "Game Boy 是一款由任天堂开发和制造的 8 位掌上游戏机，具有可更换卡带功能。它于 1989 年 4 月 21 日在日本首次发售，1989 年 7 月 31 日在北美发售，1990 年 9 月 28 日在欧洲发售。这是 Game Boy 系列的第一款掌上游戏机，由横井军平和任天堂研发一部开发。"
+    "hot": {
+      "alt": "热门游戏",
+      "description": "最受欢迎和流行的游戏"
     },
-    "gameboycolor": {
-      "alt": "任天堂 Game Boy Color 游戏在线玩",
-      "description": "Game Boy Color（简称 GBC）是由任天堂制造的掌上游戏机，于 1998 年 10 月 21 日在日本发售，同年 11 月在国际市场发售。这是 Game Boy 的后继机种。"
+    "new": {
+      "alt": "新游戏",
+      "description": "最新添加的游戏"
     },
-    "gameboyadvance": {
-      "alt": "任天堂 Game Boy Advance 游戏在线玩",
-      "description": "Game Boy Advance（简称 GBA）是一款 32 位掌上游戏机，由任天堂开发、制造和销售，作为 Game Boy Color 的后继机种。它于 2001 年 3 月 21 日在日本发售，2001 年 6 月 11 日在北美发售，2001 年 6 月 22 日在澳大利亚和欧洲发售。"
+    "puzzle": {
+      "alt": "益智游戏",
+      "description": "脑筋急转弯和益智类游戏"
     },
-    "n64": {
-      "alt": "任天堂 64 游戏在线玩",
-      "description": "任天堂 64（N64）是任天堂开发的第五代家用游戏机，于 1996 年在日本和北美发售，1997 年在欧洲和澳大利亚发售。这是任天堂第一款具有 3D 图形功能的游戏机，使用卡带而不是 CD，与 PlayStation 和世嘉土星竞争。"
+    "bubble": {
+      "alt": "泡泡游戏",
+      "description": "泡泡射击和匹配类游戏"
     },
-    "nds": {
-      "alt": "任天堂 DS 游戏在线玩",
-      "description": "任天堂 DS（NDS）是任天堂于 2004 年发售的双屏幕掌上游戏机。具有触控屏幕、无线连接功能，并且可以向下兼容 Game Boy Advance 游戏，成为有史以来最畅销的游戏系统之一。"
+    "card": {
+      "alt": "卡牌游戏",
+      "description": "经典和现代卡牌游戏"
     },
-    "master-system": {
-      "alt": "世嘉 Master System 游戏在线玩",
-      "description": "世嘉 Master System 是世嘉开发的 8 位家用游戏机，最初于 1985 年在日本以 Sega Mark III 的名称发售，后来改名为 Master System 在国际市场发售。它是任天堂红白机的竞争对手，但在欧洲和巴西取得了更大的成功。"
+    "junping": {
+      "alt": "跳跃游戏",
+      "description": "平台和跳跃类游戏"
     },
-    "game-gear": {
-      "alt": "世嘉 Game Gear 游戏在线玩",
-      "description": "Game Gear 是世嘉于 1990 年 10 月 6 日在日本发售、1991 年在北美和欧洲发售、1992 年在澳大利亚发售的 8 位掌上游戏机。Game Gear 主要与任天堂的 Game Boy、雅达利的 Lynx 和 NEC 的 TurboExpress 竞争。这款掌机与 Master System 共享许多硬件，并且能够通过转接器玩自己的游戏以及 Master System 的游戏。"
-    },
-    "genesis": {
-      "alt": "世嘉 Genesis/Mega Drive 游戏在线玩",
-      "description": "世嘉 Genesis，在北美以外的大多数地区称为 Mega Drive，是一款由世嘉企业开发和销售的 16 位家用游戏机。Genesis 是世嘉的第三款游戏机，也是 Master System 的后继机种。世嘉最初于 1988 年在日本以 Mega Drive 的名称发售该游戏机，随后于 1989 年以 Genesis 的名称在北美发售。"
-    },
-    "sega32x": {
-      "alt": "世嘉 32X 游戏在线玩",
-      "description": "世嘉 32X 是 1994 年发售的世嘉 Genesis/Mega Drive 扩展配件。它旨在提升主机的图形和处理能力，但由于世嘉土星的推出而寿命短暂。"
-    },
-    "sega-cd": {
-      "alt": "世嘉 CD/Mega CD 游戏在线玩",
-      "description": "世嘉 CD（在北美以外地区称为 Mega-CD）是世嘉 Genesis 的 CD-ROM 扩展配件，于 1991 年在日本发售，1992 年在北美发售。它引入了全动态视频和 CD 品质音频，但由于高成本和游戏库有限而表现不佳。"
-    },
-    "turbografx-16": {
-      "alt": "NEC TurboGrafx-16 游戏在线玩",
-      "description": "TurboGrafx-16，在日本称为 PC Engine，是由 Hudson Soft 和 NEC 开发的家用游戏机，于 1987 年在日本发售，1989 年在北美发售。它是 16 位时代发售的第一款游戏机，尽管使用 8 位 CPU。该系统与世嘉 Genesis 和超级任天堂竞争。"
-    },
-    "turbografx-cd": {
-      "alt": "NEC TurboGrafx-CD 游戏在线玩",
-      "description": "TurboGrafx-CD 是 TurboGrafx-16/PC Engine 的扩展配件，于 1988 年在日本发售，后来在北美发售。它为 NEC 的平台引入了基于 CD 的游戏，允许更高品质的音频和扩展的游戏存储。"
-    },
-    "pc-engine-cd": {
-      "alt": "NEC PC Engine CD-ROM² 游戏在线玩",
-      "description": "PC Engine CD-ROM² 是第一个基于 CD 的游戏机扩展配件，于 1988 年在日本发售。它扩展了 PC Engine 的功能，允许更大的游戏容量，改进的音频和动画，影响了未来基于 CD 的游戏系统。"
-    },
-    "atari-7800": {
-      "alt": "雅达利 7800 ProSystem 游戏在线玩",
-      "description": "雅达利 7800 ProSystem 是雅达利公司于 1986 年发售的家用游戏机。它设计为可向下兼容雅达利 2600 的游戏，同时提供改进的图形和性能。尽管具有这些功能，但在其生命周期内仍难以与任天堂红白机和世嘉 Master System 竞争。"
-    },
-    "atari-lynx": {
-      "alt": "雅达利 Lynx 掌上游戏机在线玩",
-      "description": "雅达利 Lynx 是雅达利于 1989 年发售的掌上游戏机。它是第一款具有彩色 LCD 屏幕的掌上游戏机，并具有当时先进的硬件，包括精灵缩放和多人游戏支持。然而，它面临来自任天堂 Game Boy 和世嘉 Game Gear 的激烈竞争。"
-    },
-    "atari-jaguar": {
-      "alt": "雅达利 Jaguar 游戏在线玩",
-      "description": "雅达利 Jaguar 是雅达利公司于 1993 年发售的家用游戏机。作为第一款 64 位游戏系统进行营销，它相比 16 位竞争对手拥有更强大的处理能力。然而，由于缺乏开发者支持和来自索尼 PlayStation 和世嘉土星的强烈竞争，Jaguar 表现不佳，最终导致雅达利退出游戏机市场。"
-    },
-    "playstation": {
-      "alt": "索尼 PlayStation 游戏在线玩",
-      "description": "PlayStation（PS1）是一款 32 位家用游戏机，由索尼于 1994 年在日本发售，1995 年在全球发售。它是第一款销量超过 1 亿台的游戏机，引入了基于 CD 的游戏、3D 图形，并拥有庞大的经典游戏库，彻底改变了游戏产业。"
-    },
-    "arcade": {
-      "alt": "经典街机游戏在线玩",
-      "description": "街机游戏是在商业场所安装的投币式娱乐设备。街机游戏的黄金时代以吃豆人、太空侵略者和大金刚等经典游戏为代表，这些游戏为现代游戏奠定了基础，至今仍影响着游戏设计。"
-    },
-    "wonderswan": {
-      "alt": "万代 WonderSwan 游戏在线玩",
-      "description": "WonderSwan 是万代于 1999 年在日本独家发售的掌上游戏机。由横井军平设计，具有独特的垂直和水平屏幕方向功能。尽管面临任天堂 Game Boy 的强大竞争，它凭借优质游戏和创新功能在日本获得了一定人气。"
-    },
-    "neo-geo-pocket": {
-      "alt": "SNK Neo Geo Pocket 游戏在线玩",
-      "description": "Neo Geo Pocket 是 SNK 于 1998 年发售的掌上游戏机，随后在 1999 年推出了 Neo Geo Pocket Color。以其优质格斗游戏和精确的微动开关摇杆闻名，提供了独特的游戏体验，但在与任天堂主导的 Game Boy 系列的竞争中处于劣势。"
-    },
-    "msx": {
-      "alt": "MSX 游戏在线玩",
-      "description": "MSX 是由微软和 ASCII 公司于 1983 年设计的标准化家用电脑架构。在日本、欧洲和巴西广受欢迎，它是许多经典游戏的平台，并催生了包括合金装备和炸弹人在内的多个著名系列。"
-    },
-    "msx-2": {
-      "alt": "MSX 2 游戏在线玩",
-      "description": "MSX2 是原始 MSX 电脑标准的升级版本，于 1985 年发售。它具有改进的图形功能，包括支持更高分辨率和更大的调色板，使其成为更强大的游戏和计算系统。许多经典游戏，如合金装备 2：固体蛇，都是为 MSX2 开发的。"
+    "music": {
+      "alt": "音乐游戏",
+      "description": "节奏和音乐类游戏"
     }
   },
   "game": {

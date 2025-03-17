@@ -7,9 +7,10 @@ interface RandomGameLinkProps {
   className?: string;
   children: React.ReactNode;
   locale: string;
+  title?: string;
 }
 
-export default function RandomGameLink({ className, children, locale }: RandomGameLinkProps) {
+export default function RandomGameLink({ className, children, locale, title }: RandomGameLinkProps) {
   const router = useRouter();
   const [isLoading, setIsLoading] = useState(false);
 
@@ -86,7 +87,7 @@ export default function RandomGameLink({ className, children, locale }: RandomGa
       href="javascript:void(0)" 
       onClick={handleRandomGame}
       className={className}
-      title="Open a random game"
+      title={title || "Open a random game"}
     >
       {children}
       {isLoading && <span className="ml-1 animate-spin">⏳</span>}

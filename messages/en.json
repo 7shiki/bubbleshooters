@@ -53,34 +53,46 @@
     }
   },
   "platforms": {
+    "home": {
+      "alt": "Home Page",
+      "description": "Return to home page"
+    },
+    "history": {
+      "alt": "Play History",
+      "description": "View your recently played games"
+    },
+    "random": {
+      "alt": "Random Game",
+      "description": "Play a random game"
+    },
     "hot": {
       "alt": "Hot Games",
-      "description": ""
+      "description": "Popular and trending games"
     },
     "new": {
       "alt": "New Games",
-      "description": ""
+      "description": "Recently added games"
     },
     "puzzle": {
       "alt": "Puzzle Games",
-      "description": ""
+      "description": "Brain teasers and puzzle games"
     },
     "bubble": {
       "alt": "Bubble Games",
-      "description": ""
+      "description": "Bubble shooter and matching games"
     },
     "card": {
       "alt": "Card Games",
-      "description": ""
+      "description": "Classic and modern card games"
     },
     "junping": {
-      "alt": "Junping Games",
-      "description": ""
+      "alt": "Jumping Games",
+      "description": "Platform and jumping games"
     },
     "music": {
       "alt": "Music Games",
-      "description": ""
-    } 
+      "description": "Rhythm and music-based games"
+    }
   },
   "game": {
     "metadata": {
@@ -272,5 +284,11 @@
     "clearHistory": "Clear History",
     "lastPlayed": "Last played",
     "emptyMessage": "Your play history will appear here"
+  },
+  "navigation": {
+    "home": "Home",
+    "history": "History",
+    "random": "Random",
+    "allGames": "All Games"
   }
 }
