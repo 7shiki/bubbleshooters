@@ -7,7 +7,7 @@ module.exports = {
         watch: false,
         instances: 1,
         env: {
-          PORT: 3950
+          PORT: 3960
         }
       }
     ]
