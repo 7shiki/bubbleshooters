@@ -1,331 +1,261 @@
 {
   "home": {
     "metadata": {
-      "title": "Retro Games - Juega Juegos Retro en línea. Sin necesidad de descargar.",
-      "description": "Juega juegos retro en línea de NES, SNES, GB, GBC, GBA, SEGA Genesis, PSX, PS1 y Juegos Arcade Clásicos en tu navegador. Gratis y sin necesidad de descargar.",
+      "title": "Play Bubble Shooter Game Online. No Download Required.",
+      "description": "Play bubble shooter game online for free in your browser. Enjoy classic, 3D, and puzzle bubble shooter unblocked games with no download required. Have fun!",
       "keywords": "",
       "og": {
-        "title": "Retro Games - Juega Juegos Clásicos en línea",
-        "description": "Juega juegos retro en línea de NES, SNES, GB, GBC, GBA, SEGA Genesis, PSX, PS1 y Juegos Arcade Clásicos en tu navegador. Gratis y sin necesidad de descargar.",
-        "imageAlt": "Retro Games - Colección de Juegos Clásicos"
+        "title": "Bubble Shooters - Play Bubble Games Online",
+        "description": "Play bubble shooter games online for free in your browser. Enjoy classic, 3D, and puzzle bubble shooter games with no download required.",
+        "imageAlt": "Bubble Shooters - Colorful Bubble Games Collection"
       }
-    },
-    "hero": {
-      "title": {
-        "play": "Jugar",
-        "retroGames": "Retro Games"
-      },
-      "description": "Revive la alegría y nostalgia de tu infancia con nuestra colección de Juegos Retro, con clásicos atemporales de Nintendo, Sega, NEC, Atari, PlayStation y Arcade. Sin necesidad de descargar."
     }
-  },
-  "games": {
-    "popularGames": "Juegos Retro más Populares",
-    "newGames": "Nuevos Juegos Retro",
-    "viewAll": "Ver Todos los Juegos Retro",
-    "playGame": "Jugar",
-    "loadMore": "Cargar Más Juegos",
-    "updatedDaily": "Actualizado diariamente"
   },
   "allGames": {
     "metadata": {
-      "title": "Retro-Games.org - Todos los Juegos Retro. Juega Juegos Clásicos en línea",
-      "description": "Explora nuestra colección completa de juegos retro clásicos de Nintendo, Sega, PlayStation y más. Juega tus juegos retro favoritos en línea.",
+      "title": "All Bubble Shooter Games Online. Play Bubble Games Online",
+      "description": "Browse our complete collection of bubble shooter games. Play your favorite bubble shooter games online for free with no download required.",
       "keywords": ""
     },
-    "title": "Todos los Juegos Retro",
-    "description": "Explora nuestra colección completa de juegos retro clásicos disponibles para jugar en línea.",
-    "subDescription": "Redescubre tus recuerdos de infancia y revive esos momentos mágicos de juego.",
-    "browseGames": "Explorar Juegos",
-    "allPlatforms": "Todas las Plataformas",
-    "foundGames": "Se encontraron {count} juegos que coinciden con los criterios{platform}{query}",
-    "noGamesFound": "No se encontraron juegos que coincidan con tus criterios.",
-    "clearSearch": "Limpiar búsqueda"
+    "title": "All Bubble Shooter Unblocked Games",
+    "description": "Browse our complete collection of bubble shooter games available to play online.",
+    "subDescription": "Enjoy the satisfying pop of bubbles and challenge your matching skills with our collection of bubble shooter games.",
+    "browseGames": "Browse Games",
+    "allPlatforms": "All Categories",
+    "foundGames": "Found {count} games matching{platform}{query} criteria",
+    "noGamesFound": "No games found matching your criteria.",
+    "clearSearch": "Clear search"
+  },
+  "games": {
+    "loadMore": "Load More Games"
   },
   "category": {
     "metadata": {
-      "title": "Juega {company}{platform} en línea - Retro Games",
-      "description": "Juega juegos de {platform} gratis en tu navegador. Sin necesidad de descargar. Disfruta de los juegos clásicos de {platform} al instante.",
+      "title": "{platform} - Play {platform} Online on Bubble Shooter",
+      "description": "Want to play {platform}? Play best {platform} online for free in your browser. No download required. Enjoy {platform} instantly.",
       "keywords": ""
     },
     "notFound": {
-      "title": "Categoría no encontrada - RetroGames",
-      "description": "No se pudo encontrar la categoría de juego solicitada."
+      "title": "Category Not Found - Bubble Shooters",
+      "description": "The requested game category could not be found."
     }
   },
   "platforms": {
-    "nes": {
-      "alt": "Juegos de Nintendo Entertainment System en línea",
-      "description": "El Nintendo Entertainment System es una consola de videojuegos doméstica de 8 bits desarrollada y fabricada por Nintendo. Fue lanzada inicialmente en Japón como Family Computer el 15 de julio de 1983, y posteriormente en Norteamérica en 1985, en Europa en 1986 y en Australia en 1987. En Corea del Sur, era conocida como Hyundai Comboy y fue distribuida por SK Hynix, entonces conocida como Hyundai Electronics. Fue sucedida por el Super Nintendo Entertainment System."
+    "home": {
+      "alt": "Home Page",
+      "description": "Return to home page"
     },
-    "fds": {
-      "alt": "Juegos de Famicom Disk System en línea",
-      "description": "El Famicom Disk System (FDS) es un periférico exclusivo de Japón para el Family Computer (Famicom), lanzado por Nintendo en 1986. Introdujo el almacenamiento en disquetes regrabables, permitiendo juegos más grandes y función de guardado, pero fue descontinuado debido al auge de los juegos en cartuchos."
+    "history": {
+      "alt": "Play History",
+      "description": "View your recently played games"
     },
-    "snes": {
-      "alt": "Juegos de Super Nintendo Entertainment System en línea",
-      "description": "El Super Nintendo Entertainment System es una consola de videojuegos doméstica de 16 bits desarrollada por Nintendo que fue lanzada en 1990 en Japón y Corea del Sur, 1991 en Norteamérica, 1992 en Europa y Australasia, y 1993 en Sudamérica. En Japón, el sistema se llama Super Famicom, o SFC para abreviar. En Corea del Sur, se conoce como Super Comboy y fue distribuido por Hyundai Electronics."
+    "random": {
+      "alt": "Random Game",
+      "description": "Play a random game"
     },
-    "gameboy": {
-      "alt": "Juegos de Nintendo Game Boy en línea",
-      "description": "El Game Boy es una consola portátil de videojuegos de 8 bits con cartuchos intercambiables desarrollada y fabricada por Nintendo, que fue lanzada por primera vez en Japón el 21 de abril de 1989, en Norteamérica el 31 de julio de 1989 y en Europa el 28 de septiembre de 1990. Es la primera consola portátil de la línea Game Boy y fue creada por Gunpei Yokoi y Nintendo Research & Development 1."
+    "hot": {
+      "alt": "Hot Games",
+      "description": "Popular and trending bubble games"
     },
-    "gameboycolor": {
-      "alt": "Juegos de Nintendo Game Boy Color en línea",
-      "description": "El Game Boy Color, conocido como GBC, es una consola portátil de videojuegos fabricada por Nintendo, que fue lanzada el 21 de octubre de 1998 en Japón y en noviembre del mismo año en los mercados internacionales. Es el sucesor del Game Boy."
+    "new": {
+      "alt": "New Games",
+      "description": "Recently added bubble games"
     },
-    "gameboyadvance": {
-      "alt": "Juegos de Nintendo Game Boy Advance en línea",
-      "description": "El Game Boy Advance (abreviado como GBA) es una consola portátil de videojuegos de 32 bits desarrollada, fabricada y comercializada por Nintendo como sucesora del Game Boy Color. Fue lanzada en Japón el 21 de marzo de 2001, en Norteamérica el 11 de junio de 2001, en Australia y Europa el 22 de junio de 2001, y en la República Popular China el 8 de junio de 2004 (excluyendo Hong Kong)."
+    "puzzle": {
+      "alt": "Puzzle Games",
+      "description": "Brain teasers and puzzle games"
     },
-    "n64": {
-      "alt": "Juegos de Nintendo 64 en línea",
-      "description": "El Nintendo 64 (N64) es una consola de videojuegos doméstica de quinta generación desarrollada por Nintendo y lanzada en 1996 en Japón y Norteamérica, y en 1997 en Europa y Australia. Fue la primera consola de Nintendo en presentar gráficos 3D y usó cartuchos en lugar de CDs, compitiendo con la PlayStation y Sega Saturn."
+    "bubble": {
+      "alt": "Bubble Games",
+      "description": "Classic bubble shooter and matching games"
     },
-    "nds": {
-      "alt": "Juegos de Nintendo DS en línea",
-      "description": "El Nintendo DS (NDS) es una consola portátil de doble pantalla lanzada por Nintendo en 2004. Con pantalla táctil, conectividad inalámbrica y compatibilidad con juegos de Game Boy Advance, se convirtió en uno de los sistemas de juegos más vendidos de todos los tiempos."
+    "card": {
+      "alt": "Card Games",
+      "description": "Classic and modern card games"
     },
-    "master-system": {
-      "alt": "Juegos de Sega Master System en línea",
-      "description": "El Sega Master System es una consola de videojuegos doméstica de 8 bits desarrollada por Sega, lanzada por primera vez en 1985 en Japón como Sega Mark III, y posteriormente renombrada como Master System para su lanzamiento internacional. Fue competidora del Nintendo Entertainment System pero logró mayor éxito en Europa y Brasil."
+    "junping": {
+      "alt": "Jumping Games",
+      "description": "Platform and jumping games"
     },
-    "game-gear": {
-      "alt": "Juegos de Sega Game Gear en línea",
-      "description": "El Game Gear es una consola portátil de 8 bits lanzada por Sega el 6 de octubre de 1990 en Japón, 1991 en Norteamérica y Europa, y 1992 en Australia. El Game Gear competía principalmente con el Game Boy de Nintendo, el Atari Lynx y el TurboExpress de NEC. Con una pantalla retroiluminada a todo color en formato horizontal, Sega posicionó el Game Gear como una consola portátil tecnológicamente superior al Game Boy."
-    },
-    "genesis": {
-      "alt": "Juegos de Sega Genesis/Mega Drive en línea",
-      "description": "El Sega Genesis, conocido como Mega Drive en la mayoría de las regiones fuera de Norteamérica, es una consola de videojuegos doméstica de 16 bits desarrollada y vendida por Sega Enterprises, Ltd. El Genesis fue la tercera consola de Sega y sucesora del Master System. Sega lanzó primero la consola como Mega Drive en Japón en 1988, seguida por su debut norteamericano bajo el nombre de Genesis en 1989."
-    },
-    "sega32x": {
-      "alt": "Juegos de Sega 32X en línea",
-      "description": "El Sega 32X es un periférico para el Sega Genesis/Mega Drive lanzado en 1994. Fue diseñado para mejorar los gráficos y la potencia de procesamiento de la consola, pero tuvo una vida corta debido a la llegada del Sega Saturn."
-    },
-    "sega-cd": {
-      "alt": "Juegos de Sega CD/Mega CD en línea",
-      "description": "El Sega CD (Mega-CD fuera de Norteamérica) fue una expansión de CD-ROM para el Sega Genesis, lanzada en 1991 en Japón y 1992 en Norteamérica. Introdujo video de movimiento completo y audio de calidad CD, pero tuvo dificultades debido a los altos costos y biblioteca limitada de juegos."
-    },
-    "turbografx-16": {
-      "alt": "Juegos de NEC TurboGrafx-16 en línea",
-      "description": "El TurboGrafx-16 Entertainment SuperSystem, conocido en Japón y Francia como PC Engine, es una consola de videojuegos doméstica desarrollada conjuntamente por Hudson Soft y NEC Home Electronics, lanzada en Japón el 30 de octubre de 1987 y en Estados Unidos el 29 de agosto de 1989."
-    },
-    "turbografx-cd": {
-      "alt": "Juegos de NEC TurboGrafx-CD en línea",
-      "description": "El TurboGrafx-CD es un periférico para el TurboGrafx-16/PC Engine, lanzado en 1988 en Japón y posteriormente en Norteamérica. Introdujo los juegos basados en CD a la plataforma de NEC, permitiendo audio de mayor calidad y almacenamiento expandido de juegos."
-    },
-    "pc-engine-cd": {
-      "alt": "Juegos de NEC PC Engine CD-ROM² en línea",
-      "description": "El PC Engine CD-ROM² fue el primer periférico de consola basado en CD, lanzado en 1988 en Japón. Expandió las capacidades del PC Engine, permitiendo juegos más grandes con audio y animación mejorados, influyendo en futuros sistemas de juegos basados en CD."
-    },
-    "atari-7800": {
-      "alt": "Juegos de Atari 7800 ProSystem en línea",
-      "description": "El Atari 7800 ProSystem es una consola de videojuegos doméstica lanzada por Atari Corporation en 1986. Fue diseñada para ser retrocompatible con juegos del Atari 2600 mientras ofrecía gráficos y rendimiento mejorados. A pesar de sus capacidades, tuvo dificultades para competir contra el Nintendo Entertainment System y el Sega Master System durante su vida útil."
-    },
-    "atari-lynx": {
-      "alt": "Juegos de Atari Lynx portátil en línea",
-      "description": "El Atari Lynx es una consola portátil lanzada por Atari en 1989. Fue la primera consola portátil con una pantalla LCD a color y tenía hardware avanzado para su época, incluyendo escalado de sprites y soporte multijugador. Sin embargo, se enfrentó a una fuerte competencia del Nintendo Game Boy y Sega Game Gear, limitando su éxito en el mercado."
-    },
-    "atari-jaguar": {
-      "alt": "Juegos de Atari Jaguar en línea",
-      "description": "El Atari Jaguar es una consola de videojuegos doméstica lanzada en 1993 por Atari Corporation. Comercializada como el primer sistema de juegos de 64 bits, presumía de una potencia de procesamiento superior en comparación con sus competidores de 16 bits. Sin embargo, el Jaguar tuvo dificultades debido a la falta de apoyo de los desarrolladores y la fuerte competencia de Sony PlayStation y Sega Saturn, lo que finalmente llevó a la salida de Atari del mercado de consolas."
-    },
-    "playstation": {
-      "alt": "Juegos de Sony PlayStation en línea",
-      "description": "La PlayStation (PS1) es una consola de videojuegos doméstica de 32 bits lanzada por Sony en 1994 en Japón y en 1995 en todo el mundo. Fue la primera consola en vender más de 100 millones de unidades e introdujo los juegos basados en CD, gráficos 3D y una amplia biblioteca de juegos icónicos."
-    },
-    "arcade": {
-      "alt": "Juegos Arcade Clásicos en línea",
-      "description": "Los juegos arcade son videojuegos operados con monedas que se encuentran en lugares públicos como centros comerciales y salas de juegos. Populares durante finales del siglo XX, incluyen clásicos como Pac-Man, Street Fighter y Metal Slug, muchos de los cuales han sido adaptados para consolas domésticas."
-    },
-    "wonderswan": {
-      "alt": "Juegos de Bandai WonderSwan en línea",
-      "description": "El WonderSwan es una consola portátil lanzada en 1999 por Bandai exclusivamente en Japón. Diseñada como competidora del Game Boy Color, presentaba una orientación de pantalla única vertical y horizontal. Una versión mejorada, el WonderSwan Color, fue lanzada en 2000, ofreciendo una pantalla a color y mejores capacidades de hardware."
-    },
-    "neo-geo-pocket": {
-      "alt": "Juegos de SNK Neo Geo Pocket en línea",
-      "description": "El Neo Geo Pocket es una consola portátil lanzada por SNK en 1998. Fue sucedida por el Neo Geo Pocket Color en 1999, que introdujo una pantalla a color y mejor soporte de software. El sistema presentaba juegos de alta calidad estilo arcade, particularmente de las franquicias de SNK como King of Fighters y Samurai Shodown, pero tuvo dificultades contra la línea Game Boy de Nintendo."
-    },
-    "msx": {
-      "alt": "Juegos de MSX en línea",
-      "description": "El MSX es una plataforma de computadora doméstica introducida en 1983 por Microsoft y ASCII Corporation para establecer un entorno de computación estandarizado. Fue particularmente popular en Japón, Europa y Sudamérica, sirviendo como plataforma para muchos juegos tempranos de Konami y Hudson Soft. El sistema jugó un papel importante en el desarrollo temprano de franquicias como Metal Gear y Bomberman."
-    },
-    "msx-2": {
-      "alt": "Juegos de MSX 2 en línea",
-      "description": "El MSX2 es una versión mejorada del estándar de computadora MSX original, lanzada en 1985. Presentaba capacidades gráficas mejoradas, incluyendo soporte para resoluciones más altas y una paleta de colores más amplia, haciéndolo un sistema de juegos y computación más potente. Muchos juegos clásicos, como Metal Gear 2: Solid Snake, fueron desarrollados para el MSX2, mostrando su hardware avanzado para la época."
+    "music": {
+      "alt": "Music Games",
+      "description": "Rhythm and music-based games"
     }
   },
   "game": {
     "metadata": {
-      "title": "Juega {title} en línea. Sin necesidad de descargar - Retro Games",
-      "description": "Juega {title} ({platform}) gratis en tu navegador. Sin necesidad de descargar.",
+      "title": "Play {title} Online in your browser. No download required - Bubble Shooter",
+      "description": "Play {title} online for free in your browser. No download required. Enjoy the exciting game, start play {title} now! Have fun!",
       "keywords": ""
     },
     "notFound": {
-      "title": "Juego no encontrado - RetroGames",
-      "description": "No se pudo encontrar el juego solicitado."
-    },
-    "relatedGames": {
-      "title": "Te puede interesar",
-      "heading": "Juegos relacionados"
-    },
-    "page": {
-      "description": "Juega {title} en línea en tu navegador. Sin necesidad de descargar.",
-      "shareText": "¡Juega {title} gratis en tu navegador! Sin necesidad de descargar.",
-      "share": {
-        "label": "Compartir",
-        "twitter": "Compartir en Twitter",
-        "facebook": "Compartir en Facebook",
-        "reddit": "Compartir en Reddit",
-        "linkedin": "Compartir en LinkedIn"
-      },
-      "playButton": "Jugar",
-      "about": "Sobre {title} :",
-      "breadcrumb": {
-        "home": "Inicio"
-      }
+      "title": "Game Not Found - Bubble Shooters",
+      "description": "The requested game could not be found."
     }
   },
   "footer": {
-    "description": "Experimenta la nostalgia de los Juegos Retro en nuestro sitio web, donde puedes revivir recuerdos de la infancia con títulos clásicos de Nintendo, Sega, NEC, Atari, PlayStation y Arcade, ¡todos jugables en línea! Sin necesidad de descargar.",
+    "description": "Experience the fun of Bubble Shooter games on our website, where you can enjoy colorful bubble popping action with classic and modern bubble shooter games—all playable online! No download required.",
     "others": {
-      "title": "Otros",
-      "privacy": "Política de Privacidad",
-      "terms": "Términos de Servicio"
+      "title": "Others",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service"
     },
     "terms": {
-      "title": "Términos de Servicio",
-      "description": "Por favor, lee estos Términos de Servicio cuidadosamente antes de usar RetroGames.",
-      "lastUpdated": "Última actualización: 20 de febrero de 2025",
+      "title": "Terms of Service",
+      "description": "Please read these Terms of Service carefully before using Bubble Shooters.",
+      "lastUpdated": "Last Updated: March 16, 2025",
       "intro": {
-        "text1": "Bienvenido a ",
-        "text2": ". Al acceder y usar este sitio web, aceptas y te comprometes a cumplir con los términos y disposiciones de este acuerdo."
+        "text1": "Welcome to ",
+        "text2": ". By accessing and using this website, you accept and agree to be bound by the terms and provision of this agreement."
       },
       "service": {
-        "title": "Descripción del Servicio",
-        "text1": " proporciona una plataforma para que los usuarios jueguen juegos retro a través de sus navegadores web. Nuestro servicio incluye:",
+        "title": "Service Description",
+        "text1": " provides a platform for users to play bubble shooter games through their web browsers. Our service includes:",
         "items": [
-          "Emulación de juegos retro basada en navegador",
-          "Información y descripciones de juegos",
-          "Contenido relacionado con juegos"
+          "Browser-based bubble shooter games",
+          "Game information and descriptions",
+          "Related gaming content"
         ]
       },
       "content": {
-        "title": "Contenido y Derechos de Autor",
-        "text1": "Todos los juegos y contenido relacionado disponible a través de nuestro servicio son:",
+        "title": "Content and Copyright",
+        "text1": "All games and related content available through our service are:",
         "items": [
-          "Obtenidos y alojados por servicios de terceros",
-          "Sujetos a los derechos de autor y propiedad intelectual de sus respectivos propietarios",
-          "No son propiedad ni están controlados por RetroGames"
+          "Sourced from and hosted by third-party services",
+          "Subject to their respective owners' copyrights and intellectual property rights",
+          "Not owned or controlled by Bubble Shooters"
         ],
-        "text2": "No reclamamos la propiedad de ningún juego, ROM o contenido relacionado proporcionado a través de nuestro servicio. Todas las marcas comerciales, marcas de servicio y nombres comerciales son propiedad de sus respectivos dueños."
+        "text2": "We do not claim ownership of any games, ROMs, or related content provided through our service. All trademarks, service marks, and trade names are the property of their respective owners."
       },
       "disclaimer": {
-        "title": "Aviso Legal",
-        "text1": "Nuestros servicios se proporcionan \"tal cual\" sin ninguna garantía, expresa o implícita. RetroGames no garantiza que:",
+        "title": "Disclaimer",
+        "text1": "Our services are provided \"as is\" without any warranties, expressed or implied. Bubble Shooters does not warrant that:",
         "items": [
-          "El servicio será ininterrumpido o libre de errores",
-          "Los juegos o contenido estarán siempre disponibles",
-          "Cualquier error o defecto será corregido"
+          "The service will be uninterrupted or error-free",
+          "Games or content will always be available",
+          "Any errors or defects will be corrected"
         ],
-        "text2": "No somos responsables de ningún contenido proporcionado por terceros ni de errores u omisiones en el contenido."
+        "text2": "We are not responsible for any content provided by third parties or for any errors or omissions in the content."
       },
       "conduct": {
-        "title": "Conducta del Usuario",
-        "text1": "Al usar nuestro servicio, aceptas no:",
+        "title": "User Conduct",
+        "text1": "By using our service, you agree not to:",
         "items": [
-          "Usar el servicio para propósitos ilegales",
-          "Intentar obtener acceso no autorizado a cualquier parte del servicio",
-          "Interferir o interrumpir el servicio o los servidores",
-          "Eludir, deshabilitar o interferir de otro modo con las características de seguridad"
+          "Use the service for any unlawful purpose",
+          "Attempt to gain unauthorized access to any part of the service",
+          "Interfere with or disrupt the service or servers",
+          "Circumvent, disable, or otherwise interfere with security features"
         ]
       },
       "modifications": {
-        "title": "Modificaciones al Servicio",
-        "text1": "Nos reservamos el derecho de:",
+        "title": "Modifications to Service",
+        "text1": "We reserve the right to:",
         "items": [
-          "Modificar o descontinuar cualquier parte de nuestro servicio sin previo aviso",
-          "Actualizar estos términos de servicio en cualquier momento",
-          "Cambiar los juegos y contenido disponibles a través de nuestro servicio"
+          "Modify or discontinue any part of our service without notice",
+          "Update these terms of service at any time",
+          "Change the games and content available through our service"
         ],
-        "text2": "Tu uso continuado del servicio después de cualquier cambio constituye tu aceptación de dichos cambios."
+        "text2": "Your continued use of the service following any changes constitutes your acceptance of such changes."
       },
       "governing": {
-        "title": "Ley Aplicable",
-        "text1": "Estos términos se regirán e interpretarán de acuerdo con las leyes aplicables, sin tener en cuenta los principios de conflicto de leyes."
+        "title": "Governing Law",
+        "text1": "These terms shall be governed by and construed in accordance with applicable laws, without regard to conflicts of law principles."
       },
       "contact": {
-        "title": "Contacto",
-        "text1": "Para cualquier pregunta sobre estos términos, por favor contáctanos en:"
+        "title": "Contact",
+        "text1": "For any questions regarding these terms, please contact us at:"
       }
     },
     "privacy": {
-      "title": "Política de Privacidad",
-      "description": "Esta Política de Privacidad describe cómo se recopila, utiliza y comparte tu información personal cuando visitas RetroGames.",
-      "lastUpdated": "Última actualización: 20 de febrero de 2025",
+      "title": "Privacy Policy",
+      "description": "This Privacy Policy describes how your personal information is collected, used, and shared when you visit Bubble Shooters.",
+      "lastUpdated": "Last Updated: March 16, 2025",
       "intro": {
-        "text1": "Es nuestra política respetar tu privacidad con respecto a cualquier información que podamos recopilar mientras operamos nuestro sitio web. ",
-        "text2": " respeta tu privacidad y se compromete a proteger cualquier información que puedas proporcionarnos a través de este sitio web.",
-        "text3": "Esta Política de Privacidad explica qué información recopilamos, cómo la usamos y bajo qué circunstancias podemos divulgarla a terceros. Esta Política de Privacidad se aplica a ",
-        "text4": " (en adelante, \"nosotros\" o \"RetroGames\")."
+        "text1": "It is our policy to respect your privacy regarding any information we may collect while operating our website. ",
+        "text2": " respects your privacy and is committed to protecting any information you may provide us through this website.",
+        "text3": "This Privacy Policy explains what information we collect, how we use it, and under what circumstances we may disclose it to third parties. This Privacy Policy applies to ",
+        "text4": " (hereinafter, \"us\", \"we\", or \"Bubble Shooters\")."
       },
       "collection": {
-        "title": "Recopilación de Información",
-        "description": "Nuestro sitio web no requiere registro de usuario ni inicio de sesión. No recopilamos ninguna información de identificación personal de nuestros usuarios. Los únicos datos que recopilamos son:",
+        "title": "Information Collection",
+        "description": "Our website does not require user registration or login. We do not collect any personally identifiable information from our users. The only data we collect are:",
         "items": [
-          "Cookies del navegador esenciales para la funcionalidad del sitio web",
-          "Estadísticas de uso anónimas para mejorar nuestro servicio"
+          "Browser cookies essential for website functionality",
+          "Anonymous usage statistics to improve our service"
         ]
       },
       "thirdParty": {
-        "title": "Contenido de Terceros",
-        "description": "Los juegos y contenido relacionado disponible en nuestro sitio web provienen de plataformas de terceros. No reclamamos la propiedad de este contenido y:",
+        "title": "Third-Party Content",
+        "description": "The games and related content available on our website are sourced from third-party platforms. We do not claim ownership of this content and:",
         "items": [
-          "Todos los juegos están alojados y se transmiten desde servicios de terceros",
-          "La información, imágenes y descripciones de los juegos son proporcionadas por fuentes de terceros",
-          "No ofrecemos garantías sobre la precisión o disponibilidad de este contenido"
+          "All games are hosted on and streamed from third-party services",
+          "Game information, images, and descriptions are provided by third-party sources",
+          "We make no warranties regarding the accuracy or availability of this content"
         ]
       },
       "cookies": {
-        "title": "Uso de Cookies",
-        "description": "Utilizamos cookies para mejorar tu experiencia de navegación. Estas cookies son:",
+        "title": "Use of Cookies",
+        "description": "We use cookies to enhance your browsing experience. These cookies are:",
         "items": [
-          "Esenciales para la funcionalidad básica del sitio web",
-          "Utilizadas para recordar tus preferencias de visualización",
-          "No se utilizan para rastreo o fines publicitarios"
+          "Essential for basic website functionality",
+          "Used to remember your display preferences",
+          "Not used for tracking or advertising purposes"
         ],
-        "control": "Puedes controlar la configuración de cookies a través de las preferencias de tu navegador."
+        "control": "You can control cookie settings through your browser preferences."
       },
       "links": {
-        "title": "Enlaces Externos",
-        "description": "Nuestro sitio web contiene enlaces a sitios externos que no son operados por nosotros. Si haces clic en un enlace de terceros, serás dirigido al sitio de ese tercero. Te recomendamos encarecidamente que revises la Política de Privacidad y los Términos de Servicio de cada sitio que visites.",
-        "disclaimer": "No tenemos control sobre, ni asumimos responsabilidad por el contenido, políticas de privacidad o prácticas de sitios, productos o servicios de terceros."
+        "title": "External Links",
+        "description": "Our website contains links to external sites that are not operated by us. If you click on a third-party link, you will be directed to that third party's site. We strongly advise you to review the Privacy Policy and Terms of Service of every site you visit.",
+        "disclaimer": "We have no control over, and assume no responsibility for the content, privacy policies, or practices of any third-party sites, products, or services."
       },
       "updates": {
-        "title": "Actualizaciones de la Política",
-        "description": "Podemos actualizar esta Política de Privacidad de vez en cuando. Te notificaremos cualquier cambio publicando la nueva Política de Privacidad en esta página. Te recomendamos revisar esta Política de Privacidad periódicamente para ver si hay cambios.",
-        "consent": "Tu uso continuado de nuestro sitio web después de que publiquemos cualquier modificación a la Política de Privacidad constituirá tu reconocimiento de las modificaciones y tu consentimiento para cumplir y estar obligado por la Política de Privacidad modificada."
+        "title": "Policy Updates",
+        "description": "We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page. You are advised to review this Privacy Policy periodically for any changes.",
+        "consent": "Your continued use of our website after we post any modifications to the Privacy Policy will constitute your acknowledgment of the modifications and your consent to abide and be bound by the modified Privacy Policy."
       },
       "contact": {
-        "title": "Contáctanos",
-        "description": "Si tienes alguna pregunta sobre esta Política de Privacidad, por favor contáctanos a través de nuestro sitio web.",
-        "email": "support@retro-games.org"
+        "title": "Contact Us",
+        "description": "If you have any questions about this Privacy Policy, please contact us through our website.",
+        "email": "support@bubbleshooters.org"
       }
     },
     "contact": {
-      "title": "Contáctanos",
-      "disclaimer": "Aviso legal: Todos los juegos en este sitio están alojados por terceros. No alojamos ni subimos ningún juego. No somos responsables de ningún contenido alojado en sitios web de terceros. RetroGames es un sitio web independiente y no está afiliado a ninguna organización.",
-      "rights": "Todos los derechos reservados."
+      "title": "Contact Us",
+      "disclaimer": "Bubble Shooters is an independent website and is not affiliated with any organizations.",
+      "rights": "All rights reserved."
     }
   },
   "search": {
-    "searchTip": "Busca los juegos retro que quieres jugar",
-    "placeholder": "Buscar Juegos Retro ...",
-    "clearSearch": "Limpiar búsqueda",
-    "search": "Buscar"
+    "placeholder": "Search Bubble Games ...",
+    "clearSearch": "Clear search",
+    "search": "Search"
   },
   "common": {
     "logo": {
-      "title": "Juegos retro: juega a juegos clásicos en línea"
+      "title": "Bubble Shooter - Play Bubble Games Online"
     }
+  },
+  "notFound": {
+    "title": "Page Not Found",
+    "description": "Sorry, the page you are looking for does not exist or has been removed.",
+    "backHome": "Back to Home"
+  },
+  "history": {
+    "metadata": {
+      "title": "Play History - Bubble Shooters",
+      "description": "View your recently played bubble shooter games history."
+    },
+    "title": "Play History",
+    "description": "Games you have played recently",
+    "noHistory": "You have not played any games yet",
+    "clearHistory": "Clear History",
+    "lastPlayed": "Last played",
+    "emptyMessage": "Your play history will appear here"
+  },
+  "navigation": {
+    "home": "Home",
+    "history": "History",
+    "random": "Random",
+    "allGames": "All Games"
   }
 }

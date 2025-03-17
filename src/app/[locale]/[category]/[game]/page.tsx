@@ -46,8 +46,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   const title = messages.game.metadata.title.replace('{title}', game.title)
   const description = messages.game.metadata.description
-    .replace('{title}', game.title)
-    .replace('{platform}', game.platform)
+    .replaceAll('{title}', game.title)
+    .replaceAll('{platform}', game.platform)
   const url = `https://bubbleshooters.org/${params.locale}${fullPath}`
 
   return {

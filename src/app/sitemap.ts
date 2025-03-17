@@ -31,7 +31,7 @@ function getGamePaths(): string[] {
 }
 
 export default function sitemap(): MetadataRoute.Sitemap {
-    const baseURL = 'https://retro-games.org'
+    const baseURL = 'https://bubbleshooters.org'
     const urls: MetadataRoute.Sitemap = []
 
     // 添加主页

@@ -6,25 +6,25 @@ export async function generateMetadata({ params }: { params: { locale: string } 
   const messages = await getTranslations(params.locale)
   
   return {
-    title: `${messages.footer.terms.title} - RetroGames`,
+    title: `${messages.footer.terms.title} - Bubble Shooter`,
     description: messages.footer.terms.description,
     alternates: {
-      canonical: 'https://retro-games.org/terms-of-service',
+      canonical: 'https://bubbleshooters.org/terms-of-service',
       languages: {
-        'en': 'https://retro-games.org/terms-of-service',
-        'zh': 'https://retro-games.org/zh/terms-of-service',
-        'zh-TW': 'https://retro-games.org/zh-TW/terms-of-service',
-        'es': 'https://retro-games.org/es/terms-of-service',
-        'pt': 'https://retro-games.org/pt/terms-of-service',
-        'ru': 'https://retro-games.org/ru/terms-of-service',
-        'ja': 'https://retro-games.org/ja/terms-of-service',
-        'de': 'https://retro-games.org/de/terms-of-service',
-        'fr': 'https://retro-games.org/fr/terms-of-service',
-        'ko': 'https://retro-games.org/ko/terms-of-service',
-        'it': 'https://retro-games.org/it/terms-of-service',
-        'fil': 'https://retro-games.org/fil/terms-of-service',
-        'hi': 'https://retro-games.org/hi/terms-of-service',
-        'vi': 'https://retro-games.org/vi/terms-of-service'
+        'en': 'https://bubbleshooters.org/terms-of-service',
+        'zh': 'https://bubbleshooters.org/zh/terms-of-service',
+        'zh-TW': 'https://bubbleshooters.org/zh-TW/terms-of-service',
+        'es': 'https://bubbleshooters.org/es/terms-of-service',
+        'pt': 'https://bubbleshooters.org/pt/terms-of-service',
+        'ru': 'https://bubbleshooters.org/ru/terms-of-service',
+        'ja': 'https://bubbleshooters.org/ja/terms-of-service',
+        'de': 'https://bubbleshooters.org/de/terms-of-service',
+        'fr': 'https://bubbleshooters.org/fr/terms-of-service',
+        'ko': 'https://bubbleshooters.org/ko/terms-of-service',
+        'it': 'https://bubbleshooters.org/it/terms-of-service',
+        'fil': 'https://bubbleshooters.org/fil/terms-of-service',
+        'hi': 'https://bubbleshooters.org/hi/terms-of-service',
+        'vi': 'https://bubbleshooters.org/vi/terms-of-service'
       } as Record<string, string>
     }
   }
@@ -59,7 +59,7 @@ export default async function TermsOfService({ params }: { params: { locale: str
                 <p className="mb-4">
                   {terms.intro.text1}
                   <Link href={locale === 'en' ? "/" : `/${locale}`} className="text-purple-500 hover:text-purple-400 transition-colors">
-                    RetroGames
+                    Bubble Shooters
                   </Link>
                   {terms.intro.text2}
                 </p>
@@ -70,7 +70,7 @@ export default async function TermsOfService({ params }: { params: { locale: str
                 <h2 className="text-2xl font-bold mb-4">{terms.service.title}</h2>
                 <p className="mb-4">
                   <Link href={locale === 'en' ? "/" : `/${locale}`} className="text-purple-500 hover:text-purple-400 transition-colors">
-                    retro-games.org
+                    bubbleshooters.org
                   </Link>
                   {terms.service.text1}
                 </p>
@@ -139,10 +139,10 @@ export default async function TermsOfService({ params }: { params: { locale: str
                 <h2 className="text-2xl font-bold mb-4">{terms.contact.title}</h2>
                 <p className="mb-4">{terms.contact.text1}</p>
                 <a
-                  href="mailto:support@retro-games.org"
+                  href="mailto:support@bubbleshooters.org"
                   className="text-sm text-gray-400 hover:text-purple-400 transition-colors"
                 >
-                  support@retro-games.org
+                  support@bubbleshooters.org
                 </a>
               </section>
             </div>

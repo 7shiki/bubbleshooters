@@ -11,22 +11,22 @@ export async function generateMetadata({ params }: { params: { locale: string } 
     description: metadata.description,
     keywords: metadata.keywords,
     alternates: {
-      canonical: 'https://retro-games.org/all-games',
+      canonical: 'https://bubbleshooters.org/all-games',
       languages: {
-        'en': 'https://retro-games.org/all-games',
-        'zh': 'https://retro-games.org/zh/all-games',
-        'zh-TW': 'https://retro-games.org/zh-TW/all-games',
-        'es': 'https://retro-games.org/es/all-games',
-        'pt': 'https://retro-games.org/pt/all-games',
-        'ru': 'https://retro-games.org/ru/all-games',
-        'ja': 'https://retro-games.org/ja/all-games',
-        'de': 'https://retro-games.org/de/all-games',
-        'fr': 'https://retro-games.org/fr/all-games',
-        'ko': 'https://retro-games.org/ko/all-games',
-        'it': 'https://retro-games.org/it/all-games',
-        'fil': 'https://retro-games.org/fil/all-games',
-        'hi': 'https://retro-games.org/hi/all-games',
-        'vi': 'https://retro-games.org/vi/all-games'
+        'en': 'https://bubbleshooters.org/all-games',
+        'zh': 'https://bubbleshooters.org/zh/all-games',
+        'zh-TW': 'https://bubbleshooters.org/zh-TW/all-games',
+        'es': 'https://bubbleshooters.org/es/all-games',
+        'pt': 'https://bubbleshooters.org/pt/all-games',
+        'ru': 'https://bubbleshooters.org/ru/all-games',
+        'ja': 'https://bubbleshooters.org/ja/all-games',
+        'de': 'https://bubbleshooters.org/de/all-games',
+        'fr': 'https://bubbleshooters.org/fr/all-games',
+        'ko': 'https://bubbleshooters.org/ko/all-games',
+        'it': 'https://bubbleshooters.org/it/all-games',
+        'fil': 'https://bubbleshooters.org/fil/all-games',
+        'hi': 'https://bubbleshooters.org/hi/all-games',
+        'vi': 'https://bubbleshooters.org/vi/all-games'
       } as Record<string, string>
     }
   }
@@ -43,17 +43,17 @@ export default async function AllGamesPage({ params }: { params: { locale: strin
       '@graph': [
         {
           '@type': 'CollectionPage',
-          '@id': 'https://retro-games.org/all-games#webpage',
-          'url': 'https://retro-games.org/all-games',
+          '@id': 'https://bubbleshooters.org/all-games#webpage',
+          'url': 'https://bubbleshooters.org/all-games',
           'name': 'All Retro Games - Play Classic Games Online',
           'description': 'Browse and play all retro games online for free in your browser. No download required. Experience classic video games instantly.',
           'isPartOf': {
-            '@id': 'https://retro-games.org/#website'
+            '@id': 'https://bubbleshooters.org/#website'
           }
         },
         {
           '@type': 'VideoGameSeries',
-          '@id': 'https://retro-games.org/all-games#gameseries',
+          '@id': 'https://bubbleshooters.org/all-games#gameseries',
           'name': 'Retro Games Collection',
           'description': 'Complete collection of classic retro games available to play online for free.',
           'genre': ['Retro Games', 'Classic Games']
@@ -65,13 +65,13 @@ export default async function AllGamesPage({ params }: { params: { locale: strin
               '@type': 'ListItem',
               'position': 1,
               'name': 'Home',
-              'item': 'https://retro-games.org/'
+              'item': 'https://bubbleshooters.org/'
             },
             {
               '@type': 'ListItem',
               'position': 2,
               'name': 'All Games',
-              'item': 'https://retro-games.org/all-games'
+              'item': 'https://bubbleshooters.org/all-games'
             }
           ]
         }

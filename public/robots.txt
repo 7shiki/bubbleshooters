@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /api/
 
-Sitemap: https://retro-games.org/sitemap.xml 
+Sitemap: https://bubbleshooters.org/sitemap.xml 

@@ -1,331 +1,261 @@
 {
   "home": {
     "metadata": {
-      "title": "レトロゲーム - オンラインでレトロゲームをプレイ。ダウンロード不要。",
-      "description": "NES、スーパーファミコン、ゲームボーイ、ゲームボーイカラー、ゲームボーイアドバンス、セガメガドライブ、プレイステーション、PS1、クラシックアーケードゲームをブラウザでプレイ。無料でダウンロード不要。",
+      "title": "Play Bubble Shooter Game Online. No Download Required.",
+      "description": "Play bubble shooter game online for free in your browser. Enjoy classic, 3D, and puzzle bubble shooter unblocked games with no download required. Have fun!",
       "keywords": "",
       "og": {
-        "title": "レトロゲーム - クラシックゲームをオンラインでプレイ",
-        "description": "NES、スーパーファミコン、ゲームボーイ、ゲームボーイカラー、ゲームボーイアドバンス、セガメガドライブ、プレイステーション、PS1、クラシックアーケードゲームをブラウザでプレイ。無料でダウンロード不要。",
-        "imageAlt": "レトロゲーム - クラシックゲームコレクション"
+        "title": "Bubble Shooters - Play Bubble Games Online",
+        "description": "Play bubble shooter games online for free in your browser. Enjoy classic, 3D, and puzzle bubble shooter games with no download required.",
+        "imageAlt": "Bubble Shooters - Colorful Bubble Games Collection"
       }
-    },
-    "hero": {
-      "title": {
-        "play": "プレイ",
-        "retroGames": "レトロゲーム"
-      },
-      "description": "任天堂、セガ、NEC、アタリ、プレイステーション、アーケードの時代を超えた名作を集めたレトロゲームコレクションで、子供時代の楽しい思い出とノスタルジーを再体験。ダウンロード不要。"
     }
-  },
-  "games": {
-    "popularGames": "人気のレトロゲーム",
-    "newGames": "新着レトロゲーム",
-    "viewAll": "すべてのレトロゲームを表示",
-    "playGame": "ゲームをプレイ",
-    "loadMore": "もっとゲームを読み込む",
-    "updatedDaily": "毎日更新"
   },
   "allGames": {
     "metadata": {
-      "title": "Retro-Games.org - すべてのレトロゲーム。クラシックゲームをオンラインでプレイ",
-      "description": "任天堂、セガ、プレイステーションなどのクラシックレトロゲームの完全なコレクションをブラウズ。お気に入りのレトロゲームをオンラインでプレイ。",
+      "title": "All Bubble Shooter Games Online. Play Bubble Games Online",
+      "description": "Browse our complete collection of bubble shooter games. Play your favorite bubble shooter games online for free with no download required.",
       "keywords": ""
     },
-    "title": "すべてのレトロゲーム",
-    "description": "オンラインでプレイ可能なクラシックレトロゲームの完全なコレクションをブラウズ。",
-    "subDescription": "子供時代の思い出を再発見し、魔法のようなゲームの瞬間を再体験。",
-    "browseGames": "ゲームをブラウズ",
-    "allPlatforms": "すべてのプラットフォーム",
-    "foundGames": "{platform}{query}の条件に一致するゲームが{count}件見つかりました",
-    "noGamesFound": "条件に一致するゲームが見つかりませんでした。",
-    "clearSearch": "検索をクリア"
+    "title": "All Bubble Shooter Unblocked Games",
+    "description": "Browse our complete collection of bubble shooter games available to play online.",
+    "subDescription": "Enjoy the satisfying pop of bubbles and challenge your matching skills with our collection of bubble shooter games.",
+    "browseGames": "Browse Games",
+    "allPlatforms": "All Categories",
+    "foundGames": "Found {count} games matching{platform}{query} criteria",
+    "noGamesFound": "No games found matching your criteria.",
+    "clearSearch": "Clear search"
+  },
+  "games": {
+    "loadMore": "Load More Games"
   },
   "category": {
     "metadata": {
-      "title": "{company}{platform}をオンラインでプレイ - レトロゲーム",
-      "description": "ブラウザで{platform}のゲームを無料でプレイ。ダウンロード不要。クラシックな{platform}のゲームをすぐに楽しめます。",
+      "title": "{platform} - Play {platform} Online on Bubble Shooter",
+      "description": "Want to play {platform}? Play best {platform} online for free in your browser. No download required. Enjoy {platform} instantly.",
       "keywords": ""
     },
     "notFound": {
-      "title": "カテゴリーが見つかりません - レトロゲーム",
-      "description": "リクエストされたゲームカテゴリーが見つかりませんでした。"
+      "title": "Category Not Found - Bubble Shooters",
+      "description": "The requested game category could not be found."
     }
   },
   "platforms": {
-    "nes": {
-      "alt": "ファミリーコンピュータ・ゲームをオンラインでプレイ",
-      "description": "ファミリーコンピュータ（海外名：Nintendo Entertainment System）は、任天堂が開発・製造した8ビットの家庭用ゲーム機です。1983年7月15日に日本でファミリーコンピュータとして発売され、その後1985年に北米、1986年にヨーロッパ、1987年にオーストラリアで発売されました。韓国では現代コンボーイとして知られ、当時現代電子として知られていたSKハイニックスによって販売されていました。後継機はスーパーファミコンです。"
+    "home": {
+      "alt": "Home Page",
+      "description": "Return to home page"
     },
-    "fds": {
-      "alt": "ファミコンディスクシステムのゲームをオンラインでプレイ",
-      "description": "ファミコンディスクシステム（FDS）は、1986年に任天堂から発売されたファミリーコンピュータ（ファミコン）用の日本限定周辺機器です。書き換え可能なフロッピーディスクストレージを導入し、より大容量のゲームとセーブ機能を可能にしましたが、カートリッジ式ゲームの台頭により最終的に生産終了となりました。"
+    "history": {
+      "alt": "Play History",
+      "description": "View your recently played games"
     },
-    "snes": {
-      "alt": "スーパーファミコンのゲームをオンラインでプレイ",
-      "description": "スーパーファミコン（海外名：Super Nintendo Entertainment System）は、任天堂が開発した16ビットの家庭用ゲーム機で、1990年に日本と韓国、1991年に北米、1992年にヨーロッパとオーストラレーシア、1993年に南米で発売されました。日本ではスーパーファミコン（略称：SFC）と呼ばれています。"
+    "random": {
+      "alt": "Random Game",
+      "description": "Play a random game"
     },
-    "gameboy": {
-      "alt": "ゲームボーイのゲームをオンラインでプレイ",
-      "description": "ゲームボーイは、任天堂が開発・製造した交換可能なカートリッジを使用する8ビットの携帯型ゲーム機で、1989年4月21日に日本で、1989年7月31日に北米で、1990年9月28日にヨーロッパで発売されました。"
+    "hot": {
+      "alt": "Hot Games",
+      "description": "Popular and trending bubble games"
     },
-    "gameboycolor": {
-      "alt": "ゲームボーイカラーのゲームをオンラインでプレイ",
-      "description": "ゲームボーイカラー（略称：GBC）は、任天堂が製造した携帯型ゲーム機で、1998年10月21日に日本で、同年11月に国際市場で発売されました。ゲームボーイの後継機です。"
+    "new": {
+      "alt": "New Games",
+      "description": "Recently added bubble games"
     },
-    "gameboyadvance": {
-      "alt": "ゲームボーイアドバンスのゲームをオンラインでプレイ",
-      "description": "ゲームボーイアドバンス（略称：GBA）は、任天堂がゲームボーイカラーの後継機として開発・製造・販売した32ビットの携帯型ゲーム機です。2001年3月21日に日本で、2001年6月11日に北米で、2001年6月22日にオーストラリアとヨーロッパで、2004年6月8日に中華人民共和国で発売されました。当時の携帯型ゲーム機市場での競合機には、ネオジオポケットカラー、ワンダースワン、GP32、Tapwave Zodiac、N-Gageがありましたが、競合他社の努力にもかかわらず、任天堂はゲームボーイアドバンスで市場シェアの大半を維持しました。"
+    "puzzle": {
+      "alt": "Puzzle Games",
+      "description": "Brain teasers and puzzle games"
     },
-    "n64": {
-      "alt": "ニンテンドウ64のゲームをオンラインでプレイ",
-      "description": "ニンテンドウ64（略称：N64）は、任天堂が開発した第5世代の家庭用ゲーム機で、1996年に日本と北米で、1997年にヨーロッパとオーストラリアで発売されました。任天堂初の3Dグラフィックス対応コンソールで、CDの代わりにカートリッジを使用し、プレイステーションやセガサターンと競合しました。"
+    "bubble": {
+      "alt": "Bubble Games",
+      "description": "Classic bubble shooter and matching games"
     },
-    "nds": {
-      "alt": "ニンテンドーDSのゲームをオンラインでプレイ",
-      "description": "ニンテンドーDS（略称：NDS）は、2004年に任天堂から発売された二画面の携帯型ゲーム機です。タッチスクリーン、無線接続機能、ゲームボーイアドバンスゲームとの下位互換性を特徴とし、史上最も売れたゲーム機の一つとなりました。"
+    "card": {
+      "alt": "Card Games",
+      "description": "Classic and modern card games"
     },
-    "master-system": {
-      "alt": "セガマスターシステムのゲームをオンラインでプレイ",
-      "description": "セガマスターシステムは、セガが開発した8ビットの家庭用ゲーム機で、1985年に日本でセガ・マークIIIとして発売され、その後国際展開時にマスターシステムとしてリブランドされました。ファミリーコンピュータの競合機でしたが、ヨーロッパとブラジルでより大きな成功を収めました。"
+    "junping": {
+      "alt": "Jumping Games",
+      "description": "Platform and jumping games"
     },
-    "game-gear": {
-      "alt": "ゲームギアのゲームをオンラインでプレイ",
-      "description": "ゲームギアは、セガが1990年10月6日に日本で、1991年に北米とヨーロッパで、1992年にオーストラリアで発売した8ビットの携帯型ゲーム機です。主に任天堂のゲームボーイ、アタリのLynx、NECのTurboExpressと競合しました。"
-    },
-    "genesis": {
-      "alt": "セガメガドライブのゲームをオンラインでプレイ",
-      "description": "セガメガドライブ（北米名：Sega Genesis）は、セガ・エンタープライゼスが開発・販売した16ビットの家庭用ゲーム機です。セガの3番目のコンソールで、マスターシステムの後継機でした。"
-    },
-    "sega32x": {
-      "alt": "セガ32Xのゲームをオンラインでプレイ",
-      "description": "セガ32Xは、1994年に発売されたセガメガドライブ用の拡張機器です。コンソールのグラフィックスと処理能力を向上させるために設計されましたが、セガサターンの登場により短命に終わりました。"
-    },
-    "sega-cd": {
-      "alt": "メガCDのゲームをオンラインでプレイ",
-      "description": "メガCD（北米名：Sega CD）は、セガメガドライブ用のCD-ROM拡張機器で、1991年に日本で、1992年に北米で発売されました。フルモーションビデオとCD品質の音声を導入しましたが、高価格と限られたゲームライブラリにより苦戦しました。"
-    },
-    "turbografx-16": {
-      "alt": "PCエンジンのゲームをオンラインでプレイ",
-      "description": "PCエンジン（海外名：TurboGrafx-16）は、ハドソン株式会社とNECホームエレクトロニクスが共同開発した家庭用ゲーム機で、1987年10月30日に日本で、1989年8月29日にアメリカで発売されました。"
-    },
-    "turbografx-cd": {
-      "alt": "PCエンジンCDのゲームをオンラインでプレイ",
-      "description": "PCエンジンCD-ROMユニットは、PCエンジン用の拡張機器で、1988年に日本で、その後北米で発売されました。NECのプラットフォームにCD方式のゲームを導入し、より高品質な音声と拡張されたゲームストレージを可能にしました。"
-    },
-    "pc-engine-cd": {
-      "alt": "PCエンジンCD-ROM²のゲームをオンラインでプレイ",
-      "description": "PCエンジンCD-ROM²は、1988年に日本で発売された最初のCD方式のコンソール拡張機器です。PCエンジンの性能を拡張し、より大容量のゲームと改善された音声やアニメーションを可能にし、後のCD方式のゲームシステムに影響を与えました。"
-    },
-    "atari-7800": {
-      "alt": "アタリ7800のゲームをオンラインでプレイ",
-      "description": "アタリ7800 ProSystemは、1986年にアタリ社から発売された家庭用ゲーム機です。アタリ2600のゲームとの下位互換性を保ちながら、改善されたグラフィックスと性能を提供するように設計されました。その性能にもかかわらず、ファミリーコンピュータやセガマスターシステムとの競争で苦戦しました。"
-    },
-    "atari-lynx": {
-      "alt": "アタリLynxのゲームをオンラインでプレイ",
-      "description": "アタリLynxは、1989年にアタリから発売された携帯型ゲーム機です。カラーLCD画面を搭載した最初の携帯型ゲーム機で、スプライトスケーリングやマルチプレイヤー対応など、当時としては先進的なハードウェアを備えていました。しかし、任天堂のゲームボーイやセガのゲームギアとの激しい競争に直面し、市場での成功は限定的でした。"
-    },
-    "atari-jaguar": {
-      "alt": "アタリジャガーのゲームをオンラインでプレイ",
-      "description": "アタリジャガーは、1993年にアタリ社から発売された家庭用ゲーム機です。最初の64ビットゲームシステムとして宣伝され、16ビットの競合機と比べて優れた処理能力を誇りました。しかし、開発者のサポート不足とソニーのプレイステーションやセガサターンからの強力な競争により苦戦しました。"
-    },
-    "playstation": {
-      "alt": "プレイステーションのゲームをオンラインでプレイ",
-      "description": "プレイステーション（PS1）は、ソニーが1994年に日本で、1995年に世界で発売した32ビットの家庭用ゲーム機です。1億台以上を売り上げた最初のゲーム機で、CD方式のゲーム、3Dグラフィックス、そして膨大な数の象徴的なゲームを導入しました。"
-    },
-    "arcade": {
-      "alt": "クラシックアーケードゲームをオンラインでプレイ",
-      "description": "アーケードゲームは、ショッピングモールやゲームセンターなどの公共の場所にある硬貨で動作するビデオゲームです。20世紀後半に人気を博し、パックマン、ストリートファイター、メタルスラッグなどの名作を含み、その多くが家庭用ゲーム機に移植されています。"
-    },
-    "wonderswan": {
-      "alt": "ワンダースワンのゲームをオンラインでプレイ",
-      "description": "ワンダースワンは、1999年にバンダイから日本限定で発売された携帯型ゲーム機です。ゲームボーイカラーの競合機として設計され、独自の縦横画面切り替え機能を特徴としていました。改良版のワンダースワンカラーが2000年に発売され、カラーディスプレイとより優れたハードウェア性能を提供しました。"
-    },
-    "neo-geo-pocket": {
-      "alt": "ネオジオポケットのゲームをオンラインでプレイ",
-      "description": "ネオジオポケットは、1998年にSNKから発売された携帯型ゲーム機です。1999年にはカラー画面と改善されたソフトウェアサポートを特徴とするネオジオポケットカラーに引き継がれました。キング・オブ・ファイターズやサムライスピリッツなどのSNKのフランチャイズを中心に高品質なアーケードスタイルのゲームを特徴としていましたが、任天堂のゲームボーイシリーズとの競争で苦戦しました。"
-    },
-    "msx": {
-      "alt": "MSXのゲームをオンラインでプレイ",
-      "description": "MSXは、1983年にマイクロソフトとアスキーが標準化されたコンピューティング環境を確立するために導入したホームコンピュータプラットフォームです。特に日本、ヨーロッパ、南米で人気を博し、コナミやハドソンの初期のゲームの多くのプラットフォームとなりました。メタルギアやボンバーマンなどのフランチャイズの初期開発において重要な役割を果たしました。"
-    },
-    "msx-2": {
-      "alt": "MSX2のゲームをオンラインでプレイ",
-      "description": "MSX2は、1985年に発売された初代MSXコンピュータ規格のアップグレード版です。より高い解像度とより大きなカラーパレットのサポートを含む改善されたグラフィック機能を特徴とし、より強力なゲームおよびコンピューティングシステムとなりました。メタルギア2：ソリッドスネークなど多くの名作がMSX2向けに開発され、当時の先進的なハードウェアを示しました。"
+    "music": {
+      "alt": "Music Games",
+      "description": "Rhythm and music-based games"
     }
   },
   "game": {
     "metadata": {
-      "title": "{title}をオンラインでプレイ。ダウンロード不要 - レトロゲーム",
-      "description": "{title}（{platform}）をブラウザで無料でプレイ。ダウンロード不要。",
+      "title": "Play {title} Online in your browser. No download required - Bubble Shooter",
+      "description": "Play {title} online for free in your browser. No download required. Enjoy the exciting game, start play {title} now! Have fun!",
       "keywords": ""
     },
     "notFound": {
-      "title": "ゲームが見つかりません - レトロゲーム",
-      "description": "リクエストされたゲームが見つかりませんでした。"
-    },
-    "relatedGames": {
-      "title": "おすすめのゲーム",
-      "heading": "関連ゲーム"
-    },
-    "page": {
-      "description": "{title} をブラウザでオンラインプレイ。ダウンロード不要。",
-      "shareText": "{title} をブラウザで無料でプレイ！ダウンロード不要。",
-      "share": {
-        "label": "シェア",
-        "twitter": "Twitterでシェア",
-        "facebook": "Facebookでシェア",
-        "reddit": "Redditでシェア",
-        "linkedin": "LinkedInでシェア"
-      },
-      "playButton": "ゲームをプレイ",
-      "about": "{title} について：",
-      "breadcrumb": {
-        "home": "ホーム"
-      }
+      "title": "Game Not Found - Bubble Shooters",
+      "description": "The requested game could not be found."
     }
   },
   "footer": {
-    "description": "当サイトのレトロゲームで懐かしさを体験しましょう。任天堂、セガ、NEC、アタリ、プレイステーション、アーケードの名作で子供時代の思い出を再び—すべてオンラインでプレイ可能！ダウンロード不要。",
+    "description": "Experience the fun of Bubble Shooter games on our website, where you can enjoy colorful bubble popping action with classic and modern bubble shooter games—all playable online! No download required.",
     "others": {
-      "title": "その他",
-      "privacy": "プライバシーポリシー",
-      "terms": "利用規約"
+      "title": "Others",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service"
     },
     "terms": {
-      "title": "利用規約",
-      "description": "RetroGamesをご利用になる前に、この利用規約を注意深くお読みください。",
-      "lastUpdated": "最終更新日：2025年2月20日",
+      "title": "Terms of Service",
+      "description": "Please read these Terms of Service carefully before using Bubble Shooters.",
+      "lastUpdated": "Last Updated: March 16, 2025",
       "intro": {
-        "text1": "ようこそ",
-        "text2": "へ。このウェブサイトにアクセスし利用することで、あなたはこの契約の条件と規定に拘束されることに同意したものとみなされます。"
+        "text1": "Welcome to ",
+        "text2": ". By accessing and using this website, you accept and agree to be bound by the terms and provision of this agreement."
       },
       "service": {
-        "title": "サービス説明",
-        "text1": "は、ユーザーがウェブブラウザを通じてレトロゲームをプレイするためのプラットフォームを提供します。当サービスには以下が含まれます：",
+        "title": "Service Description",
+        "text1": " provides a platform for users to play bubble shooter games through their web browsers. Our service includes:",
         "items": [
-          "ブラウザベースのレトロゲームエミュレーション",
-          "ゲーム情報と説明",
-          "関連ゲームコンテンツ"
+          "Browser-based bubble shooter games",
+          "Game information and descriptions",
+          "Related gaming content"
         ]
       },
       "content": {
-        "title": "コンテンツと著作権",
-        "text1": "当サービスを通じて利用可能なすべてのゲームと関連コンテンツは：",
+        "title": "Content and Copyright",
+        "text1": "All games and related content available through our service are:",
         "items": [
-          "サードパーティのサービスから提供およびホストされています",
-          "それぞれの所有者の著作権および知的財産権の対象となります",
-          "RetroGamesが所有または管理するものではありません"
+          "Sourced from and hosted by third-party services",
+          "Subject to their respective owners' copyrights and intellectual property rights",
+          "Not owned or controlled by Bubble Shooters"
         ],
-        "text2": "当サービスを通じて提供されるゲーム、ROM、または関連コンテンツの所有権を主張することはありません。すべての商標、サービスマーク、商号は、それぞれの所有者の財産です。"
+        "text2": "We do not claim ownership of any games, ROMs, or related content provided through our service. All trademarks, service marks, and trade names are the property of their respective owners."
       },
       "disclaimer": {
-        "title": "免責事項",
-        "text1": "当サービスは、明示または黙示を問わず、いかなる保証もなく「現状のまま」提供されます。RetroGamesは以下を保証しません：",
+        "title": "Disclaimer",
+        "text1": "Our services are provided \"as is\" without any warranties, expressed or implied. Bubble Shooters does not warrant that:",
         "items": [
-          "サービスが中断されないこと、またはエラーがないこと",
-          "ゲームやコンテンツが常に利用可能であること",
-          "エラーや不具合が修正されること"
+          "The service will be uninterrupted or error-free",
+          "Games or content will always be available",
+          "Any errors or defects will be corrected"
         ],
-        "text2": "当社は、第三者が提供するコンテンツ、またはコンテンツのエラーや欠落について責任を負いません。"
+        "text2": "We are not responsible for any content provided by third parties or for any errors or omissions in the content."
       },
       "conduct": {
-        "title": "ユーザー行動規範",
-        "text1": "当サービスを利用することにより、あなたは以下を行わないことに同意します：",
+        "title": "User Conduct",
+        "text1": "By using our service, you agree not to:",
         "items": [
-          "サービスを違法な目的で使用すること",
-          "サービスの任意の部分への不正アクセスを試みること",
-          "サービスやサーバーを妨害または中断すること",
-          "セキュリティ機能を回避、無効化、または妨害すること"
+          "Use the service for any unlawful purpose",
+          "Attempt to gain unauthorized access to any part of the service",
+          "Interfere with or disrupt the service or servers",
+          "Circumvent, disable, or otherwise interfere with security features"
         ]
       },
       "modifications": {
-        "title": "サービスの変更",
-        "text1": "当社は以下の権利を留保します：",
+        "title": "Modifications to Service",
+        "text1": "We reserve the right to:",
         "items": [
-          "予告なくサービスの一部を変更または中止すること",
-          "いつでもこの利用規約を更新すること",
-          "当サービスを通じて利用可能なゲームやコンテンツを変更すること"
+          "Modify or discontinue any part of our service without notice",
+          "Update these terms of service at any time",
+          "Change the games and content available through our service"
         ],
-        "text2": "変更後もサービスを継続して利用することは、それらの変更に同意したものとみなされます。"
+        "text2": "Your continued use of the service following any changes constitutes your acceptance of such changes."
       },
       "governing": {
-        "title": "準拠法",
-        "text1": "この規約は、法の抵触に関する原則にかかわらず、適用される法律に従って解釈されるものとします。"
+        "title": "Governing Law",
+        "text1": "These terms shall be governed by and construed in accordance with applicable laws, without regard to conflicts of law principles."
       },
       "contact": {
-        "title": "お問い合わせ",
-        "text1": "この規約に関するご質問は、以下までお問い合わせください："
+        "title": "Contact",
+        "text1": "For any questions regarding these terms, please contact us at:"
       }
     },
     "privacy": {
-      "title": "プライバシーポリシー",
-      "description": "このプライバシーポリシーは、RetroGamesを訪問した際のお客様の個人情報の収集、使用、共有方法について説明します。",
-      "lastUpdated": "最終更新日：2025年2月20日",
+      "title": "Privacy Policy",
+      "description": "This Privacy Policy describes how your personal information is collected, used, and shared when you visit Bubble Shooters.",
+      "lastUpdated": "Last Updated: March 16, 2025",
       "intro": {
-        "text1": "当サイトの運営にあたり収集する可能性のある情報に関して、お客様のプライバシーを尊重することが当社の方針です。",
-        "text2": "はお客様のプライバシーを尊重し、このウェブサイトを通じてお客様から提供される情報の保護に努めています。",
-        "text3": "このプライバシーポリシーは、当社が収集する情報、その使用方法、および第三者に開示する可能性がある状況について説明します。このプライバシーポリシーは",
-        "text4": "（以下、「当社」、「私たち」、または「RetroGames」）に適用されます。"
+        "text1": "It is our policy to respect your privacy regarding any information we may collect while operating our website. ",
+        "text2": " respects your privacy and is committed to protecting any information you may provide us through this website.",
+        "text3": "This Privacy Policy explains what information we collect, how we use it, and under what circumstances we may disclose it to third parties. This Privacy Policy applies to ",
+        "text4": " (hereinafter, \"us\", \"we\", or \"Bubble Shooters\")."
       },
       "collection": {
-        "title": "情報収集",
-        "description": "当サイトではユーザー登録やログインは必要ありません。個人を特定できる情報は一切収集していません。収集するデータは以下のみです：",
+        "title": "Information Collection",
+        "description": "Our website does not require user registration or login. We do not collect any personally identifiable information from our users. The only data we collect are:",
         "items": [
-          "ウェブサイトの機能に必要不可欠",
-          "サービス改善のための匿名の利用統計"
+          "Browser cookies essential for website functionality",
+          "Anonymous usage statistics to improve our service"
         ]
       },
       "thirdParty": {
-        "title": "第三者コンテンツ",
-        "description": "当サイトで利用可能なゲームおよび関連コンテンツは、第三者のプラットフォームから提供されています。これらのコンテンツの所有権を主張せず：",
+        "title": "Third-Party Content",
+        "description": "The games and related content available on our website are sourced from third-party platforms. We do not claim ownership of this content and:",
         "items": [
-          "すべてのゲームは第三者のサービスでホストおよびストリーミングされています",
-          "ゲーム情報、画像、説明は第三者のソースから提供されています",
-          "これらのコンテンツの正確性や可用性について保証はいたしません"
+          "All games are hosted on and streamed from third-party services",
+          "Game information, images, and descriptions are provided by third-party sources",
+          "We make no warranties regarding the accuracy or availability of this content"
         ]
       },
       "cookies": {
-        "title": "クッキーの使用",
-        "description": "ブラウジング体験を向上させるためにクッキーを使用しています。これらのクッキーは：",
+        "title": "Use of Cookies",
+        "description": "We use cookies to enhance your browsing experience. These cookies are:",
         "items": [
-          "ウェブサイトの基本機能に必要不可欠",
-          "表示設定を記憶するために使用",
-          "トラッキングや広告目的には使用していません"
+          "Essential for basic website functionality",
+          "Used to remember your display preferences",
+          "Not used for tracking or advertising purposes"
         ],
-        "control": "ブラウザの設定でクッキーの設定を管理できます。"
+        "control": "You can control cookie settings through your browser preferences."
       },
       "links": {
-        "title": "外部リンク",
-        "description": "当サイトには、当社が運営していない外部サイトへのリンクが含まれています。第三者のリンクをクリックすると、そのサイトに移動します。訪問するすべてのサイトのプライバシーポリシーと利用規約を確認することを強くお勧めします。",
-        "disclaimer": "第三者のサイト、製品、サービスのコンテンツ、プライバシーポリシー、実践について、当社は管理も責任も負いません。"
+        "title": "External Links",
+        "description": "Our website contains links to external sites that are not operated by us. If you click on a third-party link, you will be directed to that third party's site. We strongly advise you to review the Privacy Policy and Terms of Service of every site you visit.",
+        "disclaimer": "We have no control over, and assume no responsibility for the content, privacy policies, or practices of any third-party sites, products, or services."
       },
       "updates": {
-        "title": "ポリシーの更新",
-        "description": "このプライバシーポリシーは随時更新される場合があります。変更がある場合は、このページに新しいプライバシーポリシーを掲載してお知らせします。定期的にこのプライバシーポリシーを確認することをお勧めします。",
-        "consent": "プライバシーポリシーの変更後も当サイトを継続して利用することは、その変更を承認し、変更されたプライバシーポリシーに従うことに同意したものとみなされます。"
+        "title": "Policy Updates",
+        "description": "We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page. You are advised to review this Privacy Policy periodically for any changes.",
+        "consent": "Your continued use of our website after we post any modifications to the Privacy Policy will constitute your acknowledgment of the modifications and your consent to abide and be bound by the modified Privacy Policy."
       },
       "contact": {
-        "title": "お問い合わせ",
-        "description": "このプライバシーポリシーについてご質問がある場合は、当サイトを通じてお問い合わせください。",
-        "email": "support@retro-games.org"
+        "title": "Contact Us",
+        "description": "If you have any questions about this Privacy Policy, please contact us through our website.",
+        "email": "support@bubbleshooters.org"
       }
     },
     "contact": {
-      "title": "お問い合わせ",
-      "disclaimer": "免責事項：当サイトのすべてのゲームは第三者によってホストされています。当社はゲームのホストやアップロードは行っていません。第三者のウェブサイトでホストされているコンテンツについて、当社は一切の責任を負いません。RetroGamesは独立したウェブサイトであり、いかなる組織とも提携関係にありません。",
+      "title": "Contact Us",
+      "disclaimer": "Bubble Shooters is an independent website and is not affiliated with any organizations.",
       "rights": "All rights reserved."
     }
   },
   "search": {
-    "searchTip": "あなたが遊びたいレトロゲームを検索してください",
-    "placeholder": "レトロゲームを検索...",
-    "clearSearch": "検索をクリア",
-    "search": "検索"
+    "placeholder": "Search Bubble Games ...",
+    "clearSearch": "Clear search",
+    "search": "Search"
   },
   "common": {
     "logo": {
-      "title": "レトロゲーム - クラシックゲームをオンラインでプレイ"
+      "title": "Bubble Shooter - Play Bubble Games Online"
     }
+  },
+  "notFound": {
+    "title": "Page Not Found",
+    "description": "Sorry, the page you are looking for does not exist or has been removed.",
+    "backHome": "Back to Home"
+  },
+  "history": {
+    "metadata": {
+      "title": "Play History - Bubble Shooters",
+      "description": "View your recently played bubble shooter games history."
+    },
+    "title": "Play History",
+    "description": "Games you have played recently",
+    "noHistory": "You have not played any games yet",
+    "clearHistory": "Clear History",
+    "lastPlayed": "Last played",
+    "emptyMessage": "Your play history will appear here"
+  },
+  "navigation": {
+    "home": "Home",
+    "history": "History",
+    "random": "Random",
+    "allGames": "All Games"
   }
 }

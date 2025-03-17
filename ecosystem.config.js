@@ -1,7 +1,7 @@
 module.exports = {
     apps: [
       {
-        name: 'retro-games',
+        name: 'bubbleshooters',
         script: 'npm',
         args: 'start',
         watch: false,

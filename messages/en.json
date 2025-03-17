@@ -1,54 +1,42 @@
 {
   "home": {
     "metadata": {
-      "title": "Retro Games - Play Retro Games Online. No Download Required.",
-      "description": "Play retro games online from NES, SNES, GB, GBC, GBA, SEGA Genesis, PSX, PS1 and Classic Arcade Games in your browser. Free and no download required.",
+      "title": "Play Bubble Shooter Game Online. No Download Required.",
+      "description": "Play bubble shooter game online for free in your browser. Enjoy classic, 3D, and puzzle bubble shooter unblocked games with no download required. Have fun!",
       "keywords": "",
       "og": {
-        "title": "Retro Games - Play Classic Games Online",
-        "description": "Play retro games online from NES, SNES, GB, GBC, GBA, SEGA Genesis, PSX, PS1 and Classic Arcade Games in your browser. Free and no download required.",
-        "imageAlt": "Retro Games - Classic Gaming Collection"
+        "title": "Bubble Shooters - Play Bubble Games Online",
+        "description": "Play bubble shooter games online for free in your browser. Enjoy classic, 3D, and puzzle bubble shooter games with no download required.",
+        "imageAlt": "Bubble Shooters - Colorful Bubble Games Collection"
       }
-    },
-    "hero": {
-      "title": {
-        "play": "Play",
-        "retroGames": "Retro Games"
-      },
-      "description": "Relive your childhood joy and nostalgia with our collection of Retro Games, featuring timeless classics from Nintendo, Sega, NEC, Atari, PlayStation, and Arcade. No download required."
     }
-  },
-  "games": {
-    "popularGames": "Most Popular Retro Games",
-    "newGames": "New Retro Games",
-    "viewAll": "View All Retro Games",
-    "playGame": "Play Game",
-    "loadMore": "Load More Games",
-    "updatedDaily": "Updated daily"
   },
   "allGames": {
     "metadata": {
-      "title": "Retro-Games.org - All Retro Games Online Unblocked. Play Classic Games Online",
-      "description": "Browse our complete collection of classic retro games unblocked from Nintendo, Sega, PlayStation, and more. Play your favorite retro games online.",
+      "title": "All Bubble Shooter Games Online. Play Bubble Games Online",
+      "description": "Browse our complete collection of bubble shooter games. Play your favorite bubble shooter games online for free with no download required.",
       "keywords": ""
     },
-    "title": "All Retro Games Unblocked",
-    "description": "Browse our complete collection of classic retro games available to play online.",
-    "subDescription": "Rediscover your childhood memories and relive those magical gaming moments.",
+    "title": "All Bubble Shooter Unblocked Games",
+    "description": "Browse our complete collection of bubble shooter games available to play online.",
+    "subDescription": "Enjoy the satisfying pop of bubbles and challenge your matching skills with our collection of bubble shooter games.",
     "browseGames": "Browse Games",
-    "allPlatforms": "All Platforms",
+    "allPlatforms": "All Categories",
     "foundGames": "Found {count} games matching{platform}{query} criteria",
     "noGamesFound": "No games found matching your criteria.",
     "clearSearch": "Clear search"
   },
+  "games": {
+    "loadMore": "Load More Games"
+  },
   "category": {
     "metadata": {
-      "title": "Play {company}{platform} Online - Retro Games",
-      "description": "Play best {platform} games online for free in your browser. No download required. Enjoy classic {platform} games instantly.",
+      "title": "{platform} - Play {platform} Online on Bubble Shooter",
+      "description": "Want to play {platform}? Play best {platform} online for free in your browser. No download required. Enjoy {platform} instantly.",
       "keywords": ""
     },
     "notFound": {
-      "title": "Category Not Found - RetroGames",
+      "title": "Category Not Found - Bubble Shooters",
       "description": "The requested game category could not be found."
     }
   },
@@ -67,11 +55,11 @@
     },
     "hot": {
       "alt": "Hot Games",
-      "description": "Popular and trending games"
+      "description": "Popular and trending bubble games"
     },
     "new": {
       "alt": "New Games",
-      "description": "Recently added games"
+      "description": "Recently added bubble games"
     },
     "puzzle": {
       "alt": "Puzzle Games",
@@ -79,7 +67,7 @@
     },
     "bubble": {
       "alt": "Bubble Games",
-      "description": "Bubble shooter and matching games"
+      "description": "Classic bubble shooter and matching games"
     },
     "card": {
       "alt": "Card Games",
@@ -96,37 +84,17 @@
   },
   "game": {
     "metadata": {
-      "title": "Play {title} Online. No download required - Retro Games",
-      "description": "Play {title} ({platform}) online for free in your browser. No download required.",
+      "title": "Play {title} Online in your browser. No download required - Bubble Shooter",
+      "description": "Play {title} online for free in your browser. No download required. Enjoy the exciting game, start play {title} now! Have fun!",
       "keywords": ""
     },
     "notFound": {
-      "title": "Game Not Found - RetroGames",
+      "title": "Game Not Found - Bubble Shooters",
       "description": "The requested game could not be found."
-    },
-    "relatedGames": {
-      "title": "You may be interested in",
-      "heading": "Related Games"
-    },
-    "page": {
-      "description": "Play {title} online in your browser. No download required.",
-      "shareText": "Play {title} online for free in your browser! No download required.",
-      "share": {
-        "label": "Share",
-        "twitter": "Share on Twitter",
-        "facebook": "Share on Facebook",
-        "reddit": "Share on Reddit",
-        "linkedin": "Share on LinkedIn"
-      },
-      "playButton": "Play Game",
-      "about": "About {title} :",
-      "breadcrumb": {
-        "home": "Home"
-      }
     }
   },
   "footer": {
-    "description": "Experience the nostalgia of Retro Games on our website, where you can relive childhood memories with classic titles from Nintendo, Sega, NEC, Atari, PlayStation, and Arcade—all playable online! No download required.",
+    "description": "Experience the fun of Bubble Shooter games on our website, where you can enjoy colorful bubble popping action with classic and modern bubble shooter games—all playable online! No download required.",
     "others": {
       "title": "Others",
       "privacy": "Privacy Policy",
@@ -134,17 +102,17 @@
     },
     "terms": {
       "title": "Terms of Service",
-      "description": "Please read these Terms of Service carefully before using RetroGames.",
-      "lastUpdated": "Last Updated: February 20, 2025",
+      "description": "Please read these Terms of Service carefully before using Bubble Shooters.",
+      "lastUpdated": "Last Updated: March 16, 2025",
       "intro": {
         "text1": "Welcome to ",
         "text2": ". By accessing and using this website, you accept and agree to be bound by the terms and provision of this agreement."
       },
       "service": {
         "title": "Service Description",
-        "text1": " provides a platform for users to play retro games through their web browsers. Our service includes:",
+        "text1": " provides a platform for users to play bubble shooter games through their web browsers. Our service includes:",
         "items": [
-          "Browser-based retro game emulation",
+          "Browser-based bubble shooter games",
           "Game information and descriptions",
           "Related gaming content"
         ]
@@ -155,13 +123,13 @@
         "items": [
           "Sourced from and hosted by third-party services",
           "Subject to their respective owners' copyrights and intellectual property rights",
-          "Not owned or controlled by RetroGames"
+          "Not owned or controlled by Bubble Shooters"
         ],
         "text2": "We do not claim ownership of any games, ROMs, or related content provided through our service. All trademarks, service marks, and trade names are the property of their respective owners."
       },
       "disclaimer": {
         "title": "Disclaimer",
-        "text1": "Our services are provided \"as is\" without any warranties, expressed or implied. RetroGames does not warrant that:",
+        "text1": "Our services are provided \"as is\" without any warranties, expressed or implied. Bubble Shooters does not warrant that:",
         "items": [
           "The service will be uninterrupted or error-free",
           "Games or content will always be available",
@@ -200,13 +168,13 @@
     },
     "privacy": {
       "title": "Privacy Policy",
-      "description": "This Privacy Policy describes how your personal information is collected, used, and shared when you visit RetroGames.",
-      "lastUpdated": "Last Updated: February 20, 2025",
+      "description": "This Privacy Policy describes how your personal information is collected, used, and shared when you visit Bubble Shooters.",
+      "lastUpdated": "Last Updated: March 16, 2025",
       "intro": {
         "text1": "It is our policy to respect your privacy regarding any information we may collect while operating our website. ",
         "text2": " respects your privacy and is committed to protecting any information you may provide us through this website.",
         "text3": "This Privacy Policy explains what information we collect, how we use it, and under what circumstances we may disclose it to third parties. This Privacy Policy applies to ",
-        "text4": " (hereinafter, \"us\", \"we\", or \"RetroGames\")."
+        "text4": " (hereinafter, \"us\", \"we\", or \"Bubble Shooters\")."
       },
       "collection": {
         "title": "Information Collection",
@@ -248,24 +216,23 @@
       "contact": {
         "title": "Contact Us",
         "description": "If you have any questions about this Privacy Policy, please contact us through our website.",
-        "email": "support@retro-games.org"
+        "email": "support@bubbleshooters.org"
       }
     },
     "contact": {
       "title": "Contact Us",
-      "disclaimer": "Disclaimer: All games on this site are hosted by third parties. We do not host or upload any games. We are not responsible for any content hosted on third party websites. RetroGames is an independent website and is not affiliated with any organizations.",
+      "disclaimer": "Bubble Shooters is an independent website and is not affiliated with any organizations.",
       "rights": "All rights reserved."
     }
   },
   "search": {
-    "searchTip": "Search for the retro games you want to play",
-    "placeholder": "Search Retro Games ...",
+    "placeholder": "Search Bubble Games ...",
     "clearSearch": "Clear search",
     "search": "Search"
   },
   "common": {
     "logo": {
-      "title": "Retro Games - Play Classic Games Online"
+      "title": "Bubble Shooter - Play Bubble Games Online"
     }
   },
   "notFound": {
@@ -276,7 +243,7 @@
   "history": {
     "metadata": {
       "title": "Play History - Bubble Shooters",
-      "description": "View your recently played games history."
+      "description": "View your recently played bubble shooter games history."
     },
     "title": "Play History",
     "description": "Games you have played recently",

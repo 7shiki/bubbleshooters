@@ -6,25 +6,25 @@ export async function generateMetadata({ params }: { params: { locale: string } 
     const messages = await getTranslations(params.locale)
 
     return {
-        title: `${messages.footer.privacy.title} - RetroGames`,
+        title: `${messages.footer.privacy.title} - Bubble Shooter`,
         description: messages.footer.privacy.description,
         alternates: {
-            canonical: 'https://retro-games.org/privacy-policy',
+            canonical: 'https://bubbleshooters.org/privacy-policy',
             languages: {
-              'en': 'https://retro-games.org/privacy-policy',
-              'zh': 'https://retro-games.org/zh/privacy-policy',
-              'zh-TW': 'https://retro-games.org/zh-TW/privacy-policy',
-              'es': 'https://retro-games.org/es/privacy-policy',
-              'pt': 'https://retro-games.org/pt/privacy-policy',
-              'ru': 'https://retro-games.org/ru/privacy-policy',
-              'ja': 'https://retro-games.org/ja/privacy-policy',
-              'de': 'https://retro-games.org/de/privacy-policy',
-              'fr': 'https://retro-games.org/fr/privacy-policy',
-              'ko': 'https://retro-games.org/ko/privacy-policy',
-              'it': 'https://retro-games.org/it/privacy-policy',
-              'fil': 'https://retro-games.org/fil/privacy-policy',
-              'hi': 'https://retro-games.org/hi/privacy-policy',
-              'vi': 'https://retro-games.org/vi/privacy-policy'
+              'en': 'https://bubbleshooters.org/privacy-policy',
+              'zh': 'https://bubbleshooters.org/zh/privacy-policy',
+              'zh-TW': 'https://bubbleshooters.org/zh-TW/privacy-policy',
+              'es': 'https://bubbleshooters.org/es/privacy-policy',
+              'pt': 'https://bubbleshooters.org/pt/privacy-policy',
+              'ru': 'https://bubbleshooters.org/ru/privacy-policy',
+              'ja': 'https://bubbleshooters.org/ja/privacy-policy',
+              'de': 'https://bubbleshooters.org/de/privacy-policy',
+              'fr': 'https://bubbleshooters.org/fr/privacy-policy',
+              'ko': 'https://bubbleshooters.org/ko/privacy-policy',
+              'it': 'https://bubbleshooters.org/it/privacy-policy',
+              'fil': 'https://bubbleshooters.org/fil/privacy-policy',
+              'hi': 'https://bubbleshooters.org/hi/privacy-policy',
+              'vi': 'https://bubbleshooters.org/vi/privacy-policy'
             } as Record<string, string>
           }
     }
@@ -59,14 +59,14 @@ export default async function PrivacyPolicy({ params }: { params: { locale: stri
                                 <p className="mb-4">
                                     {privacy.intro.text1}
                                     <Link href={locale === 'en' ? "/" : `/${locale}`} className="text-purple-500 hover:text-purple-400 transition-colors">
-                                        RetroGames
+                                        Bubble Shooters
                                     </Link>
                                     {privacy.intro.text2}
                                 </p>
                                 <p className="mb-4">
                                     {privacy.intro.text3}
                                     <Link href={locale === 'en' ? "/" : `/${locale}`} className="text-purple-500 hover:text-purple-400 transition-colors">
-                                        retro-games.org
+                                        bubbleshooters.org
                                     </Link>
                                     {privacy.intro.text4}
                                 </p>
@@ -128,7 +128,7 @@ export default async function PrivacyPolicy({ params }: { params: { locale: stri
                                     href={`mailto:${privacy.contact.email}`}
                                     className="text-sm text-gray-400 hover:text-purple-400 transition-colors"
                                 >
-                                    support@retro-games.org
+                                    support@bubbleshooters.org
                                 </a>
                             </section>
                         </div>

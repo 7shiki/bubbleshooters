@@ -1,331 +1,261 @@
 {
   "home": {
     "metadata": {
-      "title": "Retro Games - Maglaro ng Retro Games Online. Hindi Kailangan mag-Download.",
-      "description": "Maglaro ng retro games online mula sa NES, SNES, GB, GBC, GBA, SEGA Genesis, PSX, PS1 at Classic Arcade Games sa iyong browser. Libre at hindi kailangan mag-download.",
+      "title": "Play Bubble Shooter Game Online. No Download Required.",
+      "description": "Play bubble shooter game online for free in your browser. Enjoy classic, 3D, and puzzle bubble shooter unblocked games with no download required. Have fun!",
       "keywords": "",
       "og": {
-        "title": "Retro Games - Maglaro ng Classic Games Online",
-        "description": "Maglaro ng retro games online mula sa NES, SNES, GB, GBC, GBA, SEGA Genesis, PSX, PS1 at Classic Arcade Games sa iyong browser. Libre at hindi kailangan mag-download.",
-        "imageAlt": "Retro Games - Koleksyon ng Classic Games"
+        "title": "Bubble Shooters - Play Bubble Games Online",
+        "description": "Play bubble shooter games online for free in your browser. Enjoy classic, 3D, and puzzle bubble shooter games with no download required.",
+        "imageAlt": "Bubble Shooters - Colorful Bubble Games Collection"
       }
-    },
-    "hero": {
-      "title": {
-        "play": "Maglaro",
-        "retroGames": "Retro Games"
-      },
-      "description": "Balikan ang kasiyahan at nostalgia ng iyong kabataan sa aming koleksyon ng Retro Games, kabilang ang mga walang kamatayang klasiko mula sa Nintendo, Sega, NEC, Atari, PlayStation, at Arcade. Hindi kailangan mag-download."
     }
-  },
-  "games": {
-    "popularGames": "Mga Pinakasikat na Retro Games",
-    "newGames": "Mga Bagong Retro Games",
-    "viewAll": "Tingnan Lahat ng Retro Games",
-    "playGame": "Maglaro",
-    "loadMore": "Magload ng Higit Pang Games",
-    "updatedDaily": "Ina-update araw-araw"
   },
   "allGames": {
     "metadata": {
-      "title": "Retro-Games.org - Lahat ng Retro Games. Maglaro ng Classic Games Online",
-      "description": "Tuklasin ang aming kumpletong koleksyon ng classic retro games mula sa Nintendo, Sega, PlayStation, at iba pa. Maglaro ng iyong mga paboritong retro games online.",
+      "title": "All Bubble Shooter Games Online. Play Bubble Games Online",
+      "description": "Browse our complete collection of bubble shooter games. Play your favorite bubble shooter games online for free with no download required.",
       "keywords": ""
     },
-    "title": "Lahat ng Retro Games",
-    "description": "Tuklasin ang aming kumpletong koleksyon ng classic retro games na pwedeng laruin online.",
-    "subDescription": "Balikan ang mga alaala ng iyong kabataan at muling maranasan ang mga mahiwagang sandali ng paglalaro.",
-    "browseGames": "Mag-browse ng Games",
-    "allPlatforms": "Lahat ng Platforms",
-    "foundGames": "Nahanap ang {count} games na tumutugma sa{platform}{query} pamantayan",
-    "noGamesFound": "Walang nahanap na games na tumutugma sa iyong pamantayan.",
-    "clearSearch": "I-clear ang paghahanap"
+    "title": "All Bubble Shooter Unblocked Games",
+    "description": "Browse our complete collection of bubble shooter games available to play online.",
+    "subDescription": "Enjoy the satisfying pop of bubbles and challenge your matching skills with our collection of bubble shooter games.",
+    "browseGames": "Browse Games",
+    "allPlatforms": "All Categories",
+    "foundGames": "Found {count} games matching{platform}{query} criteria",
+    "noGamesFound": "No games found matching your criteria.",
+    "clearSearch": "Clear search"
+  },
+  "games": {
+    "loadMore": "Load More Games"
   },
   "category": {
     "metadata": {
-      "title": "Maglaro ng {company}{platform} Online - Retro Games",
-      "description": "Maglaro ng {platform} games online nang libre sa iyong browser. Hindi kailangan mag-download. Agad na i-enjoy ang classic {platform} games.",
+      "title": "{platform} - Play {platform} Online on Bubble Shooter",
+      "description": "Want to play {platform}? Play best {platform} online for free in your browser. No download required. Enjoy {platform} instantly.",
       "keywords": ""
     },
     "notFound": {
-      "title": "Hindi Nahanap ang Kategorya - RetroGames",
-      "description": "Hindi mahanap ang hinahanap na kategorya ng game."
+      "title": "Category Not Found - Bubble Shooters",
+      "description": "The requested game category could not be found."
     }
   },
   "platforms": {
-    "nes": {
-      "alt": "Mga Laro ng Nintendo Entertainment System Online",
-      "description": "Ang Nintendo Entertainment System ay isang 8-bit na home video game console na ginawa at ginawa ng Nintendo. Unang inilabas sa Japan bilang Family Computer noong July 15, 1983, at kalaunan ay inilabas sa North America noong 1985, sa Europe noong 1986, at Australia noong 1987. Sa South Korea, kilala ito bilang Hyundai Comboy at ipinamamahagi ng SK Hynix na dating kilala bilang Hyundai Electronics. Ito ay sinundan ng Super Nintendo Entertainment System."
+    "home": {
+      "alt": "Home Page",
+      "description": "Return to home page"
     },
-    "fds": {
-      "alt": "Mga Laro ng Famicom Disk System Online",
-      "description": "Ang Famicom Disk System (FDS) ay isang Japan-exclusive na add-on para sa Family Computer (Famicom), na inilabas ng Nintendo noong 1986. Nagdala ito ng rewritable floppy disk storage, na nagpapahintulot ng mas malaking laro at save functionality, ngunit sa huli ay inihinto dahil sa pagtaas ng mga cartridge-based na laro."
+    "history": {
+      "alt": "Play History",
+      "description": "View your recently played games"
     },
-    "snes": {
-      "alt": "Mga Laro ng Super Nintendo Entertainment System Online",
-      "description": "Ang Super Nintendo Entertainment System ay isang 16-bit na home video game console na ginawa ng Nintendo na inilabas noong 1990 sa Japan at South Korea, 1991 sa North America, 1992 sa Europe at Australasia, at 1993 sa South America. Sa Japan, ang system ay tinatawag na Super Famicom, o SFC sa maikling salita."
+    "random": {
+      "alt": "Random Game",
+      "description": "Play a random game"
     },
-    "gameboy": {
-      "alt": "Mga Laro ng Nintendo Game Boy Online",
-      "description": "Ang Game Boy ay isang 8-bit na portable na video game device na may mga papalitan na cartridge na ginawa at ginawa ng Nintendo, na unang inilabas sa Japan noong April 21, 1989, sa North America noong July 31, 1989 at sa Europe noong September 28, 1990."
+    "hot": {
+      "alt": "Hot Games",
+      "description": "Popular and trending bubble games"
     },
-    "gameboycolor": {
-      "alt": "Mga Laro ng Nintendo Game Boy Color Online",
-      "description": "Ang Game Boy Color, na kilala bilang GBC, ay isang portable na game console na ginawa ng Nintendo, na inilabas noong October 21, 1998 sa Japan at inilabas noong November ng parehong taon sa international markets. Ito ang kahalili ng Game Boy."
+    "new": {
+      "alt": "New Games",
+      "description": "Recently added bubble games"
     },
-    "gameboyadvance": {
-      "alt": "Mga Laro ng Nintendo Game Boy Advance Online",
-      "description": "Ang Game Boy Advance (GBA sa maikling salita) ay isang 32-bit na portable na video game console na ginawa, ginawa at ibinenta ng Nintendo bilang kahalili ng Game Boy Color. Inilabas ito sa Japan noong March 21, 2001, sa North America noong June 11, 2001, sa Australia at Europe noong June 22, 2001, at sa People's Republic of China noong June 8, 2004 (maliban sa Hong Kong)."
+    "puzzle": {
+      "alt": "Puzzle Games",
+      "description": "Brain teasers and puzzle games"
     },
-    "n64": {
-      "alt": "Mga Laro ng Nintendo 64 Online",
-      "description": "Ang Nintendo 64 (N64) ay isang fifth-generation na home video game console na ginawa ng Nintendo at inilabas noong 1996 sa Japan at North America, at 1997 sa Europe at Australia. Ito ang unang Nintendo console na may 3D graphics at gumamit ng cartridges sa halip na CDs, nakikipagkumpitensya sa PlayStation at Sega Saturn."
+    "bubble": {
+      "alt": "Bubble Games",
+      "description": "Classic bubble shooter and matching games"
     },
-    "nds": {
-      "alt": "Mga Laro ng Nintendo DS Online",
-      "description": "Ang Nintendo DS (NDS) ay isang dual-screen na portable na gaming console na inilabas ng Nintendo noong 2004. May touchscreen, wireless connectivity, at backward compatibility sa mga Game Boy Advance games, naging isa ito sa pinakamabentang gaming system sa kasaysayan."
+    "card": {
+      "alt": "Card Games",
+      "description": "Classic and modern card games"
     },
-    "master-system": {
-      "alt": "Mga Laro ng Sega Master System Online",
-      "description": "Ang Sega Master System ay isang 8-bit na home video game console na ginawa ng Sega, unang inilabas noong 1985 sa Japan bilang Sega Mark III, at kalaunan ay ginawang Master System para sa international release. Ito ay nakipagkumpitensya sa Nintendo Entertainment System ngunit nagkaroon ng mas malaking tagumpay sa Europe at Brazil."
+    "junping": {
+      "alt": "Jumping Games",
+      "description": "Platform and jumping games"
     },
-    "game-gear": {
-      "alt": "Mga Laro ng Sega Game Gear Online",
-      "description": "Ang Game Gear ay isang 8-bit na portable na game console na inilabas ng Sega noong October 6, 1990 sa Japan, 1991 sa North America at Europe, at Australia noong 1992. Ang Game Gear ay pangunahing nakipagkumpitensya sa Nintendo's Game Boy, Atari Lynx at NEC's TurboExpress. Ang portable console ay nakikibahagi ng karamihan ng hardware nito sa Master System at kayang maglaro ng sarili nitong mga titulo pati na rin ang sa Master System, ang huli ay posible sa pamamagitan ng adapter."
-    },
-    "genesis": {
-      "alt": "Mga Laro ng Sega Genesis/Mega Drive Online",
-      "description": "Ang Sega Genesis, na kilala bilang Mega Drive sa karamihan ng mga rehiyon sa labas ng North America, ay isang 16-bit na home video game console na ginawa at ibinenta ng Sega Enterprises, Ltd. Ang Genesis ay ang ikatlong console ng Sega at kahalili ng Master System. Unang inilabas ng Sega ang console bilang Mega Drive sa Japan noong 1988, sinundan ng North American debut sa ilalim ng pangalang Genesis noong 1989."
-    },
-    "sega32x": {
-      "alt": "Mga Laro ng Sega 32X Online",
-      "description": "Ang Sega 32X ay isang add-on para sa Sega Genesis/Mega Drive na inilabas noong 1994. Ito ay dinisenyo upang mapahusay ang graphics at processing power ng console, ngunit nagkaroon ng maikling buhay dahil sa pagdating ng Sega Saturn."
-    },
-    "sega-cd": {
-      "alt": "Mga Laro ng Sega CD/Mega CD Online",
-      "description": "Ang Sega CD (Mega-CD sa labas ng North America) ay isang CD-ROM expansion para sa Sega Genesis, na inilabas noong 1991 sa Japan at 1992 sa North America. Nagdala ito ng full-motion video at CD-quality audio ngunit nahirapan dahil sa mataas na gastos at limitadong library ng mga laro."
-    },
-    "turbografx-16": {
-      "alt": "Mga Laro ng NEC TurboGrafx-16 Online",
-      "description": "Ang TurboGrafx-16 Entertainment SuperSystem, na kilala sa Japan at France bilang PC Engine, ay isang home video game console na magkasamang ginawa ng Hudson Soft at NEC Home Electronics, inilabas sa Japan noong October 30, 1987 at sa United States noong August 29, 1989."
-    },
-    "turbografx-cd": {
-      "alt": "Mga Laro ng NEC TurboGrafx-CD Online",
-      "description": "Ang TurboGrafx-CD ay isang add-on para sa TurboGrafx-16/PC Engine, na inilabas noong 1988 sa Japan at kalaunan sa North America. Nagdala ito ng CD-based gaming sa platform ng NEC, na nagpapahintulot ng mas mataas na kalidad ng audio at pinalawak na storage ng laro."
-    },
-    "pc-engine-cd": {
-      "alt": "Mga Laro ng NEC PC Engine CD-ROM² Online",
-      "description": "Ang PC Engine CD-ROM² ang unang CD-based na console add-on, na inilabas noong 1988 sa Japan. Pinalawak nito ang kakayahan ng PC Engine, na nagpapahintulot ng mas malalaking laro na may pinahusay na audio at animation, na naimpluwensyahan ang mga susunod na CD-based na gaming system."
-    },
-    "atari-7800": {
-      "alt": "Mga Laro ng Atari 7800 ProSystem Online",
-      "description": "Ang Atari 7800 ProSystem ay isang home video game console na inilabas ng Atari Corporation noong 1986. Ito ay dinisenyo para maging backward compatible sa mga Atari 2600 games habang nag-aalok ng pinahusay na graphics at performance. Sa kabila ng mga kakayahan nito, nahirapan itong makipagkumpitensya sa Nintendo Entertainment System at Sega Master System sa panahon ng buhay nito."
-    },
-    "atari-lynx": {
-      "alt": "Mga Laro ng Atari Lynx Portable Online",
-      "description": "Ang Atari Lynx ay isang portable na game console na inilabas ng Atari noong 1989. Ito ang unang portable na console na may color LCD screen at may advanced na hardware para sa panahon nito, kabilang ang sprite scaling at multiplayer support. Gayunpaman, nakaharap ito sa matinding kumpetisyon mula sa Nintendo Game Boy at Sega Game Gear, na naglimita sa tagumpay nito sa merkado."
-    },
-    "atari-jaguar": {
-      "alt": "Mga Laro ng Atari Jaguar Online",
-      "description": "Ang Atari Jaguar ay isang home video game console na inilabas noong 1993 ng Atari Corporation. Ini-market bilang unang 64-bit na gaming system, ipinagmalaki nito ang mas mataas na processing power kumpara sa mga 16-bit na kakumpetensya nito. Gayunpaman, nahirapan ang Jaguar dahil sa kakulangan ng suporta ng developer at matinding kumpetisyon mula sa Sony PlayStation at Sega Saturn, na sa huli ay humantong sa pag-alis ng Atari sa console market."
-    },
-    "playstation": {
-      "alt": "Mga Laro ng Sony PlayStation Online",
-      "description": "Ang PlayStation (PS1) ay isang 32-bit na home video game console na inilabas ng Sony noong 1994 sa Japan at 1995 sa buong mundo. Ito ang unang console na nakabenta ng higit sa 100 milyong unit at nagpakilala ng CD-based gaming, 3D graphics, at malawak na library ng mga iconic na laro."
-    },
-    "arcade": {
-      "alt": "Mga Klasikong Laro ng Arcade Online",
-      "description": "Ang mga arcade games ay mga video game na pinapatakbo ng barya na matatagpuan sa mga pampublikong lugar tulad ng mga mall at arcade. Sikat noong huling bahagi ng ika-20 siglo, kabilang dito ang mga klasiko tulad ng Pac-Man, Street Fighter, at Metal Slug, na marami sa mga ito ay na-adapt para sa mga home console."
-    },
-    "wonderswan": {
-      "alt": "Mga Laro ng Bandai WonderSwan Online",
-      "description": "Ang WonderSwan ay isang portable na game console na inilabas noong 1999 ng Bandai eksklusibo sa Japan. Dinisenyo bilang kakumpetensya sa Game Boy Color, may kakaibang vertical at horizontal na screen orientation. Isang pinahusay na bersyon, ang WonderSwan Color, ay inilabas noong 2000, na nag-aalok ng color display at mas mahusay na hardware capabilities."
-    },
-    "neo-geo-pocket": {
-      "alt": "Mga Laro ng SNK Neo Geo Pocket Online",
-      "description": "Ang Neo Geo Pocket ay isang portable na game console na inilabas ng SNK noong 1998. Ito ay sinundan ng Neo Geo Pocket Color noong 1999, na nagdala ng color screen at pinahusay na software support. Ang system ay may mga high-quality na arcade-style games, lalo na mula sa mga franchise ng SNK tulad ng King of Fighters at Samurai Shodown."
-    },
-    "msx": {
-      "alt": "Mga Laro ng MSX Online",
-      "description": "Ang MSX ay isang home computer platform na ipinakilala noong 1983 ng Microsoft at ASCII Corporation upang magtatag ng standardized computing environment. Ito ay partikular na sikat sa Japan, Europe, at South America, na nagsilbing platform para sa maraming maagang laro ng Konami at Hudson Soft."
-    },
-    "msx-2": {
-      "alt": "Mga Laro ng MSX 2 Online",
-      "description": "Ang MSX2 ay isang upgraded na bersyon ng orihinal na MSX computer standard, na inilabas noong 1985. Ito ay may pinahusay na graphics capabilities, kabilang ang support para sa mas mataas na resolution at mas malaking color palette, na ginagawa itong mas makapangyarihang gaming at computing system."
+    "music": {
+      "alt": "Music Games",
+      "description": "Rhythm and music-based games"
     }
   },
   "game": {
     "metadata": {
-      "title": "Laruin ang {title} Online. Hindi kailangan mag-download - Retro Games",
-      "description": "Laruin ang {title} ({platform}) online nang libre sa iyong browser. Hindi kailangan mag-download.",
+      "title": "Play {title} Online in your browser. No download required - Bubble Shooter",
+      "description": "Play {title} online for free in your browser. No download required. Enjoy the exciting game, start play {title} now! Have fun!",
       "keywords": ""
     },
     "notFound": {
-      "title": "Hindi Nahanap ang Laro - RetroGames",
-      "description": "Hindi mahanap ang hinahanap na laro."
-    },
-    "relatedGames": {
-      "title": "Maaaring interesado ka sa",
-      "heading": "Mga Kaugnay na Laro"
-    },
-    "page": {
-      "description": "Laruin ang {title} online sa iyong browser. Hindi kailangan mag-download.",
-      "shareText": "Laruin ang {title} online nang libre sa iyong browser! Hindi kailangan mag-download.",
-      "share": {
-        "label": "Ibahagi",
-        "twitter": "Ibahagi sa Twitter",
-        "facebook": "Ibahagi sa Facebook",
-        "reddit": "Ibahagi sa Reddit",
-        "linkedin": "Ibahagi sa LinkedIn"
-      },
-      "playButton": "Maglaro",
-      "about": "Tungkol sa {title} :",
-      "breadcrumb": {
-        "home": "Bahay"
-      }
+      "title": "Game Not Found - Bubble Shooters",
+      "description": "The requested game could not be found."
     }
   },
   "footer": {
-    "description": "Maranasan ang nostalgia ng Retro Games sa aming website, kung saan maaari mong balikan ang mga alaala ng kabataan sa mga klasikong titulo mula sa Nintendo, Sega, NEC, Atari, PlayStation, at Arcade—lahat ay malalaro online! Hindi kailangan mag-download.",
+    "description": "Experience the fun of Bubble Shooter games on our website, where you can enjoy colorful bubble popping action with classic and modern bubble shooter games—all playable online! No download required.",
     "others": {
-      "title": "Iba Pa",
-      "privacy": "Patakaran sa Privacy",
-      "terms": "Mga Tuntunin ng Serbisyo"
+      "title": "Others",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service"
     },
     "terms": {
-      "title": "Mga Tuntunin ng Serbisyo",
-      "description": "Mangyaring basahing mabuti ang mga Tuntunin ng Serbisyo na ito bago gamitin ang RetroGames.",
-      "lastUpdated": "Huling Na-update: Pebrero 20, 2025",
+      "title": "Terms of Service",
+      "description": "Please read these Terms of Service carefully before using Bubble Shooters.",
+      "lastUpdated": "Last Updated: March 16, 2025",
       "intro": {
-        "text1": "Maligayang pagdating sa ",
-        "text2": ". Sa pamamagitan ng pag-access at paggamit ng website na ito, tinatanggap mo at sumasang-ayon ka na sumunod sa mga tuntunin at probisyon ng kasunduang ito."
+        "text1": "Welcome to ",
+        "text2": ". By accessing and using this website, you accept and agree to be bound by the terms and provision of this agreement."
       },
       "service": {
-        "title": "Paglalarawan ng Serbisyo",
-        "text1": " ay nagbibigay ng platform para sa mga user upang maglaro ng retro games sa kanilang mga web browser. Kasama sa aming serbisyo ang:",
+        "title": "Service Description",
+        "text1": " provides a platform for users to play bubble shooter games through their web browsers. Our service includes:",
         "items": [
-          "Browser-based na retro game emulation",
-          "Impormasyon at paglalarawan ng mga laro",
-          "Kaugnay na gaming content"
+          "Browser-based bubble shooter games",
+          "Game information and descriptions",
+          "Related gaming content"
         ]
       },
       "content": {
-        "title": "Nilalaman at Copyright",
-        "text1": "Lahat ng mga laro at kaugnay na nilalaman na available sa aming serbisyo ay:",
+        "title": "Content and Copyright",
+        "text1": "All games and related content available through our service are:",
         "items": [
-          "Nagmula sa at naka-host sa mga third-party services",
-          "Saklaw ng mga copyright at intellectual property rights ng kani-kanilang may-ari",
-          "Hindi pag-aari o kontrolado ng RetroGames"
+          "Sourced from and hosted by third-party services",
+          "Subject to their respective owners' copyrights and intellectual property rights",
+          "Not owned or controlled by Bubble Shooters"
         ],
-        "text2": "Hindi namin inaangkin ang pagmamay-ari ng anumang laro, ROM, o kaugnay na nilalaman na ibinigay sa pamamagitan ng aming serbisyo. Lahat ng trademark, service mark, at trade name ay pag-aari ng kani-kanilang may-ari."
+        "text2": "We do not claim ownership of any games, ROMs, or related content provided through our service. All trademarks, service marks, and trade names are the property of their respective owners."
       },
       "disclaimer": {
         "title": "Disclaimer",
-        "text1": "Ang aming mga serbisyo ay ibinibigay \"as is\" nang walang anumang warranty, hayag o ipinahiwatig. Hindi ginagarantiya ng RetroGames na:",
+        "text1": "Our services are provided \"as is\" without any warranties, expressed or implied. Bubble Shooters does not warrant that:",
         "items": [
-          "Ang serbisyo ay walang putol o walang error",
-          "Ang mga laro o nilalaman ay palaging available",
-          "Ang anumang error o depekto ay maayos"
+          "The service will be uninterrupted or error-free",
+          "Games or content will always be available",
+          "Any errors or defects will be corrected"
         ],
-        "text2": "Hindi kami responsable para sa anumang nilalaman na ibinigay ng mga third party o para sa anumang error o pagkukulang sa nilalaman."
+        "text2": "We are not responsible for any content provided by third parties or for any errors or omissions in the content."
       },
       "conduct": {
-        "title": "Pag-uugali ng User",
-        "text1": "Sa paggamit ng aming serbisyo, sumasang-ayon ka na hindi:",
+        "title": "User Conduct",
+        "text1": "By using our service, you agree not to:",
         "items": [
-          "Gagamitin ang serbisyo para sa anumang ilegal na layunin",
-          "Susubukang magkaroon ng hindi awtorisadong access sa anumang bahagi ng serbisyo",
-          "Makikialam o magdudulot ng pagkagambala sa serbisyo o servers",
-          "Lalabag, magdi-disable, o kaya ay makikialam sa mga security feature"
+          "Use the service for any unlawful purpose",
+          "Attempt to gain unauthorized access to any part of the service",
+          "Interfere with or disrupt the service or servers",
+          "Circumvent, disable, or otherwise interfere with security features"
         ]
       },
       "modifications": {
-        "title": "Mga Pagbabago sa Serbisyo",
-        "text1": "Nakalaan sa amin ang karapatan na:",
+        "title": "Modifications to Service",
+        "text1": "We reserve the right to:",
         "items": [
-          "Baguhin o ihinto ang anumang bahagi ng aming serbisyo nang walang abiso",
-          "I-update ang mga tuntunin ng serbisyo na ito anumang oras",
-          "Baguhin ang mga laro at nilalaman na available sa pamamagitan ng aming serbisyo"
+          "Modify or discontinue any part of our service without notice",
+          "Update these terms of service at any time",
+          "Change the games and content available through our service"
         ],
-        "text2": "Ang patuloy mong paggamit ng serbisyo kasunod ng anumang pagbabago ay nagpapahiwatig ng iyong pagtanggap sa mga pagbabagong iyon."
+        "text2": "Your continued use of the service following any changes constitutes your acceptance of such changes."
       },
       "governing": {
-        "title": "Namamahalang Batas",
-        "text1": "Ang mga tuntuning ito ay pamamahalaan at ipapakahulugan alinsunod sa mga naaangkop na batas, nang hindi isinasaalang-alang ang mga prinsipyo ng pagkakasalungatan ng batas."
+        "title": "Governing Law",
+        "text1": "These terms shall be governed by and construed in accordance with applicable laws, without regard to conflicts of law principles."
       },
       "contact": {
-        "title": "Makipag-ugnayan",
-        "text1": "Para sa anumang katanungan tungkol sa mga tuntuning ito, mangyaring makipag-ugnayan sa amin sa:"
+        "title": "Contact",
+        "text1": "For any questions regarding these terms, please contact us at:"
       }
     },
     "privacy": {
-      "title": "Patakaran sa Privacy",
-      "description": "Ang Patakaran sa Privacy na ito ay naglalarawan kung paano kinokolekta, ginagamit, at ibinabahagi ang iyong personal na impormasyon kapag binibisita mo ang RetroGames.",
-      "lastUpdated": "Huling Na-update: Pebrero 20, 2025",
+      "title": "Privacy Policy",
+      "description": "This Privacy Policy describes how your personal information is collected, used, and shared when you visit Bubble Shooters.",
+      "lastUpdated": "Last Updated: March 16, 2025",
       "intro": {
-        "text1": "Patakaran namin na igalang ang iyong privacy tungkol sa anumang impormasyong maaari naming kolektahin habang pinapatakbo ang aming website. ",
-        "text2": " ay iginagalang ang iyong privacy at nakatuon sa pagprotekta ng anumang impormasyong maaari mong ibigay sa amin sa pamamagitan ng website na ito.",
-        "text3": "Ang Patakaran sa Privacy na ito ay nagpapaliwanag kung anong impormasyon ang aming kinokolekta, paano namin ito ginagamit, at sa ilalim ng anong mga pangyayari maaari namin itong ibunyag sa mga third party. Ang Patakaran sa Privacy na ito ay nalalapat sa ",
-        "text4": " (mula ngayon, \"kami\", \"namin\", o \"RetroGames\")."
+        "text1": "It is our policy to respect your privacy regarding any information we may collect while operating our website. ",
+        "text2": " respects your privacy and is committed to protecting any information you may provide us through this website.",
+        "text3": "This Privacy Policy explains what information we collect, how we use it, and under what circumstances we may disclose it to third parties. This Privacy Policy applies to ",
+        "text4": " (hereinafter, \"us\", \"we\", or \"Bubble Shooters\")."
       },
       "collection": {
-        "title": "Pangongolekta ng Impormasyon",
-        "description": "Ang aming website ay hindi nangangailangan ng user registration o login. Hindi kami nangongolekta ng anumang personal na impormasyon mula sa aming mga user. Ang tanging datos na kinokolekta namin ay:",
+        "title": "Information Collection",
+        "description": "Our website does not require user registration or login. We do not collect any personally identifiable information from our users. The only data we collect are:",
         "items": [
-          "Browser cookies na kinakailangan para sa functionality ng website",
-          "Anonymous na statistics ng paggamit para mapahusay ang aming serbisyo"
+          "Browser cookies essential for website functionality",
+          "Anonymous usage statistics to improve our service"
         ]
       },
       "thirdParty": {
-        "title": "Nilalaman ng Third-Party",
-        "description": "Ang mga laro at kaugnay na nilalaman na available sa aming website ay nagmula sa mga third-party platform. Hindi namin inaangkin ang pagmamay-ari ng nilalaman na ito at:",
+        "title": "Third-Party Content",
+        "description": "The games and related content available on our website are sourced from third-party platforms. We do not claim ownership of this content and:",
         "items": [
-          "Lahat ng laro ay naka-host at naka-stream mula sa mga third-party services",
-          "Ang impormasyon ng laro, mga larawan, at paglalarawan ay ibinibigay ng mga third-party sources",
-          "Hindi kami nagbibigay ng anumang garantiya tungkol sa katumpakan o availability ng nilalaman na ito"
+          "All games are hosted on and streamed from third-party services",
+          "Game information, images, and descriptions are provided by third-party sources",
+          "We make no warranties regarding the accuracy or availability of this content"
         ]
       },
       "cookies": {
-        "title": "Paggamit ng Cookies",
-        "description": "Gumagamit kami ng cookies para mapahusay ang iyong browsing experience. Ang mga cookies na ito ay:",
+        "title": "Use of Cookies",
+        "description": "We use cookies to enhance your browsing experience. These cookies are:",
         "items": [
-          "Kinakailangan para sa basic na functionality ng website",
-          "Ginagamit para matandaan ang iyong mga display preference",
-          "Hindi ginagamit para sa tracking o advertising purposes"
+          "Essential for basic website functionality",
+          "Used to remember your display preferences",
+          "Not used for tracking or advertising purposes"
         ],
-        "control": "Maaari mong kontrolin ang mga cookie setting sa pamamagitan ng iyong browser preferences."
+        "control": "You can control cookie settings through your browser preferences."
       },
       "links": {
-        "title": "Mga External na Link",
-        "description": "Ang aming website ay naglalaman ng mga link sa mga external na site na hindi namin pinapatakbo. Kung mag-click ka sa isang third-party link, ididirekta ka sa site ng third party na iyon. Lubos naming inirerekomenda na suriin mo ang Privacy Policy at Terms of Service ng bawat site na binibisita mo.",
-        "disclaimer": "Wala kaming kontrol sa, at hindi kami tumatanggap ng responsibilidad para sa nilalaman, mga patakaran sa privacy, o mga gawain ng anumang third-party sites, produkto, o serbisyo."
+        "title": "External Links",
+        "description": "Our website contains links to external sites that are not operated by us. If you click on a third-party link, you will be directed to that third party's site. We strongly advise you to review the Privacy Policy and Terms of Service of every site you visit.",
+        "disclaimer": "We have no control over, and assume no responsibility for the content, privacy policies, or practices of any third-party sites, products, or services."
       },
       "updates": {
-        "title": "Mga Update sa Patakaran",
-        "description": "Maaari naming i-update ang Patakaran sa Privacy na ito paminsan-minsan. Aabisuhan ka namin ng anumang pagbabago sa pamamagitan ng pag-post ng bagong Patakaran sa Privacy sa pahinang ito. Pinapayuhan kang suriin ang Patakaran sa Privacy na ito paminsan-minsan para sa anumang pagbabago.",
-        "consent": "Ang patuloy mong paggamit ng aming website pagkatapos naming mag-post ng anumang pagbabago sa Patakaran sa Privacy ay magsisilbing iyong pagkilala sa mga pagbabago at iyong pagsang-ayon na sumunod at sumailalim sa binagong Patakaran sa Privacy."
+        "title": "Policy Updates",
+        "description": "We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page. You are advised to review this Privacy Policy periodically for any changes.",
+        "consent": "Your continued use of our website after we post any modifications to the Privacy Policy will constitute your acknowledgment of the modifications and your consent to abide and be bound by the modified Privacy Policy."
       },
       "contact": {
-        "title": "Makipag-ugnayan sa Amin",
-        "description": "Kung mayroon kang anumang katanungan tungkol sa Patakaran sa Privacy na ito, mangyaring makipag-ugnayan sa amin sa pamamagitan ng aming website.",
-        "email": "support@retro-games.org"
+        "title": "Contact Us",
+        "description": "If you have any questions about this Privacy Policy, please contact us through our website.",
+        "email": "support@bubbleshooters.org"
       }
     },
     "contact": {
-      "title": "Makipag-ugnayan sa Amin",
-      "disclaimer": "Disclaimer: Lahat ng laro sa site na ito ay naka-host sa mga third party. Hindi kami nag-ho-host o nag-a-upload ng anumang laro. Hindi kami responsable para sa anumang nilalaman na naka-host sa mga third party website. Ang RetroGames ay isang independiyenteng website at hindi konektado sa anumang organisasyon.",
-      "rights": "Nakalaan ang lahat ng karapatan."
+      "title": "Contact Us",
+      "disclaimer": "Bubble Shooters is an independent website and is not affiliated with any organizations.",
+      "rights": "All rights reserved."
     }
   },
   "search": {
-    "searchTip": "search fort at retro games ay gustong maglaro",
-    "placeholder": "Maghanap ng Retro Games ...",
-    "clearSearch": "I-clear ang paghahanap",
-    "search": "Maghanap"
+    "placeholder": "Search Bubble Games ...",
+    "clearSearch": "Clear search",
+    "search": "Search"
   },
   "common": {
     "logo": {
-      "title": "Mga Retro Laro - Maglaro ng mga Klasek na Laro Online"
+      "title": "Bubble Shooter - Play Bubble Games Online"
     }
+  },
+  "notFound": {
+    "title": "Page Not Found",
+    "description": "Sorry, the page you are looking for does not exist or has been removed.",
+    "backHome": "Back to Home"
+  },
+  "history": {
+    "metadata": {
+      "title": "Play History - Bubble Shooters",
+      "description": "View your recently played bubble shooter games history."
+    },
+    "title": "Play History",
+    "description": "Games you have played recently",
+    "noHistory": "You have not played any games yet",
+    "clearHistory": "Clear History",
+    "lastPlayed": "Last played",
+    "emptyMessage": "Your play history will appear here"
+  },
+  "navigation": {
+    "home": "Home",
+    "history": "History",
+    "random": "Random",
+    "allGames": "All Games"
   }
 }

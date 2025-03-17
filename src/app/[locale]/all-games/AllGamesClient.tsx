@@ -1,7 +1,7 @@
 'use client'
 
-import { useState, useEffect } from 'react'
-import { useSearchParams } from 'next/navigation'
+import { useState, useEffect, useCallback, useRef } from 'react'
+import { useSearchParams, useRouter, usePathname } from 'next/navigation'
 import SearchBar from '@/components/layout/SearchBar'
 import GameImage from '@/components/games/GameImage'
 import { Game } from '@/utils/i18n'
@@ -17,7 +17,13 @@ interface AllGamesClientProps {
 
 export default function AllGamesClient({ locale, initialMessages, initialGames }: AllGamesClientProps) {
   const searchParams = useSearchParams()
+  const router = useRouter()
+  const pathname = usePathname()
   const initialSearch = searchParams.get('search') || ''
+  
+  // 使用 ref 跟踪是否正在更新 URL，避免循环更新
+  const isUpdatingUrl = useRef(false)
+  const prevSearchParams = useRef(initialSearch)
 
   const [searchQuery, setSearchQuery] = useState(initialSearch)
   const [visibleGames, setVisibleGames] = useState(GAMES_PER_PAGE)
@@ -26,8 +32,14 @@ export default function AllGamesClient({ locale, initialMessages, initialGames }
 
   // 当 URL 参数变化时更新搜索词
   useEffect(() => {
-    setSearchQuery(initialSearch)
-  }, [initialSearch])
+    const currentSearch = searchParams.get('search') || ''
+    
+    // 只有当 URL 参数真正变化且不是由组件自身触发的更新时，才更新状态
+    if (currentSearch !== prevSearchParams.current && !isUpdatingUrl.current) {
+      setSearchQuery(currentSearch)
+      prevSearchParams.current = currentSearch
+    }
+  }, [searchParams]) // 移除 searchQuery 依赖，避免循环更新
 
   // 根据搜索词筛选游戏
   const filteredGames = games.filter(game => {
@@ -40,16 +52,50 @@ export default function AllGamesClient({ locale, initialMessages, initialGames }
     return matchesSearch
   })
 
-  // 处理搜索
-  const handleSearch = (query: string) => {
+  // 处理搜索 - 使用 useCallback 避免不必要的重新创建
+  const handleSearch = useCallback((query: string) => {
+    // 先更新本地状态
     setSearchQuery(query)
     setVisibleGames(GAMES_PER_PAGE) // 重置显示数量
-  }
+    
+    // 然后更新 URL 参数
+    updateSearchParams(query)
+  }, [])
+  
+  // 更新 URL 搜索参数 - 使用 useCallback 避免不必要的重新创建
+  const updateSearchParams = useCallback((query: string) => {
+    try {
+      // 标记正在更新 URL
+      isUpdatingUrl.current = true
+      prevSearchParams.current = query // 更新上一次的搜索参数
+      
+      // 创建新的 URLSearchParams 对象
+      const params = new URLSearchParams(searchParams.toString())
+      
+      if (query) {
+        params.set('search', query)
+      } else {
+        params.delete('search')
+      }
+      
+      // 构建新的 URL 并导航
+      const newUrl = `${pathname}${params.toString() ? `?${params.toString()}` : ''}`
+      router.replace(newUrl, { scroll: false })
+      
+      // 使用 setTimeout 确保在 React 状态更新周期之后重置标记
+      setTimeout(() => {
+        isUpdatingUrl.current = false
+      }, 100) // 增加延迟时间，确保状态更新完成
+    } catch (error) {
+      console.error('Error updating search params:', error)
+      isUpdatingUrl.current = false
+    }
+  }, [pathname, router, searchParams])
 
-  // 处理加载更多
-  const handleLoadMore = () => {
+  // 处理加载更多 - 使用 useCallback 避免不必要的重新创建
+  const handleLoadMore = useCallback(() => {
     setVisibleGames(prev => prev + GAMES_PER_PAGE)
-  }
+  }, [])
 
   // 获取当前可见的游戏
   const currentGames = filteredGames.slice(0, visibleGames)
@@ -120,7 +166,7 @@ export default function AllGamesClient({ locale, initialMessages, initialGames }
                   {searchQuery && (
                     <button
                       className="text-purple-400 hover:text-purple-300 ml-2"
-                      onClick={() => setSearchQuery('')}
+                      onClick={() => handleSearch('')}
                     >
                       {messages.allGames.clearSearch}
                     </button>

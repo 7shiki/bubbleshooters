@@ -58,7 +58,7 @@ export default function Footer({ locale, initialMessages }: FooterProps) {
                         </span>
                         <div className="flex flex-col gap-4">
                             <a
-                                href="mailto:support@retro-games.org"
+                                href="mailto:support@bubbleshooters.org"
                                 className="text-sm text-gray-400 hover:text-purple-400 transition-colors"
                             >
                                 support@bubbleshooters.org
