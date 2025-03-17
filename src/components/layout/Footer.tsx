@@ -78,7 +78,7 @@ export default function Footer({ locale, initialMessages }: FooterProps) {
                             href={baseUrl || '/'}
                             className="hover:text-purple-400 transition-colors"
                         >
-                            Bubble Shooter
+                            Bubble Shooters
                         </Link>
                         . {messages.contact.rights}
                     </p>
