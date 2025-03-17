@@ -155,7 +155,7 @@ export default async function Home({ params }: { params: { locale: string } }) {
           </div>
           
           {/* Game Container - Main content */}
-          <div className="w-full md:flex-1 md:pl-8">
+          <div className="w-full md:flex-1 md:pl-4">
             <div className="max-w-[1000px]">
               <GameContainer 
                 title={featuredGame.title}
