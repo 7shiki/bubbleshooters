@@ -66,8 +66,8 @@ export default async function CategoryPage({ params }: { params: { locale: strin
           '@type': 'CollectionPage',
           '@id': `https://bubbleshooters.org/${params.category}#webpage`,
           'url': `https://bubbleshooters.org/${params.category}`,
-          'name': `${info.title} - RetroGames`,
-          'description': `Play ${info.platform} games online for free in your browser. No download required. Enjoy classic ${info.platform} games instantly.`,
+          'name': `${info.title} - Bubble Shooters`,
+          'description': `Want to play ${info.platform}? Play best ${info.platform} online for free in your browser. No download required. Enjoy ${info.platform} instantly.`,
           'isPartOf': {
             '@id': 'https://bubbleshooters.org/#website'
           }
@@ -75,11 +75,10 @@ export default async function CategoryPage({ params }: { params: { locale: strin
         {
           '@type': 'VideoGameSeries',
           '@id': `https://bubbleshooters.org/${params.category}#gameseries`,
-          'name': `${info.platform} Games Collection`,
-          'description': `Play ${info.platform} games online for free in your browser. No download required. Enjoy classic ${info.platform} games instantly.`,
+          'name': `${info.platform} Collection`,
+          'description': `Want to play ${info.platform}? Play best ${info.platform} online for free in your browser. No download required. Enjoy ${info.platform} instantly.`,
           'gamePlatform': info.platform,
-          'genre': ['Retro Games', 'Classic Games'],
-          'publisher': info.company !== 'Other' ? info.company : undefined
+          'genre': ['Bubble Games', 'Puzzle Games', 'Matching Games']
         },
         {
           "@type": "BreadcrumbList",
@@ -93,13 +92,13 @@ export default async function CategoryPage({ params }: { params: { locale: strin
             {
               "@type": "ListItem",
               "position": 2,
-              "name": info.company,
-              "item": `https://bubbleshooters.org/${params.category}`
+              "name": "All Games",
+              "item": "https://bubbleshooters.org/all-games"
             },
             {
               "@type": "ListItem",
               "position": 3,
-              "name": info.platform,
+              "name": info.title,
               "item": `https://bubbleshooters.org/${params.category}`
             }
           ]

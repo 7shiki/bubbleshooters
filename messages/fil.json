@@ -1,261 +1,265 @@
 {
   "home": {
     "metadata": {
-      "title": "Play Bubble Shooter Game Online. No Download Required.",
-      "description": "Play bubble shooter game online for free in your browser. Enjoy classic, 3D, and puzzle bubble shooter unblocked games with no download required. Have fun!",
+      "title": "Laruin ang Bubble Shooter Game Online. Hindi Kailangan ng Download.",
+      "description": "Laruin ang bubble shooter game online nang libre sa iyong browser. I-enjoy ang classic, 3D, at puzzle bubble shooter na mga laro nang walang download. Mag-enjoy!",
       "keywords": "",
       "og": {
-        "title": "Bubble Shooters - Play Bubble Games Online",
-        "description": "Play bubble shooter games online for free in your browser. Enjoy classic, 3D, and puzzle bubble shooter games with no download required.",
-        "imageAlt": "Bubble Shooters - Colorful Bubble Games Collection"
+        "title": "Bubble Shooter - Laruin ang Bubble Games Online",
+        "description": "Laruin ang bubble shooter games online nang libre sa iyong browser. I-enjoy ang classic, 3D, at puzzle bubble shooter games nang walang download.",
+        "imageAlt": "Bubble Shooter - Makulay na Koleksyon ng Bubble Games"
       }
     }
   },
   "allGames": {
     "metadata": {
-      "title": "All Bubble Shooter Games Online. Play Bubble Games Online",
-      "description": "Browse our complete collection of bubble shooter games. Play your favorite bubble shooter games online for free with no download required.",
+      "title": "Lahat ng Bubble Shooter Games Online. Laruin ang Bubble Games Online",
+      "description": "Tumingin sa aming kumpletong koleksyon ng bubble shooter games. Laruin ang iyong mga paboritong bubble shooter games online nang libre nang walang download.",
       "keywords": ""
     },
-    "title": "All Bubble Shooter Unblocked Games",
-    "description": "Browse our complete collection of bubble shooter games available to play online.",
-    "subDescription": "Enjoy the satisfying pop of bubbles and challenge your matching skills with our collection of bubble shooter games.",
-    "browseGames": "Browse Games",
-    "allPlatforms": "All Categories",
-    "foundGames": "Found {count} games matching{platform}{query} criteria",
-    "noGamesFound": "No games found matching your criteria.",
-    "clearSearch": "Clear search"
+    "title": "Lahat ng Bubble Shooter Unblocked Games",
+    "description": "Tumingin sa aming kumpletong koleksyon ng bubble shooter games na pwedeng laruin online.",
+    "subDescription": "I-enjoy ang kasiya-siyang pagsabog ng mga bula at hamunin ang iyong matching skills sa aming koleksyon ng bubble shooter games.",
+    "browseGames": "Tumingin ng mga Laro",
+    "allPlatforms": "Lahat ng Kategorya",
+    "foundGames": "Nakahanap ng {count} na laro na tumutugma sa{platform}{query} pamantayan",
+    "noGamesFound": "Walang nahanap na laro na tumutugma sa iyong pamantayan.",
+    "clearSearch": "Burahin ang paghahanap"
   },
   "games": {
-    "loadMore": "Load More Games"
+    "loadMore": "Mag-load ng Higit Pang Laro"
   },
   "category": {
     "metadata": {
-      "title": "{platform} - Play {platform} Online on Bubble Shooter",
-      "description": "Want to play {platform}? Play best {platform} online for free in your browser. No download required. Enjoy {platform} instantly.",
+      "title": "{platform} - Laruin ang {platform} Online sa Bubble Shooter",
+      "description": "Gusto mo bang laruin ang {platform}? Laruin ang pinakamahusay na {platform} online nang libre sa iyong browser. Hindi kailangan ng download. I-enjoy ang {platform} agad!",
       "keywords": ""
     },
     "notFound": {
-      "title": "Category Not Found - Bubble Shooters",
-      "description": "The requested game category could not be found."
+      "title": "Hindi Nahanap ang Kategorya - Bubble Shooters",
+      "description": "Hindi mahanap ang hiniling na kategorya ng laro."
     }
   },
   "platforms": {
     "home": {
       "alt": "Home Page",
-      "description": "Return to home page"
+      "description": "Bumalik sa home page"
     },
     "history": {
-      "alt": "Play History",
-      "description": "View your recently played games"
+      "alt": "Kasaysayan ng Paglalaro",
+      "description": "Tingnan ang iyong mga kamakailan na nilaro"
     },
     "random": {
-      "alt": "Random Game",
-      "description": "Play a random game"
+      "alt": "Random na Laro",
+      "description": "Maglaro ng random na laro"
     },
     "hot": {
-      "alt": "Hot Games",
-      "description": "Popular and trending bubble games"
+      "alt": "Mga Sikat na Laro",
+      "description": "Mga popular at trending na bubble games"
     },
     "new": {
-      "alt": "New Games",
-      "description": "Recently added bubble games"
+      "alt": "Mga Bagong Laro",
+      "description": "Mga kamakailan na idinagdag na bubble games"
     },
     "puzzle": {
-      "alt": "Puzzle Games",
-      "description": "Brain teasers and puzzle games"
+      "alt": "Mga Puzzle Games",
+      "description": "Mga brain teasers at puzzle games"
     },
     "bubble": {
-      "alt": "Bubble Games",
-      "description": "Classic bubble shooter and matching games"
+      "alt": "Mga Bubble Games",
+      "description": "Mga classic na bubble shooter at matching games"
     },
     "card": {
-      "alt": "Card Games",
-      "description": "Classic and modern card games"
+      "alt": "Mga Card Games",
+      "description": "Mga classic at modernong card games"
     },
     "junping": {
-      "alt": "Jumping Games",
-      "description": "Platform and jumping games"
+      "alt": "Mga Jumping Games",
+      "description": "Mga platform at jumping games"
     },
     "music": {
-      "alt": "Music Games",
-      "description": "Rhythm and music-based games"
+      "alt": "Mga Music Games",
+      "description": "Mga rhythm at music-based na laro"
     }
   },
   "game": {
     "metadata": {
-      "title": "Play {title} Online in your browser. No download required - Bubble Shooter",
-      "description": "Play {title} online for free in your browser. No download required. Enjoy the exciting game, start play {title} now! Have fun!",
+      "title": "Laruin ang {title} Online sa iyong browser. Hindi kailangan ng download - Bubble Shooter",
+      "description": "Laruin ang {title} online nang libre sa iyong browser. Hindi kailangan ng download. I-enjoy ang exciting na laro, simulan ang paglalaro ng {title} ngayon! Mag-enjoy!",
       "keywords": ""
     },
     "notFound": {
-      "title": "Game Not Found - Bubble Shooters",
-      "description": "The requested game could not be found."
+      "title": "Hindi Nahanap ang Laro - Bubble Shooters",
+      "description": "Hindi mahanap ang hiniling na laro."
     }
   },
   "footer": {
-    "description": "Experience the fun of Bubble Shooter games on our website, where you can enjoy colorful bubble popping action with classic and modern bubble shooter games—all playable online! No download required.",
+    "description": "Maranasan ang kasiyahan ng Bubble Shooter games sa aming website, kung saan pwede kang mag-enjoy ng makulay na bubble popping action sa mga classic at modernong bubble shooter games—lahat ay pwedeng laruin online! Hindi kailangan ng download.",
     "others": {
-      "title": "Others",
-      "privacy": "Privacy Policy",
-      "terms": "Terms of Service"
+      "title": "Iba Pa",
+      "privacy": "Patakaran sa Privacy",
+      "terms": "Mga Tuntunin ng Serbisyo"
     },
     "terms": {
-      "title": "Terms of Service",
-      "description": "Please read these Terms of Service carefully before using Bubble Shooters.",
-      "lastUpdated": "Last Updated: March 16, 2025",
+      "title": "Mga Tuntunin ng Serbisyo",
+      "description": "Mangyaring basahin nang mabuti ang Mga Tuntunin ng Serbisyo na ito bago gamitin ang Bubble Shooters.",
+      "lastUpdated": "Huling Na-update: Marso 16, 2025",
       "intro": {
-        "text1": "Welcome to ",
-        "text2": ". By accessing and using this website, you accept and agree to be bound by the terms and provision of this agreement."
+        "text1": "Maligayang pagdating sa ",
+        "text2": ". Sa pamamagitan ng pag-access at paggamit ng website na ito, tinatanggap mo at sumasang-ayon kang sumunod sa mga tuntunin at probisyon ng kasunduang ito."
       },
       "service": {
-        "title": "Service Description",
-        "text1": " provides a platform for users to play bubble shooter games through their web browsers. Our service includes:",
+        "title": "Paglalarawan ng Serbisyo",
+        "text1": " ay nagbibigay ng platform para sa mga user upang maglaro ng bubble shooter games sa pamamagitan ng kanilang mga web browser. Kasama sa aming serbisyo ang:",
         "items": [
-          "Browser-based bubble shooter games",
-          "Game information and descriptions",
-          "Related gaming content"
+          "Mga browser-based na bubble shooter games",
+          "Impormasyon at paglalarawan ng laro",
+          "Kaugnay na nilalaman ng gaming"
         ]
       },
       "content": {
-        "title": "Content and Copyright",
-        "text1": "All games and related content available through our service are:",
+        "title": "Nilalaman at Copyright",
+        "text1": "Lahat ng laro at kaugnay na nilalaman na available sa pamamagitan ng aming serbisyo ay:",
         "items": [
-          "Sourced from and hosted by third-party services",
-          "Subject to their respective owners' copyrights and intellectual property rights",
-          "Not owned or controlled by Bubble Shooters"
+          "Nagmula sa at naka-host ng mga third-party services",
+          "Napapailalim sa kani-kanilang mga may-ari ng copyright at karapatan sa intelektwal na ari-arian",
+          "Hindi pag-aari o kontrolado ng Bubble Shooters"
         ],
-        "text2": "We do not claim ownership of any games, ROMs, or related content provided through our service. All trademarks, service marks, and trade names are the property of their respective owners."
+        "text2": "Hindi namin inaangkin ang pagmamay-ari ng anumang laro, ROM, o kaugnay na nilalaman na ibinibigay sa pamamagitan ng aming serbisyo. Lahat ng trademark, service mark, at trade name ay pag-aari ng kani-kanilang may-ari."
       },
       "disclaimer": {
         "title": "Disclaimer",
-        "text1": "Our services are provided \"as is\" without any warranties, expressed or implied. Bubble Shooters does not warrant that:",
+        "text1": "Ang aming mga serbisyo ay ibinibigay \"as is\" nang walang anumang garantiya, hayagan o ipinahiwatig. Hindi ginagarantiya ng Bubble Shooters na:",
         "items": [
-          "The service will be uninterrupted or error-free",
-          "Games or content will always be available",
-          "Any errors or defects will be corrected"
+          "Ang serbisyo ay hindi maaantala o walang error",
+          "Ang mga laro o nilalaman ay palaging available",
+          "Anumang error o depekto ay itatama"
         ],
-        "text2": "We are not responsible for any content provided by third parties or for any errors or omissions in the content."
+        "text2": "Hindi kami responsable para sa anumang nilalaman na ibinibigay ng mga third party o para sa anumang error o pagkukulang sa nilalaman."
       },
       "conduct": {
-        "title": "User Conduct",
-        "text1": "By using our service, you agree not to:",
+        "title": "Pag-uugali ng User",
+        "text1": "Sa paggamit ng aming serbisyo, sumasang-ayon kang hindi:",
         "items": [
-          "Use the service for any unlawful purpose",
-          "Attempt to gain unauthorized access to any part of the service",
-          "Interfere with or disrupt the service or servers",
-          "Circumvent, disable, or otherwise interfere with security features"
+          "Gamitin ang serbisyo para sa anumang labag sa batas na layunin",
+          "Subukang makakuha ng hindi awtorisadong access sa anumang bahagi ng serbisyo",
+          "Makialam o magambala sa serbisyo o mga server",
+          "Umiwas, mag-disable, o kung hindi man ay makialam sa mga feature ng seguridad"
         ]
       },
       "modifications": {
-        "title": "Modifications to Service",
-        "text1": "We reserve the right to:",
+        "title": "Mga Pagbabago sa Serbisyo",
+        "text1": "Nakalaan ang aming karapatan na:",
         "items": [
-          "Modify or discontinue any part of our service without notice",
-          "Update these terms of service at any time",
-          "Change the games and content available through our service"
+          "Baguhin o ihinto ang anumang bahagi ng aming serbisyo nang walang abiso",
+          "I-update ang mga tuntunin ng serbisyo na ito anumang oras",
+          "Baguhin ang mga laro at nilalaman na available sa pamamagitan ng aming serbisyo"
         ],
-        "text2": "Your continued use of the service following any changes constitutes your acceptance of such changes."
+        "text2": "Ang iyong patuloy na paggamit ng serbisyo kasunod ng anumang pagbabago ay bumubuo sa iyong pagtanggap sa mga naturang pagbabago."
       },
       "governing": {
-        "title": "Governing Law",
-        "text1": "These terms shall be governed by and construed in accordance with applicable laws, without regard to conflicts of law principles."
+        "title": "Namamahalang Batas",
+        "text1": "Ang mga tuntuning ito ay pamamahalaan at ipapakahulugan alinsunod sa mga naaangkop na batas, nang walang pagsasaalang-alang sa mga prinsipyo ng salungatan ng batas."
       },
       "contact": {
-        "title": "Contact",
-        "text1": "For any questions regarding these terms, please contact us at:"
+        "title": "Kontak",
+        "text1": "Para sa anumang mga katanungan tungkol sa mga tuntuning ito, mangyaring makipag-ugnayan sa amin sa:"
       }
     },
     "privacy": {
-      "title": "Privacy Policy",
-      "description": "This Privacy Policy describes how your personal information is collected, used, and shared when you visit Bubble Shooters.",
-      "lastUpdated": "Last Updated: March 16, 2025",
+      "title": "Patakaran sa Privacy",
+      "description": "Inilalarawan ng Patakaran sa Privacy na ito kung paano kinokolekta, ginagamit, at ibinabahagi ang iyong personal na impormasyon kapag bumibisita ka sa Bubble Shooters.",
+      "lastUpdated": "Huling Na-update: Marso 16, 2025",
       "intro": {
-        "text1": "It is our policy to respect your privacy regarding any information we may collect while operating our website. ",
-        "text2": " respects your privacy and is committed to protecting any information you may provide us through this website.",
-        "text3": "This Privacy Policy explains what information we collect, how we use it, and under what circumstances we may disclose it to third parties. This Privacy Policy applies to ",
-        "text4": " (hereinafter, \"us\", \"we\", or \"Bubble Shooters\")."
+        "text1": "Patakaran namin na igalang ang iyong privacy tungkol sa anumang impormasyon na maaari naming kolektahin habang pinapatakbo ang aming website. ",
+        "text2": " ay iginagalang ang iyong privacy at nakatuon sa pagprotekta ng anumang impormasyon na maaari mong ibigay sa amin sa pamamagitan ng website na ito.",
+        "text3": "Ipinapaliwanag ng Patakaran sa Privacy na ito kung anong impormasyon ang kinokolekta namin, paano namin ito ginagamit, at sa ilalim ng anong mga pangyayari maaari namin itong isiwalat sa mga third party. Ang Patakaran sa Privacy na ito ay nalalapat sa ",
+        "text4": " (mula ngayon, \"kami\" o \"Bubble Shooters\")."
       },
       "collection": {
-        "title": "Information Collection",
-        "description": "Our website does not require user registration or login. We do not collect any personally identifiable information from our users. The only data we collect are:",
+        "title": "Koleksyon ng Impormasyon",
+        "description": "Ang aming website ay hindi nangangailangan ng user registration o login. Hindi kami kumokolekta ng anumang personal na impormasyon mula sa aming mga user. Ang tanging data na kinokolekta namin ay:",
         "items": [
-          "Browser cookies essential for website functionality",
-          "Anonymous usage statistics to improve our service"
+          "Mga browser cookie na mahalaga para sa functionality ng website",
+          "Mga anonymous na istatistika ng paggamit upang mapabuti ang aming serbisyo"
         ]
       },
       "thirdParty": {
-        "title": "Third-Party Content",
-        "description": "The games and related content available on our website are sourced from third-party platforms. We do not claim ownership of this content and:",
+        "title": "Nilalaman ng Third-Party",
+        "description": "Ang mga laro at kaugnay na nilalaman na available sa aming website ay nagmula sa mga third-party platform. Hindi namin inaangkin ang pagmamay-ari ng nilalaman na ito at:",
         "items": [
-          "All games are hosted on and streamed from third-party services",
-          "Game information, images, and descriptions are provided by third-party sources",
-          "We make no warranties regarding the accuracy or availability of this content"
+          "Lahat ng laro ay naka-host at naka-stream mula sa mga third-party services",
+          "Ang impormasyon, mga larawan, at paglalarawan ng laro ay ibinibigay ng mga third-party sources",
+          "Hindi kami nagbibigay ng mga garantiya tungkol sa katumpakan o availability ng nilalaman na ito"
         ]
       },
       "cookies": {
-        "title": "Use of Cookies",
-        "description": "We use cookies to enhance your browsing experience. These cookies are:",
+        "title": "Paggamit ng Cookies",
+        "description": "Gumagamit kami ng cookies upang mapahusay ang iyong browsing experience. Ang mga cookies na ito ay:",
         "items": [
-          "Essential for basic website functionality",
-          "Used to remember your display preferences",
-          "Not used for tracking or advertising purposes"
+          "Mahalaga para sa pangunahing functionality ng website",
+          "Ginagamit upang matandaan ang iyong mga display preference",
+          "Hindi ginagamit para sa tracking o advertising purposes"
         ],
-        "control": "You can control cookie settings through your browser preferences."
+        "control": "Maaari mong kontrolin ang mga setting ng cookie sa pamamagitan ng mga preference ng iyong browser."
       },
       "links": {
-        "title": "External Links",
-        "description": "Our website contains links to external sites that are not operated by us. If you click on a third-party link, you will be directed to that third party's site. We strongly advise you to review the Privacy Policy and Terms of Service of every site you visit.",
-        "disclaimer": "We have no control over, and assume no responsibility for the content, privacy policies, or practices of any third-party sites, products, or services."
+        "title": "Mga External na Link",
+        "description": "Ang aming website ay naglalaman ng mga link sa mga external na site na hindi namin pinapatakbo. Kung mag-click ka sa isang third-party link, ire-redirect ka sa site ng third party na iyon. Lubos naming inirerekomenda na suriin mo ang Patakaran sa Privacy at Mga Tuntunin ng Serbisyo ng bawat site na binibisita mo.",
+        "disclaimer": "Wala kaming kontrol sa, at hindi kami umaako ng responsibilidad para sa nilalaman, mga patakaran sa privacy, o mga gawi ng anumang third-party site, produkto, o serbisyo."
       },
       "updates": {
-        "title": "Policy Updates",
-        "description": "We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page. You are advised to review this Privacy Policy periodically for any changes.",
-        "consent": "Your continued use of our website after we post any modifications to the Privacy Policy will constitute your acknowledgment of the modifications and your consent to abide and be bound by the modified Privacy Policy."
+        "title": "Mga Update sa Patakaran",
+        "description": "Maaari naming i-update ang Patakaran sa Privacy na ito paminsan-minsan. Aabisuhan ka namin ng anumang pagbabago sa pamamagitan ng pag-post ng bagong Patakaran sa Privacy sa page na ito. Pinapayuhan kang suriin ang Patakaran sa Privacy na ito paminsan-minsan para sa anumang pagbabago.",
+        "consent": "Ang iyong patuloy na paggamit ng aming website pagkatapos naming mag-post ng anumang pagbabago sa Patakaran sa Privacy ay bubuo sa iyong pagkilala sa mga pagbabago at sa iyong pagsang-ayon na sumunod at maging saklaw ng binagong Patakaran sa Privacy."
       },
       "contact": {
-        "title": "Contact Us",
-        "description": "If you have any questions about this Privacy Policy, please contact us through our website.",
+        "title": "Makipag-ugnayan sa Amin",
+        "description": "Kung mayroon kang anumang mga katanungan tungkol sa Patakaran sa Privacy na ito, mangyaring makipag-ugnayan sa amin sa pamamagitan ng aming website.",
         "email": "support@bubbleshooters.org"
       }
     },
     "contact": {
-      "title": "Contact Us",
-      "disclaimer": "Bubble Shooters is an independent website and is not affiliated with any organizations.",
-      "rights": "All rights reserved."
+      "title": "Makipag-ugnayan sa Amin",
+      "disclaimer": "Ang Bubble Shooters ay isang independiyenteng website at hindi affiliated sa anumang organisasyon.",
+      "rights": "Lahat ng karapatan ay nakalaan."
     }
   },
   "search": {
-    "placeholder": "Search Bubble Games ...",
-    "clearSearch": "Clear search",
-    "search": "Search"
+    "placeholder": "Maghanap ng Bubble Games ...",
+    "clearSearch": "Burahin ang paghahanap",
+    "search": "Maghanap"
   },
   "common": {
     "logo": {
-      "title": "Bubble Shooter - Play Bubble Games Online"
+      "title": "Bubble Shooter - Laruin ang Bubble Games Online"
     }
   },
   "notFound": {
-    "title": "Page Not Found",
-    "description": "Sorry, the page you are looking for does not exist or has been removed.",
-    "backHome": "Back to Home"
+    "title": "Hindi Nahanap ang Page",
+    "description": "Paumanhin, ang page na hinahanap mo ay hindi umiiral o inalis na.",
+    "backHome": "Bumalik sa Home"
   },
   "history": {
     "metadata": {
-      "title": "Play History - Bubble Shooters",
-      "description": "View your recently played bubble shooter games history."
+      "title": "Kasaysayan ng Paglalaro - Bubble Shooters",
+      "description": "Tingnan ang kasaysayan ng iyong mga kamakailan na nilaro na bubble shooter games."
     },
-    "title": "Play History",
-    "description": "Games you have played recently",
-    "noHistory": "You have not played any games yet",
-    "clearHistory": "Clear History",
-    "lastPlayed": "Last played",
-    "emptyMessage": "Your play history will appear here"
+    "title": "Kasaysayan ng Paglalaro",
+    "description": "Mga laro na nilaro mo kamakailan",
+    "noHistory": "Wala ka pang nilalaro na anumang laro",
+    "clearHistory": "Burahin ang Kasaysayan",
+    "lastPlayed": "Huling nilaro",
+    "emptyMessage": "Ang iyong kasaysayan ng paglalaro ay lalabas dito"
   },
   "navigation": {
     "home": "Home",
-    "history": "History",
+    "history": "Kasaysayan",
     "random": "Random",
-    "allGames": "All Games"
+    "allGames": "Lahat ng Laro"
+  },
+  "searchBar": {
+    "placeholder": "Maghanap ng Bubble Games...",
+    "search": "Maghanap"
   }
 }

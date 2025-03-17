@@ -1,261 +1,265 @@
 {
     "home": {
       "metadata": {
-        "title": "Play Bubble Shooter Game Online. No Download Required.",
-        "description": "Play bubble shooter game online for free in your browser. Enjoy classic, 3D, and puzzle bubble shooter unblocked games with no download required. Have fun!",
+        "title": "線上玩泡泡射手遊戲。無需下載。",
+        "description": "在您的瀏覽器中免費線上玩泡泡射手遊戲。享受經典、3D和解謎泡泡射手遊戲，無需下載。盡情享受！",
         "keywords": "",
         "og": {
-          "title": "Bubble Shooters - Play Bubble Games Online",
-          "description": "Play bubble shooter games online for free in your browser. Enjoy classic, 3D, and puzzle bubble shooter games with no download required.",
-          "imageAlt": "Bubble Shooters - Colorful Bubble Games Collection"
+          "title": "泡泡射手 - 線上玩泡泡遊戲",
+          "description": "在您的瀏覽器中免費線上玩泡泡射手遊戲。享受經典、3D和解謎泡泡射手遊戲，無需下載。",
+          "imageAlt": "泡泡射手 - 多彩泡泡遊戲合集"
         }
       }
     },
     "allGames": {
       "metadata": {
-        "title": "All Bubble Shooter Games Online. Play Bubble Games Online",
-        "description": "Browse our complete collection of bubble shooter games. Play your favorite bubble shooter games online for free with no download required.",
+        "title": "所有泡泡射手線上遊戲。線上玩泡泡遊戲",
+        "description": "瀏覽我們完整的泡泡射手遊戲合集。免費線上玩您喜愛的泡泡射手遊戲，無需下載。",
         "keywords": ""
       },
-      "title": "All Bubble Shooter Unblocked Games",
-      "description": "Browse our complete collection of bubble shooter games available to play online.",
-      "subDescription": "Enjoy the satisfying pop of bubbles and challenge your matching skills with our collection of bubble shooter games.",
-      "browseGames": "Browse Games",
-      "allPlatforms": "All Categories",
-      "foundGames": "Found {count} games matching{platform}{query} criteria",
-      "noGamesFound": "No games found matching your criteria.",
-      "clearSearch": "Clear search"
+      "title": "所有泡泡射手遊戲",
+      "description": "瀏覽我們可線上遊玩的完整泡泡射手遊戲合集。",
+      "subDescription": "享受令人滿足的泡泡爆破聲，並用我們的泡泡射手遊戲合集挑戰您的配對技能。",
+      "browseGames": "瀏覽遊戲",
+      "allPlatforms": "所有類別",
+      "foundGames": "找到 {count} 款符合{platform}{query}條件的遊戲",
+      "noGamesFound": "沒有找到符合您條件的遊戲。",
+      "clearSearch": "清除搜尋"
     },
     "games": {
-      "loadMore": "Load More Games"
+      "loadMore": "載入更多遊戲"
     },
     "category": {
       "metadata": {
-        "title": "{platform} - Play {platform} Online on Bubble Shooter",
-        "description": "Want to play {platform}? Play best {platform} online for free in your browser. No download required. Enjoy {platform} instantly.",
+        "title": "{platform} - 在泡泡射手上線上玩{platform}",
+        "description": "想玩{platform}嗎？在您的瀏覽器中免費線上玩最佳{platform}。無需下載。立即享受{platform}。",
         "keywords": ""
       },
       "notFound": {
-        "title": "Category Not Found - Bubble Shooters",
-        "description": "The requested game category could not be found."
+        "title": "找不到類別 - 泡泡射手",
+        "description": "找不到請求的遊戲類別。"
       }
     },
     "platforms": {
       "home": {
-        "alt": "Home Page",
-        "description": "Return to home page"
+        "alt": "首頁",
+        "description": "返回首頁"
       },
       "history": {
-        "alt": "Play History",
-        "description": "View your recently played games"
+        "alt": "遊戲歷史",
+        "description": "查看您最近玩過的遊戲"
       },
       "random": {
-        "alt": "Random Game",
-        "description": "Play a random game"
+        "alt": "隨機遊戲",
+        "description": "玩一款隨機遊戲"
       },
       "hot": {
-        "alt": "Hot Games",
-        "description": "Popular and trending bubble games"
+        "alt": "熱門遊戲",
+        "description": "流行和趨勢泡泡遊戲"
       },
       "new": {
-        "alt": "New Games",
-        "description": "Recently added bubble games"
+        "alt": "新遊戲",
+        "description": "最近新增的泡泡遊戲"
       },
       "puzzle": {
-        "alt": "Puzzle Games",
-        "description": "Brain teasers and puzzle games"
+        "alt": "解謎遊戲",
+        "description": "腦力測試和解謎遊戲"
       },
       "bubble": {
-        "alt": "Bubble Games",
-        "description": "Classic bubble shooter and matching games"
+        "alt": "泡泡遊戲",
+        "description": "經典泡泡射手和配對遊戲"
       },
       "card": {
-        "alt": "Card Games",
-        "description": "Classic and modern card games"
+        "alt": "卡牌遊戲",
+        "description": "經典和現代卡牌遊戲"
       },
       "junping": {
-        "alt": "Jumping Games",
-        "description": "Platform and jumping games"
+        "alt": "跳躍遊戲",
+        "description": "平台和跳躍遊戲"
       },
       "music": {
-        "alt": "Music Games",
-        "description": "Rhythm and music-based games"
+        "alt": "音樂遊戲",
+        "description": "節奏和音樂類遊戲"
       }
     },
     "game": {
       "metadata": {
-        "title": "Play {title} Online in your browser. No download required - Bubble Shooter",
-        "description": "Play {title} online for free in your browser. No download required. Enjoy the exciting game, start play {title} now! Have fun!",
+        "title": "在您的瀏覽器中線上玩{title}。無需下載 - 泡泡射手",
+        "description": "在您的瀏覽器中免費線上玩{title}。無需下載。享受這款刺激的遊戲，立即開始玩{title}！盡情享受！",
         "keywords": ""
       },
       "notFound": {
-        "title": "Game Not Found - Bubble Shooters",
-        "description": "The requested game could not be found."
+        "title": "找不到遊戲 - 泡泡射手",
+        "description": "找不到請求的遊戲。"
       }
     },
     "footer": {
-      "description": "Experience the fun of Bubble Shooter games on our website, where you can enjoy colorful bubble popping action with classic and modern bubble shooter games—all playable online! No download required.",
+      "description": "在我們的網站上體驗泡泡射手遊戲的樂趣，您可以在這裡享受經典和現代泡泡射手遊戲的多彩泡泡爆破動作—全部可線上遊玩！無需下載。",
       "others": {
-        "title": "Others",
-        "privacy": "Privacy Policy",
-        "terms": "Terms of Service"
+        "title": "其他",
+        "privacy": "隱私政策",
+        "terms": "服務條款"
       },
       "terms": {
-        "title": "Terms of Service",
-        "description": "Please read these Terms of Service carefully before using Bubble Shooters.",
-        "lastUpdated": "Last Updated: March 16, 2025",
+        "title": "服務條款",
+        "description": "在使用泡泡射手之前，請仔細閱讀這些服務條款。",
+        "lastUpdated": "最後更新：2025年3月16日",
         "intro": {
-          "text1": "Welcome to ",
-          "text2": ". By accessing and using this website, you accept and agree to be bound by the terms and provision of this agreement."
+          "text1": "歡迎來到",
+          "text2": "。通過訪問和使用本網站，您接受並同意受本協議的條款和規定的約束。"
         },
         "service": {
-          "title": "Service Description",
-          "text1": " provides a platform for users to play bubble shooter games through their web browsers. Our service includes:",
+          "title": "服務描述",
+          "text1": "提供一個平台，讓用戶通過他們的網頁瀏覽器玩泡泡射手遊戲。我們的服務包括：",
           "items": [
-            "Browser-based bubble shooter games",
-            "Game information and descriptions",
-            "Related gaming content"
+            "基於瀏覽器的泡泡射手遊戲",
+            "遊戲信息和描述",
+            "相關遊戲內容"
           ]
         },
         "content": {
-          "title": "Content and Copyright",
-          "text1": "All games and related content available through our service are:",
+          "title": "內容和版權",
+          "text1": "通過我們的服務提供的所有遊戲和相關內容都是：",
           "items": [
-            "Sourced from and hosted by third-party services",
-            "Subject to their respective owners' copyrights and intellectual property rights",
-            "Not owned or controlled by Bubble Shooters"
+            "來源於並由第三方服務託管",
+            "受其各自所有者的版權和知識產權保護",
+            "不由泡泡射手擁有或控制"
           ],
-          "text2": "We do not claim ownership of any games, ROMs, or related content provided through our service. All trademarks, service marks, and trade names are the property of their respective owners."
+          "text2": "我們不聲稱擁有通過我們的服務提供的任何遊戲、ROM或相關內容的所有權。所有商標、服務標誌和商品名稱都是其各自所有者的財產。"
         },
         "disclaimer": {
-          "title": "Disclaimer",
-          "text1": "Our services are provided \"as is\" without any warranties, expressed or implied. Bubble Shooters does not warrant that:",
+          "title": "免責聲明",
+          "text1": "我們的服務是「按原樣」提供的，沒有任何明示或暗示的保證。泡泡射手不保證：",
           "items": [
-            "The service will be uninterrupted or error-free",
-            "Games or content will always be available",
-            "Any errors or defects will be corrected"
+            "服務將不間斷或無錯誤",
+            "遊戲或內容將始終可用",
+            "任何錯誤或缺陷將被修正"
           ],
-          "text2": "We are not responsible for any content provided by third parties or for any errors or omissions in the content."
+          "text2": "我們對第三方提供的任何內容或內容中的任何錯誤或遺漏不負責任。"
         },
         "conduct": {
-          "title": "User Conduct",
-          "text1": "By using our service, you agree not to:",
+          "title": "用戶行為",
+          "text1": "通過使用我們的服務，您同意不：",
           "items": [
-            "Use the service for any unlawful purpose",
-            "Attempt to gain unauthorized access to any part of the service",
-            "Interfere with or disrupt the service or servers",
-            "Circumvent, disable, or otherwise interfere with security features"
+            "將服務用於任何非法目的",
+            "嘗試未經授權訪問服務的任何部分",
+            "干擾或破壞服務或伺服器",
+            "規避、禁用或以其他方式干擾安全功能"
           ]
         },
         "modifications": {
-          "title": "Modifications to Service",
-          "text1": "We reserve the right to:",
+          "title": "服務修改",
+          "text1": "我們保留以下權利：",
           "items": [
-            "Modify or discontinue any part of our service without notice",
-            "Update these terms of service at any time",
-            "Change the games and content available through our service"
+            "未經通知修改或中止我們服務的任何部分",
+            "隨時更新這些服務條款",
+            "更改通過我們服務提供的遊戲和內容"
           ],
-          "text2": "Your continued use of the service following any changes constitutes your acceptance of such changes."
+          "text2": "在任何更改後繼續使用服務即表示您接受此類更改。"
         },
         "governing": {
-          "title": "Governing Law",
-          "text1": "These terms shall be governed by and construed in accordance with applicable laws, without regard to conflicts of law principles."
+          "title": "適用法律",
+          "text1": "這些條款應根據適用法律進行管轄和解釋，不考慮法律衝突原則。"
         },
         "contact": {
-          "title": "Contact",
-          "text1": "For any questions regarding these terms, please contact us at:"
+          "title": "聯繫",
+          "text1": "有關這些條款的任何問題，請聯繫我們："
         }
       },
       "privacy": {
-        "title": "Privacy Policy",
-        "description": "This Privacy Policy describes how your personal information is collected, used, and shared when you visit Bubble Shooters.",
-        "lastUpdated": "Last Updated: March 16, 2025",
+        "title": "隱私政策",
+        "description": "本隱私政策描述了當您訪問泡泡射手時，您的個人信息如何被收集、使用和共享。",
+        "lastUpdated": "最後更新：2025年3月16日",
         "intro": {
-          "text1": "It is our policy to respect your privacy regarding any information we may collect while operating our website. ",
-          "text2": " respects your privacy and is committed to protecting any information you may provide us through this website.",
-          "text3": "This Privacy Policy explains what information we collect, how we use it, and under what circumstances we may disclose it to third parties. This Privacy Policy applies to ",
-          "text4": " (hereinafter, \"us\", \"we\", or \"Bubble Shooters\")."
+          "text1": "我們的政策是尊重您的隱私，關於我們在運營網站時可能收集的任何信息。",
+          "text2": "尊重您的隱私，並致力於保護您通過本網站可能提供給我們的任何信息。",
+          "text3": "本隱私政策解釋了我們收集哪些信息、如何使用這些信息，以及在什麼情況下我們可能將其披露給第三方。本隱私政策適用於",
+          "text4": "（以下簡稱「我們」或「泡泡射手」）。"
         },
         "collection": {
-          "title": "Information Collection",
-          "description": "Our website does not require user registration or login. We do not collect any personally identifiable information from our users. The only data we collect are:",
+          "title": "信息收集",
+          "description": "我們的網站不需要用戶註冊或登錄。我們不從用戶那裡收集任何個人身份信息。我們收集的唯一數據是：",
           "items": [
-            "Browser cookies essential for website functionality",
-            "Anonymous usage statistics to improve our service"
+            "網站功能必需的瀏覽器cookies",
+            "改進我們服務的匿名使用統計"
           ]
         },
         "thirdParty": {
-          "title": "Third-Party Content",
-          "description": "The games and related content available on our website are sourced from third-party platforms. We do not claim ownership of this content and:",
+          "title": "第三方內容",
+          "description": "我們網站上提供的遊戲和相關內容來源於第三方平台。我們不聲稱擁有此內容的所有權，並且：",
           "items": [
-            "All games are hosted on and streamed from third-party services",
-            "Game information, images, and descriptions are provided by third-party sources",
-            "We make no warranties regarding the accuracy or availability of this content"
+            "所有遊戲都託管在第三方服務上並從那裡串流",
+            "遊戲信息、圖像和描述由第三方來源提供",
+            "我們不對此內容的準確性或可用性做任何保證"
           ]
         },
         "cookies": {
-          "title": "Use of Cookies",
-          "description": "We use cookies to enhance your browsing experience. These cookies are:",
+          "title": "Cookies的使用",
+          "description": "我們使用cookies來增強您的瀏覽體驗。這些cookies是：",
           "items": [
-            "Essential for basic website functionality",
-            "Used to remember your display preferences",
-            "Not used for tracking or advertising purposes"
+            "基本網站功能必需的",
+            "用於記住您的顯示偏好",
+            "不用於追蹤或廣告目的"
           ],
-          "control": "You can control cookie settings through your browser preferences."
+          "control": "您可以通過瀏覽器偏好設置控制cookie設置。"
         },
         "links": {
-          "title": "External Links",
-          "description": "Our website contains links to external sites that are not operated by us. If you click on a third-party link, you will be directed to that third party's site. We strongly advise you to review the Privacy Policy and Terms of Service of every site you visit.",
-          "disclaimer": "We have no control over, and assume no responsibility for the content, privacy policies, or practices of any third-party sites, products, or services."
+          "title": "外部連結",
+          "description": "我們的網站包含指向不由我們運營的外部網站的連結。如果您點擊第三方連結，您將被引導到該第三方的網站。我們強烈建議您查看您訪問的每個網站的隱私政策和服務條款。",
+          "disclaimer": "我們對任何第三方網站、產品或服務的內容、隱私政策或做法不具有控制權，也不承擔任何責任。"
         },
         "updates": {
-          "title": "Policy Updates",
-          "description": "We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page. You are advised to review this Privacy Policy periodically for any changes.",
-          "consent": "Your continued use of our website after we post any modifications to the Privacy Policy will constitute your acknowledgment of the modifications and your consent to abide and be bound by the modified Privacy Policy."
+          "title": "政策更新",
+          "description": "我們可能會不時更新本隱私政策。我們將通過在此頁面上發布新的隱私政策來通知您任何更改。建議您定期查看本隱私政策以了解任何更改。",
+          "consent": "在我們發布對隱私政策的任何修改後，您繼續使用我們的網站將構成您對修改的確認，以及您同意遵守並受修改後的隱私政策約束。"
         },
         "contact": {
-          "title": "Contact Us",
-          "description": "If you have any questions about this Privacy Policy, please contact us through our website.",
+          "title": "聯繫我們",
+          "description": "如果您對本隱私政策有任何問題，請通過我們的網站聯繫我們。",
           "email": "support@bubbleshooters.org"
         }
       },
       "contact": {
-        "title": "Contact Us",
-        "disclaimer": "Bubble Shooters is an independent website and is not affiliated with any organizations.",
-        "rights": "All rights reserved."
+        "title": "聯繫我們",
+        "disclaimer": "泡泡射手是一個獨立網站，不隸屬於任何組織。",
+        "rights": "版權所有。"
       }
     },
     "search": {
-      "placeholder": "Search Bubble Games ...",
-      "clearSearch": "Clear search",
-      "search": "Search"
+      "placeholder": "搜尋泡泡遊戲 ...",
+      "clearSearch": "清除搜尋",
+      "search": "搜尋"
     },
     "common": {
       "logo": {
-        "title": "Bubble Shooter - Play Bubble Games Online"
+        "title": "泡泡射手 - 線上玩泡泡遊戲"
       }
     },
     "notFound": {
-      "title": "Page Not Found",
-      "description": "Sorry, the page you are looking for does not exist or has been removed.",
-      "backHome": "Back to Home"
+      "title": "找不到頁面",
+      "description": "抱歉，您尋找的頁面不存在或已被移除。",
+      "backHome": "返回首頁"
     },
     "history": {
       "metadata": {
-        "title": "Play History - Bubble Shooters",
-        "description": "View your recently played bubble shooter games history."
+        "title": "遊戲歷史 - 泡泡射手",
+        "description": "查看您最近玩過的泡泡射手遊戲歷史。"
       },
-      "title": "Play History",
-      "description": "Games you have played recently",
-      "noHistory": "You have not played any games yet",
-      "clearHistory": "Clear History",
-      "lastPlayed": "Last played",
-      "emptyMessage": "Your play history will appear here"
+      "title": "遊戲歷史",
+      "description": "您最近玩過的遊戲",
+      "noHistory": "您還沒有玩過任何遊戲",
+      "clearHistory": "清除歷史",
+      "lastPlayed": "最後遊玩",
+      "emptyMessage": "您的遊戲歷史將顯示在這裡"
     },
     "navigation": {
-      "home": "Home",
-      "history": "History",
-      "random": "Random",
-      "allGames": "All Games"
+      "home": "首頁",
+      "history": "歷史",
+      "random": "隨機",
+      "allGames": "所有遊戲"
+    },
+    "searchBar": {
+      "placeholder": "搜尋泡泡遊戲...",
+      "search": "搜尋"
     }
-  }
+}

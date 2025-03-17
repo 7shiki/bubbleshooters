@@ -45,8 +45,8 @@ export default async function AllGamesPage({ params }: { params: { locale: strin
           '@type': 'CollectionPage',
           '@id': 'https://bubbleshooters.org/all-games#webpage',
           'url': 'https://bubbleshooters.org/all-games',
-          'name': 'All Retro Games - Play Classic Games Online',
-          'description': 'Browse and play all retro games online for free in your browser. No download required. Experience classic video games instantly.',
+          'name': 'All Bubble Shooter Games - Play Bubble Games Online',
+          'description': 'Browse and play all bubble shooter games online for free in your browser. No download required. Experience colorful bubble popping games instantly.',
           'isPartOf': {
             '@id': 'https://bubbleshooters.org/#website'
           }
@@ -54,9 +54,9 @@ export default async function AllGamesPage({ params }: { params: { locale: strin
         {
           '@type': 'VideoGameSeries',
           '@id': 'https://bubbleshooters.org/all-games#gameseries',
-          'name': 'Retro Games Collection',
-          'description': 'Complete collection of classic retro games available to play online for free.',
-          'genre': ['Retro Games', 'Classic Games']
+          'name': 'Bubble Shooter Games Collection',
+          'description': 'Complete collection of bubble shooter games available to play online for free.',
+          'genre': ['Bubble Games', 'Puzzle Games', 'Matching Games']
         },
         {
           '@type': 'BreadcrumbList',

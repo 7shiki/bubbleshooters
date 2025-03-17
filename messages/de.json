@@ -1,261 +1,265 @@
 {
   "home": {
     "metadata": {
-      "title": "Play Bubble Shooter Game Online. No Download Required.",
-      "description": "Play bubble shooter game online for free in your browser. Enjoy classic, 3D, and puzzle bubble shooter unblocked games with no download required. Have fun!",
+      "title": "Bubble Shooter Spiel online spielen. Kein Download erforderlich.",
+      "description": "Spiele Bubble Shooter kostenlos online in deinem Browser. Genieße klassische, 3D- und Puzzle-Bubble-Shooter-Spiele ohne Download. Viel Spaß!",
       "keywords": "",
       "og": {
-        "title": "Bubble Shooters - Play Bubble Games Online",
-        "description": "Play bubble shooter games online for free in your browser. Enjoy classic, 3D, and puzzle bubble shooter games with no download required.",
-        "imageAlt": "Bubble Shooters - Colorful Bubble Games Collection"
+        "title": "Bubble Shooter - Spiele Bubble-Spiele online",
+        "description": "Spiele Bubble Shooter Spiele kostenlos online in deinem Browser. Genieße klassische, 3D- und Puzzle-Bubble-Shooter-Spiele ohne Download.",
+        "imageAlt": "Bubble Shooter - Bunte Bubble-Spiele-Sammlung"
       }
     }
   },
   "allGames": {
     "metadata": {
-      "title": "All Bubble Shooter Games Online. Play Bubble Games Online",
-      "description": "Browse our complete collection of bubble shooter games. Play your favorite bubble shooter games online for free with no download required.",
+      "title": "Alle Bubble Shooter Spiele online. Spiele Bubble-Spiele online",
+      "description": "Durchstöbere unsere komplette Sammlung von Bubble Shooter Spielen. Spiele deine Lieblings-Bubble-Shooter-Spiele kostenlos online ohne Download.",
       "keywords": ""
     },
-    "title": "All Bubble Shooter Unblocked Games",
-    "description": "Browse our complete collection of bubble shooter games available to play online.",
-    "subDescription": "Enjoy the satisfying pop of bubbles and challenge your matching skills with our collection of bubble shooter games.",
-    "browseGames": "Browse Games",
-    "allPlatforms": "All Categories",
-    "foundGames": "Found {count} games matching{platform}{query} criteria",
-    "noGamesFound": "No games found matching your criteria.",
-    "clearSearch": "Clear search"
+    "title": "Alle Bubble Shooter Spiele",
+    "description": "Durchstöbere unsere komplette Sammlung von Bubble Shooter Spielen, die online spielbar sind.",
+    "subDescription": "Genieße das befriedigende Platzen von Blasen und fordere deine Kombinationsfähigkeiten mit unserer Sammlung von Bubble Shooter Spielen heraus.",
+    "browseGames": "Spiele durchsuchen",
+    "allPlatforms": "Alle Kategorien",
+    "foundGames": "{count} Spiele gefunden, die {platform}{query} Kriterien entsprechen",
+    "noGamesFound": "Keine Spiele gefunden, die deinen Kriterien entsprechen.",
+    "clearSearch": "Suche löschen"
   },
   "games": {
-    "loadMore": "Load More Games"
+    "loadMore": "Mehr Spiele laden"
   },
   "category": {
     "metadata": {
-      "title": "{platform} - Play {platform} Online on Bubble Shooter",
-      "description": "Want to play {platform}? Play best {platform} online for free in your browser. No download required. Enjoy {platform} instantly.",
+      "title": "{platform} - Spiele {platform} online auf Bubble Shooter",
+      "description": "Möchtest du {platform} spielen? Spiele die besten {platform} kostenlos online in deinem Browser. Kein Download erforderlich. Genieße {platform} sofort.",
       "keywords": ""
     },
     "notFound": {
-      "title": "Category Not Found - Bubble Shooters",
-      "description": "The requested game category could not be found."
+      "title": "Kategorie nicht gefunden - Bubble Shooters",
+      "description": "Die angeforderte Spielkategorie konnte nicht gefunden werden."
     }
   },
   "platforms": {
     "home": {
-      "alt": "Home Page",
-      "description": "Return to home page"
+      "alt": "Startseite",
+      "description": "Zurück zur Startseite"
     },
     "history": {
-      "alt": "Play History",
-      "description": "View your recently played games"
+      "alt": "Spielverlauf",
+      "description": "Sieh dir deine kürzlich gespielten Spiele an"
     },
     "random": {
-      "alt": "Random Game",
-      "description": "Play a random game"
+      "alt": "Zufälliges Spiel",
+      "description": "Spiele ein zufälliges Spiel"
     },
     "hot": {
-      "alt": "Hot Games",
-      "description": "Popular and trending bubble games"
+      "alt": "Beliebte Spiele",
+      "description": "Populäre und trendige Bubble-Spiele"
     },
     "new": {
-      "alt": "New Games",
-      "description": "Recently added bubble games"
+      "alt": "Neue Spiele",
+      "description": "Kürzlich hinzugefügte Bubble-Spiele"
     },
     "puzzle": {
-      "alt": "Puzzle Games",
-      "description": "Brain teasers and puzzle games"
+      "alt": "Puzzle-Spiele",
+      "description": "Denksportaufgaben und Puzzle-Spiele"
     },
     "bubble": {
-      "alt": "Bubble Games",
-      "description": "Classic bubble shooter and matching games"
+      "alt": "Bubble-Spiele",
+      "description": "Klassische Bubble Shooter und Matching-Spiele"
     },
     "card": {
-      "alt": "Card Games",
-      "description": "Classic and modern card games"
+      "alt": "Kartenspiele",
+      "description": "Klassische und moderne Kartenspiele"
     },
     "junping": {
-      "alt": "Jumping Games",
-      "description": "Platform and jumping games"
+      "alt": "Sprungspiele",
+      "description": "Plattform- und Sprungspiele"
     },
     "music": {
-      "alt": "Music Games",
-      "description": "Rhythm and music-based games"
+      "alt": "Musikspiele",
+      "description": "Rhythmus- und musikbasierte Spiele"
     }
   },
   "game": {
     "metadata": {
-      "title": "Play {title} Online in your browser. No download required - Bubble Shooter",
-      "description": "Play {title} online for free in your browser. No download required. Enjoy the exciting game, start play {title} now! Have fun!",
+      "title": "Spiele {title} online in deinem Browser. Kein Download erforderlich - Bubble Shooter",
+      "description": "Spiele {title} kostenlos online in deinem Browser. Kein Download erforderlich. Genieße das aufregende Spiel, starte jetzt mit {title}! Viel Spaß!",
       "keywords": ""
     },
     "notFound": {
-      "title": "Game Not Found - Bubble Shooters",
-      "description": "The requested game could not be found."
+      "title": "Spiel nicht gefunden - Bubble Shooters",
+      "description": "Das angeforderte Spiel konnte nicht gefunden werden."
     }
   },
   "footer": {
-    "description": "Experience the fun of Bubble Shooter games on our website, where you can enjoy colorful bubble popping action with classic and modern bubble shooter games—all playable online! No download required.",
+    "description": "Erlebe den Spaß von Bubble Shooter Spielen auf unserer Website, wo du farbenfrohe Bubble-Popping-Action mit klassischen und modernen Bubble Shooter Spielen genießen kannst – alle online spielbar! Kein Download erforderlich.",
     "others": {
-      "title": "Others",
-      "privacy": "Privacy Policy",
-      "terms": "Terms of Service"
+      "title": "Weiteres",
+      "privacy": "Datenschutzrichtlinie",
+      "terms": "Nutzungsbedingungen"
     },
     "terms": {
-      "title": "Terms of Service",
-      "description": "Please read these Terms of Service carefully before using Bubble Shooters.",
-      "lastUpdated": "Last Updated: March 16, 2025",
+      "title": "Nutzungsbedingungen",
+      "description": "Bitte lies diese Nutzungsbedingungen sorgfältig durch, bevor du Bubble Shooters verwendest.",
+      "lastUpdated": "Zuletzt aktualisiert: 16. März 2025",
       "intro": {
-        "text1": "Welcome to ",
-        "text2": ". By accessing and using this website, you accept and agree to be bound by the terms and provision of this agreement."
+        "text1": "Willkommen bei ",
+        "text2": ". Durch den Zugriff auf und die Nutzung dieser Website akzeptierst und stimmst du zu, an die Bedingungen und Bestimmungen dieser Vereinbarung gebunden zu sein."
       },
       "service": {
-        "title": "Service Description",
-        "text1": " provides a platform for users to play bubble shooter games through their web browsers. Our service includes:",
+        "title": "Servicebeschreibung",
+        "text1": " bietet eine Plattform für Benutzer, um Bubble Shooter Spiele über ihre Webbrowser zu spielen. Unser Service umfasst:",
         "items": [
-          "Browser-based bubble shooter games",
-          "Game information and descriptions",
-          "Related gaming content"
+          "Browser-basierte Bubble Shooter Spiele",
+          "Spielinformationen und -beschreibungen",
+          "Verwandte Spielinhalte"
         ]
       },
       "content": {
-        "title": "Content and Copyright",
-        "text1": "All games and related content available through our service are:",
+        "title": "Inhalt und Urheberrecht",
+        "text1": "Alle Spiele und verwandten Inhalte, die über unseren Service verfügbar sind, sind:",
         "items": [
-          "Sourced from and hosted by third-party services",
-          "Subject to their respective owners' copyrights and intellectual property rights",
-          "Not owned or controlled by Bubble Shooters"
+          "Von Drittanbietern bezogen und gehostet",
+          "Den jeweiligen Urheberrechten und geistigen Eigentumsrechten ihrer Eigentümer unterworfen",
+          "Nicht im Besitz oder unter der Kontrolle von Bubble Shooters"
         ],
-        "text2": "We do not claim ownership of any games, ROMs, or related content provided through our service. All trademarks, service marks, and trade names are the property of their respective owners."
+        "text2": "Wir beanspruchen kein Eigentum an Spielen, ROMs oder verwandten Inhalten, die über unseren Service bereitgestellt werden. Alle Marken, Dienstleistungsmarken und Handelsnamen sind Eigentum ihrer jeweiligen Besitzer."
       },
       "disclaimer": {
-        "title": "Disclaimer",
-        "text1": "Our services are provided \"as is\" without any warranties, expressed or implied. Bubble Shooters does not warrant that:",
+        "title": "Haftungsausschluss",
+        "text1": "Unsere Dienste werden \"wie sie sind\" ohne jegliche ausdrückliche oder stillschweigende Garantie bereitgestellt. Bubble Shooters garantiert nicht, dass:",
         "items": [
-          "The service will be uninterrupted or error-free",
-          "Games or content will always be available",
-          "Any errors or defects will be corrected"
+          "Der Service ununterbrochen oder fehlerfrei sein wird",
+          "Spiele oder Inhalte immer verfügbar sein werden",
+          "Fehler oder Mängel behoben werden"
         ],
-        "text2": "We are not responsible for any content provided by third parties or for any errors or omissions in the content."
+        "text2": "Wir sind nicht verantwortlich für Inhalte, die von Dritten bereitgestellt werden, oder für Fehler oder Auslassungen in den Inhalten."
       },
       "conduct": {
-        "title": "User Conduct",
-        "text1": "By using our service, you agree not to:",
+        "title": "Benutzerverhalten",
+        "text1": "Durch die Nutzung unseres Services stimmst du zu, nicht:",
         "items": [
-          "Use the service for any unlawful purpose",
-          "Attempt to gain unauthorized access to any part of the service",
-          "Interfere with or disrupt the service or servers",
-          "Circumvent, disable, or otherwise interfere with security features"
+          "Den Service für illegale Zwecke zu nutzen",
+          "Zu versuchen, unbefugten Zugriff auf Teile des Services zu erlangen",
+          "Den Service oder Server zu stören oder zu unterbrechen",
+          "Sicherheitsfunktionen zu umgehen, zu deaktivieren oder anderweitig zu beeinträchtigen"
         ]
       },
       "modifications": {
-        "title": "Modifications to Service",
-        "text1": "We reserve the right to:",
+        "title": "Änderungen am Service",
+        "text1": "Wir behalten uns das Recht vor:",
         "items": [
-          "Modify or discontinue any part of our service without notice",
-          "Update these terms of service at any time",
-          "Change the games and content available through our service"
+          "Teile unseres Services ohne Vorankündigung zu ändern oder einzustellen",
+          "Diese Nutzungsbedingungen jederzeit zu aktualisieren",
+          "Die über unseren Service verfügbaren Spiele und Inhalte zu ändern"
         ],
-        "text2": "Your continued use of the service following any changes constitutes your acceptance of such changes."
+        "text2": "Deine fortgesetzte Nutzung des Services nach Änderungen stellt deine Akzeptanz dieser Änderungen dar."
       },
       "governing": {
-        "title": "Governing Law",
-        "text1": "These terms shall be governed by and construed in accordance with applicable laws, without regard to conflicts of law principles."
+        "title": "Geltendes Recht",
+        "text1": "Diese Bedingungen unterliegen den geltenden Gesetzen und werden in Übereinstimmung mit diesen ausgelegt, ohne Rücksicht auf Grundsätze des Kollisionsrechts."
       },
       "contact": {
-        "title": "Contact",
-        "text1": "For any questions regarding these terms, please contact us at:"
+        "title": "Kontakt",
+        "text1": "Bei Fragen zu diesen Bedingungen kontaktiere uns bitte unter:"
       }
     },
     "privacy": {
-      "title": "Privacy Policy",
-      "description": "This Privacy Policy describes how your personal information is collected, used, and shared when you visit Bubble Shooters.",
-      "lastUpdated": "Last Updated: March 16, 2025",
+      "title": "Datenschutzrichtlinie",
+      "description": "Diese Datenschutzrichtlinie beschreibt, wie deine persönlichen Daten erfasst, verwendet und weitergegeben werden, wenn du Bubble Shooters besuchst.",
+      "lastUpdated": "Zuletzt aktualisiert: 16. März 2025",
       "intro": {
-        "text1": "It is our policy to respect your privacy regarding any information we may collect while operating our website. ",
-        "text2": " respects your privacy and is committed to protecting any information you may provide us through this website.",
-        "text3": "This Privacy Policy explains what information we collect, how we use it, and under what circumstances we may disclose it to third parties. This Privacy Policy applies to ",
-        "text4": " (hereinafter, \"us\", \"we\", or \"Bubble Shooters\")."
+        "text1": "Es ist unsere Richtlinie, deine Privatsphäre in Bezug auf alle Informationen zu respektieren, die wir während des Betriebs unserer Website sammeln könnten. ",
+        "text2": " respektiert deine Privatsphäre und verpflichtet sich, alle Informationen zu schützen, die du uns über diese Website zur Verfügung stellen könntest.",
+        "text3": "Diese Datenschutzrichtlinie erklärt, welche Informationen wir sammeln, wie wir sie verwenden und unter welchen Umständen wir sie an Dritte weitergeben können. Diese Datenschutzrichtlinie gilt für ",
+        "text4": " (nachfolgend \"uns\", \"wir\" oder \"Bubble Shooters\")."
       },
       "collection": {
-        "title": "Information Collection",
-        "description": "Our website does not require user registration or login. We do not collect any personally identifiable information from our users. The only data we collect are:",
+        "title": "Informationssammlung",
+        "description": "Unsere Website erfordert keine Benutzerregistrierung oder Anmeldung. Wir sammeln keine persönlich identifizierbaren Informationen von unseren Benutzern. Die einzigen Daten, die wir sammeln, sind:",
         "items": [
-          "Browser cookies essential for website functionality",
-          "Anonymous usage statistics to improve our service"
+          "Browser-Cookies, die für die Funktionalität der Website unerlässlich sind",
+          "Anonyme Nutzungsstatistiken zur Verbesserung unseres Services"
         ]
       },
       "thirdParty": {
-        "title": "Third-Party Content",
-        "description": "The games and related content available on our website are sourced from third-party platforms. We do not claim ownership of this content and:",
+        "title": "Inhalte von Drittanbietern",
+        "description": "Die auf unserer Website verfügbaren Spiele und verwandten Inhalte stammen von Drittanbieter-Plattformen. Wir beanspruchen kein Eigentum an diesen Inhalten und:",
         "items": [
-          "All games are hosted on and streamed from third-party services",
-          "Game information, images, and descriptions are provided by third-party sources",
-          "We make no warranties regarding the accuracy or availability of this content"
+          "Alle Spiele werden auf Diensten von Drittanbietern gehostet und von dort gestreamt",
+          "Spielinformationen, Bilder und Beschreibungen werden von Drittanbieterquellen bereitgestellt",
+          "Wir geben keine Garantien bezüglich der Genauigkeit oder Verfügbarkeit dieser Inhalte"
         ]
       },
       "cookies": {
-        "title": "Use of Cookies",
-        "description": "We use cookies to enhance your browsing experience. These cookies are:",
+        "title": "Verwendung von Cookies",
+        "description": "Wir verwenden Cookies, um dein Surferlebnis zu verbessern. Diese Cookies sind:",
         "items": [
-          "Essential for basic website functionality",
-          "Used to remember your display preferences",
-          "Not used for tracking or advertising purposes"
+          "Wesentlich für die grundlegende Website-Funktionalität",
+          "Werden verwendet, um deine Anzeigeeinstellungen zu speichern",
+          "Werden nicht für Tracking- oder Werbezwecke verwendet"
         ],
-        "control": "You can control cookie settings through your browser preferences."
+        "control": "Du kannst Cookie-Einstellungen über deine Browser-Einstellungen steuern."
       },
       "links": {
-        "title": "External Links",
-        "description": "Our website contains links to external sites that are not operated by us. If you click on a third-party link, you will be directed to that third party's site. We strongly advise you to review the Privacy Policy and Terms of Service of every site you visit.",
-        "disclaimer": "We have no control over, and assume no responsibility for the content, privacy policies, or practices of any third-party sites, products, or services."
+        "title": "Externe Links",
+        "description": "Unsere Website enthält Links zu externen Websites, die nicht von uns betrieben werden. Wenn du auf einen Link eines Drittanbieters klickst, wirst du zur Website dieses Drittanbieters weitergeleitet. Wir empfehlen dir dringend, die Datenschutzrichtlinien und Nutzungsbedingungen jeder Website zu überprüfen, die du besuchst.",
+        "disclaimer": "Wir haben keine Kontrolle über und übernehmen keine Verantwortung für den Inhalt, die Datenschutzrichtlinien oder Praktiken von Websites, Produkten oder Diensten Dritter."
       },
       "updates": {
-        "title": "Policy Updates",
-        "description": "We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page. You are advised to review this Privacy Policy periodically for any changes.",
-        "consent": "Your continued use of our website after we post any modifications to the Privacy Policy will constitute your acknowledgment of the modifications and your consent to abide and be bound by the modified Privacy Policy."
+        "title": "Aktualisierungen der Richtlinie",
+        "description": "Wir können diese Datenschutzrichtlinie von Zeit zu Zeit aktualisieren. Wir werden dich über Änderungen informieren, indem wir die neue Datenschutzrichtlinie auf dieser Seite veröffentlichen. Es wird empfohlen, diese Datenschutzrichtlinie regelmäßig auf Änderungen zu überprüfen.",
+        "consent": "Deine fortgesetzte Nutzung unserer Website nach der Veröffentlichung von Änderungen an der Datenschutzrichtlinie stellt deine Anerkennung der Änderungen und deine Zustimmung dar, an die geänderte Datenschutzrichtlinie gebunden zu sein."
       },
       "contact": {
-        "title": "Contact Us",
-        "description": "If you have any questions about this Privacy Policy, please contact us through our website.",
+        "title": "Kontaktiere uns",
+        "description": "Wenn du Fragen zu dieser Datenschutzrichtlinie hast, kontaktiere uns bitte über unsere Website.",
         "email": "support@bubbleshooters.org"
       }
     },
     "contact": {
-      "title": "Contact Us",
-      "disclaimer": "Bubble Shooters is an independent website and is not affiliated with any organizations.",
-      "rights": "All rights reserved."
+      "title": "Kontaktiere uns",
+      "disclaimer": "Bubble Shooters ist eine unabhängige Website und ist mit keiner Organisation verbunden.",
+      "rights": "Alle Rechte vorbehalten."
     }
   },
   "search": {
-    "placeholder": "Search Bubble Games ...",
-    "clearSearch": "Clear search",
-    "search": "Search"
+    "placeholder": "Bubble-Spiele durchsuchen ...",
+    "clearSearch": "Suche löschen",
+    "search": "Suchen"
   },
   "common": {
     "logo": {
-      "title": "Bubble Shooter - Play Bubble Games Online"
+      "title": "Bubble Shooter - Spiele Bubble-Spiele online"
     }
   },
   "notFound": {
-    "title": "Page Not Found",
-    "description": "Sorry, the page you are looking for does not exist or has been removed.",
-    "backHome": "Back to Home"
+    "title": "Seite nicht gefunden",
+    "description": "Entschuldigung, die gesuchte Seite existiert nicht oder wurde entfernt.",
+    "backHome": "Zurück zur Startseite"
   },
   "history": {
     "metadata": {
-      "title": "Play History - Bubble Shooters",
-      "description": "View your recently played bubble shooter games history."
+      "title": "Spielverlauf - Bubble Shooters",
+      "description": "Sieh dir deinen kürzlich gespielten Bubble Shooter Spielverlauf an."
     },
-    "title": "Play History",
-    "description": "Games you have played recently",
-    "noHistory": "You have not played any games yet",
-    "clearHistory": "Clear History",
-    "lastPlayed": "Last played",
-    "emptyMessage": "Your play history will appear here"
+    "title": "Spielverlauf",
+    "description": "Spiele, die du kürzlich gespielt hast",
+    "noHistory": "Du hast noch keine Spiele gespielt",
+    "clearHistory": "Verlauf löschen",
+    "lastPlayed": "Zuletzt gespielt",
+    "emptyMessage": "Dein Spielverlauf wird hier angezeigt"
   },
   "navigation": {
-    "home": "Home",
-    "history": "History",
-    "random": "Random",
-    "allGames": "All Games"
+    "home": "Startseite",
+    "history": "Verlauf",
+    "random": "Zufällig",
+    "allGames": "Alle Spiele"
+  },
+  "searchBar": {
+    "placeholder": "Bubble-Spiele durchsuchen...",
+    "search": "Suchen"
   }
 }

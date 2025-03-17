@@ -1,261 +1,265 @@
 {
   "home": {
     "metadata": {
-      "title": "Play Bubble Shooter Game Online. No Download Required.",
-      "description": "Play bubble shooter game online for free in your browser. Enjoy classic, 3D, and puzzle bubble shooter unblocked games with no download required. Have fun!",
+      "title": "ऑनलाइन बुलबुला शूटर गेम खेलें। डाउनलोड की आवश्यकता नहीं है।",
+      "description": "अपने ब्राउज़र में मुफ्त में ऑनलाइन बुलबुला शूटर गेम खेलें। क्लासिक, 3D, और पज़ल बुलबुला शूटर अनब्लॉक्ड गेम्स का बिना डाउनलोड के आनंद लें। मज़े करें!",
       "keywords": "",
       "og": {
-        "title": "Bubble Shooters - Play Bubble Games Online",
-        "description": "Play bubble shooter games online for free in your browser. Enjoy classic, 3D, and puzzle bubble shooter games with no download required.",
-        "imageAlt": "Bubble Shooters - Colorful Bubble Games Collection"
+        "title": "बुलबुला शूटर्स - ऑनलाइन बुलबुला गेम्स खेलें",
+        "description": "अपने ब्राउज़र में मुफ्त में ऑनलाइन बुलबुला शूटर गेम्स खेलें। क्लासिक, 3D, और पज़ल बुलबुला शूटर गेम्स का बिना डाउनलोड के आनंद लें।",
+        "imageAlt": "बुलबुला शूटर्स - रंगीन बुलबुला गेम्स संग्रह"
       }
     }
   },
   "allGames": {
     "metadata": {
-      "title": "All Bubble Shooter Games Online. Play Bubble Games Online",
-      "description": "Browse our complete collection of bubble shooter games. Play your favorite bubble shooter games online for free with no download required.",
+      "title": "सभी बुलबुला शूटर गेम्स ऑनलाइन। ऑनलाइन बुलबुला गेम्स खेलें",
+      "description": "हमारे बुलबुला शूटर गेम्स के पूरे संग्रह को ब्राउज़ करें। अपने पसंदीदा बुलबुला शूटर गेम्स को बिना डाउनलोड के मुफ्त में ऑनलाइन खेलें।",
       "keywords": ""
     },
-    "title": "All Bubble Shooter Unblocked Games",
-    "description": "Browse our complete collection of bubble shooter games available to play online.",
-    "subDescription": "Enjoy the satisfying pop of bubbles and challenge your matching skills with our collection of bubble shooter games.",
-    "browseGames": "Browse Games",
-    "allPlatforms": "All Categories",
-    "foundGames": "Found {count} games matching{platform}{query} criteria",
-    "noGamesFound": "No games found matching your criteria.",
-    "clearSearch": "Clear search"
+    "title": "सभी बुलबुला शूटर अनब्लॉक्ड गेम्स",
+    "description": "ऑनलाइन खेलने के लिए उपलब्ध हमारे बुलबुला शूटर गेम्स के पूरे संग्रह को ब्राउज़ करें।",
+    "subDescription": "बुलबुलों के संतोषजनक पॉप का आनंद लें और हमारे बुलबुला शूटर गेम्स के संग्रह के साथ अपने मिलान कौशल को चुनौती दें।",
+    "browseGames": "गेम्स ब्राउज़ करें",
+    "allPlatforms": "सभी श्रेणियां",
+    "foundGames": "{platform}{query} मापदंड से मेल खाते {count} गेम्स मिले",
+    "noGamesFound": "आपके मापदंड से मेल खाते कोई गेम नहीं मिले।",
+    "clearSearch": "खोज साफ़ करें"
   },
   "games": {
-    "loadMore": "Load More Games"
+    "loadMore": "और गेम्स लोड करें"
   },
   "category": {
     "metadata": {
-      "title": "{platform} - Play {platform} Online on Bubble Shooter",
-      "description": "Want to play {platform}? Play best {platform} online for free in your browser. No download required. Enjoy {platform} instantly.",
+      "title": "{platform} - बुलबुला शूटर पर ऑनलाइन {platform} खेलें",
+      "description": "क्या आप {platform} खेलना चाहते हैं? अपने ब्राउज़र में मुफ्त में ऑनलाइन सर्वश्रेष्ठ {platform} खेलें। डाउनलोड की आवश्यकता नहीं है। तुरंत {platform} का आनंद लें।",
       "keywords": ""
     },
     "notFound": {
-      "title": "Category Not Found - Bubble Shooters",
-      "description": "The requested game category could not be found."
+      "title": "श्रेणी नहीं मिली - बुलबुला शूटर्स",
+      "description": "अनुरोधित गेम श्रेणी नहीं मिल सकी।"
     }
   },
   "platforms": {
     "home": {
-      "alt": "Home Page",
-      "description": "Return to home page"
+      "alt": "होम पेज",
+      "description": "होम पेज पर वापस जाएं"
     },
     "history": {
-      "alt": "Play History",
-      "description": "View your recently played games"
+      "alt": "खेल इतिहास",
+      "description": "अपने हाल ही में खेले गए गेम्स देखें"
     },
     "random": {
-      "alt": "Random Game",
-      "description": "Play a random game"
+      "alt": "रैंडम गेम",
+      "description": "एक रैंडम गेम खेलें"
     },
     "hot": {
-      "alt": "Hot Games",
-      "description": "Popular and trending bubble games"
+      "alt": "हॉट गेम्स",
+      "description": "लोकप्रिय और ट्रेंडिंग बुलबुला गेम्स"
     },
     "new": {
-      "alt": "New Games",
-      "description": "Recently added bubble games"
+      "alt": "नए गेम्स",
+      "description": "हाल ही में जोड़े गए बुलबुला गेम्स"
     },
     "puzzle": {
-      "alt": "Puzzle Games",
-      "description": "Brain teasers and puzzle games"
+      "alt": "पज़ल गेम्स",
+      "description": "दिमागी पहेलियां और पज़ल गेम्स"
     },
     "bubble": {
-      "alt": "Bubble Games",
-      "description": "Classic bubble shooter and matching games"
+      "alt": "बुलबुला गेम्स",
+      "description": "क्लासिक बुलबुला शूटर और मिलान गेम्स"
     },
     "card": {
-      "alt": "Card Games",
-      "description": "Classic and modern card games"
+      "alt": "कार्ड गेम्स",
+      "description": "क्लासिक और आधुनिक कार्ड गेम्स"
     },
     "junping": {
-      "alt": "Jumping Games",
-      "description": "Platform and jumping games"
+      "alt": "जंपिंग गेम्स",
+      "description": "प्लेटफॉर्म और जंपिंग गेम्स"
     },
     "music": {
-      "alt": "Music Games",
-      "description": "Rhythm and music-based games"
+      "alt": "म्यूजिक गेम्स",
+      "description": "रिदम और म्यूजिक-आधारित गेम्स"
     }
   },
   "game": {
     "metadata": {
-      "title": "Play {title} Online in your browser. No download required - Bubble Shooter",
-      "description": "Play {title} online for free in your browser. No download required. Enjoy the exciting game, start play {title} now! Have fun!",
+      "title": "अपने ब्राउज़र में ऑनलाइन {title} खेलें। डाउनलोड की आवश्यकता नहीं है - बुलबुला शूटर",
+      "description": "अपने ब्राउज़र में मुफ्त में ऑनलाइन {title} खेलें। डाउनलोड की आवश्यकता नहीं है। रोमांचक गेम का आनंद लें, अभी {title} खेलना शुरू करें! मज़े करें!",
       "keywords": ""
     },
     "notFound": {
-      "title": "Game Not Found - Bubble Shooters",
-      "description": "The requested game could not be found."
+      "title": "गेम नहीं मिला - बुलबुला शूटर्स",
+      "description": "अनुरोधित गेम नहीं मिल सका।"
     }
   },
   "footer": {
-    "description": "Experience the fun of Bubble Shooter games on our website, where you can enjoy colorful bubble popping action with classic and modern bubble shooter games—all playable online! No download required.",
+    "description": "हमारी वेबसाइट पर बुलबुला शूटर गेम्स के मज़े का अनुभव करें, जहां आप क्लासिक और आधुनिक बुलबुला शूटर गेम्स के साथ रंगीन बुलबुला पॉपिंग एक्शन का आनंद ले सकते हैं—सभी ऑनलाइन खेलने योग्य! डाउनलोड की आवश्यकता नहीं है।",
     "others": {
-      "title": "Others",
-      "privacy": "Privacy Policy",
-      "terms": "Terms of Service"
+      "title": "अन्य",
+      "privacy": "गोपनीयता नीति",
+      "terms": "सेवा की शर्तें"
     },
     "terms": {
-      "title": "Terms of Service",
-      "description": "Please read these Terms of Service carefully before using Bubble Shooters.",
-      "lastUpdated": "Last Updated: March 16, 2025",
+      "title": "सेवा की शर्तें",
+      "description": "बुलबुला शूटर्स का उपयोग करने से पहले कृपया इन सेवा की शर्तों को ध्यान से पढ़ें।",
+      "lastUpdated": "अंतिम अपडेट: 16 मार्च, 2025",
       "intro": {
-        "text1": "Welcome to ",
-        "text2": ". By accessing and using this website, you accept and agree to be bound by the terms and provision of this agreement."
+        "text1": "में आपका स्वागत है ",
+        "text2": ". इस वेबसाइट तक पहुंचकर और इसका उपयोग करके, आप इस समझौते की शर्तों और प्रावधानों से बंधे होने के लिए स्वीकार करते हैं और सहमत होते हैं।"
       },
       "service": {
-        "title": "Service Description",
-        "text1": " provides a platform for users to play bubble shooter games through their web browsers. Our service includes:",
+        "title": "सेवा विवरण",
+        "text1": " उपयोगकर्ताओं को अपने वेब ब्राउज़र के माध्यम से बुलबुला शूटर गेम्स खेलने के लिए एक प्लेटफॉर्म प्रदान करता है। हमारी सेवा में शामिल हैं:",
         "items": [
-          "Browser-based bubble shooter games",
-          "Game information and descriptions",
-          "Related gaming content"
+          "ब्राउज़र-आधारित बुलबुला शूटर गेम्स",
+          "गेम जानकारी और विवरण",
+          "संबंधित गेमिंग सामग्री"
         ]
       },
       "content": {
-        "title": "Content and Copyright",
-        "text1": "All games and related content available through our service are:",
+        "title": "सामग्री और कॉपीराइट",
+        "text1": "हमारी सेवा के माध्यम से उपलब्ध सभी गेम्स और संबंधित सामग्री हैं:",
         "items": [
-          "Sourced from and hosted by third-party services",
-          "Subject to their respective owners' copyrights and intellectual property rights",
-          "Not owned or controlled by Bubble Shooters"
+          "तृतीय-पक्ष सेवाओं से प्राप्त और होस्ट की गई",
+          "अपने संबंधित मालिकों के कॉपीराइट और बौद्धिक संपदा अधिकारों के अधीन",
+          "बुलबुला शूटर्स के स्वामित्व या नियंत्रण में नहीं"
         ],
-        "text2": "We do not claim ownership of any games, ROMs, or related content provided through our service. All trademarks, service marks, and trade names are the property of their respective owners."
+        "text2": "हम हमारी सेवा के माध्यम से प्रदान किए गए किसी भी गेम, ROM, या संबंधित सामग्री के स्वामित्व का दावा नहीं करते हैं। सभी ट्रेडमार्क, सेवा चिह्न और व्यापार नाम उनके संबंधित मालिकों की संपत्ति हैं।"
       },
       "disclaimer": {
-        "title": "Disclaimer",
-        "text1": "Our services are provided \"as is\" without any warranties, expressed or implied. Bubble Shooters does not warrant that:",
+        "title": "अस्वीकरण",
+        "text1": "हमारी सेवाएं बिना किसी वारंटी, व्यक्त या निहित के \"जैसी हैं\" प्रदान की जाती हैं। बुलबुला शूटर्स यह गारंटी नहीं देता है कि:",
         "items": [
-          "The service will be uninterrupted or error-free",
-          "Games or content will always be available",
-          "Any errors or defects will be corrected"
+          "सेवा निर्बाध या त्रुटि-मुक्त होगी",
+          "गेम्स या सामग्री हमेशा उपलब्ध होंगे",
+          "किसी भी त्रुटि या दोष को सुधारा जाएगा"
         ],
-        "text2": "We are not responsible for any content provided by third parties or for any errors or omissions in the content."
+        "text2": "हम तृतीय पक्षों द्वारा प्रदान की गई किसी भी सामग्री या सामग्री में किसी भी त्रुटि या चूक के लिए जिम्मेदार नहीं हैं।"
       },
       "conduct": {
-        "title": "User Conduct",
-        "text1": "By using our service, you agree not to:",
+        "title": "उपयोगकर्ता आचरण",
+        "text1": "हमारी सेवा का उपयोग करके, आप सहमत होते हैं कि आप नहीं करेंगे:",
         "items": [
-          "Use the service for any unlawful purpose",
-          "Attempt to gain unauthorized access to any part of the service",
-          "Interfere with or disrupt the service or servers",
-          "Circumvent, disable, or otherwise interfere with security features"
+          "सेवा का उपयोग किसी भी अवैध उद्देश्य के लिए",
+          "सेवा के किसी भी हिस्से तक अनधिकृत पहुंच प्राप्त करने का प्रयास",
+          "सेवा या सर्वर में हस्तक्षेप या बाधा डालना",
+          "सुरक्षा सुविधाओं को बायपास, अक्षम, या अन्यथा हस्तक्षेप करना"
         ]
       },
       "modifications": {
-        "title": "Modifications to Service",
-        "text1": "We reserve the right to:",
+        "title": "सेवा में संशोधन",
+        "text1": "हम निम्न अधिकार सुरक्षित रखते हैं:",
         "items": [
-          "Modify or discontinue any part of our service without notice",
-          "Update these terms of service at any time",
-          "Change the games and content available through our service"
+          "बिना सूचना के हमारी सेवा के किसी भी हिस्से को संशोधित या बंद करना",
+          "किसी भी समय इन सेवा की शर्तों को अपडेट करना",
+          "हमारी सेवा के माध्यम से उपलब्ध गेम्स और सामग्री को बदलना"
         ],
-        "text2": "Your continued use of the service following any changes constitutes your acceptance of such changes."
+        "text2": "किसी भी परिवर्तन के बाद सेवा का आपका निरंतर उपयोग ऐसे परिवर्तनों की आपकी स्वीकृति का गठन करता है।"
       },
       "governing": {
-        "title": "Governing Law",
-        "text1": "These terms shall be governed by and construed in accordance with applicable laws, without regard to conflicts of law principles."
+        "title": "शासी कानून",
+        "text1": "ये शर्तें लागू कानूनों के अनुसार शासित और व्याख्या की जाएंगी, कानून के सिद्धांतों के संघर्ष पर विचार किए बिना।"
       },
       "contact": {
-        "title": "Contact",
-        "text1": "For any questions regarding these terms, please contact us at:"
+        "title": "संपर्क",
+        "text1": "इन शर्तों के बारे में किसी भी प्रश्न के लिए, कृपया हमसे यहां संपर्क करें:"
       }
     },
     "privacy": {
-      "title": "Privacy Policy",
-      "description": "This Privacy Policy describes how your personal information is collected, used, and shared when you visit Bubble Shooters.",
-      "lastUpdated": "Last Updated: March 16, 2025",
+      "title": "गोपनीयता नीति",
+      "description": "यह गोपनीयता नीति बताती है कि जब आप बुलबुला शूटर्स पर जाते हैं तो आपकी व्यक्तिगत जानकारी कैसे एकत्र, उपयोग और साझा की जाती है।",
+      "lastUpdated": "अंतिम अपडेट: 16 मार्च, 2025",
       "intro": {
-        "text1": "It is our policy to respect your privacy regarding any information we may collect while operating our website. ",
-        "text2": " respects your privacy and is committed to protecting any information you may provide us through this website.",
-        "text3": "This Privacy Policy explains what information we collect, how we use it, and under what circumstances we may disclose it to third parties. This Privacy Policy applies to ",
-        "text4": " (hereinafter, \"us\", \"we\", or \"Bubble Shooters\")."
+        "text1": "हमारी वेबसाइट का संचालन करते समय हम जो भी जानकारी एकत्र कर सकते हैं, उसके संबंध में आपकी गोपनीयता का सम्मान करना हमारी नीति है। ",
+        "text2": " आपकी गोपनीयता का सम्मान करता है और इस वेबसाइट के माध्यम से आप हमें जो भी जानकारी प्रदान कर सकते हैं, उसकी सुरक्षा के लिए प्रतिबद्ध है।",
+        "text3": "यह गोपनीयता नीति बताती है कि हम कौन सी जानकारी एकत्र करते हैं, हम इसका उपयोग कैसे करते हैं, और किन परिस्थितियों में हम इसे तीसरे पक्षों को प्रकट कर सकते हैं। यह गोपनीयता नीति लागू होती है ",
+        "text4": " (इसके बाद, \"हम\", \"हमारा\", या \"बुलबुला शूटर्स\")।"
       },
       "collection": {
-        "title": "Information Collection",
-        "description": "Our website does not require user registration or login. We do not collect any personally identifiable information from our users. The only data we collect are:",
+        "title": "जानकारी संग्रह",
+        "description": "हमारी वेबसाइट के लिए उपयोगकर्ता पंजीकरण या लॉगिन की आवश्यकता नहीं है। हम अपने उपयोगकर्ताओं से कोई भी व्यक्तिगत रूप से पहचान योग्य जानकारी एकत्र नहीं करते हैं। हम जो केवल डेटा एकत्र करते हैं वे हैं:",
         "items": [
-          "Browser cookies essential for website functionality",
-          "Anonymous usage statistics to improve our service"
+          "वेबसाइट कार्यक्षमता के लिए आवश्यक ब्राउज़र कुकीज़",
+          "हमारी सेवा को बेहतर बनाने के लिए अनाम उपयोग आंकड़े"
         ]
       },
       "thirdParty": {
-        "title": "Third-Party Content",
-        "description": "The games and related content available on our website are sourced from third-party platforms. We do not claim ownership of this content and:",
+        "title": "तृतीय-पक्ष सामग्री",
+        "description": "हमारी वेबसाइट पर उपलब्ध गेम्स और संबंधित सामग्री तृतीय-पक्ष प्लेटफॉर्म से प्राप्त की जाती है। हम इस सामग्री के स्वामित्व का दावा नहीं करते हैं और:",
         "items": [
-          "All games are hosted on and streamed from third-party services",
-          "Game information, images, and descriptions are provided by third-party sources",
-          "We make no warranties regarding the accuracy or availability of this content"
+          "सभी गेम्स तृतीय-पक्ष सेवाओं पर होस्ट और स्ट्रीम किए जाते हैं",
+          "गेम जानकारी, छवियां और विवरण तृतीय-पक्ष स्रोतों द्वारा प्रदान किए जाते हैं",
+          "हम इस सामग्री की सटीकता या उपलब्धता के बारे में कोई वारंटी नहीं देते हैं"
         ]
       },
       "cookies": {
-        "title": "Use of Cookies",
-        "description": "We use cookies to enhance your browsing experience. These cookies are:",
+        "title": "कुकीज़ का उपयोग",
+        "description": "हम आपके ब्राउज़िंग अनुभव को बढ़ाने के लिए कुकीज़ का उपयोग करते हैं। ये कुकीज़ हैं:",
         "items": [
-          "Essential for basic website functionality",
-          "Used to remember your display preferences",
-          "Not used for tracking or advertising purposes"
+          "बुनियादी वेबसाइट कार्यक्षमता के लिए आवश्यक",
+          "आपकी डिस्प्ले प्राथमिकताओं को याद रखने के लिए उपयोग किया जाता है",
+          "ट्रैकिंग या विज्ञापन उद्देश्यों के लिए उपयोग नहीं किया जाता है"
         ],
-        "control": "You can control cookie settings through your browser preferences."
+        "control": "आप अपने ब्राउज़र प्राथमिकताओं के माध्यम से कुकी सेटिंग्स को नियंत्रित कर सकते हैं।"
       },
       "links": {
-        "title": "External Links",
-        "description": "Our website contains links to external sites that are not operated by us. If you click on a third-party link, you will be directed to that third party's site. We strongly advise you to review the Privacy Policy and Terms of Service of every site you visit.",
-        "disclaimer": "We have no control over, and assume no responsibility for the content, privacy policies, or practices of any third-party sites, products, or services."
+        "title": "बाहरी लिंक",
+        "description": "हमारी वेबसाइट में ऐसे बाहरी साइटों के लिंक शामिल हैं जो हमारे द्वारा संचालित नहीं हैं। यदि आप किसी तृतीय-पक्ष लिंक पर क्लिक करते हैं, तो आपको उस तृतीय पक्ष की साइट पर निर्देशित किया जाएगा। हम आपको हर साइट की गोपनीयता नीति और सेवा की शर्तों की समीक्षा करने की दृढ़ता से सलाह देते हैं जिसे आप देखते हैं।",
+        "disclaimer": "हमारे पास किसी भी तृतीय-पक्ष साइट, उत्पादों या सेवाओं की सामग्री, गोपनीयता नीतियों या प्रथाओं पर कोई नियंत्रण नहीं है, और हम कोई जिम्मेदारी नहीं लेते हैं।"
       },
       "updates": {
-        "title": "Policy Updates",
-        "description": "We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page. You are advised to review this Privacy Policy periodically for any changes.",
-        "consent": "Your continued use of our website after we post any modifications to the Privacy Policy will constitute your acknowledgment of the modifications and your consent to abide and be bound by the modified Privacy Policy."
+        "title": "नीति अपडेट",
+        "description": "हम समय-समय पर इस गोपनीयता नीति को अपडेट कर सकते हैं। हम आपको इस पृष्ठ पर नई गोपनीयता नीति पोस्ट करके किसी भी परिवर्तन की सूचना देंगे। आपको किसी भी परिवर्तन के लिए इस गोपनीयता नीति की समय-समय पर समीक्षा करने की सलाह दी जाती है।",
+        "consent": "गोपनीयता नीति में किसी भी संशोधन को पोस्ट करने के बाद हमारी वेबसाइट का आपका निरंतर उपयोग संशोधनों की आपकी स्वीकृति और संशोधित गोपनीयता नीति का पालन करने और उससे बंधे होने की आपकी सहमति का गठन करेगा।"
       },
       "contact": {
-        "title": "Contact Us",
-        "description": "If you have any questions about this Privacy Policy, please contact us through our website.",
+        "title": "हमसे संपर्क करें",
+        "description": "यदि आपके पास इस गोपनीयता नीति के बारे में कोई प्रश्न हैं, तो कृपया हमारी वेबसाइट के माध्यम से हमसे संपर्क करें।",
         "email": "support@bubbleshooters.org"
       }
     },
     "contact": {
-      "title": "Contact Us",
-      "disclaimer": "Bubble Shooters is an independent website and is not affiliated with any organizations.",
-      "rights": "All rights reserved."
+      "title": "हमसे संपर्क करें",
+      "disclaimer": "बुलबुला शूटर्स एक स्वतंत्र वेबसाइट है और किसी भी संगठन से संबद्ध नहीं है।",
+      "rights": "सर्वाधिकार सुरक्षित।"
     }
   },
   "search": {
-    "placeholder": "Search Bubble Games ...",
-    "clearSearch": "Clear search",
-    "search": "Search"
+    "placeholder": "बुलबुला गेम्स खोजें ...",
+    "clearSearch": "खोज साफ़ करें",
+    "search": "खोजें"
   },
   "common": {
     "logo": {
-      "title": "Bubble Shooter - Play Bubble Games Online"
+      "title": "बुलबुला शूटर - ऑनलाइन बुलबुला गेम्स खेलें"
     }
   },
   "notFound": {
-    "title": "Page Not Found",
-    "description": "Sorry, the page you are looking for does not exist or has been removed.",
-    "backHome": "Back to Home"
+    "title": "पृष्ठ नहीं मिला",
+    "description": "क्षमा करें, आप जिस पृष्ठ की तलाश कर रहे हैं वह मौजूद नहीं है या हटा दिया गया है।",
+    "backHome": "होम पर वापस जाएं"
   },
   "history": {
     "metadata": {
-      "title": "Play History - Bubble Shooters",
-      "description": "View your recently played bubble shooter games history."
+      "title": "खेल इतिहास - बुलबुला शूटर्स",
+      "description": "अपने हाल ही में खेले गए बुलबुला शूटर गेम्स के इतिहास को देखें।"
     },
-    "title": "Play History",
-    "description": "Games you have played recently",
-    "noHistory": "You have not played any games yet",
-    "clearHistory": "Clear History",
-    "lastPlayed": "Last played",
-    "emptyMessage": "Your play history will appear here"
+    "title": "खेल इतिहास",
+    "description": "आपके द्वारा हाल ही में खेले गए गेम्स",
+    "noHistory": "आपने अभी तक कोई गेम नहीं खेला है",
+    "clearHistory": "इतिहास साफ़ करें",
+    "lastPlayed": "आखिरी बार खेला गया",
+    "emptyMessage": "आपका खेल इतिहास यहां दिखाई देगा"
   },
   "navigation": {
-    "home": "Home",
-    "history": "History",
-    "random": "Random",
-    "allGames": "All Games"
+    "home": "होम",
+    "history": "इतिहास",
+    "random": "रैंडम",
+    "allGames": "सभी गेम्स"
+  },
+  "searchBar": {
+    "placeholder": "बुलबुला गेम्स खोजें...",
+    "search": "खोजें"
   }
 }

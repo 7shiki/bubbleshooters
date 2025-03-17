@@ -1,261 +1,265 @@
 {
   "home": {
     "metadata": {
-      "title": "Play Bubble Shooter Game Online. No Download Required.",
-      "description": "Play bubble shooter game online for free in your browser. Enjoy classic, 3D, and puzzle bubble shooter unblocked games with no download required. Have fun!",
+      "title": "Chơi Game Bubble Shooter Trực Tuyến. Không Cần Tải Xuống.",
+      "description": "Chơi game bubble shooter trực tuyến miễn phí trên trình duyệt của bạn. Thưởng thức các trò chơi bubble shooter cổ điển, 3D và giải đố mà không cần tải xuống. Hãy vui vẻ!",
       "keywords": "",
       "og": {
-        "title": "Bubble Shooters - Play Bubble Games Online",
-        "description": "Play bubble shooter games online for free in your browser. Enjoy classic, 3D, and puzzle bubble shooter games with no download required.",
-        "imageAlt": "Bubble Shooters - Colorful Bubble Games Collection"
+        "title": "Bubble Shooter - Chơi Game Bắn Bong Bóng Trực Tuyến",
+        "description": "Chơi game bubble shooter trực tuyến miễn phí trên trình duyệt của bạn. Thưởng thức các trò chơi bubble shooter cổ điển, 3D và giải đố mà không cần tải xuống.",
+        "imageAlt": "Bubble Shooter - Bộ Sưu Tập Game Bong Bóng Đầy Màu Sắc"
       }
     }
   },
   "allGames": {
     "metadata": {
-      "title": "All Bubble Shooter Games Online. Play Bubble Games Online",
-      "description": "Browse our complete collection of bubble shooter games. Play your favorite bubble shooter games online for free with no download required.",
+      "title": "Tất Cả Game Bubble Shooter Trực Tuyến. Chơi Game Bong Bóng Trực Tuyến",
+      "description": "Duyệt qua bộ sưu tập đầy đủ các game bubble shooter của chúng tôi. Chơi các game bubble shooter yêu thích của bạn trực tuyến miễn phí mà không cần tải xuống.",
       "keywords": ""
     },
-    "title": "All Bubble Shooter Unblocked Games",
-    "description": "Browse our complete collection of bubble shooter games available to play online.",
-    "subDescription": "Enjoy the satisfying pop of bubbles and challenge your matching skills with our collection of bubble shooter games.",
-    "browseGames": "Browse Games",
-    "allPlatforms": "All Categories",
-    "foundGames": "Found {count} games matching{platform}{query} criteria",
-    "noGamesFound": "No games found matching your criteria.",
-    "clearSearch": "Clear search"
+    "title": "Tất Cả Game Bubble Shooter Không Bị Chặn",
+    "description": "Duyệt qua bộ sưu tập đầy đủ các game bubble shooter có sẵn để chơi trực tuyến.",
+    "subDescription": "Thưởng thức âm thanh nổ bong bóng thỏa mãn và thử thách kỹ năng kết hợp của bạn với bộ sưu tập game bubble shooter của chúng tôi.",
+    "browseGames": "Duyệt Game",
+    "allPlatforms": "Tất Cả Danh Mục",
+    "foundGames": "Tìm thấy {count} game phù hợp với tiêu chí{platform}{query}",
+    "noGamesFound": "Không tìm thấy game nào phù hợp với tiêu chí của bạn.",
+    "clearSearch": "Xóa tìm kiếm"
   },
   "games": {
-    "loadMore": "Load More Games"
+    "loadMore": "Tải Thêm Game"
   },
   "category": {
     "metadata": {
-      "title": "{platform} - Play {platform} Online on Bubble Shooter",
-      "description": "Want to play {platform}? Play best {platform} online for free in your browser. No download required. Enjoy {platform} instantly.",
+      "title": "{platform} - Chơi {platform} Trực Tuyến trên Bubble Shooter",
+      "description": "Muốn chơi {platform}? Chơi {platform} tốt nhất trực tuyến miễn phí trên trình duyệt của bạn. Không cần tải xuống. Thưởng thức {platform} ngay lập tức.",
       "keywords": ""
     },
     "notFound": {
-      "title": "Category Not Found - Bubble Shooters",
-      "description": "The requested game category could not be found."
+      "title": "Không Tìm Thấy Danh Mục - Bubble Shooters",
+      "description": "Không thể tìm thấy danh mục game được yêu cầu."
     }
   },
   "platforms": {
     "home": {
-      "alt": "Home Page",
-      "description": "Return to home page"
+      "alt": "Trang Chủ",
+      "description": "Quay lại trang chủ"
     },
     "history": {
-      "alt": "Play History",
-      "description": "View your recently played games"
+      "alt": "Lịch Sử Chơi",
+      "description": "Xem các game bạn đã chơi gần đây"
     },
     "random": {
-      "alt": "Random Game",
-      "description": "Play a random game"
+      "alt": "Game Ngẫu Nhiên",
+      "description": "Chơi một game ngẫu nhiên"
     },
     "hot": {
-      "alt": "Hot Games",
-      "description": "Popular and trending bubble games"
+      "alt": "Game Hot",
+      "description": "Game bong bóng phổ biến và thịnh hành"
     },
     "new": {
-      "alt": "New Games",
-      "description": "Recently added bubble games"
+      "alt": "Game Mới",
+      "description": "Game bong bóng mới được thêm vào"
     },
     "puzzle": {
-      "alt": "Puzzle Games",
-      "description": "Brain teasers and puzzle games"
+      "alt": "Game Giải Đố",
+      "description": "Trò chơi đố và giải đố"
     },
     "bubble": {
-      "alt": "Bubble Games",
-      "description": "Classic bubble shooter and matching games"
+      "alt": "Game Bong Bóng",
+      "description": "Game bubble shooter cổ điển và game ghép đôi"
     },
     "card": {
-      "alt": "Card Games",
-      "description": "Classic and modern card games"
+      "alt": "Game Bài",
+      "description": "Game bài cổ điển và hiện đại"
     },
     "junping": {
-      "alt": "Jumping Games",
-      "description": "Platform and jumping games"
+      "alt": "Game Nhảy",
+      "description": "Game nền tảng và nhảy"
     },
     "music": {
-      "alt": "Music Games",
-      "description": "Rhythm and music-based games"
+      "alt": "Game Âm Nhạc",
+      "description": "Game nhịp điệu và dựa trên âm nhạc"
     }
   },
   "game": {
     "metadata": {
-      "title": "Play {title} Online in your browser. No download required - Bubble Shooter",
-      "description": "Play {title} online for free in your browser. No download required. Enjoy the exciting game, start play {title} now! Have fun!",
+      "title": "Chơi {title} Trực Tuyến trên trình duyệt của bạn. Không cần tải xuống - Bubble Shooter",
+      "description": "Chơi {title} trực tuyến miễn phí trên trình duyệt của bạn. Không cần tải xuống. Thưởng thức trò chơi thú vị, bắt đầu chơi {title} ngay bây giờ! Hãy vui vẻ!",
       "keywords": ""
     },
     "notFound": {
-      "title": "Game Not Found - Bubble Shooters",
-      "description": "The requested game could not be found."
+      "title": "Không Tìm Thấy Game - Bubble Shooters",
+      "description": "Không thể tìm thấy game được yêu cầu."
     }
   },
   "footer": {
-    "description": "Experience the fun of Bubble Shooter games on our website, where you can enjoy colorful bubble popping action with classic and modern bubble shooter games—all playable online! No download required.",
+    "description": "Trải nghiệm niềm vui của các game Bubble Shooter trên trang web của chúng tôi, nơi bạn có thể thưởng thức hành động bắn bong bóng đầy màu sắc với các game bubble shooter cổ điển và hiện đại—tất cả đều có thể chơi trực tuyến! Không cần tải xuống.",
     "others": {
-      "title": "Others",
-      "privacy": "Privacy Policy",
-      "terms": "Terms of Service"
+      "title": "Khác",
+      "privacy": "Chính Sách Bảo Mật",
+      "terms": "Điều Khoản Dịch Vụ"
     },
     "terms": {
-      "title": "Terms of Service",
-      "description": "Please read these Terms of Service carefully before using Bubble Shooters.",
-      "lastUpdated": "Last Updated: March 16, 2025",
+      "title": "Điều Khoản Dịch Vụ",
+      "description": "Vui lòng đọc kỹ các Điều Khoản Dịch Vụ này trước khi sử dụng Bubble Shooters.",
+      "lastUpdated": "Cập Nhật Lần Cuối: Ngày 16 tháng 3 năm 2025",
       "intro": {
-        "text1": "Welcome to ",
-        "text2": ". By accessing and using this website, you accept and agree to be bound by the terms and provision of this agreement."
+        "text1": "Chào mừng đến với ",
+        "text2": ". Bằng cách truy cập và sử dụng trang web này, bạn chấp nhận và đồng ý bị ràng buộc bởi các điều khoản và quy định của thỏa thuận này."
       },
       "service": {
-        "title": "Service Description",
-        "text1": " provides a platform for users to play bubble shooter games through their web browsers. Our service includes:",
+        "title": "Mô Tả Dịch Vụ",
+        "text1": " cung cấp nền tảng cho người dùng chơi game bubble shooter thông qua trình duyệt web của họ. Dịch vụ của chúng tôi bao gồm:",
         "items": [
-          "Browser-based bubble shooter games",
-          "Game information and descriptions",
-          "Related gaming content"
+          "Game bubble shooter dựa trên trình duyệt",
+          "Thông tin và mô tả game",
+          "Nội dung game liên quan"
         ]
       },
       "content": {
-        "title": "Content and Copyright",
-        "text1": "All games and related content available through our service are:",
+        "title": "Nội Dung và Bản Quyền",
+        "text1": "Tất cả các game và nội dung liên quan có sẵn thông qua dịch vụ của chúng tôi đều:",
         "items": [
-          "Sourced from and hosted by third-party services",
-          "Subject to their respective owners' copyrights and intellectual property rights",
-          "Not owned or controlled by Bubble Shooters"
+          "Được lấy từ và lưu trữ bởi các dịch vụ bên thứ ba",
+          "Tuân theo bản quyền và quyền sở hữu trí tuệ của chủ sở hữu tương ứng",
+          "Không thuộc sở hữu hoặc kiểm soát bởi Bubble Shooters"
         ],
-        "text2": "We do not claim ownership of any games, ROMs, or related content provided through our service. All trademarks, service marks, and trade names are the property of their respective owners."
+        "text2": "Chúng tôi không tuyên bố sở hữu bất kỳ game, ROM hoặc nội dung liên quan nào được cung cấp thông qua dịch vụ của chúng tôi. Tất cả các thương hiệu, nhãn hiệu dịch vụ và tên thương mại đều là tài sản của chủ sở hữu tương ứng."
       },
       "disclaimer": {
-        "title": "Disclaimer",
-        "text1": "Our services are provided \"as is\" without any warranties, expressed or implied. Bubble Shooters does not warrant that:",
+        "title": "Tuyên Bố Miễn Trừ",
+        "text1": "Dịch vụ của chúng tôi được cung cấp \"nguyên trạng\" mà không có bất kỳ bảo đảm nào, dù rõ ràng hay ngụ ý. Bubble Shooters không đảm bảo rằng:",
         "items": [
-          "The service will be uninterrupted or error-free",
-          "Games or content will always be available",
-          "Any errors or defects will be corrected"
+          "Dịch vụ sẽ không bị gián đoạn hoặc không có lỗi",
+          "Game hoặc nội dung sẽ luôn có sẵn",
+          "Bất kỳ lỗi hoặc khiếm khuyết nào sẽ được sửa chữa"
         ],
-        "text2": "We are not responsible for any content provided by third parties or for any errors or omissions in the content."
+        "text2": "Chúng tôi không chịu trách nhiệm về bất kỳ nội dung nào được cung cấp bởi bên thứ ba hoặc về bất kỳ lỗi hoặc thiếu sót nào trong nội dung."
       },
       "conduct": {
-        "title": "User Conduct",
-        "text1": "By using our service, you agree not to:",
+        "title": "Hành Vi Người Dùng",
+        "text1": "Bằng cách sử dụng dịch vụ của chúng tôi, bạn đồng ý không:",
         "items": [
-          "Use the service for any unlawful purpose",
-          "Attempt to gain unauthorized access to any part of the service",
-          "Interfere with or disrupt the service or servers",
-          "Circumvent, disable, or otherwise interfere with security features"
+          "Sử dụng dịch vụ cho bất kỳ mục đích bất hợp pháp nào",
+          "Cố gắng truy cập trái phép vào bất kỳ phần nào của dịch vụ",
+          "Can thiệp hoặc làm gián đoạn dịch vụ hoặc máy chủ",
+          "Phá vỡ, vô hiệu hóa hoặc can thiệp vào các tính năng bảo mật"
         ]
       },
       "modifications": {
-        "title": "Modifications to Service",
-        "text1": "We reserve the right to:",
+        "title": "Sửa Đổi Dịch Vụ",
+        "text1": "Chúng tôi bảo lưu quyền:",
         "items": [
-          "Modify or discontinue any part of our service without notice",
-          "Update these terms of service at any time",
-          "Change the games and content available through our service"
+          "Sửa đổi hoặc ngừng bất kỳ phần nào của dịch vụ mà không cần thông báo",
+          "Cập nhật các điều khoản dịch vụ này bất cứ lúc nào",
+          "Thay đổi game và nội dung có sẵn thông qua dịch vụ của chúng tôi"
         ],
-        "text2": "Your continued use of the service following any changes constitutes your acceptance of such changes."
+        "text2": "Việc bạn tiếp tục sử dụng dịch vụ sau bất kỳ thay đổi nào đều cấu thành sự chấp nhận của bạn đối với những thay đổi đó."
       },
       "governing": {
-        "title": "Governing Law",
-        "text1": "These terms shall be governed by and construed in accordance with applicable laws, without regard to conflicts of law principles."
+        "title": "Luật Điều Chỉnh",
+        "text1": "Các điều khoản này sẽ được điều chỉnh và giải thích theo luật pháp hiện hành, không liên quan đến các nguyên tắc xung đột pháp luật."
       },
       "contact": {
-        "title": "Contact",
-        "text1": "For any questions regarding these terms, please contact us at:"
+        "title": "Liên Hệ",
+        "text1": "Đối với bất kỳ câu hỏi nào liên quan đến các điều khoản này, vui lòng liên hệ với chúng tôi tại:"
       }
     },
     "privacy": {
-      "title": "Privacy Policy",
-      "description": "This Privacy Policy describes how your personal information is collected, used, and shared when you visit Bubble Shooters.",
-      "lastUpdated": "Last Updated: March 16, 2025",
+      "title": "Chính Sách Bảo Mật",
+      "description": "Chính Sách Bảo Mật này mô tả cách thông tin cá nhân của bạn được thu thập, sử dụng và chia sẻ khi bạn truy cập Bubble Shooters.",
+      "lastUpdated": "Cập Nhật Lần Cuối: Ngày 16 tháng 3 năm 2025",
       "intro": {
-        "text1": "It is our policy to respect your privacy regarding any information we may collect while operating our website. ",
-        "text2": " respects your privacy and is committed to protecting any information you may provide us through this website.",
-        "text3": "This Privacy Policy explains what information we collect, how we use it, and under what circumstances we may disclose it to third parties. This Privacy Policy applies to ",
-        "text4": " (hereinafter, \"us\", \"we\", or \"Bubble Shooters\")."
+        "text1": "Chính sách của chúng tôi là tôn trọng quyền riêng tư của bạn đối với bất kỳ thông tin nào chúng tôi có thể thu thập trong khi vận hành trang web của chúng tôi. ",
+        "text2": " tôn trọng quyền riêng tư của bạn và cam kết bảo vệ bất kỳ thông tin nào bạn có thể cung cấp cho chúng tôi thông qua trang web này.",
+        "text3": "Chính Sách Bảo Mật này giải thích thông tin nào chúng tôi thu thập, cách chúng tôi sử dụng nó và trong những trường hợp nào chúng tôi có thể tiết lộ nó cho bên thứ ba. Chính Sách Bảo Mật này áp dụng cho ",
+        "text4": " (sau đây gọi là \"chúng tôi\", \"của chúng tôi\" hoặc \"Bubble Shooters\")."
       },
       "collection": {
-        "title": "Information Collection",
-        "description": "Our website does not require user registration or login. We do not collect any personally identifiable information from our users. The only data we collect are:",
+        "title": "Thu Thập Thông Tin",
+        "description": "Trang web của chúng tôi không yêu cầu đăng ký người dùng hoặc đăng nhập. Chúng tôi không thu thập bất kỳ thông tin nhận dạng cá nhân nào từ người dùng của chúng tôi. Dữ liệu duy nhất chúng tôi thu thập là:",
         "items": [
-          "Browser cookies essential for website functionality",
-          "Anonymous usage statistics to improve our service"
+          "Cookie trình duyệt cần thiết cho chức năng của trang web",
+          "Thống kê sử dụng ẩn danh để cải thiện dịch vụ của chúng tôi"
         ]
       },
       "thirdParty": {
-        "title": "Third-Party Content",
-        "description": "The games and related content available on our website are sourced from third-party platforms. We do not claim ownership of this content and:",
+        "title": "Nội Dung Bên Thứ Ba",
+        "description": "Các game và nội dung liên quan có sẵn trên trang web của chúng tôi được lấy từ các nền tảng bên thứ ba. Chúng tôi không tuyên bố sở hữu nội dung này và:",
         "items": [
-          "All games are hosted on and streamed from third-party services",
-          "Game information, images, and descriptions are provided by third-party sources",
-          "We make no warranties regarding the accuracy or availability of this content"
+          "Tất cả các game được lưu trữ và phát trực tuyến từ các dịch vụ bên thứ ba",
+          "Thông tin game, hình ảnh và mô tả được cung cấp bởi các nguồn bên thứ ba",
+          "Chúng tôi không đưa ra bất kỳ bảo đảm nào về tính chính xác hoặc tính khả dụng của nội dung này"
         ]
       },
       "cookies": {
-        "title": "Use of Cookies",
-        "description": "We use cookies to enhance your browsing experience. These cookies are:",
+        "title": "Sử Dụng Cookie",
+        "description": "Chúng tôi sử dụng cookie để nâng cao trải nghiệm duyệt web của bạn. Những cookie này:",
         "items": [
-          "Essential for basic website functionality",
-          "Used to remember your display preferences",
-          "Not used for tracking or advertising purposes"
+          "Cần thiết cho chức năng cơ bản của trang web",
+          "Được sử dụng để ghi nhớ tùy chọn hiển thị của bạn",
+          "Không được sử dụng cho mục đích theo dõi hoặc quảng cáo"
         ],
-        "control": "You can control cookie settings through your browser preferences."
+        "control": "Bạn có thể kiểm soát cài đặt cookie thông qua tùy chọn trình duyệt của bạn."
       },
       "links": {
-        "title": "External Links",
-        "description": "Our website contains links to external sites that are not operated by us. If you click on a third-party link, you will be directed to that third party's site. We strongly advise you to review the Privacy Policy and Terms of Service of every site you visit.",
-        "disclaimer": "We have no control over, and assume no responsibility for the content, privacy policies, or practices of any third-party sites, products, or services."
+        "title": "Liên Kết Bên Ngoài",
+        "description": "Trang web của chúng tôi chứa các liên kết đến các trang web bên ngoài không được vận hành bởi chúng tôi. Nếu bạn nhấp vào liên kết của bên thứ ba, bạn sẽ được chuyển hướng đến trang web của bên thứ ba đó. Chúng tôi khuyên bạn nên xem xét Chính Sách Bảo Mật và Điều Khoản Dịch Vụ của mọi trang web bạn truy cập.",
+        "disclaimer": "Chúng tôi không kiểm soát và không chịu trách nhiệm về nội dung, chính sách bảo mật hoặc thông lệ của bất kỳ trang web, sản phẩm hoặc dịch vụ bên thứ ba nào."
       },
       "updates": {
-        "title": "Policy Updates",
-        "description": "We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page. You are advised to review this Privacy Policy periodically for any changes.",
-        "consent": "Your continued use of our website after we post any modifications to the Privacy Policy will constitute your acknowledgment of the modifications and your consent to abide and be bound by the modified Privacy Policy."
+        "title": "Cập Nhật Chính Sách",
+        "description": "Chúng tôi có thể cập nhật Chính Sách Bảo Mật này theo thời gian. Chúng tôi sẽ thông báo cho bạn về bất kỳ thay đổi nào bằng cách đăng Chính Sách Bảo Mật mới trên trang này. Bạn nên xem xét Chính Sách Bảo Mật này định kỳ để biết bất kỳ thay đổi nào.",
+        "consent": "Việc bạn tiếp tục sử dụng trang web của chúng tôi sau khi chúng tôi đăng bất kỳ sửa đổi nào đối với Chính Sách Bảo Mật sẽ cấu thành sự thừa nhận của bạn về các sửa đổi và sự đồng ý của bạn để tuân thủ và bị ràng buộc bởi Chính Sách Bảo Mật đã sửa đổi."
       },
       "contact": {
-        "title": "Contact Us",
-        "description": "If you have any questions about this Privacy Policy, please contact us through our website.",
+        "title": "Liên Hệ Với Chúng Tôi",
+        "description": "Nếu bạn có bất kỳ câu hỏi nào về Chính Sách Bảo Mật này, vui lòng liên hệ với chúng tôi thông qua trang web của chúng tôi.",
         "email": "support@bubbleshooters.org"
       }
     },
     "contact": {
-      "title": "Contact Us",
-      "disclaimer": "Bubble Shooters is an independent website and is not affiliated with any organizations.",
-      "rights": "All rights reserved."
+      "title": "Liên Hệ Với Chúng Tôi",
+      "disclaimer": "Bubble Shooters là một trang web độc lập và không liên kết với bất kỳ tổ chức nào.",
+      "rights": "Tất cả các quyền được bảo lưu."
     }
   },
   "search": {
-    "placeholder": "Search Bubble Games ...",
-    "clearSearch": "Clear search",
-    "search": "Search"
+    "placeholder": "Tìm Kiếm Game Bong Bóng ...",
+    "clearSearch": "Xóa tìm kiếm",
+    "search": "Tìm kiếm"
   },
   "common": {
     "logo": {
-      "title": "Bubble Shooter - Play Bubble Games Online"
+      "title": "Bubble Shooter - Chơi Game Bong Bóng Trực Tuyến"
     }
   },
   "notFound": {
-    "title": "Page Not Found",
-    "description": "Sorry, the page you are looking for does not exist or has been removed.",
-    "backHome": "Back to Home"
+    "title": "Không Tìm Thấy Trang",
+    "description": "Xin lỗi, trang bạn đang tìm kiếm không tồn tại hoặc đã bị xóa.",
+    "backHome": "Quay Lại Trang Chủ"
   },
   "history": {
     "metadata": {
-      "title": "Play History - Bubble Shooters",
-      "description": "View your recently played bubble shooter games history."
+      "title": "Lịch Sử Chơi - Bubble Shooters",
+      "description": "Xem lịch sử các game bubble shooter bạn đã chơi gần đây."
     },
-    "title": "Play History",
-    "description": "Games you have played recently",
-    "noHistory": "You have not played any games yet",
-    "clearHistory": "Clear History",
-    "lastPlayed": "Last played",
-    "emptyMessage": "Your play history will appear here"
+    "title": "Lịch Sử Chơi",
+    "description": "Các game bạn đã chơi gần đây",
+    "noHistory": "Bạn chưa chơi game nào",
+    "clearHistory": "Xóa Lịch Sử",
+    "lastPlayed": "Lần chơi cuối",
+    "emptyMessage": "Lịch sử chơi của bạn sẽ xuất hiện ở đây"
   },
   "navigation": {
-    "home": "Home",
-    "history": "History",
-    "random": "Random",
-    "allGames": "All Games"
+    "home": "Trang Chủ",
+    "history": "Lịch Sử",
+    "random": "Ngẫu Nhiên",
+    "allGames": "Tất Cả Game"
+  },
+  "searchBar": {
+    "placeholder": "Tìm Kiếm Game Bong Bóng...",
+    "search": "Tìm kiếm"
   }
 }

@@ -1,261 +1,265 @@
 {
   "home": {
     "metadata": {
-      "title": "Play Bubble Shooter Game Online. No Download Required.",
-      "description": "Play bubble shooter game online for free in your browser. Enjoy classic, 3D, and puzzle bubble shooter unblocked games with no download required. Have fun!",
+      "title": "Играйте в Bubble Shooter онлайн. Без скачивания.",
+      "description": "Играйте в bubble shooter бесплатно в вашем браузере. Наслаждайтесь классическими, 3D и головоломками bubble shooter без необходимости скачивания. Веселитесь!",
       "keywords": "",
       "og": {
-        "title": "Bubble Shooters - Play Bubble Games Online",
-        "description": "Play bubble shooter games online for free in your browser. Enjoy classic, 3D, and puzzle bubble shooter games with no download required.",
-        "imageAlt": "Bubble Shooters - Colorful Bubble Games Collection"
+        "title": "Bubble Shooter - Играйте в пузырьковые игры онлайн",
+        "description": "Играйте в игры bubble shooter бесплатно в вашем браузере. Наслаждайтесь классическими, 3D и головоломками bubble shooter без необходимости скачивания.",
+        "imageAlt": "Bubble Shooter - Коллекция красочных пузырьковых игр"
       }
     }
   },
   "allGames": {
     "metadata": {
-      "title": "All Bubble Shooter Games Online. Play Bubble Games Online",
-      "description": "Browse our complete collection of bubble shooter games. Play your favorite bubble shooter games online for free with no download required.",
+      "title": "Все игры Bubble Shooter онлайн. Играйте в пузырьковые игры онлайн",
+      "description": "Просмотрите нашу полную коллекцию игр bubble shooter. Играйте в ваши любимые игры bubble shooter онлайн бесплатно без необходимости скачивания.",
       "keywords": ""
     },
-    "title": "All Bubble Shooter Unblocked Games",
-    "description": "Browse our complete collection of bubble shooter games available to play online.",
-    "subDescription": "Enjoy the satisfying pop of bubbles and challenge your matching skills with our collection of bubble shooter games.",
-    "browseGames": "Browse Games",
-    "allPlatforms": "All Categories",
-    "foundGames": "Found {count} games matching{platform}{query} criteria",
-    "noGamesFound": "No games found matching your criteria.",
-    "clearSearch": "Clear search"
+    "title": "Все игры Bubble Shooter без блокировки",
+    "description": "Просмотрите нашу полную коллекцию игр bubble shooter, доступных для игры онлайн.",
+    "subDescription": "Наслаждайтесь приятным лопаньем пузырьков и проверьте свои навыки сопоставления с нашей коллекцией игр bubble shooter.",
+    "browseGames": "Просмотр игр",
+    "allPlatforms": "Все категории",
+    "foundGames": "Найдено {count} игр, соответствующих критериям{platform}{query}",
+    "noGamesFound": "Не найдено игр, соответствующих вашим критериям.",
+    "clearSearch": "Очистить поиск"
   },
   "games": {
-    "loadMore": "Load More Games"
+    "loadMore": "Загрузить больше игр"
   },
   "category": {
     "metadata": {
-      "title": "{platform} - Play {platform} Online on Bubble Shooter",
-      "description": "Want to play {platform}? Play best {platform} online for free in your browser. No download required. Enjoy {platform} instantly.",
+      "title": "{platform} - Играйте в {platform} онлайн на Bubble Shooter",
+      "description": "Хотите поиграть в {platform}? Играйте в лучшие {platform} онлайн бесплатно в вашем браузере. Без скачивания. Наслаждайтесь {platform} мгновенно.",
       "keywords": ""
     },
     "notFound": {
-      "title": "Category Not Found - Bubble Shooters",
-      "description": "The requested game category could not be found."
+      "title": "Категория не найдена - Bubble Shooters",
+      "description": "Запрошенная категория игр не найдена."
     }
   },
   "platforms": {
     "home": {
-      "alt": "Home Page",
-      "description": "Return to home page"
+      "alt": "Главная страница",
+      "description": "Вернуться на главную страницу"
     },
     "history": {
-      "alt": "Play History",
-      "description": "View your recently played games"
+      "alt": "История игр",
+      "description": "Просмотр недавно сыгранных игр"
     },
     "random": {
-      "alt": "Random Game",
-      "description": "Play a random game"
+      "alt": "Случайная игра",
+      "description": "Играть в случайную игру"
     },
     "hot": {
-      "alt": "Hot Games",
-      "description": "Popular and trending bubble games"
+      "alt": "Популярные игры",
+      "description": "Популярные и трендовые пузырьковые игры"
     },
     "new": {
-      "alt": "New Games",
-      "description": "Recently added bubble games"
+      "alt": "Новые игры",
+      "description": "Недавно добавленные пузырьковые игры"
     },
     "puzzle": {
-      "alt": "Puzzle Games",
-      "description": "Brain teasers and puzzle games"
+      "alt": "Головоломки",
+      "description": "Головоломки и логические игры"
     },
     "bubble": {
-      "alt": "Bubble Games",
-      "description": "Classic bubble shooter and matching games"
+      "alt": "Пузырьковые игры",
+      "description": "Классические bubble shooter и игры на совпадения"
     },
     "card": {
-      "alt": "Card Games",
-      "description": "Classic and modern card games"
+      "alt": "Карточные игры",
+      "description": "Классические и современные карточные игры"
     },
     "junping": {
-      "alt": "Jumping Games",
-      "description": "Platform and jumping games"
+      "alt": "Игры с прыжками",
+      "description": "Платформеры и игры с прыжками"
     },
     "music": {
-      "alt": "Music Games",
-      "description": "Rhythm and music-based games"
+      "alt": "Музыкальные игры",
+      "description": "Ритмические и музыкальные игры"
     }
   },
   "game": {
     "metadata": {
-      "title": "Play {title} Online in your browser. No download required - Bubble Shooter",
-      "description": "Play {title} online for free in your browser. No download required. Enjoy the exciting game, start play {title} now! Have fun!",
+      "title": "Играйте в {title} онлайн в вашем браузере. Без скачивания - Bubble Shooter",
+      "description": "Играйте в {title} онлайн бесплатно в вашем браузере. Без скачивания. Наслаждайтесь захватывающей игрой, начните играть в {title} прямо сейчас! Веселитесь!",
       "keywords": ""
     },
     "notFound": {
-      "title": "Game Not Found - Bubble Shooters",
-      "description": "The requested game could not be found."
+      "title": "Игра не найдена - Bubble Shooters",
+      "description": "Запрошенная игра не найдена."
     }
   },
   "footer": {
-    "description": "Experience the fun of Bubble Shooter games on our website, where you can enjoy colorful bubble popping action with classic and modern bubble shooter games—all playable online! No download required.",
+    "description": "Испытайте удовольствие от игр Bubble Shooter на нашем сайте, где вы можете наслаждаться красочным лопаньем пузырьков с классическими и современными играми bubble shooter — все играбельны онлайн! Без необходимости скачивания.",
     "others": {
-      "title": "Others",
-      "privacy": "Privacy Policy",
-      "terms": "Terms of Service"
+      "title": "Другое",
+      "privacy": "Политика конфиденциальности",
+      "terms": "Условия использования"
     },
     "terms": {
-      "title": "Terms of Service",
-      "description": "Please read these Terms of Service carefully before using Bubble Shooters.",
-      "lastUpdated": "Last Updated: March 16, 2025",
+      "title": "Условия использования",
+      "description": "Пожалуйста, внимательно прочитайте эти Условия использования перед использованием Bubble Shooters.",
+      "lastUpdated": "Последнее обновление: 16 марта 2025 г.",
       "intro": {
-        "text1": "Welcome to ",
-        "text2": ". By accessing and using this website, you accept and agree to be bound by the terms and provision of this agreement."
+        "text1": "Добро пожаловать на ",
+        "text2": ". Получая доступ и используя этот веб-сайт, вы принимаете и соглашаетесь соблюдать условия и положения данного соглашения."
       },
       "service": {
-        "title": "Service Description",
-        "text1": " provides a platform for users to play bubble shooter games through their web browsers. Our service includes:",
+        "title": "Описание услуг",
+        "text1": " предоставляет платформу для пользователей, чтобы играть в игры bubble shooter через их веб-браузеры. Наш сервис включает:",
         "items": [
-          "Browser-based bubble shooter games",
-          "Game information and descriptions",
-          "Related gaming content"
+          "Браузерные игры bubble shooter",
+          "Информацию и описания игр",
+          "Связанный игровой контент"
         ]
       },
       "content": {
-        "title": "Content and Copyright",
-        "text1": "All games and related content available through our service are:",
+        "title": "Контент и авторские права",
+        "text1": "Все игры и связанный контент, доступные через наш сервис:",
         "items": [
-          "Sourced from and hosted by third-party services",
-          "Subject to their respective owners' copyrights and intellectual property rights",
-          "Not owned or controlled by Bubble Shooters"
+          "Получены и размещены на сторонних сервисах",
+          "Подлежат авторским правам и правам интеллектуальной собственности их соответствующих владельцев",
+          "Не принадлежат и не контролируются Bubble Shooters"
         ],
-        "text2": "We do not claim ownership of any games, ROMs, or related content provided through our service. All trademarks, service marks, and trade names are the property of their respective owners."
+        "text2": "Мы не претендуем на владение какими-либо играми, ROM-файлами или связанным контентом, предоставляемым через наш сервис. Все товарные знаки, знаки обслуживания и торговые наименования являются собственностью их соответствующих владельцев."
       },
       "disclaimer": {
-        "title": "Disclaimer",
-        "text1": "Our services are provided \"as is\" without any warranties, expressed or implied. Bubble Shooters does not warrant that:",
+        "title": "Отказ от ответственности",
+        "text1": "Наши услуги предоставляются «как есть» без каких-либо гарантий, явных или подразумеваемых. Bubble Shooters не гарантирует, что:",
         "items": [
-          "The service will be uninterrupted or error-free",
-          "Games or content will always be available",
-          "Any errors or defects will be corrected"
+          "Сервис будет бесперебойным или безошибочным",
+          "Игры или контент всегда будут доступны",
+          "Любые ошибки или дефекты будут исправлены"
         ],
-        "text2": "We are not responsible for any content provided by third parties or for any errors or omissions in the content."
+        "text2": "Мы не несем ответственности за любой контент, предоставленный третьими сторонами, или за любые ошибки или упущения в контенте."
       },
       "conduct": {
-        "title": "User Conduct",
-        "text1": "By using our service, you agree not to:",
+        "title": "Поведение пользователя",
+        "text1": "Используя наш сервис, вы соглашаетесь не:",
         "items": [
-          "Use the service for any unlawful purpose",
-          "Attempt to gain unauthorized access to any part of the service",
-          "Interfere with or disrupt the service or servers",
-          "Circumvent, disable, or otherwise interfere with security features"
+          "Использовать сервис для любых незаконных целей",
+          "Пытаться получить несанкционированный доступ к любой части сервиса",
+          "Вмешиваться или нарушать работу сервиса или серверов",
+          "Обходить, отключать или иным образом вмешиваться в функции безопасности"
         ]
       },
       "modifications": {
-        "title": "Modifications to Service",
-        "text1": "We reserve the right to:",
+        "title": "Изменения в сервисе",
+        "text1": "Мы оставляем за собой право:",
         "items": [
-          "Modify or discontinue any part of our service without notice",
-          "Update these terms of service at any time",
-          "Change the games and content available through our service"
+          "Изменять или прекращать любую часть нашего сервиса без уведомления",
+          "Обновлять эти условия использования в любое время",
+          "Изменять игры и контент, доступные через наш сервис"
         ],
-        "text2": "Your continued use of the service following any changes constitutes your acceptance of such changes."
+        "text2": "Ваше продолжение использования сервиса после любых изменений означает ваше принятие таких изменений."
       },
       "governing": {
-        "title": "Governing Law",
-        "text1": "These terms shall be governed by and construed in accordance with applicable laws, without regard to conflicts of law principles."
+        "title": "Применимое право",
+        "text1": "Эти условия регулируются и толкуются в соответствии с применимым законодательством, без учета принципов коллизионного права."
       },
       "contact": {
-        "title": "Contact",
-        "text1": "For any questions regarding these terms, please contact us at:"
+        "title": "Контакт",
+        "text1": "По любым вопросам относительно этих условий, пожалуйста, свяжитесь с нами по адресу:"
       }
     },
     "privacy": {
-      "title": "Privacy Policy",
-      "description": "This Privacy Policy describes how your personal information is collected, used, and shared when you visit Bubble Shooters.",
-      "lastUpdated": "Last Updated: March 16, 2025",
+      "title": "Политика конфиденциальности",
+      "description": "Эта Политика конфиденциальности описывает, как ваша личная информация собирается, используется и передается, когда вы посещаете Bubble Shooters.",
+      "lastUpdated": "Последнее обновление: 16 марта 2025 г.",
       "intro": {
-        "text1": "It is our policy to respect your privacy regarding any information we may collect while operating our website. ",
-        "text2": " respects your privacy and is committed to protecting any information you may provide us through this website.",
-        "text3": "This Privacy Policy explains what information we collect, how we use it, and under what circumstances we may disclose it to third parties. This Privacy Policy applies to ",
-        "text4": " (hereinafter, \"us\", \"we\", or \"Bubble Shooters\")."
+        "text1": "Наша политика — уважать вашу конфиденциальность в отношении любой информации, которую мы можем собирать при работе нашего веб-сайта. ",
+        "text2": " уважает вашу конфиденциальность и обязуется защищать любую информацию, которую вы можете предоставить нам через этот веб-сайт.",
+        "text3": "Эта Политика конфиденциальности объясняет, какую информацию мы собираем, как мы ее используем и при каких обстоятельствах мы можем раскрыть ее третьим сторонам. Эта Политика конфиденциальности применяется к ",
+        "text4": " (далее «мы», «нас» или «Bubble Shooters»)."
       },
       "collection": {
-        "title": "Information Collection",
-        "description": "Our website does not require user registration or login. We do not collect any personally identifiable information from our users. The only data we collect are:",
+        "title": "Сбор информации",
+        "description": "Наш веб-сайт не требует регистрации пользователей или входа в систему. Мы не собираем никакой личной идентифицирующей информации от наших пользователей. Единственные данные, которые мы собираем, это:",
         "items": [
-          "Browser cookies essential for website functionality",
-          "Anonymous usage statistics to improve our service"
+          "Куки браузера, необходимые для функционирования веб-сайта",
+          "Анонимная статистика использования для улучшения нашего сервиса"
         ]
       },
       "thirdParty": {
-        "title": "Third-Party Content",
-        "description": "The games and related content available on our website are sourced from third-party platforms. We do not claim ownership of this content and:",
+        "title": "Контент третьих сторон",
+        "description": "Игры и связанный контент, доступные на нашем веб-сайте, получены с платформ третьих сторон. Мы не претендуем на владение этим контентом и:",
         "items": [
-          "All games are hosted on and streamed from third-party services",
-          "Game information, images, and descriptions are provided by third-party sources",
-          "We make no warranties regarding the accuracy or availability of this content"
+          "Все игры размещены и транслируются с сервисов третьих сторон",
+          "Информация об играх, изображения и описания предоставляются источниками третьих сторон",
+          "Мы не даем никаких гарантий относительно точности или доступности этого контента"
         ]
       },
       "cookies": {
-        "title": "Use of Cookies",
-        "description": "We use cookies to enhance your browsing experience. These cookies are:",
+        "title": "Использование куки",
+        "description": "Мы используем куки для улучшения вашего опыта просмотра. Эти куки:",
         "items": [
-          "Essential for basic website functionality",
-          "Used to remember your display preferences",
-          "Not used for tracking or advertising purposes"
+          "Необходимы для базовой функциональности веб-сайта",
+          "Используются для запоминания ваших предпочтений отображения",
+          "Не используются для отслеживания или рекламных целей"
         ],
-        "control": "You can control cookie settings through your browser preferences."
+        "control": "Вы можете контролировать настройки куки через предпочтения вашего браузера."
       },
       "links": {
-        "title": "External Links",
-        "description": "Our website contains links to external sites that are not operated by us. If you click on a third-party link, you will be directed to that third party's site. We strongly advise you to review the Privacy Policy and Terms of Service of every site you visit.",
-        "disclaimer": "We have no control over, and assume no responsibility for the content, privacy policies, or practices of any third-party sites, products, or services."
+        "title": "Внешние ссылки",
+        "description": "Наш веб-сайт содержит ссылки на внешние сайты, которые не управляются нами. Если вы нажмете на ссылку третьей стороны, вы будете перенаправлены на сайт этой третьей стороны. Мы настоятельно рекомендуем вам ознакомиться с Политикой конфиденциальности и Условиями использования каждого сайта, который вы посещаете.",
+        "disclaimer": "Мы не контролируем и не несем ответственности за содержание, политики конфиденциальности или практики любых сторонних сайтов, продуктов или услуг."
       },
       "updates": {
-        "title": "Policy Updates",
-        "description": "We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page. You are advised to review this Privacy Policy periodically for any changes.",
-        "consent": "Your continued use of our website after we post any modifications to the Privacy Policy will constitute your acknowledgment of the modifications and your consent to abide and be bound by the modified Privacy Policy."
+        "title": "Обновления политики",
+        "description": "Мы можем время от времени обновлять эту Политику конфиденциальности. Мы уведомим вас о любых изменениях, разместив новую Политику конфиденциальности на этой странице. Рекомендуется периодически просматривать эту Политику конфиденциальности на предмет изменений.",
+        "consent": "Ваше продолжение использования нашего веб-сайта после публикации любых изменений в Политике конфиденциальности будет означать ваше признание изменений и ваше согласие соблюдать и быть связанным измененной Политикой конфиденциальности."
       },
       "contact": {
-        "title": "Contact Us",
-        "description": "If you have any questions about this Privacy Policy, please contact us through our website.",
+        "title": "Свяжитесь с нами",
+        "description": "Если у вас есть какие-либо вопросы об этой Политике конфиденциальности, пожалуйста, свяжитесь с нами через наш веб-сайт.",
         "email": "support@bubbleshooters.org"
       }
     },
     "contact": {
-      "title": "Contact Us",
-      "disclaimer": "Bubble Shooters is an independent website and is not affiliated with any organizations.",
-      "rights": "All rights reserved."
+      "title": "Свяжитесь с нами",
+      "disclaimer": "Bubble Shooters — это независимый веб-сайт и не связан ни с какими организациями.",
+      "rights": "Все права защищены."
     }
   },
   "search": {
-    "placeholder": "Search Bubble Games ...",
-    "clearSearch": "Clear search",
-    "search": "Search"
+    "placeholder": "Поиск пузырьковых игр ...",
+    "clearSearch": "Очистить поиск",
+    "search": "Поиск"
   },
   "common": {
     "logo": {
-      "title": "Bubble Shooter - Play Bubble Games Online"
+      "title": "Bubble Shooter - Играйте в пузырьковые игры онлайн"
     }
   },
   "notFound": {
-    "title": "Page Not Found",
-    "description": "Sorry, the page you are looking for does not exist or has been removed.",
-    "backHome": "Back to Home"
+    "title": "Страница не найдена",
+    "description": "Извините, страница, которую вы ищете, не существует или была удалена.",
+    "backHome": "Вернуться на главную"
   },
   "history": {
     "metadata": {
-      "title": "Play History - Bubble Shooters",
-      "description": "View your recently played bubble shooter games history."
+      "title": "История игр - Bubble Shooters",
+      "description": "Просмотрите историю ваших недавно сыгранных игр bubble shooter."
     },
-    "title": "Play History",
-    "description": "Games you have played recently",
-    "noHistory": "You have not played any games yet",
-    "clearHistory": "Clear History",
-    "lastPlayed": "Last played",
-    "emptyMessage": "Your play history will appear here"
+    "title": "История игр",
+    "description": "Игры, в которые вы недавно играли",
+    "noHistory": "Вы еще не играли ни в какие игры",
+    "clearHistory": "Очистить историю",
+    "lastPlayed": "Последний раз играли",
+    "emptyMessage": "Ваша история игр появится здесь"
   },
   "navigation": {
-    "home": "Home",
-    "history": "History",
-    "random": "Random",
-    "allGames": "All Games"
+    "home": "Главная",
+    "history": "История",
+    "random": "Случайная",
+    "allGames": "Все игры"
+  },
+  "searchBar": {
+    "placeholder": "Поиск пузырьковых игр...",
+    "search": "Поиск"
   }
 }
