@@ -77,7 +77,7 @@ export default function SearchBar({ onSearch, defaultValue = '', initialMessages
           onChange={handleChange}
           onFocus={() => setIsFocused(true)}
           onBlur={() => setIsFocused(false)}
-          placeholder={initialMessages?.searchBar?.placeholder || "Search Bubble Games..."}
+          placeholder={initialMessages?.searchBar?.placeholder || "Search Games..."}
           className="w-full py-3 pl-12 pr-10 text-gray-700 dark:text-gray-200 bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-700 rounded-lg focus:outline-none"
         />
         <div className="absolute inset-y-0 left-0 flex items-center pl-3">

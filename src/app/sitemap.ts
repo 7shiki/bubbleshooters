@@ -27,7 +27,8 @@ function getGameData() {
 // 获取所有游戏路径
 function getGamePaths(): string[] {
     const gameData = getGameData()
-    return gameData.gameList ? gameData.gameList.map((game: any) => game.href) : []
+    // 使用 slice(1) 跳过数组中的第一个元素
+    return gameData.gameList ? gameData.gameList.slice(1).map((game: any) => game.href) : []
 }
 
 export default function sitemap(): MetadataRoute.Sitemap {
