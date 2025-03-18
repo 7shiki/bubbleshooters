@@ -27,7 +27,7 @@ export default function RootLayout({
       </head>
       <body className={`${inter.className} bg-white dark:bg-gray-900`}>
         {children}
-        <GoogleAnalytics GA_MEASUREMENT_ID="G-SSG1FNP0LX" />
+        <GoogleAnalytics GA_MEASUREMENT_ID="G-NS3QT1TZVV" />
       </body>
     </html>
   );

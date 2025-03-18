@@ -15,8 +15,7 @@ export const categories: Categories = {
         { icon: "🔥", name: 'Hot Games', href: '/hot-games', key: 'hot' },
         { icon: "✨", name: 'New Games', href: '/new-games', key: 'new' },
         { icon: "🧩", name: 'Puzzle Games', href: '/puzzle-games', key: 'puzzle' },
-        { icon: "🃏", name: 'Card Games', href: '/card-games', key: 'card' },
-        { icon: "🏃", name: 'Junping Games', href: '/junping-games', key: 'junping' },
+        { icon: "🏃", name: 'Jumping Games', href: '/jumping-games', key: 'jumping' },
         { icon: "🎶", name: 'Music Games', href: '/music-games', key: 'music' }
     ]
 } as const
