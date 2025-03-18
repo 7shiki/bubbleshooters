@@ -142,6 +142,11 @@ export default async function GamePage({ params }: Props) {
     )
     .slice(0, 5);
 
+    const randomGames = gameList
+    .filter((g: Game) => g.id !== game.id)
+    .sort(() => Math.random() - 0.5)
+    .slice(0, 10) as RelatedGame[]
+
   // Generate JSON-LD for SEO
   const generateJsonLd = () => {
     return {
@@ -299,7 +304,7 @@ export default async function GamePage({ params }: Props) {
               {/* More Games Section - Below the main content */}
               <section className="mb-8 w-full">
                 <div className="flex flex-wrap justify-center gap-4">
-                  {gameList.slice(5, 15).map((moreGame: Game) => (
+                  {randomGames.map((moreGame: RelatedGame) => (
                     <div key={moreGame.id} className="bg-white dark:bg-gray-800 rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-all duration-300 hover:shadow-xl">
                       <a href={params.locale === 'en' ? moreGame.href : `/${params.locale}${moreGame.href}`} className="block hover:opacity-95 transition-all">
                         <div className="relative" style={{ width: '180px', height: '100px' }}>
