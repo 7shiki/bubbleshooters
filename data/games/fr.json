@@ -1316,6 +1316,298 @@
                     }
                 ]
             }
+        },
+        {
+            "id": 21,
+            "title": "Bubble Piggies",
+            "platform": "New Games",
+            "imageUrl": "/images/games/bubble-piggies.png",
+            "href": "/new-games/bubble-piggies",
+            "description": "Step into a vibrant farm-themed world where you must free adorable piggies trapped in colorful bubbles! Match and pop bubbles across 50 exciting levels, rescue hidden and sleeping piggies, and use the special bubble tube to solve tricky challenges. With charming visuals and engaging gameplay, Bubble Piggies offers a delightful bubble-shooting adventure for players of all ages!",
+            "embedUrl": "https://www.bubbleshooter.com/games/bubble-piggies/",
+            "seoDescription": {
+                "sections": [
+                    {
+                        "title": "About Bubble Piggies",
+                        "content": "Bubble Piggies takes you on a charming journey through a colorful farm world filled with piggies trapped in bubbles waiting to be rescued. With 50 exciting levels to explore, each stage introduces new challenges and surprises. Use your bubble-shooting skills to aim, match, and pop bubbles of the same color to free the piggies. Hidden piggies and sleeping piggies add an extra layer of fun, requiring clever strategies and careful planning to rescue them all.",
+                        "subsections": [
+                            {
+                                "title": "How to Play Bubble Piggies",
+                                "content": "Aim and shoot bubbles to create clusters of three or more matching colors that pop and free the trapped piggies. Plan your shots carefully to reach hidden and sleeping piggies that require special strategies. Use the unique bubble tube to clear difficult areas and make your rescue mission easier. With each level successfully completed, you'll unlock new challenges and surprises as you progress through the game's 50 stages."
+                            },
+                            {
+                                "title": "Game Controls",
+                                "content": "Playing Bubble Piggies is intuitive and accessible on all devices. On desktop, use your mouse to aim and click to shoot bubbles. On mobile devices, simply drag your finger to aim and tap to shoot. The precise controls allow you to hit even the trickiest angles and perform the most complex rescue operations."
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": 22,
+            "title": "Bubble Town",
+            "platform": "New Games",
+            "imageUrl": "/images/games/bubble-town.png",
+            "href": "/new-games/bubble-town",
+            "description": "Join the Borb Bay Borbs in their fight against the invading Lumps! Shoot matching Borb heads, create clusters of three or more, and clear 50 challenging levels. Use strategic wall rebounds, unlock powerful boosters like Sureshots and BubbleBubbles, and overcome obstacles including jellyfish and shroud clouds. Help save Borb Bay in this charming bubble-popping adventure!",
+            "embedUrl": "https://en.gameslol.net/data/bubble-town/index.html",
+            "seoDescription": {
+                "sections": [
+                    {
+                        "title": "About Bubble Town",
+                        "content": "Bubble Town takes you to the whimsical world of Borb Bay, where the friendly Borbs need your help to stop an alien invasion by the mischievous Lumps. Armed with a clear cannon and guided by a laser aiming line, your mission is to shoot Borb heads to create matching sets of three or more across 50 increasingly challenging levels. With strategic wall rebounds, clever powerups, and various obstacles to overcome, this bubble-popping adventure offers a perfect blend of casual fun and tactical gameplay.",
+                        "subsections": [
+                            {
+                                "title": "How to Play Bubble Town",
+                                "content": "Aim and shoot Borb head projectiles at matching heads on the playfield to create clusters of three or more. When matches are made, the heads fall from the field, and non-matching heads connected below drop into your cannon for reuse. Use the laser aiming line to guide your shots, including strategic wall rebounds for hard-to-reach areas. Tackle obstacles like jellyfish, shroud clouds, and wooden crates while managing your projectile supply. If you run out, the field shifts down one row and your cannon refills. Be careful - if the heads reach the bottom of the field, it's game over!"
+                            },
+                            {
+                                "title": "Game Controls",
+                                "content": "On desktop, use your mouse to click buttons, drag to aim along the laser line, and click to shoot. On mobile devices, tap buttons, drag your finger or stylus to aim, and tap to fire. The game's intuitive controls make precision shots possible across all platforms."
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Game Features",
+                        "content": "Bubble Town combines classic bubble-shooting mechanics with unique elements and strategic powerups.",
+                        "subsections": [
+                            {
+                                "title": "Strategic Powerups",
+                                "content": "Master five different powerups to overcome challenging levels: Sureshots for perfect aim, BubbleBubbles that transform all hits to match, Hotfoots that act like fireballs, Plungers that take heads from the field into your cannon, and Wild heads that always make perfect matches. Deploy these tools strategically to progress through difficult levels."
+                            },
+                            {
+                                "title": "Swap Mechanic",
+                                "content": "Unlike traditional bubble shooters, Bubble Town introduces a unique head-swapping feature that allows you to exchange two heads to improve your chances of success. This strategic element adds depth to the gameplay and helps you overcome seemingly impossible situations."
+                            }
+                        ],
+                        "bulletPoints": [
+                            "50 challenging levels across Borb Bay",
+                            "Unique narrative with Borbs versus Lumps",
+                            "Five special powerups with distinct abilities",
+                            "Strategic head-swapping mechanic",
+                            "Laser aiming line for precision shots",
+                            "Various obstacles including jellyfish and shroud clouds",
+                            "Wall rebounds for advanced angle shots",
+                            "Clear cannon and tube feeding system",
+                            "Bonus points for large drops and trick shots",
+                            "Charming characters and vibrant visuals"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": 23,
+            "title": "Bubble Spinner",
+            "platform": "New Games",
+            "imageUrl": "/images/games/bubble-spinner.png",
+            "href": "/new-games/bubble-spinner",
+            "description": "Experience a revolutionary twist on classic bubble shooting with Bubble Spinner! Aim your shooter from the top at a spinning hexagon of colorful bubbles in the center. Each shot influences the rotation, creating a dynamic challenge that combines bubble matching with billiards-style physics. Use wall rebounds strategically, manage your limited shots wisely, and clear the entire spinning formation in this uniquely challenging free-to-play puzzle game!",
+            "embedUrl": "https://www.bubbleshooter.com/games/bubble-spinner/",
+            "seoDescription": {
+                "sections": [
+                    {
+                        "title": "About Bubble Spinner",
+                        "content": "Bubble Spinner revolutionizes the bubble shooter genre with its innovative spinning hexagon design. Unlike traditional bubble shooters with static rows at the top of the screen, this game challenges players to aim at a constantly rotating formation in the center. Set against a gradient blue-and-white background, this unique variant tests both your matching skills and your understanding of physics as each shot influences the hexagon's rotation speed and direction. With no targeting aids or power-ups, Bubble Spinner offers a pure, challenging experience for players looking to test their bubble-shooting prowess.",
+                        "subsections": [
+                            {
+                                "title": "How to Play Bubble Spinner",
+                                "content": "Position your arrow shooter at the top of the screen to aim at the spinning hexagon of multicolored bubbles in the center. Fire projectiles to match three or more bubbles of the same color, causing them to pop and disappear from the formation. Each impact affects the hexagon's rotation, sometimes spinning it faster or slower depending on your shot's angle and force. Use the side walls strategically for bank shots to hit otherwise unreachable bubbles. Watch your remaining shots, indicated by silver bubbles in the bottom-left corner - when they're gone, new bubbles will be added to the formation. Clear all bubbles before they expand to touch the walls or shooter to win."
+                            },
+                            {
+                                "title": "Game Controls",
+                                "content": "On desktop, use your mouse to position the arrow shooter and click to fire bubbles. On mobile devices, tap and drag to aim, then release to shoot. The controls are intentionally simple, focusing on the physics-based challenge rather than complex mechanics. Timing and precision are crucial as you adjust to the constantly moving target."
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Game Features",
+                        "content": "Bubble Spinner offers a refreshing take on the bubble shooter formula with its physics-based gameplay and unique challenges.",
+                        "subsections": [
+                            {
+                                "title": "Dynamic Spinning Mechanic",
+                                "content": "The game's central innovation is its rotating hexagon of bubbles that responds physically to each of your shots. This creates a constantly changing playfield that requires adaptive strategy and precise timing. Unlike static bubble shooters, you must account for both the current position of bubbles and predict how your shot will affect the hexagon's rotation."
+                            },
+                            {
+                                "title": "Physics-Based Strategy",
+                                "content": "Bubble Spinner introduces principles from billiards and pool into bubble shooting gameplay. Players can intentionally strike specific areas of the formation to rotate it into a more favorable position, adding a layer of strategic planning not found in traditional bubble shooters. Mastering these physics elements is key to clearing difficult arrangements with minimum shots."
+                            }
+                        ],
+                        "bulletPoints": [
+                            "Innovative spinning hexagon mechanic",
+                            "Top-down shooter perspective",
+                            "Physics-based rotation responses to impacts",
+                            "Strategic wall rebounds for trick shots",
+                            "No targeting aids for pure skill challenge",
+                            "Next bubble preview above the shooter",
+                            "Limited shots with silver bubble indicators",
+                            "Gradual difficulty increase as bubbles expand",
+                            "Gradient blue-and-white visual aesthetic",
+                            "Pure gameplay focus with no power-ups or boosters"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": 24,
+            "title": "Bubble Fall",
+            "platform": "New Games",
+            "imageUrl": "/images/games/bubble-fall.png",
+            "href": "/new-games/bubble-fall",
+            "description": "Take up position on a suspension bridge in Bubble Fall, where colorful plastic balls roll toward you in fascinating patterns! Shoot matching balls to create musical chain reactions, aim with precision using the golden laser targeting line, and release spectacular cascades from the furthest points. Unlock powerful boosters like bombs and rockets, discover gift boxes, and enjoy this uniquely immersive first-person bubble shooting experience!",
+            "embedUrl": "https://html5.gamedistribution.com/82c9d9ae7f6d4ca6b00b36025870d17a/",
+            "seoDescription": {
+                "sections": [
+                    {
+                        "title": "About Bubble Fall",
+                        "content": "Bubble Fall revolutionizes the bubble shooter genre with its unique first-person perspective and innovative downhill rolling mechanics. Positioned on a suspension bridge with a verdant forest backdrop, players face patterns of colorful plastic balls rolling toward them. Unlike traditional bubble shooters, your goal is to release balls from these patterns, sending them past your position where they pop with beautiful musical instrument sounds. With precise golden laser targeting, strategic multipliers, and powerful boosters, this immersive game creates a fresh and engaging bubble-popping experience.",
+                        "subsections": [
+                            {
+                                "title": "How to Play Bubble Fall",
+                                "content": "Review the two projectiles available in your ring shooter and select the one that will create a successful color match. Aim carefully using the golden laser targeting line to hit clusters of two or more matching balls in the approaching patterns. For maximum impact, target connections at the top of patterns furthest from your position, creating cascading releases. As balls roll past you and pop, they produce musical sounds and earn you points. Build consecutive releases to increase your point multipliers, and watch for special white gift boxes and boosters like bombs and rockets that can clear large sections at once."
+                            },
+                            {
+                                "title": "Game Controls",
+                                "content": "On desktop, use your mouse to click the screen, icons, and shooter. To fire a projectile, slide your mouse to aim along the golden laser line and click the left button. On mobile devices, tap the screen, icons, and shooter to interact. To shoot, slide your finger or stylus to aim and then tap the screen to fire. The intuitive controls combined with the precise targeting system make accurate shots possible on any platform."
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Game Features",
+                        "content": "Bubble Fall offers a fresh perspective on bubble-popping gameplay with unique mechanics and immersive elements.",
+                        "subsections": [
+                            {
+                                "title": "Immersive First-Person Perspective",
+                                "content": "Unlike traditional top-down or bottom-up bubble shooters, Bubble Fall places you in an almost first-person position on a suspension bridge. This unique viewpoint creates a more immersive experience as colorful patterns of balls roll down toward you, adding depth and dimension to the typical bubble shooter formula."
+                            },
+                            {
+                                "title": "Musical Popping Mechanics",
+                                "content": "When balls successfully roll past your position and out of view, they pop with beautiful musical instrument sounds. This audiovisual reward system adds a satisfying sensory element to successful matches and creates a melodic accompaniment to your gameplay that changes based on your actions."
+                            }
+                        ],
+                        "bulletPoints": [
+                            "Unique first-person bridge perspective",
+                            "Colorful rolling ball patterns",
+                            "Golden laser targeting line for precision aiming",
+                            "Musical instrument popping sounds",
+                            "Dual projectile selection system",
+                            "Bomb boosters that clear circular areas",
+                            "Rocket boosters that clear long strips",
+                            "White gift box special targets",
+                            "Progressive point multipliers for consecutive releases",
+                            "Verdant forest backdrop setting"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": 25,
+            "title": "Bubbles Shooter",
+            "platform": "New Games",
+            "imageUrl": "/images/games/bubbles-shooter.png",
+            "href": "/new-games/bubbles-shooter",
+            "description": "Dive into the elegant world of Bubbles Shooter, where precious metals and gemstone jewelry themes meet classic bubble-popping action! Aim your cannon to match and burst clusters of three or more identical cannonballs, swap projectiles strategically when needed, and master wall rebounds for tricky shots. Manage your five chances wisely as each mistake brings new challenges. Can you clear the entire playfield and achieve the highest score?",
+            "embedUrl": "https://play.famobi.com/bubbles-shooter/A-GH9UI",
+            "seoDescription": {
+                "sections": [
+                    {
+                        "title": "About Bubbles Shooter",
+                        "content": "Bubbles Shooter brings an elegant jewelry-inspired twist to the classic bubble-popping formula. Instead of traditional bubbles, this game features a cannon that fires cannonball projectiles at multicolored cannonball clusters arranged in rows. Set against a luxurious backdrop reminiscent of precious metals and gemstones, this engaging puzzle game challenges players to create strategic matches, build impressive streaks, and manage a unique swap system that tests both planning and precision.",
+                        "subsections": [
+                            {
+                                "title": "How to Play Bubbles Shooter",
+                                "content": "Aim your cannon at the colored cannonball bubbles on the playfield, targeting clusters where your projectile will connect with two or more matching adjacent balls. When you create a match of three or more identical cannonballs, they burst and disappear from the field. Maximize your score by creating large matches and maintaining streaks of successful shots. Use the preview located above the score display to plan your next move, and utilize the swap button when your current projectile doesn't offer a good matching opportunity. Be careful with your shots - after five non-matching attempts (tracked by light-gray cannonballs near the bottom-left corner), the game adds more cannonballs to the field and reduces your mistake allowance by one."
+                            },
+                            {
+                                "title": "Game Controls",
+                                "content": "On desktop, use your mouse to click buttons and interact with the game. To fire a cannonball, slide your mouse to aim the cannon and click to shoot. On mobile devices, tap buttons to interact with game elements. To fire, slide your finger or stylus to aim and tap to shoot. For challenging shots, use the side walls to bounce your projectiles and reach difficult angles."
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Game Features",
+                        "content": "Bubbles Shooter combines familiar bubble-popping mechanics with unique elements and strategic depth.",
+                        "subsections": [
+                            {
+                                "title": "Strategic Projectile Swap System",
+                                "content": "Unlike many traditional bubble shooters, Bubbles Shooter gives players the ability to swap their current projectile when needed. This tactical feature allows for more strategic planning and fewer wasted shots, helping players build longer match streaks and higher scores. However, careful resource management is still required, as the five-mistake allowance decreases after each penalty."
+                            },
+                            {
+                                "title": "Progressive Difficulty Mechanic",
+                                "content": "The game employs a clever progression system that adds challenge as you play. Each time you exhaust your five non-matching shots allowance, not only does the game add more cannonballs to the field, but it also reduces your allowance by one. This creates a steadily increasing difficulty curve that rewards precision and punishes careless play."
+                            }
+                        ],
+                        "bulletPoints": [
+                            "Elegant jewelry-inspired thematic design",
+                            "Cannon shooter instead of traditional arrow",
+                            "Strategic projectile swap functionality",
+                            "Next cannonball preview for planning ahead",
+                            "Progressive five-chance allowance system",
+                            "Wall rebound shots for hard-to-reach clusters",
+                            "Score multipliers for consecutive matches",
+                            "Bonus points for large match combinations",
+                            "High score tracking for competitive play",
+                            "Decreasing mistake allowance for increasing challenge"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": 26,
+            "title": "Bubble Shooter Arcade 2",
+            "platform": "New Games",
+            "imageUrl": "/images/games/bubble-shooter-arcade-2.png",
+            "href": "/new-games/bubble-shooter-arcade-2",
+            "description": "Take your bubble-popping skills to new heights with Bubble Shooter Arcade 2! Aim and match colorful bubble balls against the backdrop of a city skyline, swap between two projectiles for strategic advantage, and use the color-matched targeting line for precision shots. Race against the sliding timer bar, earn points in the scoring zone, and collect rainbow ball boosters to clear difficult sections. Play now for free!",
+            "embedUrl": "https://html5.gamedistribution.com/e50eb7a0efe14f19ae2233a20a762da3/",
+            "seoDescription": {
+                "sections": [
+                    {
+                        "title": "About Bubble Shooter Arcade 2",
+                        "content": "Bubble Shooter Arcade 2 enhances the original arcade experience with exciting new features and strategic elements. Set against a gradient-blue backdrop featuring a city skyline and rolling hills, this fast-paced bubble shooter challenges players to match and clear bubble balls before they slide past the horizontal timer bar. With the added ability to swap projectiles, color-matched targeting lines, and rainbow boosters, this sequel delivers more tactical depth while maintaining the addictive time-pressure gameplay that made the original a hit.",
+                        "subsections": [
+                            {
+                                "title": "How to Play Bubble Shooter Arcade 2",
+                                "content": "Check both available projectiles in your ring shooter and identify matching opportunities along the bottom rows of bubbles. Use the projectile swap feature (two semi-circular arrows inside the ring) to switch between your main and secondary bubble balls for optimal matching. Aim carefully using the dot-style, color-matched targeting line to create sets of three or more identical bubbles. When bubbles match and pop, you'll earn points based on the values in the points zone at the bottom of the screen. Work quickly - if bubbles slide past the horizontal timer bar above your shooter, the game ends. Keep an eye out for special rainbow ball boosters that can match with any color, though you can't swap projectiles when one is available."
+                            },
+                            {
+                                "title": "Game Controls",
+                                "content": "On desktop, use your mouse to click buttons and the projectile swap icon (two semi-circular arrows). To shoot a bubble ball, drag your mouse to aim along the dotted targeting line and click once to fire. On mobile devices, tap buttons and the swap icon to interact. To shoot, drag your finger or stylus to aim and then tap the screen to fire. The intuitive controls combined with the precise targeting system make accurate shots possible on any platform."
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Game Features",
+                        "content": "Bubble Shooter Arcade 2 builds upon the original game with enhanced strategic options and visual improvements.",
+                        "subsections": [
+                            {
+                                "title": "Projectile Swap Mechanic",
+                                "content": "Unlike the original Bubble Shooter Arcade, this sequel introduces a game-changing projectile swap feature that allows players to switch between their main and secondary bubble balls. This strategic addition gives you more control over your shots and lets you plan sequences of moves, significantly expanding the tactical depth of the gameplay."
+                            },
+                            {
+                                "title": "Urban Visual Theme",
+                                "content": "Trading the sky backdrop of the original for a stylish gradient-blue cityscape silhouette with hills, Bubble Shooter Arcade 2 creates a more sophisticated visual atmosphere. This urban setting provides a fresh aesthetic while maintaining the colorful bubble visuals that make the game so engaging."
+                            }
+                        ],
+                        "bulletPoints": [
+                            "Strategic projectile swap feature",
+                            "Dot-style color-matched targeting line",
+                            "Gradient-blue cityscape silhouette backdrop",
+                            "Horizontal timer bar creating urgency",
+                            "Rainbow ball boosters for special matches",
+                            "Points zone scoring system at screen bottom",
+                            "Continuation option after loss via ad watching",
+                            "Fast-paced arcade gameplay style",
+                            "Ring shooter with dual projectile display",
+                            "Free to play with optional ad support"
+                        ]
+                    }
+                ]
+            }
         }
     ]
 }

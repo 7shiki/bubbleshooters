@@ -170,7 +170,7 @@ export default async function Home({ params }: { params: { locale: string } }) {
               {/* Hot Games Section - Below the main content */}
               <section className="mb-8 w-full">
                 <div className="flex flex-wrap justify-center gap-4">
-                  {(formattedGames.slice(1, 6)).map((game: Game) => (
+                  {(formattedGames.slice(10, 15)).map((game: Game) => (
                     <div key={game.id} className="bg-white dark:bg-gray-800 rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-all duration-300 hover:shadow-xl">
                       <a href={params.locale === 'en' ? game.href : `/${params.locale}${game.href}`} className="block hover:opacity-95 transition-all">
                         <div className="relative" style={{ width: '180px', height: '100px' }}>
@@ -245,7 +245,7 @@ export default async function Home({ params }: { params: { locale: string } }) {
               {/* More Games Section - Below the main content */}
               <section className="mb-8 w-full">
                 <div className="flex flex-wrap justify-center gap-4">
-                  {formattedGames.slice(5, 15).map((game: Game) => (
+                  {formattedGames.slice(15, 25).map((game: Game) => (
                     <div key={game.id} className="bg-white dark:bg-gray-800 rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-all duration-300 hover:shadow-xl">
                       <a href={params.locale === 'en' ? game.href : `/${params.locale}${game.href}`} className="block hover:opacity-95 transition-all">
                         <div className="relative" style={{ width: '180px', height: '100px' }}>

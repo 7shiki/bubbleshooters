@@ -7,8 +7,8 @@ import GoogleAnalytics from '@/components/GoogleAnalytics'
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Retro Games",
-  description: "Play your favorite retro games online",
+  title: "Bubble Shooter",
+  description: "Bubble Shooter is a classic bubble-popping game that you can play online for free. It's easy to learn and hard to put down. Try it now!",
   robots: {
     index: true,
     follow: true

@@ -11,8 +11,8 @@ import { ThemeScript } from '@/components/layout/ThemeToggle'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'RetroGames - Play Classic Games Online',
-  description: 'Play your favorite retro games online. Collection of Nintendo, Sega, PlayStation, and Arcade classics.',
+  title: 'Play Bubble Shooter Game Online. No Download Required.',
+  description: 'Play bubble shooter game online for free in your browser. Enjoy classic, 3D, and puzzle bubble shooter unblocked games with no download required. Have fun!',
 }
 
 // 定义固定导航项
