@@ -11,9 +11,9 @@ interface Categories {
 
 export const categories: Categories = {
     categories: [
+        { icon: "🎯", name: 'Bubble Games', href: '/bubble-games', key: 'bubble' },
         { icon: "🔥", name: 'Hot Games', href: '/hot-games', key: 'hot' },
         { icon: "✨", name: 'New Games', href: '/new-games', key: 'new' },
-        { icon: "🎯", name: 'Bubble Games', href: '/bubble-games', key: 'bubble' },
         { icon: "🧩", name: 'Puzzle Games', href: '/puzzle-games', key: 'puzzle' },
         { icon: "🃏", name: 'Card Games', href: '/card-games', key: 'card' },
         { icon: "🏃", name: 'Junping Games', href: '/junping-games', key: 'junping' },
