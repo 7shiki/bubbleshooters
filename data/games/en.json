@@ -786,6 +786,536 @@
                     }
                 ]
             }
+        },
+        {
+            "id": 11,
+            "title": "Arkadium Bubble Shooter",
+            "platform": "Bubble Games",
+            "imageUrl": "/images/games/arkadium-bubble-shooter.png",
+            "href": "/bubble-games/arkadium-bubble-shooter",
+            "description": "Master the ancient art of bubble popping in Arkadium Bubble Shooter! Target colorful bubbles in an archaic columned setting, utilize powerful elemental powerups like lightning and bombs, and carry remaining moves to the next level. Strategically swap projectiles, aim with flowing dotted lines, and challenge yourself in this engaging free puzzle adventure!",
+            "embedUrl": "https://html5.gamedistribution.com/282e9611e25a46a9a491a63bc1da3ea7/",
+            "seoDescription": {
+                "sections": [
+                    {
+                        "title": "About Arkadium Bubble Shooter",
+                        "content": "Arkadium Bubble Shooter elevates the classic bubble-popping experience with an atmospheric ancient setting and powerful elemental challenges. Set among tall columns and arched doorways, this engaging puzzle game combines traditional matching mechanics with exciting powerups like electric bombs and horizontal lightning strikes. With level-based progression and move conservation mechanics, this Arkadium creation offers both strategic depth and visually striking gameplay.",
+                        "subsections": [
+                            {
+                                "title": "How to Play Arkadium Bubble Shooter",
+                                "content": "Aim bubbles that float up from a column to match and remove clusters of two or more identical bubbles hanging above. Use the flowing dotted line to guide your shots, including angle rebounds off the walls. Swap between available projectiles using the double-arrow icon for optimal matching. Clear each level using as few moves as possible - any remaining moves carry over to the next level, giving you a strategic advantage. Utilize special power bubbles like horizontal lightning arrows and various explosive bombs to clear large sections of the playfield at once."
+                            },
+                            {
+                                "title": "Game Controls",
+                                "content": "On desktop, drag your mouse to aim and click to shoot bubbles. On mobile devices, drag your finger or stylus to aim and tap to fire. The intuitive controls combined with the flowing dotted aiming line make precise shots possible on any platform, which is essential for targeting specific bubble clusters and activating powerups effectively."
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Game Features",
+                        "content": "Arkadium Bubble Shooter enhances the bubble shooter formula with unique elements and atmospheric design.",
+                        "subsections": [
+                            {
+                                "title": "Powerful Elemental Powerups",
+                                "content": "Discover and utilize a variety of special bubbles with devastating effects. Horizontal double-arrow bubbles unleash lightning that clears entire rows, while different types of bombs (purple electric, brown-black, and glowing burning variants) provide explosive solutions to challenging bubble arrangements."
+                            },
+                            {
+                                "title": "Move Conservation System",
+                                "content": "Unlike many bubble shooters, Arkadium's version rewards efficient play by carrying over unused moves to the next level. This unique mechanic encourages strategic planning and careful shot selection, adding depth to the traditional bubble-popping experience."
+                            }
+                        ],
+                        "bulletPoints": [
+                            "Atmospheric ancient setting with columns and arches",
+                            "Level-based progression with score tracking",
+                            "Flowing dotted line for precision aiming",
+                            "Multiple types of explosive and lightning powerups",
+                            "Strategic projectile swapping system",
+                            "Move conservation between levels",
+                            "Point multipliers for advanced levels",
+                            "Ancient-themed visual elements",
+                            "Wall-bouncing shot capabilities",
+                            "Free to play with engaging challenges"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": 12,
+            "title": "Bubble Shooter HD 2",
+            "platform": "Bubble Games",
+            "imageUrl": "/images/games/bubble-shooter-hd-2.png",
+            "href": "/bubble-games/bubble-shooter-hd-2",
+            "description": "Experience bubble popping perfected in Bubble Shooter HD 2! Enjoy glossy, paint-like bubbles in stunning high definition, choose from three difficulty levels, and aim with the semi-translucent targeting arrow. Match groups of three or more identical bubbles, create spectacular chain reactions, and challenge yourself to beat your highest score!",
+            "embedUrl": "https://html5.gamedistribution.com/79a7db22af5f420eb9d56e28fffca87b/",
+            "seoDescription": {
+                "sections": [
+                    {
+                        "title": "About Bubble Shooter HD 2",
+                        "content": "Bubble Shooter HD 2 builds upon its predecessor with enhanced visuals and refined gameplay mechanics. This classic bubble-popping game features beautiful high-definition bubbles with a glossy paint-like finish that adds visual depth to every shot. With three distinct difficulty levels, stat tracking, and responsive controls, this sequel delivers an engaging experience for both casual players and bubble shooter veterans.",
+                        "subsections": [
+                            {
+                                "title": "How to Play Bubble Shooter HD 2",
+                                "content": "Start by selecting your preferred difficulty level (Novice, Expert, or Master) using the hamburger icon and Difficulty button or by selecting the preset text. Review the projectile bubble in your shooter and aim using the semi-translucent targeting arrow. Fire at clusters of three or more identical-colored bubbles to make them burst in spectacular flashes of white light and color-matching rings. Connected bubbles below will also fall, creating chain reactions for higher scores. Be strategic with your shots - after five misses (tracked by gray bubbles), a new row will be added to the field, increasing the challenge."
+                            },
+                            {
+                                "title": "Game Controls",
+                                "content": "On desktop, use your mouse to click buttons, icons, and text options. Drag to aim the targeting arrow and click once to shoot. On mobile devices, tap buttons, icons, and text selections. Drag your finger or stylus to aim and tap once to fire. The game's responsive controls ensure precise aiming across all platforms."
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Game Features",
+                        "content": "Bubble Shooter HD 2 enhances the classic formula with modern features and polished presentation.",
+                        "subsections": [
+                            {
+                                "title": "Multiple Difficulty Levels",
+                                "content": "Choose from three distinct challenge levels - Novice, Expert, and Master - to match your skill level or push your abilities. Each difficulty setting adjusts the bubble arrangements and sliding speed to provide the perfect balance of fun and challenge."
+                            },
+                            {
+                                "title": "Comprehensive Stats Tracking",
+                                "content": "Monitor your progress and achievements through the integrated stats system. Your all-time best score is prominently displayed with a trophy icon near the top-left corner. Access detailed statistics through this area or the Stats button in the hamburger menu to track your improvement over time."
+                            }
+                        ],
+                        "bulletPoints": [
+                            "High-definition glossy paint-like bubbles",
+                            "Three adjustable difficulty levels",
+                            "Semi-translucent frosted targeting arrow",
+                            "Spectacular visual effects when bubbles burst",
+                            "Five-miss allowance system with gray bubble indicators",
+                            "Comprehensive statistics tracking",
+                            "Trophy icon displaying best score achievement",
+                            "Progressive challenge with multiple row additions",
+                            "Free to play in your browser",
+                            "Compatible with both desktop and mobile devices"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": 13,
+            "title": "Bubble Hit",
+            "platform": "Bubble Games",
+            "imageUrl": "/images/games/bubble-hit.png",
+            "href": "/bubble-games/bubble-hit",
+            "description": "Pop micro-bubbles with precision in Bubble Hit! Match colorful bubbles, create avalanche reactions for maximum points, and customize your background with RGB color adjustments. Keep an eye on your foul counter and next bubble preview while tracking your wins and losses. Play this customizable bubble shooter free now!",
+            "embedUrl": "https://html5.gamedistribution.com/502af82350a44582b6e51d467285a8c0/",
+            "seoDescription": {
+                "sections": [
+                    {
+                        "title": "About Bubble Hit",
+                        "content": "Bubble Hit brings a distinctive micro-bubble twist to the classic bubble shooter formula. Aim and fire at clusters of matching bubbles to clear the board and rack up points in this addictive puzzle game. With customizable backgrounds, detailed statistics tracking, and strategic gameplay mechanics, Bubble Hit offers both visual personalization and challenging bubble-popping action.",
+                        "subsections": [
+                            {
+                                "title": "How to Play Bubble Hit",
+                                "content": "Start by using the Options button to customize your board and background colors to your preference. Aim your arrow shooter at clusters of two or more linked, identical-colored bubbles to make them burst. Check the next projectile color displayed between the foul counter and shooter to plan strategic shots. For maximum points, try to create avalanche effects by removing bubbles that support large clusters of non-matching ones. Pay attention to your foul counter in the silver circle - you start with five chances, but this number decreases with each new round."
+                            },
+                            {
+                                "title": "Game Controls",
+                                "content": "On desktop, click buttons to access game options, slide your mouse to aim the arrow, and click once to shoot. On mobile devices, tap buttons, slide your finger or stylus to aim, and tap once to fire. The game's intuitive controls ensure precise aiming across all platforms."
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Game Features",
+                        "content": "Bubble Hit combines classic bubble shooter gameplay with unique personalization options and detailed stats tracking.",
+                        "subsections": [
+                            {
+                                "title": "Customizable Background",
+                                "content": "Unlike many bubble shooters, Bubble Hit allows you to adjust the red, green, and blue tones to create a personalized background color that suits your preferences. This customization feature lets you move beyond the standard blue background typical of basic bubble shooter games."
+                            },
+                            {
+                                "title": "Comprehensive Statistics",
+                                "content": "Track your progress with detailed statistics that show your wins, losses, and winning percentage. Use the Statistics button to view your data or reset it if you want to start fresh. This feature adds a competitive element that encourages improvement and repeated play."
+                            }
+                        ],
+                        "bulletPoints": [
+                            "Unique micro-bubble visual style",
+                            "RGB background color customization",
+                            "Detailed win/loss statistics tracking",
+                            "Progressive foul allowance system",
+                            "Next bubble preview for strategic planning",
+                            "Avalanche scoring mechanics for high points",
+                            "Five-foul allowance that decreases each round",
+                            "Simple arrow shooter with precise controls",
+                            "Free to play with no downloads required",
+                            "Perfect for both quick sessions and extended play"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": 14,
+            "title": "Bubble Shooter Pro 2",
+            "platform": "Bubble Games",
+            "imageUrl": "/images/games/bubble-shooter-pro-2.png",
+            "href": "/bubble-games/bubble-shooter-pro-2",
+            "description": "Master fast-paced bubble-popping action in Bubble Shooter Pro 2! Match and shoot colorful bubbles before they reach the bottom of the screen, watch them bounce into point-reward zones worth up to 1,000 points, and build exciting combo streaks. Collect bombs, unleash fireballs, and enjoy encouraging emojis in this free sequel to the popular bubble shooter!",
+            "embedUrl": "https://html5.gamedistribution.com/4083ecb5efb64504a7904361c7def2ab/",
+            "seoDescription": {
+                "sections": [
+                    {
+                        "title": "About Bubble Shooter Pro 2",
+                        "content": "Bubble Shooter Pro 2 builds upon its predecessor with faster gameplay and enhanced reward systems. This exciting sequel challenges players to clear bubbles quickly as they slide down a dark blue playfield toward the bottom of the screen. With color-matched targeting lines, escalating point values, and special power-ups, this installment in the Pro series delivers an intense bubble-popping experience focused on achieving high scores and building impressive combo streaks.",
+                        "subsections": [
+                            {
+                                "title": "How to Play Bubble Shooter Pro 2",
+                                "content": "Check your projectile color and quickly find matching bubbles along the bottom row of the descending bubble formation. Aim using the colored dotted targeting line and shoot to connect with two or more linked matching bubbles. When bubbles pop, they'll drop into point-reward zones at the bottom of the screen (starting at 50 | 100 | 250 | 100 | 50 points). Build consecutive matches to increase your combo counter and set the Combo area on fire, boosting potential points up to 1,000. If no immediate match-3 is available, hit a single matching bubble to set up future shots. Use bombs and fireballs strategically when they appear to clear large sections at once."
+                            },
+                            {
+                                "title": "Game Controls",
+                                "content": "On desktop, use your mouse to click buttons, slide to aim the targeting line, and click once to shoot. On mobile devices, tap buttons, slide your finger or stylus to aim, and tap once to fire. The responsive controls ensure precise aiming across all platforms, which is crucial for the game's fast-paced action."
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Game Features",
+                        "content": "Bubble Shooter Pro 2 enhances the bubble shooter experience with unique mechanics and rewarding progression systems.",
+                        "subsections": [
+                            {
+                                "title": "Dynamic Point System",
+                                "content": "Unlike traditional bubble shooters, Pro 2 features an evolving point-reward system that increases in value as you play well. Starting at 50 | 100 | 250 | 100 | 50, point values can escalate to 60 | 120 | 300 | 120 | 60 and beyond, with combo streaks potentially boosting rewards to an impressive 1,000 points per bubble."
+                            },
+                            {
+                                "title": "Combo Streak Mechanics",
+                                "content": "Build consecutive successful matches to increase your combo counter displayed in the Combo area. As your streak grows, the area visually catches fire, indicating higher point multipliers. This exciting feature rewards skilled play and quick reactions with significantly higher scores."
+                            }
+                        ],
+                        "bulletPoints": [
+                            "Fast-paced descending bubble mechanic",
+                            "Color-matched dotted targeting lines",
+                            "Escalating point-reward zones up to 1,000 points",
+                            "Visual 'on-fire' combo streak indicator",
+                            "Special bombs and random fireball power-ups",
+                            "Encouraging emojis and positive feedback",
+                            "Dark blue playfield with vibrant bubbles",
+                            "Progressive difficulty as game advances",
+                            "Free to play with no downloads required",
+                            "Perfect for players seeking high-score challenges"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": 15,
+            "title": "Bubble Shooter Free 2",
+            "platform": "Bubble Games",
+            "imageUrl": "/images/games/bubble-shooter-free-2.png",
+            "href": "/bubble-games/bubble-shooter-free-2",
+            "description": "Level up your bubble-popping experience with Bubble Shooter Free 2! Aim and match glossy paint-like bubbles, swap between two projectiles strategically, and earn golden ball boosters to clear difficult sections. Watch bubbles bounce into point-reward zones, climb the trophy leaderboard, and enjoy this enhanced free sequel with new gameplay features!",
+            "embedUrl": "https://html5.gamedistribution.com/e070a105ee1944bab21795441760a839/",
+            "seoDescription": {
+                "sections": [
+                    {
+                        "title": "About Bubble Shooter Free 2",
+                        "content": "Bubble Shooter Free 2 builds upon the success of its predecessor with enhanced gameplay features and new strategic elements. This sequel maintains the glossy, wet paint-like bubbles that players love while introducing dual projectile management, golden ball boosters, and a trophy leaderboard system. Perfect for both casual players looking for quick entertainment and dedicated gamers aiming to climb the rankings.",
+                        "subsections": [
+                            {
+                                "title": "How to Play Bubble Shooter Free 2",
+                                "content": "Aim and shoot bubbles to create matches of three or more identical adjacent bubbles. When bubbles pop, they bounce into five different point-value sections arranged horizontally near the shooter. Take advantage of the new dual projectile system by using the swap tool (two arrows to the right of the projectile) to switch between your available bubbles for better matching opportunities. Charge your shooter by making successful matches to earn powerful golden ball boosters that can clear non-matching bubbles. For maximum points, create shots that drop both matched and non-matching bubble groups at once."
+                            },
+                            {
+                                "title": "Game Controls",
+                                "content": "On desktop, use your mouse to click buttons, drag to aim at the bubbles, and click to shoot. On mobile devices, tap buttons, drag your finger or stylus to aim, and tap to fire. The game's responsive controls ensure precise aiming across all platforms, which is essential for scoring difficult shots and earning bonus points."
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Game Features",
+                        "content": "Bubble Shooter Free 2 introduces exciting new features while enhancing the core bubble-popping gameplay.",
+                        "subsections": [
+                            {
+                                "title": "Dual Projectile System",
+                                "content": "Unlike the original game, Free 2 gives you access to two projectiles simultaneously, drastically expanding your strategic options. Use the swap tool to switch between bubbles and set up optimal matches, though be aware that after three swaps, you'll need to watch an ad to continue using this feature."
+                            },
+                            {
+                                "title": "Golden Ball Boosters",
+                                "content": "Replacing the rainbow swirl from the original game, the new golden ball booster with a white light center provides a powerful way to clear troublesome non-matching bubbles. Charge your shooter by making successful matches to earn this special projectile and use it strategically to clear difficult sections of the playfield."
+                            }
+                        ],
+                        "bulletPoints": [
+                            "Glossy paint-like bubble visuals",
+                            "Dual projectile management system",
+                            "Strategic projectile swap tool",
+                            "Golden ball boosters with white light centers",
+                            "Five-section point reward zones",
+                            "Bonus points for difficult shots",
+                            "Trophy leaderboard ranking system",
+                            "Chain reaction and avalanche mechanics",
+                            "Completely free with optional ads",
+                            "Enhanced sequel with improved features"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": 16,
+            "title": "Bubble Shooter Free 3",
+            "platform": "Bubble Games",
+            "imageUrl": "/images/games/bubble-shooter-free-3.png",
+            "href": "/bubble-games/bubble-shooter-free-3",
+            "description": "Dive into the exciting world of Bubble Shooter Free 3, the highly anticipated sequel that takes bubble-popping to new heights! Strategically swap bubbles with the new 'Bubble Swap' feature, unleash powerful BOMB explosions that clear up to 15 bubbles at once, and enjoy endless gameplay with no time limits. Pop colorful bubbles now in this free-to-play puzzle adventure!",
+            "embedUrl": "https://html5.gamedistribution.com/baa3715d0735443f9fe81631bb373f3d/",
+            "seoDescription": {
+                "sections": [
+                    {
+                        "title": "About Bubble Shooter Free 3",
+                        "content": "Bubble Shooter Free 3 delivers the next evolution in the popular Bubble Shooter Free series with enhanced strategic options and explosive new features. This highly anticipated third installment combines the classic bubble-matching gameplay fans love with innovative mechanics like the Bubble Swap feature and powerful bombs. With unlimited gameplay time and intuitive controls, this addictive puzzle game offers hours of engaging entertainment for players of all skill levels.",
+                        "subsections": [
+                            {
+                                "title": "How to Play Bubble Shooter Free 3",
+                                "content": "Use the arrow at the bottom of the screen to aim your shots at clusters of matching bubbles. Match and clear groups of three or more same-colored bubbles to remove them from the board. Take advantage of the strategic Bubble Swap feature that allows you to switch your current bubble with the next one (shown in the bottom left) to create optimal matching opportunities. Keep the playfield clear by making consistent matches - missing shots will add new rows, pushing bubbles closer to the bottom. Be careful not to let bubbles reach the bottom of the screen, or it's game over! For maximum impact, use BOMB power-ups to create massive explosions that can clear up to 15 bubbles at once."
+                            },
+                            {
+                                "title": "Game Controls",
+                                "content": "The controls in Bubble Shooter Free 3 are simple and intuitive. On desktop, use your mouse to aim the arrow and click to shoot bubbles. Use the swap button to exchange your current bubble with the next one. On mobile devices, simply tap and drag to aim, then release to shoot. Tap the swap button to switch bubbles. The responsive controls ensure precise aiming across all platforms for the perfect bubble-popping experience."
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Game Features",
+                        "content": "Bubble Shooter Free 3 introduces exciting new mechanics while perfecting the classic bubble-popping formula.",
+                        "subsections": [
+                            {
+                                "title": "Bubble Swap Strategic Feature",
+                                "content": "The innovative Bubble Swap mechanic takes strategic gameplay to a new level by allowing players to exchange their current bubble with the upcoming one. This feature opens up countless tactical possibilities, letting you plan several moves ahead and create spectacular chain reactions that weren't possible in previous games."
+                            },
+                            {
+                                "title": "Powerful BOMB Power-ups",
+                                "content": "Clear challenging sections with ease using the game's impressive BOMB power-ups. These explosive boosters can clear up to 15 bubbles in a single blast, making them perfect for difficult situations or creating dramatic chain reactions. Strategic deployment of these bombs can turn a losing game into a spectacular victory."
+                            }
+                        ],
+                        "bulletPoints": [
+                            "Endless gameplay with no time limits",
+                            "Strategic Bubble Swap feature",
+                            "Powerful BOMB power-ups clearing up to 15 bubbles",
+                            "Intuitive aiming and shooting controls",
+                            "Next bubble preview for planning ahead",
+                            "Progressive difficulty as bubbles approach bottom",
+                            "Colorful bubble visuals and satisfying pop effects",
+                            "Chain reaction mechanics for higher scores",
+                            "Free to play with no downloads required",
+                            "Perfect for both quick sessions and extended play"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": 17,
+            "title": "Bubble Shooter Pro 4",
+            "platform": "Bubble Games",
+            "imageUrl": "/images/games/bubble-shooter-pro-4.png",
+            "href": "/bubble-games/bubble-shooter-pro-4",
+            "description": "Take on the ultimate bubble challenge in Bubble Shooter Pro 4! Match and shoot colorful bubbles with precision aiming, build impressive streak multipliers, and compete against other players on the leaderboard. Watch bubbles bounce into point zones, unleash fireballs and golden bombs, and enjoy the most advanced entry in the Pro series. Play free now!",
+            "embedUrl": "https://html5.gamedistribution.com/a2cd0ba0848b49b98ade7d2b8553f09d/",
+            "seoDescription": {
+                "sections": [
+                    {
+                        "title": "About Bubble Shooter Pro 4",
+                        "content": "Bubble Shooter Pro 4 represents the pinnacle of the popular Pro series with enhanced competitive features and refined gameplay mechanics. Set against a sleek dark blue playfield bordered by royal blue panels, this advanced bubble shooter challenges players to clear sliding walls of multicolored bubbles while competing against others on the leaderboard. With streak multipliers, special power-ups, and a dynamic point system, this fourth installment delivers the most comprehensive bubble-popping experience for competitive players.",
+                        "subsections": [
+                            {
+                                "title": "How to Play Bubble Shooter Pro 4",
+                                "content": "Aim your shooter at clusters of matching bubbles using the color-matched dotted targeting line for precision. Fire projectiles to connect with three or more identical bubbles to knock them from the wall along with any connected non-matching ones. When bubbles fall to the bottom of the field, they'll bounce into different point zones, earning you scores based on where they land. Build consecutive successful matches to increase your streak multiplier, which enhances your score and eventually rewards you with special fireballs and golden bomb boosters. Keep an eye on your ranking against other players in the right panel and aim to earn enough points to win gifts."
+                            },
+                            {
+                                "title": "Game Controls",
+                                "content": "On desktop, use your mouse to click buttons, slide to aim using the targeting line, and click once to shoot. On mobile devices, tap buttons, slide your finger or stylus to aim, and tap once to fire. The responsive controls ensure precise aiming across all platforms, which is essential for maintaining streaks and achieving high scores."
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Game Features",
+                        "content": "Bubble Shooter Pro 4 enhances the Pro series with competitive elements and rewarding gameplay mechanics.",
+                        "subsections": [
+                            {
+                                "title": "Competitive Leaderboard System",
+                                "content": "Challenge yourself against other players through the integrated ranking system. Track your position relative to competitors in the right panel and see exactly how many points you need to overtake the next player. This competitive element adds excitement and long-term engagement to the classic bubble-popping formula."
+                            },
+                            {
+                                "title": "Dynamic Reward System",
+                                "content": "Build your streak multiplier through consecutive successful matches to unlock powerful special abilities. Earn fireballs that can destroy entire lines of bubbles regardless of color, and collect golden bomb boosters capable of removing large clusters of multicolored bubbles at once. As your performance improves, point zones increase in size, offering even greater scoring opportunities."
+                            }
+                        ],
+                        "bulletPoints": [
+                            "Sleek dark blue playfield with royal blue borders",
+                            "Color-matched dotted targeting lines for precision aiming",
+                            "Dynamic point zones with variable scoring",
+                            "Streak multiplier system with visual indicators",
+                            "Special fireball power-ups for line clearing",
+                            "Golden bomb boosters for massive cluster removal",
+                            "Competitive player ranking and overtaking mechanics",
+                            "Gift rewards for achieving score milestones",
+                            "Ball-like bubble physics with realistic bouncing",
+                            "Free to play with optional ad support for extra bombs"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": 18,
+            "title": "Bubble Shooter Arcade",
+            "platform": "Bubble Games",
+            "imageUrl": "/images/games/bubble-shooter-arcade.png",
+            "href": "/bubble-games/bubble-shooter-arcade",
+            "description": "Race against time in the thrilling Bubble Shooter Arcade! Match and pop colorful bubble balls before they slide too close to your ring shooter, watch them bounce into point zones, and earn powerful rainbow wildcards. Monitor the color-changing timer bar, aim with precision, and see if you can beat your highest rank in this fast-paced bubble popping challenge!",
+            "embedUrl": "https://html5.gamedistribution.com/42deccbbdde24144bb9e231375ccbf60/",
+            "seoDescription": {
+                "sections": [
+                    {
+                        "title": "About Bubble Shooter Arcade",
+                        "content": "Bubble Shooter Arcade adds exciting time pressure to the classic bubble-popping formula. Set against a beautiful cloudy blue sky, this fast-paced variant challenges players to clear bubbles quickly before they slide too close to the shooter. With bouncing ball physics, a dynamic point system, and a color-changing timer that creates urgency, this arcade version delivers an adrenaline-fueled bubble-popping experience that tests both accuracy and quick thinking.",
+                        "subsections": [
+                            {
+                                "title": "How to Play Bubble Shooter Arcade",
+                                "content": "Aim your ring shooter using the targeting dots to match three or more connected bubbles of the same color. When bubbles match, they disconnect from the rows, bounce into different point-value zones (50, 100, 250, 100, 50), and then pop. Work quickly - a horizontal color-changing timer bar above your shooter transitions from green to yellow to red, and when it disappears completely, another row of bubbles slides onto the playfield. Set up future shots strategically when immediate matches aren't available. When your shooter ring fills with color, you'll earn a special rainbow ball wildcard that can match with any color bubble."
+                            },
+                            {
+                                "title": "Game Controls",
+                                "content": "On desktop, use your mouse to click buttons, drag to aim the targeting dots, and click to shoot. On mobile devices, tap buttons, drag your finger or stylus to aim, and tap to fire. The game's responsive controls ensure precise aiming across all platforms, which is crucial given the time pressure of this arcade version."
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Game Features",
+                        "content": "Bubble Shooter Arcade enhances the classic formula with unique time-based challenges and arcade elements.",
+                        "subsections": [
+                            {
+                                "title": "Dynamic Timer System",
+                                "content": "Unlike traditional bubble shooters, Arcade features a color-changing horizontal bar that serves as a visual timer. This innovative mechanic creates exciting urgency as it transitions from green to yellow to red, adding a thrilling arcade feel to the familiar bubble-popping gameplay."
+                            },
+                            {
+                                "title": "Bouncing Ball Physics",
+                                "content": "Experience satisfying bubble physics as matched bubbles disconnect, bounce realistically into the point zones below, and then pop. This dynamic scoring mechanism adds visual interest and strategic depth, as players aim to bounce bubbles into the highest-value central zone."
+                            }
+                        ],
+                        "bulletPoints": [
+                            "Fast-paced arcade gameplay with time pressure",
+                            "Color-changing timer bar for added urgency",
+                            "Beautiful cloudy blue sky background",
+                            "Realistic bouncing bubble ball physics",
+                            "Five-section point reward system",
+                            "Special rainbow wildcard bubble power-ups",
+                            "Rank and score tracking between games",
+                            "Pause feature with stats review",
+                            "Free to play with no downloads required",
+                            "Perfect for players who enjoy quick-reflex challenges"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": 19,
+            "title": "Bubble Pop Classic",
+            "platform": "Bubble Games",
+            "imageUrl": "/images/games/bubble-pop-classic.png",
+            "href": "/bubble-games/bubble-pop-classic",
+            "description": "Embark on an ancient temple adventure in Bubble Pop Classic! Complete challenging missions, match bubbles with precision using your color-matched laser targeting, and unleash powerful boosters like dynamite and rainbow bubbles. Collect gems, break pots, earn coins and stars, and unlock exciting new levels in this free-to-play bubble popping journey!",
+            "embedUrl": "https://html5.gamedistribution.com/af7cfef6188946238ebd05be888ad4c7/",
+            "seoDescription": {
+                "sections": [
+                    {
+                        "title": "About Bubble Pop Classic",
+                        "content": "Bubble Pop Classic takes bubble-popping to new heights with an engaging mission-based structure set in an ancient temple environment. This adventure-filled game challenges players to complete various objectives like clearing bubble patterns, collecting gemstones, transforming soap bubbles, breaking ceramic pots, and knocking away metal balls. With strategic memorization elements, powerful boosters, and rewarding treasure systems, this classic bubble shooter offers depth beyond the traditional formula.",
+                        "subsections": [
+                            {
+                                "title": "How to Play Bubble Pop Classic",
+                                "content": "Each level begins with a brief preview of the complete bubble pattern before hiding most of it from view. Try to memorize the layout to plan your strategy before bubbles slide down from the top. Use your ring shooter and precision color-matched laser targeting line to aim projectiles at clusters of three or more matching bubbles. Swap between your two available projectiles by selecting the ring when needed. Utilize special bubbles like dynamite to create explosive chain reactions, and build consecutive hits to charge powerful boosters such as bombs and rainbow bubbles. Complete the specific mission objectives for each level to earn stars, coins, and unlock new challenges."
+                            },
+                            {
+                                "title": "Game Controls",
+                                "content": "On desktop, use your mouse to click buttons, slide to aim your laser-guided shots (including wall-angled rebounds), and click to shoot. On mobile devices, tap buttons, slide your finger or stylus to aim, and tap to fire. The game's responsive controls and precision laser targeting ensure accurate shots across all platforms."
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Game Features",
+                        "content": "Bubble Pop Classic combines traditional bubble-popping with adventure elements and mission-based progression.",
+                        "subsections": [
+                            {
+                                "title": "Diverse Mission Objectives",
+                                "content": "Unlike standard bubble shooters, Bubble Pop Classic features varied missions that keep gameplay fresh and engaging. From collecting hidden gemstones and transforming soap bubbles to breaking ceramic pots and clearing specific patterns, each level presents unique challenges that require different strategies to overcome."
+                            },
+                            {
+                                "title": "Strategic Boosters and Power-ups",
+                                "content": "Master a wide array of powerful tools to overcome challenging levels. Trigger dynamite bubbles to create explosive chain reactions, charge and deploy bombs to clear sections of the playfield, and use rainbow bubbles strategically to eliminate multiple color clusters with a single shot. The game rewards skillful play with increasingly powerful booster options."
+                            }
+                        ],
+                        "bulletPoints": [
+                            "Ancient temple setting with immersive visuals",
+                            "Mission-based gameplay with varied objectives",
+                            "Pattern memorization strategic element",
+                            "Precision color-matched laser targeting system",
+                            "Dual swappable projectile mechanic",
+                            "Explosive power-ups including dynamite and bombs",
+                            "Rainbow bubbles for multi-cluster clearing",
+                            "Treasure chests and spin-wheel prize rewards",
+                            "Bonus points for avalanches and leftover projectiles",
+                            "Progressive difficulty with unlockable levels"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": 20,
+            "title": "Bubble Shooter HD 3",
+            "platform": "Bubble Games",
+            "imageUrl": "/images/games/bubble-shooter-hd-3.png",
+            "href": "/bubble-games/bubble-shooter-hd-3",
+            "description": "Experience the ultimate high-definition bubble popping in Bubble Shooter HD 3! Customize your background with RGB sliders, choose from three difficulty levels, select your preferred targeting style, and unleash powerful gold bombs that clear 15 bubbles at once. Enjoy soothing variable pop sounds and stunning glossy candy-colored bubbles in this free-to-play HD adventure!",
+            "embedUrl": "https://html5.gamedistribution.com/03e358cc3331480795d74a55e4283686/",
+            "seoDescription": {
+                "sections": [
+                    {
+                        "title": "About Bubble Shooter HD 3",
+                        "content": "Bubble Shooter HD 3 takes the beloved HD series to new heights with enhanced customization options and exciting gameplay additions. This latest installment maintains the stunning high-definition graphics and glossy candy-colored bubbles fans love while introducing powerful gold bombs, customizable targeting options, and soothing variable pop sounds. With fully adjustable background colors and multiple difficulty settings, this definitive bubble shooter offers the perfect blend of classic gameplay and modern features.",
+                        "subsections": [
+                            {
+                                "title": "How to Play Bubble Shooter HD 3",
+                                "content": "Start by accessing the menu tab (marked with three horizontal lines) in the lower-right corner to customize your experience. Adjust the background color using three RGB sliders, select your preferred difficulty level (Novice, Expert, or Master), and choose between a frosted dotted targeting line or a frosted pointer arrow. Aim your shooter at clusters of matching bubbles on the playfield, focusing on groups of three or more identical colors. Check the preview bubble in the lower-left area to plan strategic shots. Use your five silver-gray chances wisely - they decrease with each non-matching shot, and when they're gone, a new row appears. For maximum impact, deploy your three free gold bombs strategically to clear a massive radius of 15 bubbles at once."
+                            },
+                            {
+                                "title": "Game Controls",
+                                "content": "On desktop, use your mouse to click buttons and icons, slide to aim with your chosen targeting aid (dotted line or arrow), and click to shoot. On mobile devices, tap buttons and icons, slide your finger or stylus to aim, and tap to fire. The responsive controls ensure precise aiming across all platforms for the perfect bubble-popping experience."
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Game Features",
+                        "content": "Bubble Shooter HD 3 enhances the HD series with unique customization options and gameplay improvements.",
+                        "subsections": [
+                            {
+                                "title": "Advanced Customization Options",
+                                "content": "Unlike previous versions, HD 3 offers unprecedented personalization with RGB sliders that allow for precise background color adjustments. Additionally, players can choose their preferred targeting style - either the classic frosted dotted line or a frosted pointer arrow - to match their personal aiming preferences."
+                            },
+                            {
+                                "title": "Powerful Gold Bombs",
+                                "content": "Tackle challenging bubble arrangements with three free gold-colored round bombs that clear a massive radius of 15 bubbles at once. These powerful tools provide strategic options for clearing difficult sections and creating spectacular chain reactions that weren't possible in earlier installments."
+                            }
+                        ],
+                        "bulletPoints": [
+                            "Stunning high-definition glossy bubble graphics",
+                            "RGB slider background color customization",
+                            "Three difficulty levels: Novice, Expert, and Master",
+                            "Choice between dotted line or pointer arrow targeting",
+                            "Powerful gold bombs clearing 15 bubbles at once",
+                            "Soothing variable bubble-popping sound effects",
+                            "Five-miss allowance system with decreasing chances",
+                            "Automatic random bubble popping with new rows",
+                            "Next bubble preview for strategic planning",
+                            "Free to play with no downloads required"
+                        ]
+                    }
+                ]
+            }
         }
     ]
 }
