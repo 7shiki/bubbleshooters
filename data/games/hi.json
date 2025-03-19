@@ -2,187 +2,187 @@
     "gameList": [
         {
             "id": 1,
-            "title": "Bubble Shooter",
+            "title": "बुलबुले शूटर",
             "platform": "Bubble Games",
             "imageUrl": "/images/games/bubble-shooter.png",
             "href": "/",
-            "description": "Match colorful bubbles in this addictive classic puzzle game. Aim, shoot, and create satisfying chain reactions to clear the board. Play now for free, no download required! Have fun!",
+            "description": "इस लत लगाने वाले क्लासिक पहेली गेम में रंगीन बुलबुलों को मिलाएं। निशाना लगाएं, गोली चलाएं, और बोर्ड को साफ करने के लिए संतोषजनक श्रृंखला प्रतिक्रियाएँ बनाएं। अभी मुफ्त में खेलें, डाउनलोड की आवश्यकता नहीं! मज़े करें!",
             "embedUrl": "https://cdn.bubbleshooter.com/games/bubbleshooter-game/",
             "seoDescription": {
                 "sections": [
                     {
-                        "title": "About Bubble Shooter",
-                        "content": "Welcome to Bubble Shooter, the addictive bubble-popping game that has captivated millions of players worldwide. This classic puzzle game combines strategy, skill, and a bit of luck as you aim to clear the playfield of colorful bubbles. Whether you're looking for a quick gaming session during your coffee break or an engaging challenge to test your skills, Bubble Shooter offers the perfect blend of casual fun and strategic depth.",
+                        "title": "बुलबुले शूटर के बारे में",
+                        "content": "बुलबुले शूटर में आपका स्वागत है, यह एक लत लगाने वाला बुलबुला-फोड़ने वाला गेम है जिसने दुनिया भर में लाखों खिलाड़ियों को मंत्रमुग्ध किया है। यह क्लासिक पहेली गेम रणनीति, कौशल और थोड़े से भाग्य को जोड़ती है जैसे आप रंगीन बुलबुलों से भरे खेल क्षेत्र को साफ करने का लक्ष्य रखते हैं। चाहे आप अपने कॉफी ब्रेक के दौरान त्वरित गेमिंग सत्र की तलाश कर रहे हों या अपने कौशल का परीक्षण करने के लिए एक आकर्षक चुनौती की, बुलबुले शूटर आकस्मिक मज़े और रणनीतिक गहराई का सही मिश्रण प्रदान करता है।",
                         "subsections": [
                             {
-                                "title": "How to Play Bubble Shooter",
-                                "content": "Aim and shoot colorful bubbles to match three or more of the same color. Clear all bubbles from the board to advance to the next level. Use strategy to create chain reactions and score big points! The game features a simple interface with an arrow shooter at the bottom of the screen that allows you to aim and fire bubbles at the clusters above. Plan your shots carefully to create cascading effects that clear large sections of the playfield at once."
+                                "title": "बुलबुले शूटर कैसे खेलें",
+                                "content": "समान रंग के तीन या अधिक बुलबुलों को मिलाने के लिए रंगीन बुलबुलों पर निशाना लगाएं और गोली चलाएं। अगले स्तर पर आगे बढ़ने के लिए बोर्ड से सभी बुलबुलों को साफ करें। श्रृंखला प्रतिक्रियाएँ बनाने और बड़े अंक स्कोर करने के लिए रणनीति का उपयोग करें! गेम में एक सरल इंटरफेस है जिसमें स्क्रीन के नीचे एक तीर शूटर है जो आपको ऊपर के समूहों पर बुलबुलों को लक्ष्य और फायर करने की अनुमति देता है। खेल क्षेत्र के बड़े हिस्सों को एक साथ साफ करने वाले कैस्केडिंग प्रभाव बनाने के लिए अपने शॉट्स को सावधानीपूर्वक योजना बनाएं।"
                             },
                             {
-                                "title": "Game Controls",
-                                "content": "Playing Bubble Shooter is intuitive and straightforward. On desktop, use your mouse to aim the shooter and click to fire bubbles. On mobile devices, simply tap and drag to aim, then release to shoot. The game automatically shows you the next bubble in queue, allowing you to plan your strategy in advance. For the best experience, take your time to line up perfect shots that create maximum impact."
+                                "title": "गेम नियंत्रण",
+                                "content": "बुलबुले शूटर खेलना सहज और सरल है। डेस्कटॉप पर, शूटर को लक्ष्य करने के लिए अपने माउस का उपयोग करें और बुलबुलों को फायर करने के लिए क्लिक करें। मोबाइल उपकरणों पर, लक्ष्य करने के लिए बस टैप करें और खींचें, फिर गोली चलाने के लिए छोड़ दें। गेम स्वचालित रूप से आपको कतार में अगले बुलबुले को दिखाता है, जिससे आप अपनी रणनीति को पहले से योजना बना सकते हैं। सर्वोत्तम अनुभव के लिए, अधिकतम प्रभाव पैदा करने वाले सही शॉट्स को लाइन अप करने के लिए अपना समय लें।"
                             }
                         ]
                     },
                     {
-                        "title": "Who made Bubble Shooter Game?",
-                        "content": "The history of Bubble Shooter is a fascinating journey through the evolution of casual gaming, from arcade cabinets to modern mobile experiences.",
+                        "title": "बुलबुले शूटर गेम किसने बनाया?",
+                        "content": "बुलबुले शूटर का इतिहास आकेड कैबिनेट से लेकर आधुनिक मोबाइल अनुभवों तक, आकस्मिक गेमिंग के विकास के माध्यम से एक आकर्षक यात्रा है।",
                         "subsections": [
                             {
-                                "title": "The Origins of Bubble Shooter",
-                                "content": "The original Bubble Shooter game was created by Absolutist Games in 2002. It was inspired by the classic arcade game Puzzle Bobble (also known as Bust-a-Move), which was developed by Taito Corporation in 1994."
+                                "title": "बुलबुले शूटर की उत्पत्ति",
+                                "content": "मूल बुलबुले शूटर गेम 2002 में एब्सोल्यूटिस्ट गेम्स द्वारा बनाया गया था। यह क्लासिक आर्केड गेम पज़ल बॉबल (जिसे बस्ट-ए-मूव के नाम से भी जाना जाता है) से प्रेरित था, जिसे 1994 में ताइतो कॉर्पोरेशन द्वारा विकसित किया गया था।"
                             },
                             {
-                                "title": "Evolution of the Genre",
-                                "content": "Since its inception, the bubble shooter genre has evolved significantly, spawning countless variations and adaptations. The core gameplay mechanic of matching colored bubbles has remained consistent, but developers have introduced new elements like power-ups, special bubbles, and unique level designs to keep the experience fresh and engaging. Our version honors the classic gameplay while incorporating modern enhancements that today's players expect."
+                                "title": "शैली का विकास",
+                                "content": "अपनी शुरुआत से, बुलबुला शूटर शैली महत्वपूर्ण रूप से विकसित हुई है, जिससे अनगिनत प्रकार और अनुकूलन पैदा हुए हैं। रंगीन बुलबुलों को मिलाने की मुख्य गेमप्ले मैकेनिक स्थिर रही है, लेकिन डेवलपर्स ने अनुभव को ताजा और आकर्षक रखने के लिए पावर-अप, विशेष बुलबुले और अद्वितीय स्तर डिजाइन जैसे नए तत्वों को पेश किया है। हमारा संस्करण क्लासिक गेमप्ले का सम्मान करता है जबकि आधुनिक सुधारों को शामिल करता है जो आज के खिलाड़ी अपेक्षा करते हैं।"
                             }
                         ]
                     },
                     {
-                        "title": "Game Features",
-                        "content": "Bubble Shooter combines simple mechanics with deep strategic possibilities, creating an experience that's accessible to newcomers yet challenging for veterans.",
+                        "title": "गेम विशेषताएँ",
+                        "content": "बुलबुले शूटर सरल मैकेनिक्स को गहरी रणनीतिक संभावनाओं के साथ जोड़ता है, जिससे एक ऐसा अनुभव बनता है जो नए आने वालों के लिए सुलभ है फिर भी अनुभवी खिलाड़ियों के लिए चुनौतीपूर्ण है।",
                         "subsections": [
                             {
-                                "title": "Exciting Gameplay Mechanics",
-                                "content": "Bubble Shooter offers intuitive and addictive gameplay that's easy to learn but challenging to master. The simple point-and-shoot mechanics combined with strategic bubble placement create a perfect balance of casual fun and tactical thinking. Each level presents a unique challenge, requiring you to adapt your strategy and think several moves ahead."
+                                "title": "रोमांचक गेमप्ले मैकेनिक्स",
+                                "content": "बुलबुले शूटर सहज और लत लगाने वाला गेमप्ले प्रदान करता है जो सीखने में आसान है लेकिन महारत हासिल करने में चुनौतीपूर्ण है। सरल पॉइंट-एंड-शूट मैकेनिक्स के साथ रणनीतिक बुलबुला प्लेसमेंट आकस्मिक मज़े और सामरिक सोच का एक सही संतुलन बनाता है। प्रत्येक स्तर एक अद्वितीय चुनौती प्रस्तुत करता है, जिसके लिए आपको अपनी रणनीति को अनुकूलित करने और कई चालों के आगे सोचने की आवश्यकता होती है।"
                             },
                             {
-                                "title": "Power-ups and Special Items",
-                                "content": "Discover various power-ups that can help you clear difficult levels. From color bombs that remove all bubbles of a specific color to lightning bolts that clear entire rows, these special items add an extra layer of strategy to your gameplay. Collect and use these power-ups wisely to overcome challenging situations and achieve higher scores than you thought possible."
+                                "title": "पावर-अप और विशेष आइटम",
+                                "content": "विभिन्न पावर-अप खोजें जो आपको कठिन स्तरों को पार करने में मदद कर सकते हैं। एक विशिष्ट रंग के सभी बुलबुलों को हटाने वाले कलर बम से लेकर पूरी पंक्तियों को साफ करने वाले बिजली के कड़कों तक, ये विशेष आइटम आपके गेमप्ले में रणनीति की एक अतिरिक्त परत जोड़ते हैं। चुनौतीपूर्ण स्थितियों को पार करने और आपके सोचे से अधिक उच्च स्कोर प्राप्त करने के लिए इन पावर-अप को बुद्धिमानी से इकट्ठा करें और उपयोग करें।"
                             },
                             {
-                                "title": "Progressive Difficulty",
-                                "content": "As you advance through the game, you'll encounter increasingly challenging layouts and bubble patterns. The progressive difficulty ensures that both beginners and experienced players will find the game engaging and rewarding. Early levels introduce you to the basic mechanics, while later stages will test your skills with complex arrangements and time pressure."
+                                "title": "प्रगतिशील कठिनाई",
+                                "content": "जैसे-जैसे आप गेम में आगे बढ़ेंगे, आपको लगातार चुनौतीपूर्ण लेआउट और बुलबुला पैटर्न मिलेंगे। प्रगतिशील कठिनाई यह सुनिश्चित करती है कि शुरुआती और अनुभवी दोनों खिलाड़ी गेम को आकर्षक और फायदेमंद पाएंगे। शुरुआती स्तर आपको बुनियादी मैकेनिक्स से परिचित कराते हैं, जबकि बाद के चरण जटिल व्यवस्थाओं और समय दबाव के साथ आपके कौशल का परीक्षण करेंगे।"
                             },
                             {
-                                "title": "Scoring System",
-                                "content": "Bubble Shooter features a comprehensive scoring system that rewards strategic play. You'll earn points for each bubble you pop, with bonus points awarded for creating chain reactions and clearing large clusters at once. The game also offers multipliers for consecutive successful shots and special achievements for clearing the entire playfield. Challenge yourself to beat your high score with each new game!"
+                                "title": "स्कोरिंग सिस्टम",
+                                "content": "बुलबुले शूटर में एक व्यापक स्कोरिंग सिस्टम है जो रणनीतिक खेल को पुरस्कृत करता है। आप प्रत्येक बुलबुले को फोड़ने के लिए अंक अर्जित करेंगे, साथ ही श्रृंखला प्रतिक्रियाओं को बनाने और बड़े समूहों को एक साथ साफ करने के लिए बोनस अंक मिलेंगे। गेम लगातार सफल शॉट्स के लिए गुणक और पूरे खेल क्षेत्र को साफ करने के लिए विशेष उपलब्धियां भी प्रदान करता है। प्रत्येक नए गेम के साथ अपने उच्च स्कोर को पीछे छोड़ने के लिए स्वयं को चुनौती दें!"
                             }
                         ],
                         "bulletPoints": [
-                            "Multiple levels with increasing difficulty",
-                            "Colorful graphics and smooth gameplay",
-                            "Special power-ups and boosters",
-                            "Relaxing yet challenging gameplay",
-                            "Perfect for players of all ages",
-                            "Addictive chain reaction mechanics",
-                            "Strategic depth with simple controls",
-                            "High score tracking and achievements",
-                            "No downloads required - play instantly",
-                            "Regular updates with new content"
+                            "बढ़ती कठिनाई के साथ कई स्तर",
+                            "रंगीन ग्राफिक्स और सुचारू गेमप्ले",
+                            "विशेष पावर-अप और बूस्टर्स",
+                            "आरामदायक फिर भी चुनौतीपूर्ण गेमप्ले",
+                            "सभी उम्र के खिलाड़ियों के लिए आदर्श",
+                            "लत लगाने वाली श्रृंखला प्रतिक्रिया मैकेनिक्स",
+                            "सरल नियंत्रणों के साथ रणनीतिक गहराई",
+                            "उच्च स्कोर ट्रैकिंग और उपलब्धियाँ",
+                            "डाउनलोड की आवश्यकता नहीं - तुरंत खेलें",
+                            "नई सामग्री के साथ नियमित अपडेट"
                         ]
                     },
                     {
-                        "title": "Strategic Tips and Tricks",
-                        "content": "Mastering Bubble Shooter requires more than just quick reflexes—it demands strategic thinking and planning.",
+                        "title": "रणनीतिक टिप्स और युक्तियाँ",
+                        "content": "बुलबुले शूटर में महारत हासिल करने के लिए केवल तेज प्रतिक्रिया से अधिक की आवश्यकता होती है—इसके लिए रणनीतिक सोच और योजना की आवश्यकता होती है।",
                         "subsections": [
                             {
-                                "title": "Aiming for Maximum Impact",
-                                "content": "Always look for opportunities to create chain reactions by targeting bubbles that support large clusters. When you remove a supporting bubble, all unattached bubbles above it will fall, giving you bonus points and clearing the playfield faster. Try to identify key 'structural' bubbles that, when removed, will cause cascading effects throughout the board."
+                                "title": "अधिकतम प्रभाव के लिए लक्ष्य",
+                                "content": "बड़े समूहों का समर्थन करने वाले बुलबुलों को लक्षित करके श्रृंखला प्रतिक्रियाएँ बनाने के अवसरों की हमेशा तलाश करें। जब आप एक सहायक बुलबुले को हटाते हैं, तो उसके ऊपर के सभी अनजुड़े बुलबुले गिर जाएंगे, जिससे आपको बोनस अंक मिलेंगे और खेल क्षेत्र तेजी से साफ होगा। प्रमुख 'संरचनात्मक' बुलबुलों की पहचान करने का प्रयास करें, जिन्हें हटाने पर पूरे बोर्ड में कैस्केडिंग प्रभाव पड़ेगा।"
                             },
                             {
-                                "title": "Using Wall Rebounds",
-                                "content": "Don't forget that you can bounce bubbles off the side walls to reach difficult spots. This technique is essential for accessing bubbles that seem impossible to hit directly. Practice your angle shots to become a true Bubble Shooter master. The most skilled players can calculate precise rebounds to hit targets that novice players might consider unreachable."
+                                "title": "दीवार रिबाउंड का उपयोग",
+                                "content": "मत भूलिए कि आप कठिन स्थानों तक पहुंचने के लिए बुलबुलों को बगल की दीवारों से उछाल सकते हैं। यह तकनीक उन बुलबुलों तक पहुंचने के लिए आवश्यक है जो सीधे हिट करना असंभव लगते हैं। एक सच्चे बुलबुले शूटर मास्टर बनने के लिए अपने कोण शॉट्स का अभ्यास करें। सबसे कुशल खिलाड़ी सटीक रिबाउंड की गणना कर सकते हैं ताकि ऐसे लक्ष्यों को हिट किया जा सके जिन्हें नौसिखिया खिलाड़ी अप्राप्य मान सकते हैं।"
                             },
                             {
-                                "title": "Planning Ahead",
-                                "content": "Pay attention to the next bubble in the queue and plan your shots accordingly. Sometimes it's better to set up a future move rather than taking an immediate match. Creating a strategic sequence of shots can lead to spectacular chain reactions that clear large portions of the playfield at once."
+                                "title": "आगे की योजना",
+                                "content": "कतार में अगले बुलबुले पर ध्यान दें और तदनुसार अपने शॉट्स की योजना बनाएं। कभी-कभी तत्काल मैच लेने के बजाय भविष्य के चाल की स्थापना करना बेहतर होता है। शॉट्स का एक रणनीतिक क्रम बनाने से शानदार श्रृंखला प्रतिक्रियाएँ हो सकती हैं जो खेल क्षेत्र के बड़े हिस्से को एक साथ साफ कर देती हैं।"
                             }
                         ]
                     },
                     {
-                        "title": "Why Bubble Shooter Is So Popular",
-                        "content": "Few games have achieved the enduring popularity of Bubble Shooter. Its appeal crosses age groups, gaming experience levels, and cultural boundaries.",
+                        "title": "बुलबुले शूटर इतना लोकप्रिय क्यों है",
+                        "content": "कुछ ही गेम्स बुलबुले शूटर की स्थायी लोकप्रियता हासिल कर पाए हैं। इसका आकर्षण आयु समूहों, गेमिंग अनुभव स्तरों और सांस्कृतिक सीमाओं को पार करता है।",
                         "subsections": [
                             {
-                                "title": "Universal Appeal",
-                                "content": "Bubble Shooter's simple premise and colorful design make it accessible to players of all ages and backgrounds. The game's intuitive mechanics can be understood within seconds, yet the strategic depth keeps players engaged for hours, days, and even years. This perfect balance of accessibility and challenge is a key factor in the game's widespread popularity."
+                                "title": "सार्वभौमिक आकर्षण",
+                                "content": "बुलबुले शूटर का सरल परिसर और रंगीन डिजाइन इसे सभी उम्र और पृष्ठभूमि के खिलाड़ियों के लिए सुलभ बनाता है। गेम की सहज मैकेनिक्स को सेकंडों के भीतर समझा जा सकता है, फिर भी रणनीतिक गहराई खिलाड़ियों को घंटों, दिनों और यहां तक कि वर्षों तक व्यस्त रखती है। सुलभता और चुनौती का यह सही संतुलन गेम की व्यापक लोकप्रियता में एक महत्वपूर्ण कारक है।"
                             },
                             {
-                                "title": "Satisfying Gameplay Loop",
-                                "content": "There's something inherently satisfying about matching colors and watching bubbles pop. The game taps into our natural desire for order and completion, providing a sense of accomplishment with each successful match. The visual and audio feedback from popping bubbles creates a rewarding sensory experience that keeps players coming back for more."
+                                "title": "संतोषजनक गेमप्ले लूप",
+                                "content": "रंगों को मिलाने और बुलबुलों को फटते देखने के बारे में कुछ अंतर्निहित रूप से संतोषजनक है। गेम हमारी क्रम और पूर्णता की प्राकृतिक इच्छा का लाभ उठाता है, प्रत्येक सफल मैच के साथ उपलब्धि की भावना प्रदान करता है। बुलबुलों के फूटने से दृश्य और ऑडियो प्रतिक्रिया एक पुरस्कृत संवेदी अनुभव बनाती है जो खिलाड़ियों को और अधिक के लिए वापस आने के लिए प्रेरित करती है।"
                             },
                             {
-                                "title": "Perfect for Short Gaming Sessions",
-                                "content": "In today's fast-paced world, Bubble Shooter offers the ideal gaming experience for busy individuals. A single level can be completed in just a few minutes, making it perfect for quick breaks or commutes. Despite this bite-sized format, the game provides a complete and fulfilling experience that can be enjoyed in short bursts or extended sessions."
+                                "title": "छोटे गेमिंग सत्रों के लिए आदर्श",
+                                "content": "आज के तेज-तर्रार दुनिया में, बुलबुले शूटर व्यस्त व्यक्तियों के लिए आदर्श गेमिंग अनुभव प्रदान करता है। एक स्तर को सिर्फ कुछ मिनटों में पूरा किया जा सकता है, जिससे यह त्वरित ब्रेक या यात्राओं के लिए आदर्श है। इस बाइट-साइज़ प्रारूप के बावजूद, गेम एक पूर्ण और संतोषजनक अनुभव प्रदान करता है जिसे छोटे झटकों या विस्तारित सत्रों में आनंद लिया जा सकता है।"
                             }
                         ]
                     },
                     {
-                        "title": "Frequently Asked Questions",
-                        "content": "Find answers to the most common questions about our Bubble Shooter game.",
+                        "title": "अक्सर पूछे जाने वाले प्रश्न",
+                        "content": "हमारे बुलबुले शूटर गेम के बारे में सबसे आम प्रश्नों के उत्तर खोजें।",
                         "subsections": [
                             {
-                                "title": "Game Accessibility",
-                                "content": "Information about how to access and play our Bubble Shooter game.",
+                                "title": "गेम एक्सेसिबिलिटी",
+                                "content": "हमारे बुलबुले शूटर गेम तक कैसे पहुंचें और खेलें, इसके बारे में जानकारी।",
                                 "faqs": [
                                     {
-                                        "question": "Is Bubble Shooter free to play?",
-                                        "answer": "Yes, Bubble Shooter is completely free to play in your browser with no downloads required. We believe great games should be accessible to everyone, which is why we've made our version available at no cost."
+                                        "question": "क्या बुलबुले शूटर खेलने के लिए मुफ्त है?",
+                                        "answer": "हां, बुलबुले शूटर आपके ब्राउज़र में बिना किसी डाउनलोड की आवश्यकता के पूरी तरह से मुफ्त खेलने के लिए उपलब्ध है। हमारा मानना है कि महान गेम हर किसी के लिए सुलभ होना चाहिए, इसलिए हमने अपना संस्करण बिना किसी लागत के उपलब्ध कराया है।"
                                     },
                                     {
-                                        "question": "Can I play Bubble Shooter on mobile?",
-                                        "answer": "Absolutely! Our Bubble Shooter game is fully responsive and works on smartphones and tablets. The touch controls are optimized for mobile play, allowing you to aim and shoot with precision using just your fingertip."
+                                        "question": "क्या मैं मोबाइल पर बुलबुले शूटर खेल सकता हूं?",
+                                        "answer": "बिल्कुल! हमारा बुलबुले शूटर गेम पूरी तरह से रेस्पॉन्सिव है और स्मार्टफोन और टैबलेट पर काम करता है। टच कंट्रोल मोबाइल प्ले के लिए अनुकूलित हैं, जिससे आप केवल अपनी उंगली की नोक का उपयोग करके सटीकता के साथ लक्ष्य बना सकते हैं और गोली चला सकते हैं।"
                                     },
                                     {
-                                        "question": "Do I need to create an account to play?",
-                                        "answer": "No account creation is necessary. Simply visit our website and start playing immediately. However, creating an optional account allows you to save your progress and high scores across different devices."
+                                        "question": "क्या मुझे खेलने के लिए खाता बनाने की आवश्यकता है?",
+                                        "answer": "खाता बनाना आवश्यक नहीं है। बस हमारी वेबसाइट पर जाएं और तुरंत खेलना शुरू करें। हालांकि, एक वैकल्पिक खाता बनाने से आप अपनी प्रगति और विभिन्न उपकरणों पर उच्च स्कोर को सहेज सकते हैं।"
                                     }
                                 ]
                             },
                             {
-                                "title": "Game Difficulty",
-                                "content": "Information about the challenge level and progression in Bubble Shooter.",
+                                "title": "गेम कठिनाई",
+                                "content": "बुलबुले शूटर में चुनौती स्तर और प्रगति के बारे में जानकारी।",
                                 "faqs": [
                                     {
-                                        "question": "Are there different difficulty levels?",
-                                        "answer": "Yes, the game features progressive difficulty to challenge players of all skill levels. Early levels are designed to be accessible to newcomers, while later stages provide a significant challenge even for experienced players."
+                                        "question": "क्या अलग-अलग कठिनाई स्तर हैं?",
+                                        "answer": "हां, गेम में प्रगतिशील कठिनाई है जो सभी कौशल स्तरों के खिलाड़ियों को चुनौती देती है। प्रारंभिक स्तर नए आने वालों के लिए सुलभ होने के लिए डिज़ाइन किए गए हैं, जबकि बाद के चरण अनुभवी खिलाड़ियों के लिए भी महत्वपूर्ण चुनौती प्रदान करते हैं।"
                                     },
                                     {
-                                        "question": "Is there a way to get hints if I'm stuck?",
-                                        "answer": "The game offers optional hints and power-ups that can help you overcome challenging levels without diminishing the fun. These assistance features are designed to enhance your experience rather than trivialize the challenge."
+                                        "question": "क्या अगर मैं फंस जाऊं तो संकेत प्राप्त करने का कोई तरीका है?",
+                                        "answer": "गेम वैकल्पिक संकेत और पावर-अप प्रदान करता है जो आपको मज़े को कम किए बिना चुनौतीपूर्ण स्तरों को पार करने में मदद कर सकते हैं। ये सहायता सुविधाएँ चुनौती को तुच्छ बनाने के बजाय आपके अनुभव को बढ़ाने के लिए डिज़ाइन की गई हैं।"
                                     },
                                     {
-                                        "question": "Does the game have an end, or is it endless?",
-                                        "answer": "Our Bubble Shooter features both modes. The level-based campaign has a definite progression and conclusion, while the endless mode allows you to play continuously for as long as you wish, with increasing difficulty."
+                                        "question": "क्या गेम का कोई अंत है, या यह अनंत है?",
+                                        "answer": "हमारे बुलबुले शूटर में दोनों मोड हैं। स्तर-आधारित अभियान में एक निश्चित प्रगति और निष्कर्ष है, जबकि अनंत मोड आपको बढ़ती कठिनाई के साथ जितना चाहें उतना समय तक लगातार खेलने की अनुमति देता है।"
                                     }
                                 ]
                             },
                             {
-                                "title": "Technical Requirements",
-                                "content": "Information about what you need to play Bubble Shooter smoothly.",
+                                "title": "तकनीकी आवश्यकताएँ",
+                                "content": "बबल शूटर को सुचारू रूप से खेलने के लिए आवश्यक जानकारी।",
                                 "faqs": [
                                     {
-                                        "question": "What browsers support Bubble Shooter?",
-                                        "answer": "Bubble Shooter works on all modern browsers including Chrome, Firefox, Safari, and Edge. We regularly update the game to ensure compatibility with the latest browser versions."
+                                        "question": "कौन-कौन से ब्राउज़र बबल शूटर को सपोर्ट करते हैं?",
+                                        "answer": "बबल शूटर सभी आधुनिक ब्राउज़रों पर काम करता है, जिनमें Chrome, Firefox, Safari और Edge शामिल हैं। हम नियमित रूप से गेम को अपडेट करते हैं ताकि यह नवीनतम ब्राउज़र संस्करणों के साथ संगत बना रहे।"
                                     },
                                     {
-                                        "question": "Do I need to install any plugins?",
-                                        "answer": "No, our game is built with modern web technologies and doesn't require any additional plugins or installations. It runs natively in your browser for a seamless gaming experience."
+                                        "question": "क्या मुझे कोई प्लगइन इंस्टॉल करने की जरूरत है?",
+                                        "answer": "नहीं, हमारा गेम आधुनिक वेब टेक्नोलॉजी का उपयोग करके बनाया गया है और इसे किसी अतिरिक्त प्लगइन या इंस्टॉलेशन की आवश्यकता नहीं है। यह आपके ब्राउज़र में सीधे चलता है और एक सहज गेमिंग अनुभव प्रदान करता है।"
                                     },
                                     {
-                                        "question": "How much bandwidth does playing Bubble Shooter use?",
-                                        "answer": "Bubble Shooter is optimized for efficiency and uses minimal bandwidth after the initial loading. This makes it suitable for playing even on limited data plans or slower internet connections."
+                                        "question": "बबल शूटर खेलने में कितना बैंडविड्थ खर्च होता है?",
+                                        "answer": "बबल शूटर को दक्षता के लिए ऑप्टिमाइज़ किया गया है और यह प्रारंभिक लोडिंग के बाद न्यूनतम बैंडविड्थ का उपयोग करता है। यह सीमित डेटा प्लान या धीमे इंटरनेट कनेक्शन पर भी खेलने के लिए उपयुक्त बनाता है।"
                                     }
                                 ]
                             }
                         ]
                     },
                     {
-                        "title": "Benefits of Playing Bubble Shooter",
-                        "content": "Beyond entertainment, Bubble Shooter offers several cognitive and emotional benefits.",
+                        "title": "बबल शूटर खेलने के फायदे",
+                        "content": "मनोरंजन के अलावा, बबल शूटर कई संज्ञानात्मक और भावनात्मक लाभ प्रदान करता है।",
                         "subsections": [
                             {
-                                "title": "Cognitive Skills Development",
-                                "content": "Playing Bubble Shooter regularly can help improve various cognitive skills. The game requires spatial awareness, pattern recognition, and strategic planning, all of which exercise important brain functions. The need to anticipate bubble movements and plan several moves ahead helps develop problem-solving abilities that can be beneficial in everyday life."
+                                "title": "संज्ञानात्मक कौशल का विकास",
+                                "content": "नियमित रूप से बबल शूटर खेलने से विभिन्न संज्ञानात्मक कौशलों में सुधार हो सकता है। इस खेल में स्थानिक जागरूकता, पैटर्न पहचान और रणनीतिक योजना की आवश्यकता होती है, जो मस्तिष्क के महत्वपूर्ण कार्यों का व्यायाम कराते हैं। बबल की गति को पहले से समझने और कई चालों की योजना बनाने की जरूरत से समस्या-समाधान क्षमता विकसित होती है, जो रोजमर्रा की जिंदगी में मददगार हो सकती है।"
                             },
                             {
-                                "title": "Stress Relief and Relaxation",
-                                "content": "The colorful visuals, satisfying pop sounds, and engaging yet not overwhelming gameplay make Bubble Shooter an excellent stress reliever. Many players report feeling more relaxed after a session of bubble popping, as the game provides just enough challenge to be engaging without causing frustration or anxiety."
+                                "title": "तनाव से मुक्ति और विश्राम",
+                                "content": "रंगीन ग्राफिक्स, संतोषजनक पॉप ध्वनियाँ और आकर्षक लेकिन अत्यधिक चुनौतीपूर्ण न होने वाला गेमप्ले बबल शूटर को एक बेहतरीन तनाव निवारक बनाता है। कई खिलाड़ियों ने यह बताया है कि बबल शूटर खेलने के बाद वे अधिक आराम महसूस करते हैं, क्योंकि यह खेल इतनी चुनौती देता है कि यह दिलचस्प बना रहे लेकिन किसी प्रकार की हताशा या चिंता उत्पन्न न हो।"
                             },
                             {
-                                "title": "Improved Hand-Eye Coordination",
-                                "content": "The precise aiming required in Bubble Shooter helps develop and maintain hand-eye coordination. This is particularly beneficial for both younger players who are still developing these skills and older players looking to maintain cognitive agility. The game's intuitive controls make this skill development feel natural and enjoyable rather than like a training exercise."
+                                "title": "हाथ-आंख समन्वय में सुधार",
+                                "content": "बबल शूटर में सटीक निशाना लगाने की आवश्यकता होती है, जिससे हाथ-आंख समन्वय विकसित और बनाए रखने में मदद मिलती है। यह विशेष रूप से छोटे बच्चों के लिए फायदेमंद है, जो अभी इन कौशलों को विकसित कर रहे हैं, और वृद्ध खिलाड़ियों के लिए भी उपयोगी है, जो संज्ञानात्मक चुस्ती बनाए रखना चाहते हैं। इस खेल के सहज नियंत्रण इस कौशल विकास को प्राकृतिक और आनंददायक बनाते हैं, जिससे यह किसी व्यायाम की तरह नहीं बल्कि एक मजेदार अनुभव महसूस होता है।"
                             }
                         ]
                     }

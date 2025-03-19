@@ -2,187 +2,187 @@
     "gameList": [
         {
             "id": 1,
-            "title": "Bubble Shooter",
+            "title": "Bắn Bong Bóng",
             "platform": "Bubble Games",
             "imageUrl": "/images/games/bubble-shooter.png",
             "href": "/",
-            "description": "Match colorful bubbles in this addictive classic puzzle game. Aim, shoot, and create satisfying chain reactions to clear the board. Play now for free, no download required! Have fun!",
+            "description": "Ghép các bong bóng nhiều màu sắc trong trò chơi giải đố cổ điển gây nghiện này. Nhắm, bắn và tạo ra các phản ứng dây chuyền thỏa mãn để xóa sạch bảng. Chơi ngay bây giờ miễn phí, không cần tải xuống! Chúc vui vẻ!",
             "embedUrl": "https://cdn.bubbleshooter.com/games/bubbleshooter-game/",
             "seoDescription": {
                 "sections": [
                     {
-                        "title": "About Bubble Shooter",
-                        "content": "Welcome to Bubble Shooter, the addictive bubble-popping game that has captivated millions of players worldwide. This classic puzzle game combines strategy, skill, and a bit of luck as you aim to clear the playfield of colorful bubbles. Whether you're looking for a quick gaming session during your coffee break or an engaging challenge to test your skills, Bubble Shooter offers the perfect blend of casual fun and strategic depth.",
+                        "title": "Giới thiệu về Bắn Bong Bóng",
+                        "content": "Chào mừng đến với Bắn Bong Bóng, trò chơi bắn bong bóng gây nghiện đã thu hút hàng triệu người chơi trên toàn thế giới. Trò chơi giải đố cổ điển này kết hợp chiến lược, kỹ năng và một chút may mắn khi bạn cố gắng xóa sạch các bong bóng nhiều màu sắc khỏi màn chơi. Cho dù bạn đang tìm kiếm một phiên chơi game nhanh trong giờ giải lao uống cà phê hay một thử thách hấp dẫn để kiểm tra kỹ năng của mình, Bắn Bong Bóng mang đến sự kết hợp hoàn hảo giữa giải trí nhẹ nhàng và chiều sâu chiến lược.",
                         "subsections": [
                             {
-                                "title": "How to Play Bubble Shooter",
-                                "content": "Aim and shoot colorful bubbles to match three or more of the same color. Clear all bubbles from the board to advance to the next level. Use strategy to create chain reactions and score big points! The game features a simple interface with an arrow shooter at the bottom of the screen that allows you to aim and fire bubbles at the clusters above. Plan your shots carefully to create cascading effects that clear large sections of the playfield at once."
+                                "title": "Cách chơi Bắn Bong Bóng",
+                                "content": "Nhắm và bắn các bong bóng nhiều màu sắc để ghép ba hoặc nhiều bong bóng cùng màu. Xóa tất cả bong bóng khỏi bảng để tiến đến cấp độ tiếp theo. Sử dụng chiến lược để tạo ra các phản ứng dây chuyền và ghi điểm cao! Trò chơi có giao diện đơn giản với một bộ phận bắn hình mũi tên ở dưới cùng của màn hình cho phép bạn nhắm và bắn bong bóng vào các nhóm phía trên. Lên kế hoạch cho các phát bắn của bạn cẩn thận để tạo ra hiệu ứng xếp tầng giúp xóa sạch các phần lớn của màn chơi cùng một lúc."
                             },
                             {
-                                "title": "Game Controls",
-                                "content": "Playing Bubble Shooter is intuitive and straightforward. On desktop, use your mouse to aim the shooter and click to fire bubbles. On mobile devices, simply tap and drag to aim, then release to shoot. The game automatically shows you the next bubble in queue, allowing you to plan your strategy in advance. For the best experience, take your time to line up perfect shots that create maximum impact."
+                                "title": "Điều khiển trò chơi",
+                                "content": "Chơi Bắn Bong Bóng rất trực quan và đơn giản. Trên máy tính để bàn, sử dụng chuột để nhắm bộ phận bắn và nhấp để bắn bong bóng. Trên thiết bị di động, chỉ cần chạm và kéo để nhắm, sau đó thả ra để bắn. Trò chơi tự động hiển thị cho bạn bong bóng tiếp theo trong hàng đợi, cho phép bạn lên kế hoạch chiến lược của mình trước. Để có trải nghiệm tốt nhất, hãy dành thời gian để xếp hàng những phát bắn hoàn hảo tạo ra tác động tối đa."
                             }
                         ]
                     },
                     {
-                        "title": "Who made Bubble Shooter Game?",
-                        "content": "The history of Bubble Shooter is a fascinating journey through the evolution of casual gaming, from arcade cabinets to modern mobile experiences.",
+                        "title": "Ai đã tạo ra trò chơi Bắn Bong Bóng?",
+                        "content": "Lịch sử của Bắn Bong Bóng là một hành trình thú vị qua sự phát triển của trò chơi giải trí nhẹ nhàng, từ máy arcade đến trải nghiệm di động hiện đại.",
                         "subsections": [
                             {
-                                "title": "The Origins of Bubble Shooter",
-                                "content": "The original Bubble Shooter game was created by Absolutist Games in 2002. It was inspired by the classic arcade game Puzzle Bobble (also known as Bust-a-Move), which was developed by Taito Corporation in 1994."
+                                "title": "Nguồn gốc của Bắn Bong Bóng",
+                                "content": "Trò chơi Bắn Bong Bóng ban đầu được tạo ra bởi Absolutist Games vào năm 2002. Nó được lấy cảm hứng từ trò chơi arcade cổ điển Puzzle Bobble (còn được gọi là Bust-a-Move), được phát triển bởi Taito Corporation vào năm 1994."
                             },
                             {
-                                "title": "Evolution of the Genre",
-                                "content": "Since its inception, the bubble shooter genre has evolved significantly, spawning countless variations and adaptations. The core gameplay mechanic of matching colored bubbles has remained consistent, but developers have introduced new elements like power-ups, special bubbles, and unique level designs to keep the experience fresh and engaging. Our version honors the classic gameplay while incorporating modern enhancements that today's players expect."
+                                "title": "Sự phát triển của thể loại",
+                                "content": "Kể từ khi ra đời, thể loại bắn bong bóng đã phát triển đáng kể, tạo ra vô số biến thể và phiên bản. Cơ chế chơi cốt lõi là ghép các bong bóng có màu giống nhau vẫn được duy trì nhất quán, nhưng các nhà phát triển đã giới thiệu các yếu tố mới như các vật phẩm tăng sức mạnh, bong bóng đặc biệt và thiết kế cấp độ độc đáo để giữ cho trải nghiệm luôn mới mẻ và hấp dẫn. Phiên bản của chúng tôi tôn vinh lối chơi cổ điển đồng thời kết hợp các cải tiến hiện đại mà người chơi ngày nay mong đợi."
                             }
                         ]
                     },
                     {
-                        "title": "Game Features",
-                        "content": "Bubble Shooter combines simple mechanics with deep strategic possibilities, creating an experience that's accessible to newcomers yet challenging for veterans.",
+                        "title": "Tính năng trò chơi",
+                        "content": "Bắn Bong Bóng kết hợp cơ chế đơn giản với khả năng chiến lược sâu sắc, tạo ra trải nghiệm dễ tiếp cận đối với người mới nhưng vẫn đầy thách thức cho người chơi kỳ cựu.",
                         "subsections": [
                             {
-                                "title": "Exciting Gameplay Mechanics",
-                                "content": "Bubble Shooter offers intuitive and addictive gameplay that's easy to learn but challenging to master. The simple point-and-shoot mechanics combined with strategic bubble placement create a perfect balance of casual fun and tactical thinking. Each level presents a unique challenge, requiring you to adapt your strategy and think several moves ahead."
+                                "title": "Cơ chế chơi game hấp dẫn",
+                                "content": "Bắn Bong Bóng cung cấp lối chơi trực quan và gây nghiện, dễ học nhưng đầy thách thức để thành thạo. Cơ chế nhắm và bắn đơn giản kết hợp với việc đặt bong bóng một cách chiến lược tạo ra sự cân bằng hoàn hảo giữa giải trí nhẹ nhàng và tư duy chiến thuật. Mỗi cấp độ mang đến một thử thách độc đáo, yêu cầu bạn thích ứng chiến lược của mình và suy nghĩ trước nhiều bước."
                             },
                             {
-                                "title": "Power-ups and Special Items",
-                                "content": "Discover various power-ups that can help you clear difficult levels. From color bombs that remove all bubbles of a specific color to lightning bolts that clear entire rows, these special items add an extra layer of strategy to your gameplay. Collect and use these power-ups wisely to overcome challenging situations and achieve higher scores than you thought possible."
+                                "title": "Vật phẩm tăng sức mạnh và đồ đặc biệt",
+                                "content": "Khám phá nhiều vật phẩm tăng sức mạnh khác nhau có thể giúp bạn vượt qua các cấp độ khó. Từ bom màu loại bỏ tất cả bong bóng có màu cụ thể đến tia sét xóa toàn bộ hàng, những vật phẩm đặc biệt này thêm một lớp chiến lược bổ sung vào lối chơi của bạn. Thu thập và sử dụng những vật phẩm tăng sức mạnh này một cách khôn ngoan để vượt qua các tình huống đầy thách thức và đạt được điểm số cao hơn bạn nghĩ là có thể."
                             },
                             {
-                                "title": "Progressive Difficulty",
-                                "content": "As you advance through the game, you'll encounter increasingly challenging layouts and bubble patterns. The progressive difficulty ensures that both beginners and experienced players will find the game engaging and rewarding. Early levels introduce you to the basic mechanics, while later stages will test your skills with complex arrangements and time pressure."
+                                "title": "Độ khó tăng dần",
+                                "content": "Khi bạn tiến qua trò chơi, bạn sẽ gặp phải các bố cục và mẫu bong bóng ngày càng thách thức. Độ khó tăng dần đảm bảo rằng cả người chơi mới và người chơi có kinh nghiệm đều sẽ thấy trò chơi hấp dẫn và bổ ích. Các cấp độ đầu giới thiệu cho bạn các cơ chế cơ bản, trong khi các giai đoạn sau sẽ kiểm tra kỹ năng của bạn với các sắp xếp phức tạp và áp lực thời gian."
                             },
                             {
-                                "title": "Scoring System",
-                                "content": "Bubble Shooter features a comprehensive scoring system that rewards strategic play. You'll earn points for each bubble you pop, with bonus points awarded for creating chain reactions and clearing large clusters at once. The game also offers multipliers for consecutive successful shots and special achievements for clearing the entire playfield. Challenge yourself to beat your high score with each new game!"
+                                "title": "Hệ thống tính điểm",
+                                "content": "Bắn Bong Bóng có hệ thống tính điểm toàn diện, thưởng cho lối chơi chiến lược. Bạn sẽ kiếm được điểm cho mỗi bong bóng bạn làm nổ, với điểm thưởng được trao cho việc tạo ra phản ứng dây chuyền và xóa các nhóm lớn cùng một lúc. Trò chơi cũng cung cấp hệ số nhân cho các phát bắn thành công liên tiếp và thành tích đặc biệt cho việc xóa sạch toàn bộ màn chơi. Thách thức bản thân để vượt qua điểm số cao của bạn với mỗi trò chơi mới!"
                             }
                         ],
                         "bulletPoints": [
-                            "Multiple levels with increasing difficulty",
-                            "Colorful graphics and smooth gameplay",
-                            "Special power-ups and boosters",
-                            "Relaxing yet challenging gameplay",
-                            "Perfect for players of all ages",
-                            "Addictive chain reaction mechanics",
-                            "Strategic depth with simple controls",
-                            "High score tracking and achievements",
-                            "No downloads required - play instantly",
-                            "Regular updates with new content"
+                            "Nhiều cấp độ với độ khó tăng dần",
+                            "Đồ họa đầy màu sắc và lối chơi mượt mà",
+                            "Vật phẩm tăng sức mạnh đặc biệt và tăng cường",
+                            "Lối chơi thư giãn nhưng đầy thách thức",
+                            "Hoàn hảo cho người chơi thuộc mọi lứa tuổi",
+                            "Cơ chế phản ứng dây chuyền gây nghiện",
+                            "Chiều sâu chiến lược với điều khiển đơn giản",
+                            "Theo dõi điểm số cao và thành tích",
+                            "Không cần tải xuống - chơi ngay lập tức",
+                            "Cập nhật thường xuyên với nội dung mới"
                         ]
                     },
                     {
-                        "title": "Strategic Tips and Tricks",
-                        "content": "Mastering Bubble Shooter requires more than just quick reflexes—it demands strategic thinking and planning.",
+                        "title": "Mẹo và thủ thuật chiến lược",
+                        "content": "Làm chủ Bắn Bong Bóng đòi hỏi nhiều hơn chỉ là phản xạ nhanh—nó đòi hỏi tư duy chiến lược và lập kế hoạch.",
                         "subsections": [
                             {
-                                "title": "Aiming for Maximum Impact",
-                                "content": "Always look for opportunities to create chain reactions by targeting bubbles that support large clusters. When you remove a supporting bubble, all unattached bubbles above it will fall, giving you bonus points and clearing the playfield faster. Try to identify key 'structural' bubbles that, when removed, will cause cascading effects throughout the board."
+                                "title": "Nhắm để đạt tác động tối đa",
+                                "content": "Luôn tìm kiếm cơ hội để tạo ra phản ứng dây chuyền bằng cách nhắm vào các bong bóng hỗ trợ các nhóm lớn. Khi bạn loại bỏ một bong bóng hỗ trợ, tất cả các bong bóng không gắn kết phía trên nó sẽ rơi xuống, mang lại cho bạn điểm thưởng và xóa sạch màn chơi nhanh hơn. Cố gắng xác định các bong bóng 'cấu trúc' chính mà khi loại bỏ sẽ gây ra hiệu ứng xếp tầng trên toàn bảng."
                             },
                             {
-                                "title": "Using Wall Rebounds",
-                                "content": "Don't forget that you can bounce bubbles off the side walls to reach difficult spots. This technique is essential for accessing bubbles that seem impossible to hit directly. Practice your angle shots to become a true Bubble Shooter master. The most skilled players can calculate precise rebounds to hit targets that novice players might consider unreachable."
+                                "title": "Sử dụng bật tường",
+                                "content": "Đừng quên rằng bạn có thể làm bong bóng nảy khỏi các bức tường bên để tiếp cận các vị trí khó. Kỹ thuật này rất cần thiết để tiếp cận các bong bóng có vẻ như không thể bắn trúng trực tiếp. Thực hành các cú bắn góc của bạn để trở thành bậc thầy Bắn Bong Bóng thực thụ. Những người chơi có kỹ năng nhất có thể tính toán chính xác phản xạ để bắn trúng mục tiêu mà người chơi mới có thể coi là không thể tiếp cận."
                             },
                             {
-                                "title": "Planning Ahead",
-                                "content": "Pay attention to the next bubble in the queue and plan your shots accordingly. Sometimes it's better to set up a future move rather than taking an immediate match. Creating a strategic sequence of shots can lead to spectacular chain reactions that clear large portions of the playfield at once."
+                                "title": "Lập kế hoạch trước",
+                                "content": "Chú ý đến bong bóng tiếp theo trong hàng đợi và lên kế hoạch cho các phát bắn của bạn tương ứng. Đôi khi tốt hơn nên thiết lập một nước đi trong tương lai thay vì thực hiện một ghép đôi ngay lập tức. Tạo ra một chuỗi phát bắn chiến lược có thể dẫn đến phản ứng dây chuyền đặc biệt giúp xóa sạch phần lớn màn chơi cùng một lúc."
                             }
                         ]
                     },
                     {
-                        "title": "Why Bubble Shooter Is So Popular",
-                        "content": "Few games have achieved the enduring popularity of Bubble Shooter. Its appeal crosses age groups, gaming experience levels, and cultural boundaries.",
+                        "title": "Tại sao Bắn Bong Bóng lại rất phổ biến",
+                        "content": "Rất ít trò chơi đạt được sự phổ biến lâu dài như Bắn Bong Bóng. Sức hấp dẫn của nó vượt qua mọi nhóm tuổi, cấp độ kinh nghiệm chơi game và ranh giới văn hóa.",
                         "subsections": [
                             {
-                                "title": "Universal Appeal",
-                                "content": "Bubble Shooter's simple premise and colorful design make it accessible to players of all ages and backgrounds. The game's intuitive mechanics can be understood within seconds, yet the strategic depth keeps players engaged for hours, days, and even years. This perfect balance of accessibility and challenge is a key factor in the game's widespread popularity."
+                                "title": "Sức hấp dẫn phổ quát",
+                                "content": "Tiền đề đơn giản và thiết kế đầy màu sắc của Bắn Bong Bóng làm cho nó dễ tiếp cận với người chơi ở mọi lứa tuổi và mọi xuất thân. Cơ chế trực quan của trò chơi có thể được hiểu trong vài giây, nhưng chiều sâu chiến lược giữ cho người chơi tham gia trong nhiều giờ, nhiều ngày và thậm chí nhiều năm. Sự cân bằng hoàn hảo này giữa khả năng tiếp cận và thách thức là một yếu tố chính trong sự phổ biến rộng rãi của trò chơi."
                             },
                             {
-                                "title": "Satisfying Gameplay Loop",
-                                "content": "There's something inherently satisfying about matching colors and watching bubbles pop. The game taps into our natural desire for order and completion, providing a sense of accomplishment with each successful match. The visual and audio feedback from popping bubbles creates a rewarding sensory experience that keeps players coming back for more."
+                                "title": "Vòng lặp chơi game thỏa mãn",
+                                "content": "Có điều gì đó tự nhiên thỏa mãn về việc ghép màu và xem bong bóng nổ tung. Trò chơi khai thác mong muốn tự nhiên của chúng ta về trật tự và hoàn thành, cung cấp cảm giác thành tựu với mỗi lần ghép thành công. Phản hồi hình ảnh và âm thanh từ việc nổ bong bóng tạo ra trải nghiệm cảm giác thưởng thức khiến người chơi tiếp tục quay lại để có thêm."
                             },
                             {
-                                "title": "Perfect for Short Gaming Sessions",
-                                "content": "In today's fast-paced world, Bubble Shooter offers the ideal gaming experience for busy individuals. A single level can be completed in just a few minutes, making it perfect for quick breaks or commutes. Despite this bite-sized format, the game provides a complete and fulfilling experience that can be enjoyed in short bursts or extended sessions."
+                                "title": "Hoàn hảo cho các phiên chơi game ngắn",
+                                "content": "Trong thế giới nhịp độ nhanh ngày nay, Bắn Bong Bóng cung cấp trải nghiệm chơi game lý tưởng cho những cá nhân bận rộn. Một cấp độ có thể được hoàn thành chỉ trong vài phút, khiến nó hoàn hảo cho những giây phút nghỉ ngơi nhanh chóng hoặc di chuyển. Mặc dù có định dạng nhỏ gọn này, trò chơi cung cấp trải nghiệm đầy đủ và thỏa mãn có thể được thưởng thức trong những khoảng thời gian ngắn hoặc phiên dài."
                             }
                         ]
                     },
                     {
-                        "title": "Frequently Asked Questions",
-                        "content": "Find answers to the most common questions about our Bubble Shooter game.",
+                        "title": "Câu hỏi thường gặp",
+                        "content": "Tìm câu trả lời cho những câu hỏi phổ biến nhất về trò chơi Bắn Bong Bóng của chúng tôi.",
                         "subsections": [
                             {
-                                "title": "Game Accessibility",
-                                "content": "Information about how to access and play our Bubble Shooter game.",
+                                "title": "Khả năng tiếp cận trò chơi",
+                                "content": "Thông tin về cách truy cập và chơi trò chơi Bắn Bong Bóng của chúng tôi.",
                                 "faqs": [
                                     {
-                                        "question": "Is Bubble Shooter free to play?",
-                                        "answer": "Yes, Bubble Shooter is completely free to play in your browser with no downloads required. We believe great games should be accessible to everyone, which is why we've made our version available at no cost."
+                                        "question": "Bắn Bong Bóng có miễn phí để chơi không?",
+                                        "answer": "Có, Bắn Bong Bóng hoàn toàn miễn phí để chơi trong trình duyệt của bạn mà không cần tải xuống. Chúng tôi tin rằng những trò chơi tuyệt vời nên tiếp cận được với tất cả mọi người, đó là lý do tại sao chúng tôi đã cung cấp phiên bản của mình miễn phí."
                                     },
                                     {
-                                        "question": "Can I play Bubble Shooter on mobile?",
-                                        "answer": "Absolutely! Our Bubble Shooter game is fully responsive and works on smartphones and tablets. The touch controls are optimized for mobile play, allowing you to aim and shoot with precision using just your fingertip."
+                                        "question": "Tôi có thể chơi Bắn Bong Bóng trên thiết bị di động không?",
+                                        "answer": "Tuyệt đối! Trò chơi Bắn Bong Bóng của chúng tôi hoàn toàn đáp ứng và hoạt động trên điện thoại thông minh và máy tính bảng. Các điều khiển cảm ứng được tối ưu hóa cho chơi trên thiết bị di động, cho phép bạn nhắm và bắn chính xác chỉ bằng đầu ngón tay của bạn."
                                     },
                                     {
-                                        "question": "Do I need to create an account to play?",
-                                        "answer": "No account creation is necessary. Simply visit our website and start playing immediately. However, creating an optional account allows you to save your progress and high scores across different devices."
+                                        "question": "Tôi có cần tạo tài khoản để chơi không?",
+                                        "answer": "Không cần tạo tài khoản. Chỉ cần truy cập trang web của chúng tôi và bắt đầu chơi ngay lập tức. Tuy nhiên, việc tạo một tài khoản tùy chọn cho phép bạn lưu tiến trình và điểm số cao của mình trên các thiết bị khác nhau."
                                     }
                                 ]
                             },
                             {
-                                "title": "Game Difficulty",
-                                "content": "Information about the challenge level and progression in Bubble Shooter.",
+                                "title": "Độ khó của trò chơi",
+                                "content": "Thông tin về mức độ thách thức và tiến trình trong Bắn Bong Bóng.",
                                 "faqs": [
                                     {
-                                        "question": "Are there different difficulty levels?",
-                                        "answer": "Yes, the game features progressive difficulty to challenge players of all skill levels. Early levels are designed to be accessible to newcomers, while later stages provide a significant challenge even for experienced players."
+                                        "question": "Có các cấp độ khó khác nhau không?",
+                                        "answer": "Có, trò chơi có độ khó tăng dần để thách thức người chơi ở tất cả các cấp độ kỹ năng. Các cấp độ đầu được thiết kế để dễ tiếp cận đối với người mới, trong khi các giai đoạn sau cung cấp một thách thức đáng kể ngay cả đối với người chơi có kinh nghiệm."
                                     },
                                     {
-                                        "question": "Is there a way to get hints if I'm stuck?",
-                                        "answer": "The game offers optional hints and power-ups that can help you overcome challenging levels without diminishing the fun. These assistance features are designed to enhance your experience rather than trivialize the challenge."
+                                        "question": "Có cách nào để nhận gợi ý nếu tôi bị kẹt không?",
+                                        "answer": "Trò chơi cung cấp gợi ý tùy chọn và vật phẩm tăng sức mạnh có thể giúp bạn vượt qua các cấp độ đầy thách thức mà không làm giảm niềm vui. Các tính năng hỗ trợ này được thiết kế để nâng cao trải nghiệm của bạn chứ không phải làm tầm thường hóa thử thách."
                                     },
                                     {
-                                        "question": "Does the game have an end, or is it endless?",
-                                        "answer": "Our Bubble Shooter features both modes. The level-based campaign has a definite progression and conclusion, while the endless mode allows you to play continuously for as long as you wish, with increasing difficulty."
+                                        "question": "Trò chơi có kết thúc, hay nó vô tận?",
+                                        "answer": "Bắn Bong Bóng của chúng tôi có cả hai chế độ. Chiến dịch dựa trên cấp độ có tiến trình và kết luận xác định, trong khi chế độ vô tận cho phép bạn chơi liên tục trong thời gian bạn muốn, với độ khó tăng dần."
                                     }
                                 ]
                             },
                             {
-                                "title": "Technical Requirements",
-                                "content": "Information about what you need to play Bubble Shooter smoothly.",
+                                "title": "Yêu cầu kỹ thuật",
+                                "content": "Thông tin về những gì bạn cần để chơi Bắn Bong Bóng một cách suôn sẻ.",
                                 "faqs": [
                                     {
-                                        "question": "What browsers support Bubble Shooter?",
-                                        "answer": "Bubble Shooter works on all modern browsers including Chrome, Firefox, Safari, and Edge. We regularly update the game to ensure compatibility with the latest browser versions."
+                                        "question": "Trình duyệt nào hỗ trợ Bắn Bong Bóng?",
+                                        "answer": "Bắn Bong Bóng hoạt động trên tất cả các trình duyệt hiện đại bao gồm Chrome, Firefox, Safari và Edge. Chúng tôi thường xuyên cập nhật trò chơi để đảm bảo tương thích với các phiên bản trình duyệt mới nhất."
                                     },
                                     {
-                                        "question": "Do I need to install any plugins?",
-                                        "answer": "No, our game is built with modern web technologies and doesn't require any additional plugins or installations. It runs natively in your browser for a seamless gaming experience."
+                                        "question": "Tôi có cần cài đặt bất kỳ plugin nào không?",
+                                        "answer": "Không, trò chơi của chúng tôi được xây dựng với công nghệ web hiện đại và không yêu cầu bất kỳ plugin hoặc cài đặt bổ sung nào. Nó chạy một cách tự nhiên trong trình duyệt của bạn cho trải nghiệm chơi game liền mạch."
                                     },
                                     {
-                                        "question": "How much bandwidth does playing Bubble Shooter use?",
-                                        "answer": "Bubble Shooter is optimized for efficiency and uses minimal bandwidth after the initial loading. This makes it suitable for playing even on limited data plans or slower internet connections."
+                                        "question": "Chơi Bắn Bong Bóng sử dụng bao nhiêu băng thông?",
+                                        "answer": "Bắn Bong Bóng được tối ưu hóa cho hiệu quả và sử dụng băng thông tối thiểu sau khi tải ban đầu. Điều này làm cho nó phù hợp để chơi ngay cả trên các gói dữ liệu hạn chế hoặc kết nối internet chậm hơn."
                                     }
                                 ]
                             }
                         ]
                     },
                     {
-                        "title": "Benefits of Playing Bubble Shooter",
-                        "content": "Beyond entertainment, Bubble Shooter offers several cognitive and emotional benefits.",
+                        "title": "Lợi ích của việc chơi Bắn Bong Bóng",
+                        "content": "Ngoài giải trí, Bắn Bong Bóng cung cấp nhiều lợi ích về nhận thức và cảm xúc.",
                         "subsections": [
                             {
-                                "title": "Cognitive Skills Development",
-                                "content": "Playing Bubble Shooter regularly can help improve various cognitive skills. The game requires spatial awareness, pattern recognition, and strategic planning, all of which exercise important brain functions. The need to anticipate bubble movements and plan several moves ahead helps develop problem-solving abilities that can be beneficial in everyday life."
+                                "title": "Phát triển kỹ năng nhận thức",
+                                "content": "Chơi Bắn Bong Bóng thường xuyên có thể giúp cải thiện nhiều kỹ năng nhận thức khác nhau. Trò chơi đòi hỏi nhận thức không gian, nhận diện mẫu và lập kế hoạch chiến lược, tất cả đều rèn luyện các chức năng não bộ quan trọng. Nhu cầu dự đoán chuyển động của bong bóng và lập kế hoạch trước nhiều bước giúp phát triển khả năng giải quyết vấn đề có thể có lợi trong cuộc sống hàng ngày."
                             },
                             {
-                                "title": "Stress Relief and Relaxation",
-                                "content": "The colorful visuals, satisfying pop sounds, and engaging yet not overwhelming gameplay make Bubble Shooter an excellent stress reliever. Many players report feeling more relaxed after a session of bubble popping, as the game provides just enough challenge to be engaging without causing frustration or anxiety."
+                                "title": "Giảm căng thẳng và thư giãn",
+                                "content": "Hình ảnh đầy màu sắc, âm thanh nổ thỏa mãn và lối chơi hấp dẫn nhưng không quá áp đảo làm cho Bắn Bong Bóng trở thành một công cụ giảm stress tuyệt vời. Nhiều người chơi báo cáo cảm thấy thư giãn hơn sau một phiên bắn bong bóng, vì trò chơi cung cấp đủ thử thách để hấp dẫn mà không gây thất vọng hoặc lo lắng."
                             },
                             {
-                                "title": "Improved Hand-Eye Coordination",
-                                "content": "The precise aiming required in Bubble Shooter helps develop and maintain hand-eye coordination. This is particularly beneficial for both younger players who are still developing these skills and older players looking to maintain cognitive agility. The game's intuitive controls make this skill development feel natural and enjoyable rather than like a training exercise."
+                                "title": "Cải thiện phối hợp tay-mắt",
+                                "content": "Việc nhắm chính xác cần thiết trong Bắn Bong Bóng giúp phát triển và duy trì sự phối hợp tay-mắt. Điều này đặc biệt có lợi cho cả người chơi trẻ vẫn đang phát triển những kỹ năng này và người chơi lớn tuổi muốn duy trì sự linh hoạt nhận thức. Điều khiển trực quan của trò chơi làm cho sự phát triển kỹ năng này cảm thấy tự nhiên và thú vị hơn là giống như một bài tập huấn luyện."
                             }
                         ]
                     }

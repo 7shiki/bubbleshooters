@@ -2,187 +2,187 @@
     "gameList": [
         {
             "id": 1,
-            "title": "Bubble Shooter",
+            "title": "泡泡射手",
             "platform": "Bubble Games",
             "imageUrl": "/images/games/bubble-shooter.png",
             "href": "/",
-            "description": "Match colorful bubbles in this addictive classic puzzle game. Aim, shoot, and create satisfying chain reactions to clear the board. Play now for free, no download required! Have fun!",
+            "description": "在这款令人上瘾的经典益智游戏中匹配彩色泡泡。瞄准、射击，并创造令人满足的连锁反应以清除游戏板。立即免费游玩，无需下载！祝您玩得开心！",
             "embedUrl": "https://cdn.bubbleshooter.com/games/bubbleshooter-game/",
             "seoDescription": {
                 "sections": [
                     {
-                        "title": "About Bubble Shooter",
-                        "content": "Welcome to Bubble Shooter, the addictive bubble-popping game that has captivated millions of players worldwide. This classic puzzle game combines strategy, skill, and a bit of luck as you aim to clear the playfield of colorful bubbles. Whether you're looking for a quick gaming session during your coffee break or an engaging challenge to test your skills, Bubble Shooter offers the perfect blend of casual fun and strategic depth.",
+                        "title": "关于泡泡射手",
+                        "content": "欢迎来到泡泡射手，这款令人上瘾的泡泡爆破游戏已经吸引了全球数百万玩家。这款经典益智游戏结合了策略、技巧和一点运气，让您目标是清除游戏场上的彩色泡泡。无论您是在咖啡休息时寻找快速游戏体验，还是寻求一个挑战技巧的引人入胜的挑战，泡泡射手都提供了休闲乐趣和策略深度的完美结合。",
                         "subsections": [
                             {
-                                "title": "How to Play Bubble Shooter",
-                                "content": "Aim and shoot colorful bubbles to match three or more of the same color. Clear all bubbles from the board to advance to the next level. Use strategy to create chain reactions and score big points! The game features a simple interface with an arrow shooter at the bottom of the screen that allows you to aim and fire bubbles at the clusters above. Plan your shots carefully to create cascading effects that clear large sections of the playfield at once."
+                                "title": "如何玩泡泡射手",
+                                "content": "瞄准并射击彩色泡泡，匹配三个或更多相同颜色的泡泡。清除游戏板上的所有泡泡以进入下一关。运用策略创造连锁反应并获得高分！游戏提供简单的界面，在屏幕底部有一个箭头射手，让您能瞄准并向上方的泡泡群发射泡泡。仔细计划您的射击，以创造级联效果，一次性清除游戏场的大片区域。"
                             },
                             {
-                                "title": "Game Controls",
-                                "content": "Playing Bubble Shooter is intuitive and straightforward. On desktop, use your mouse to aim the shooter and click to fire bubbles. On mobile devices, simply tap and drag to aim, then release to shoot. The game automatically shows you the next bubble in queue, allowing you to plan your strategy in advance. For the best experience, take your time to line up perfect shots that create maximum impact."
+                                "title": "游戏控制",
+                                "content": "玩泡泡射手是直观且简单的。在桌面上，使用鼠标瞄准射手并点击发射泡泡。在移动设备上，只需轻触并拖动来瞄准，然后松开发射。游戏会自动显示队列中的下一个泡泡，让您能提前计划策略。为了获得最佳体验，请花时间排列完美的射击，以创造最大影响。"
                             }
                         ]
                     },
                     {
-                        "title": "Who made Bubble Shooter Game?",
-                        "content": "The history of Bubble Shooter is a fascinating journey through the evolution of casual gaming, from arcade cabinets to modern mobile experiences.",
+                        "title": "谁制作了泡泡射手游戏？",
+                        "content": "泡泡射手的历史是一段从街机机台到现代移动体验的休闲游戏演变的引人入胜的旅程。",
                         "subsections": [
                             {
-                                "title": "The Origins of Bubble Shooter",
-                                "content": "The original Bubble Shooter game was created by Absolutist Games in 2002. It was inspired by the classic arcade game Puzzle Bobble (also known as Bust-a-Move), which was developed by Taito Corporation in 1994."
+                                "title": "泡泡射手的起源",
+                                "content": "原始的泡泡射手游戏由Absolutist Games于2002年创造。它的灵感来自经典街机游戏Puzzle Bobble（又称为Bust-a-Move），该游戏由太东公司（Taito Corporation）于1994年开发。"
                             },
                             {
-                                "title": "Evolution of the Genre",
-                                "content": "Since its inception, the bubble shooter genre has evolved significantly, spawning countless variations and adaptations. The core gameplay mechanic of matching colored bubbles has remained consistent, but developers have introduced new elements like power-ups, special bubbles, and unique level designs to keep the experience fresh and engaging. Our version honors the classic gameplay while incorporating modern enhancements that today's players expect."
+                                "title": "游戏类型的演变",
+                                "content": "自诞生以来，泡泡射手类型已经显著演变，产生了无数变体和改编。匹配彩色泡泡的核心游戏机制保持一致，但开发者引入了新元素，如能力提升、特殊泡泡和独特关卡设计，以保持体验的新鲜感和吸引力。我们的版本尊重经典游戏玩法，同时融入现代玩家期待的现代化增强功能。"
                             }
                         ]
                     },
                     {
-                        "title": "Game Features",
-                        "content": "Bubble Shooter combines simple mechanics with deep strategic possibilities, creating an experience that's accessible to newcomers yet challenging for veterans.",
+                        "title": "游戏特色",
+                        "content": "泡泡射手结合简单机制与深度策略可能性，创造了一种对新手容易上手但对老手具有挑战性的体验。",
                         "subsections": [
                             {
-                                "title": "Exciting Gameplay Mechanics",
-                                "content": "Bubble Shooter offers intuitive and addictive gameplay that's easy to learn but challenging to master. The simple point-and-shoot mechanics combined with strategic bubble placement create a perfect balance of casual fun and tactical thinking. Each level presents a unique challenge, requiring you to adapt your strategy and think several moves ahead."
+                                "title": "令人兴奋的游戏机制",
+                                "content": "泡泡射手提供直观且令人上瘾的游戏玩法，易于学习但难以精通。简单的瞄准和射击机制与策略性泡泡放置相结合，创造了休闲乐趣和战术思考的完美平衡。每个关卡都呈现独特挑战，要求您调整策略并提前思考几步。"
                             },
                             {
-                                "title": "Power-ups and Special Items",
-                                "content": "Discover various power-ups that can help you clear difficult levels. From color bombs that remove all bubbles of a specific color to lightning bolts that clear entire rows, these special items add an extra layer of strategy to your gameplay. Collect and use these power-ups wisely to overcome challenging situations and achieve higher scores than you thought possible."
+                                "title": "能力提升和特殊物品",
+                                "content": "探索各种能力提升，帮助您清除困难关卡。从移除特定颜色所有泡泡的颜色炸弹到清除整行的闪电，这些特殊物品为您的游戏增添额外策略层次。明智地收集和使用这些能力提升，以克服挑战情况并达到您认为不可能的高分。"
                             },
                             {
-                                "title": "Progressive Difficulty",
-                                "content": "As you advance through the game, you'll encounter increasingly challenging layouts and bubble patterns. The progressive difficulty ensures that both beginners and experienced players will find the game engaging and rewarding. Early levels introduce you to the basic mechanics, while later stages will test your skills with complex arrangements and time pressure."
+                                "title": "渐进难度",
+                                "content": "当您在游戏中推进时，您将遇到越来越具挑战性的布局和泡泡模式。渐进难度确保初学者和有经验的玩家都能找到游戏的吸引力和回报。早期关卡向您介绍基本机制，而后期阶段将用复杂的排列和时间压力测试您的技能。"
                             },
                             {
-                                "title": "Scoring System",
-                                "content": "Bubble Shooter features a comprehensive scoring system that rewards strategic play. You'll earn points for each bubble you pop, with bonus points awarded for creating chain reactions and clearing large clusters at once. The game also offers multipliers for consecutive successful shots and special achievements for clearing the entire playfield. Challenge yourself to beat your high score with each new game!"
+                                "title": "计分系统",
+                                "content": "泡泡射手特色为全面的计分系统，奖励策略性游戏。您将为每个爆破的泡泡获得分数，创造连锁反应和一次清除大片泡泡群将获得额外奖励分数。游戏还为连续成功射击提供倍数和清除整个游戏场的特殊成就。在每次新游戏中挑战自己打破您的最高分数！"
                             }
                         ],
                         "bulletPoints": [
-                            "Multiple levels with increasing difficulty",
-                            "Colorful graphics and smooth gameplay",
-                            "Special power-ups and boosters",
-                            "Relaxing yet challenging gameplay",
-                            "Perfect for players of all ages",
-                            "Addictive chain reaction mechanics",
-                            "Strategic depth with simple controls",
-                            "High score tracking and achievements",
-                            "No downloads required - play instantly",
-                            "Regular updates with new content"
+                            "多个难度逐渐增加的关卡",
+                            "色彩丰富的图像和流畅的游戏体验",
+                            "特殊能力提升和加速器",
+                            "放松又具挑战性的游戏玩法",
+                            "适合所有年龄层的玩家",
+                            "令人上瘾的连锁反应机制",
+                            "简单控制下的策略深度",
+                            "高分追踪和成就系统",
+                            "无需下载 - 即刻游玩",
+                            "定期更新新内容"
                         ]
                     },
                     {
-                        "title": "Strategic Tips and Tricks",
-                        "content": "Mastering Bubble Shooter requires more than just quick reflexes—it demands strategic thinking and planning.",
+                        "title": "策略提示和技巧",
+                        "content": "掌握泡泡射手需要的不仅仅是快速反应—它需要战略思考和规划。",
                         "subsections": [
                             {
-                                "title": "Aiming for Maximum Impact",
-                                "content": "Always look for opportunities to create chain reactions by targeting bubbles that support large clusters. When you remove a supporting bubble, all unattached bubbles above it will fall, giving you bonus points and clearing the playfield faster. Try to identify key 'structural' bubbles that, when removed, will cause cascading effects throughout the board."
+                                "title": "瞄准最大影响",
+                                "content": "总是寻找通过瞄准支撑大群泡泡的泡泡来创造连锁反应的机会。当您移除一个支撑泡泡时，其上方所有未连接的泡泡都会掉落，给您额外加分并更快清除游戏场。尝试识别关键的'结构性'泡泡，当移除时会造成整个游戏板上的级联效应。"
                             },
                             {
-                                "title": "Using Wall Rebounds",
-                                "content": "Don't forget that you can bounce bubbles off the side walls to reach difficult spots. This technique is essential for accessing bubbles that seem impossible to hit directly. Practice your angle shots to become a true Bubble Shooter master. The most skilled players can calculate precise rebounds to hit targets that novice players might consider unreachable."
+                                "title": "利用墙壁反弹",
+                                "content": "别忘了您可以让泡泡从侧壁反弹以到达难以触及的位置。这种技术对于接触看似无法直接命中的泡泡至关重要。练习您的角度射击，成为真正的泡泡射手大师。最熟练的玩家可以计算精确的反弹来击中新手玩家可能认为无法触及的目标。"
                             },
                             {
-                                "title": "Planning Ahead",
-                                "content": "Pay attention to the next bubble in the queue and plan your shots accordingly. Sometimes it's better to set up a future move rather than taking an immediate match. Creating a strategic sequence of shots can lead to spectacular chain reactions that clear large portions of the playfield at once."
+                                "title": "提前计划",
+                                "content": "注意队列中的下一个泡泡并相应地计划您的射击。有时设置未来的一步比立即匹配更好。创造射击的战略序列可以导致壮观的连锁反应，一次性清除游戏场的大部分区域。"
                             }
                         ]
                     },
                     {
-                        "title": "Why Bubble Shooter Is So Popular",
-                        "content": "Few games have achieved the enduring popularity of Bubble Shooter. Its appeal crosses age groups, gaming experience levels, and cultural boundaries.",
+                        "title": "为什么泡泡射手如此受欢迎",
+                        "content": "很少有游戏能达到泡泡射手的持久人气。它的吸引力跨越年龄组、游戏经验水平和文化边界。",
                         "subsections": [
                             {
-                                "title": "Universal Appeal",
-                                "content": "Bubble Shooter's simple premise and colorful design make it accessible to players of all ages and backgrounds. The game's intuitive mechanics can be understood within seconds, yet the strategic depth keeps players engaged for hours, days, and even years. This perfect balance of accessibility and challenge is a key factor in the game's widespread popularity."
+                                "title": "普遍吸引力",
+                                "content": "泡泡射手简单的前提和色彩丰富的设计使其对所有年龄和背景的玩家都易于接触。游戏的直观机制可以在几秒钟内理解，然而策略深度让玩家持续参与数小时、数天甚至数年。这种可访问性和挑战之间的完美平衡是游戏广泛普及的关键因素。"
                             },
                             {
-                                "title": "Satisfying Gameplay Loop",
-                                "content": "There's something inherently satisfying about matching colors and watching bubbles pop. The game taps into our natural desire for order and completion, providing a sense of accomplishment with each successful match. The visual and audio feedback from popping bubbles creates a rewarding sensory experience that keeps players coming back for more."
+                                "title": "令人满足的游戏循环",
+                                "content": "匹配颜色并观看泡泡爆破有着某种固有的满足感。游戏利用我们对秩序和完成的自然渴望，每次成功匹配都提供成就感。爆破泡泡的视觉和音频反馈创造了一种有价值的感官体验，让玩家不断回来寻求更多。"
                             },
                             {
-                                "title": "Perfect for Short Gaming Sessions",
-                                "content": "In today's fast-paced world, Bubble Shooter offers the ideal gaming experience for busy individuals. A single level can be completed in just a few minutes, making it perfect for quick breaks or commutes. Despite this bite-sized format, the game provides a complete and fulfilling experience that can be enjoyed in short bursts or extended sessions."
+                                "title": "适合短时间游戏会话",
+                                "content": "在当今快节奏的世界中，泡泡射手为忙碌的个人提供了理想的游戏体验。一个关卡可以在短短几分钟内完成，非常适合快速休息或通勤时间。尽管有这种小而精的格式，游戏提供了一种完整且令人满足的体验，可以短暂爆发或延长会话中享受。"
                             }
                         ]
                     },
                     {
-                        "title": "Frequently Asked Questions",
-                        "content": "Find answers to the most common questions about our Bubble Shooter game.",
+                        "title": "常见问题",
+                        "content": "寻找关于我们的泡泡射手游戏最常见问题的答案。",
                         "subsections": [
                             {
-                                "title": "Game Accessibility",
-                                "content": "Information about how to access and play our Bubble Shooter game.",
+                                "title": "游戏可访问性",
+                                "content": "关于如何访问和玩我们的泡泡射手游戏的信息。",
                                 "faqs": [
                                     {
-                                        "question": "Is Bubble Shooter free to play?",
-                                        "answer": "Yes, Bubble Shooter is completely free to play in your browser with no downloads required. We believe great games should be accessible to everyone, which is why we've made our version available at no cost."
+                                        "question": "泡泡射手是免费游玩的吗？",
+                                        "answer": "是的，泡泡射手可以在您的浏览器中完全免费游玩，无需下载。我们相信优秀的游戏应该对所有人都是可访问的，这就是为什么我们提供免费版本的原因。"
                                     },
                                     {
-                                        "question": "Can I play Bubble Shooter on mobile?",
-                                        "answer": "Absolutely! Our Bubble Shooter game is fully responsive and works on smartphones and tablets. The touch controls are optimized for mobile play, allowing you to aim and shoot with precision using just your fingertip."
+                                        "question": "我可以在移动设备上玩泡泡射手吗？",
+                                        "answer": "当然可以！我们的泡泡射手游戏完全响应式并可在智能手机和平板电脑上运行。触控控制针对移动游戏进行了优化，让您仅使用指尖就能精确瞄准和射击。"
                                     },
                                     {
-                                        "question": "Do I need to create an account to play?",
-                                        "answer": "No account creation is necessary. Simply visit our website and start playing immediately. However, creating an optional account allows you to save your progress and high scores across different devices."
+                                        "question": "我需要创建账户才能游玩吗？",
+                                        "answer": "不需要创建账户。只需访问我们的网站并立即开始游玩。但是，创建可选账户可以让您在不同设备上保存进度和高分。"
                                     }
                                 ]
                             },
                             {
-                                "title": "Game Difficulty",
-                                "content": "Information about the challenge level and progression in Bubble Shooter.",
+                                "title": "游戏难度",
+                                "content": "关于泡泡射手中挑战级别和进展的信息。",
                                 "faqs": [
                                     {
-                                        "question": "Are there different difficulty levels?",
-                                        "answer": "Yes, the game features progressive difficulty to challenge players of all skill levels. Early levels are designed to be accessible to newcomers, while later stages provide a significant challenge even for experienced players."
+                                        "question": "有不同的难度级别吗？",
+                                        "answer": "是的，游戏具有渐进难度，以挑战各种技能水平的玩家。早期关卡设计为对新手易于访问，而后期阶段即使对有经验的玩家也提供显著挑战。"
                                     },
                                     {
-                                        "question": "Is there a way to get hints if I'm stuck?",
-                                        "answer": "The game offers optional hints and power-ups that can help you overcome challenging levels without diminishing the fun. These assistance features are designed to enhance your experience rather than trivialize the challenge."
+                                        "question": "如果我卡住了，有获得提示的方法吗？",
+                                        "answer": "游戏提供可选提示和能力提升，可以帮助您克服具有挑战性的关卡，同时不减少乐趣。这些辅助功能旨在增强您的体验，而不是简化挑战。"
                                     },
                                     {
-                                        "question": "Does the game have an end, or is it endless?",
-                                        "answer": "Our Bubble Shooter features both modes. The level-based campaign has a definite progression and conclusion, while the endless mode allows you to play continuously for as long as you wish, with increasing difficulty."
+                                        "question": "游戏有结束，还是无尽的？",
+                                        "answer": "我们的泡泡射手具有两种模式。基于关卡的战役有明确的进展和结论，而无尽模式让您可以随心所欲地连续游玩，难度逐渐增加。"
                                     }
                                 ]
                             },
                             {
-                                "title": "Technical Requirements",
-                                "content": "Information about what you need to play Bubble Shooter smoothly.",
+                                "title": "技术要求",
+                                "content": "关于顺畅游玩泡泡射手所需的信息。",
                                 "faqs": [
                                     {
-                                        "question": "What browsers support Bubble Shooter?",
-                                        "answer": "Bubble Shooter works on all modern browsers including Chrome, Firefox, Safari, and Edge. We regularly update the game to ensure compatibility with the latest browser versions."
+                                        "question": "哪些浏览器支持泡泡射手？",
+                                        "answer": "泡泡射手在所有现代浏览器上运行，包括Chrome、Firefox、Safari和Edge。我们定期更新游戏以确保与最新浏览器版本的兼容性。"
                                     },
                                     {
-                                        "question": "Do I need to install any plugins?",
-                                        "answer": "No, our game is built with modern web technologies and doesn't require any additional plugins or installations. It runs natively in your browser for a seamless gaming experience."
+                                        "question": "我需要安装任何插件吗？",
+                                        "answer": "不，我们的游戏使用现代网络技术构建，不需要任何额外插件或安装。它在您的浏览器中原生运行，提供无缝游戏体验。"
                                     },
                                     {
-                                        "question": "How much bandwidth does playing Bubble Shooter use?",
-                                        "answer": "Bubble Shooter is optimized for efficiency and uses minimal bandwidth after the initial loading. This makes it suitable for playing even on limited data plans or slower internet connections."
+                                        "question": "游玩泡泡射手使用多少带宽？",
+                                        "answer": "泡泡射手经过效率优化，在初次加载后使用最少的带宽。这使其即使在有限数据计划或较慢的互联网连接上也适合游玩。"
                                     }
                                 ]
                             }
                         ]
                     },
                     {
-                        "title": "Benefits of Playing Bubble Shooter",
-                        "content": "Beyond entertainment, Bubble Shooter offers several cognitive and emotional benefits.",
+                        "title": "游玩泡泡射手的好处",
+                        "content": "除了娱乐，泡泡射手还提供多种认知和情感上的好处。",
                         "subsections": [
                             {
-                                "title": "Cognitive Skills Development",
-                                "content": "Playing Bubble Shooter regularly can help improve various cognitive skills. The game requires spatial awareness, pattern recognition, and strategic planning, all of which exercise important brain functions. The need to anticipate bubble movements and plan several moves ahead helps develop problem-solving abilities that can be beneficial in everyday life."
+                                "title": "认知技能发展",
+                                "content": "定期游玩泡泡射手可以帮助改善各种认知技能。游戏需要空间意识、模式识别和策略规划，所有这些都锻炼重要的大脑功能。预测泡泡运动和提前规划多步的需求有助于发展解决问题的能力，这在日常生活中可能有益。"
                             },
                             {
-                                "title": "Stress Relief and Relaxation",
-                                "content": "The colorful visuals, satisfying pop sounds, and engaging yet not overwhelming gameplay make Bubble Shooter an excellent stress reliever. Many players report feeling more relaxed after a session of bubble popping, as the game provides just enough challenge to be engaging without causing frustration or anxiety."
+                                "title": "减轻压力和放松",
+                                "content": "色彩丰富的视觉效果、令人满意的爆破声音，以及引人入胜但不压倒性的游戏玩法使泡泡射手成为出色的减压工具。许多玩家报告在泡泡爆破会话后感到更加放松，因为游戏提供了足够的挑战性来吸引人，而不会引起挫折或焦虑。"
                             },
                             {
-                                "title": "Improved Hand-Eye Coordination",
-                                "content": "The precise aiming required in Bubble Shooter helps develop and maintain hand-eye coordination. This is particularly beneficial for both younger players who are still developing these skills and older players looking to maintain cognitive agility. The game's intuitive controls make this skill development feel natural and enjoyable rather than like a training exercise."
+                                "title": "提升手眼协调能力",
+                                "content": "泡泡射手需要的精确瞄准有助于发展和维持手眼协调能力。这对于仍在发展这些技能的年轻玩家和寻求维持认知敏捷性的年长玩家特别有益。游戏的直观控制使这种技能发展感觉自然且愉快，而不像训练练习。"
                             }
                         ]
                     }
@@ -2938,7 +2938,7 @@
                 "sections": [
                     {
                         "title": "About Fire and Water",
-                        "content": "Fire and Water (known in some regions as Fireboy and Watergirl) is an innovative puzzle-platform game developed by Oslo Albet that has captivated millions of players worldwide with its unique cooperative gameplay. This beloved title challenges players to simultaneously control two distinct characters - Fireboy and Watergirl - as they navigate through mysterious temple environments filled with elemental hazards, puzzles, and collectibles. What makes the game special is its element-based mechanics: Fireboy can safely walk through fire but is harmed by water, while Watergirl can wade through water pools but is damaged by fire. Both characters must avoid the deadly green slime that's harmful to both. This inherent duality creates compelling puzzles that require thoughtful coordination, precise timing, and clever resource management to solve.",
+                        "content": "Fire and Water (known in some regions as Fireboy and Watergirl) is an innovative puzzle-platform game developed by Oslo Albet that has captivated millions of players worldwide with its unique cooperative gameplay. This beloved title challenges players to simultaneously control two distinct characters - Fireboy and Watergirl - as they navigate through mysterious temple environments filled with elemental hazards, puzzles, and collectibles. What makes the game special is its element-based mechanics: Fireboy can safely walk through fire but is harmed by water, while Watergirl can safely wade through water pools but is damaged by fire. Both characters must avoid the deadly green slime that's harmful to both. This inherent duality creates compelling puzzles that require thoughtful coordination, precise timing, and clever resource management to solve.",
                         "subsections": [
                             {
                                 "title": "How to Play Fire and Water",
