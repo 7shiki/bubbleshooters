@@ -26,7 +26,7 @@ interface NavItem {
 const getFixedNavItems = (): NavItem[] => [
   { icon: "🏠", label: "Home", href: "/", isRandom: false },
   { icon: "🕒", label: "History", href: "/history", isRandom: false },
-  { icon: "🎲", label: "Random", href: "javascript:void(0)", isRandom: true }
+  { icon: "🔀", label: "Random", href: "javascript:void(0)", isRandom: true }
 ];
 
 // 从categories中获取分类导航项

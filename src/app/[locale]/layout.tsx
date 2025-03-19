@@ -19,7 +19,7 @@ export const metadata: Metadata = {
 const getFixedNavItems = (messages: any) => [
   { icon: "🏠", label: messages.navigation?.home || "Home", href: "/", isRandom: false, key: "home" },
   { icon: "🕒", label: messages.navigation?.history || "History", href: "/history", isRandom: false, key: "history" },
-  { icon: "🎲", label: messages.navigation?.random || "Random", href: "#", isRandom: true, key: "random" }
+  { icon: "🔀", label: messages.navigation?.random || "Random", href: "#", isRandom: true, key: "random" }
 ];
 
 // 从categories中获取分类导航项

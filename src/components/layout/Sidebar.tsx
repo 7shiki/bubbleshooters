@@ -5,7 +5,7 @@ import { usePathname } from 'next/navigation';
 import RandomGameLink from './RandomGameLink';
 
 interface NavItem {
-  icon: string;
+  icon: string | React.ReactNode;
   label: string | React.ReactNode;
   href: string;
   isRandom?: boolean;
@@ -80,10 +80,20 @@ export default function Sidebar({ navItems, locale, messages }: SidebarProps) {
           {navItems.map((item, index) => {
             const href = locale === 'en' ? item.href : `/${locale}${item.href}`;
             const isActive = pathname === href || pathname === `/${locale}${item.href}`;
-            const linkClass = `flex items-start p-3 mb-3 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors ${
+            
+            // 统一所有链接的基础样式
+            const linkClass = `flex items-center p-3 mb-3 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors ${
               isActive ? 'bg-gray-100 dark:bg-gray-700' : ''
             }`;
+            
             const altText = getAltText(item);
+            
+            // 为图标创建统一的容器，确保所有图标占据相同的空间
+            const iconElement = (
+              <div className="flex items-center justify-center w-6 h-6 mr-2 flex-shrink-0">
+                <span className="text-xl">{item.icon}</span>
+              </div>
+            );
             
             // 如果是随机游戏链接，使用RandomGameLink组件
             if (item.isRandom) {
@@ -94,8 +104,8 @@ export default function Sidebar({ navItems, locale, messages }: SidebarProps) {
                   locale={locale}
                   title={altText} // 使用title属性作为tooltip
                 >
-                  <span className="text-base mr-1.5 flex-shrink-0" aria-hidden="true">{item.icon}</span>
-                  <span className="font-medium text-sm leading-tight break-words">{item.label}</span>
+                  {iconElement}
+                  <span className="font-medium text-sm">{item.label}</span>
                 </RandomGameLink>
               );
             }
@@ -109,8 +119,8 @@ export default function Sidebar({ navItems, locale, messages }: SidebarProps) {
                 title={altText} // 使用title属性作为tooltip
                 aria-label={altText} // 使用aria-label属性提高可访问性
               >
-                <span className="text-base mr-1.5 flex-shrink-0" aria-hidden="true">{item.icon}</span>
-                <span className="font-medium text-sm leading-tight break-words">{item.label}</span>
+                {iconElement}
+                <span className="font-medium text-sm">{item.label}</span>
               </a>
             );
           })}

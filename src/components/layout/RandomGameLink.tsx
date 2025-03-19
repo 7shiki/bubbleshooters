@@ -80,6 +80,16 @@ export default function RandomGameLink({ className, children, locale, title }: R
     }
   };
 
+  const content = children || (
+    <>
+      <div className="flex items-center justify-center w-6 h-6 mr-2 flex-shrink-0">
+        <span className="text-xl">🔀</span>
+      </div>
+      <span className="font-medium text-sm">Random</span>
+      {isLoading && <span className="ml-1 animate-spin">⏳</span>}
+    </>
+  );
+
   return (
     <button 
       type="button"
@@ -88,8 +98,7 @@ export default function RandomGameLink({ className, children, locale, title }: R
       title={title || "Open a random game"}
       aria-label={title || "Open a random game"}
     >
-      {children}
-      {isLoading && <span className="ml-1 animate-spin">⏳</span>}
+      {content}
     </button>
   );
 } 
