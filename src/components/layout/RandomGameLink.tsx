@@ -14,9 +14,7 @@ export default function RandomGameLink({ className, children, locale, title }: R
   const router = useRouter();
   const [isLoading, setIsLoading] = useState(false);
 
-  const handleRandomGame = async (e: React.MouseEvent) => {
-    e.preventDefault();
-    
+  const handleRandomGame = async () => {
     if (isLoading) return;
     
     setIsLoading(true);
@@ -83,14 +81,15 @@ export default function RandomGameLink({ className, children, locale, title }: R
   };
 
   return (
-    <a 
-      href="javascript:void(0)" 
+    <button 
+      type="button"
       onClick={handleRandomGame}
       className={className}
       title={title || "Open a random game"}
+      aria-label={title || "Open a random game"}
     >
       {children}
       {isLoading && <span className="ml-1 animate-spin">⏳</span>}
-    </a>
+    </button>
   );
 } 
