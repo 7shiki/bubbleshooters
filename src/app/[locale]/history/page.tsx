@@ -4,12 +4,15 @@ import HistoryClient from './HistoryClient'
 
 export async function generateMetadata({ params }: { params: { locale: string } }): Promise<Metadata> {
   const messages = await getTranslations(params.locale)
-  
+  const canonicalUrl = params.locale === 'en' 
+  ? `https://bubbleshooters.org/history` 
+  : `https://bubbleshooters.org/${params.locale}/history`
+
   return {
     title: messages.history?.metadata?.title || 'Play History',
     description: messages.history?.metadata?.description || 'View your game play history',
     alternates: {
-      canonical: 'https://bubbleshooters.org/history',
+      canonical: canonicalUrl,
       languages: {
         'en': 'https://bubbleshooters.org/history',
         'zh': 'https://bubbleshooters.org/zh/history',

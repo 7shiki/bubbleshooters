@@ -16,6 +16,10 @@ export async function generateMetadata({ params }: { params: { category: string,
     }
   }
 
+  const canonicalUrl = params.locale === 'en' 
+  ? `https://bubbleshooters.org/${params.category}` 
+  : `https://bubbleshooters.org/${params.locale}/${params.category}`
+
   return {
     title: messages.category.metadata.title
       .replaceAll('{platform}', info.title),
@@ -23,7 +27,7 @@ export async function generateMetadata({ params }: { params: { category: string,
       .replaceAll('{platform}', info.platform),
     keywords: messages.category.metadata.keywords,
     alternates: {
-      canonical: `https://bubbleshooters.org/${params.category}`,
+      canonical: canonicalUrl,
       languages: {
         'en': `https://bubbleshooters.org/${params.category}`,
         'zh': `https://bubbleshooters.org/zh/${params.category}`,

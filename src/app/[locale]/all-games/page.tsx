@@ -6,12 +6,16 @@ export async function generateMetadata({ params }: { params: { locale: string } 
   const messages = await getTranslations(params.locale)
   const metadata = messages.allGames.metadata
 
+  const canonicalUrl = params.locale === 'en' 
+  ? `https://bubbleshooters.org/all-games` 
+  : `https://bubbleshooters.org/${params.locale}/all-games`
+
   return {
     title: metadata.title,
     description: metadata.description,
     keywords: metadata.keywords,
     alternates: {
-      canonical: 'https://bubbleshooters.org/all-games',
+      canonical: canonicalUrl,
       languages: {
         'en': 'https://bubbleshooters.org/all-games',
         'zh': 'https://bubbleshooters.org/zh/all-games',

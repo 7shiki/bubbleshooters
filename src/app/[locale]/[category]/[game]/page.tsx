@@ -50,6 +50,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     .replaceAll('{platform}', game.platform)
   const url = `https://bubbleshooters.org/${params.locale}${fullPath}`
 
+  const canonicalUrl = params.locale === 'en' 
+  ? `https://bubbleshooters.org/${params.category}/${params.game}` 
+  : `https://bubbleshooters.org/${params.locale}/${params.category}/${params.game}`
+
   return {
     title,
     description,
@@ -77,7 +81,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       images: [`https://bubbleshooters.org${game.imageUrl}`]
     },
     alternates: {
-      canonical: `https://bubbleshooters.org/${params.category}/${params.game}`,
+      canonical: canonicalUrl,
       languages: {
         'en': `https://bubbleshooters.org/${params.category}/${params.game}`,
         'zh': `https://bubbleshooters.org/zh/${params.category}/${params.game}`,

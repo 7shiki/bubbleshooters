@@ -5,11 +5,15 @@ import { getTranslations } from '@/utils/i18n'
 export async function generateMetadata({ params }: { params: { locale: string } }): Promise<Metadata> {
     const messages = await getTranslations(params.locale)
 
+    const canonicalUrl = params.locale === 'en' 
+    ? `https://bubbleshooters.org/privacy-policy` 
+    : `https://bubbleshooters.org/${params.locale}/privacy-policy`
+
     return {
         title: `${messages.footer.privacy.title} - Bubble Shooter`,
         description: messages.footer.privacy.description,
         alternates: {
-            canonical: 'https://bubbleshooters.org/privacy-policy',
+            canonical: canonicalUrl,
             languages: {
               'en': 'https://bubbleshooters.org/privacy-policy',
               'zh': 'https://bubbleshooters.org/zh/privacy-policy',

@@ -10,6 +10,11 @@ export async function generateMetadata({ params }: { params: { locale: string } 
   const messages = await getTranslations(params.locale)
   const metadata = messages.home.metadata
 
+      // 根据当前语言设置canonical URL
+      const canonicalUrl = params.locale === 'en' 
+      ? `https://bubbleshooters.org/` 
+      : `https://bubbleshooters.org/${params.locale}`
+
   return {
     title: metadata.title,
     description: metadata.description,
@@ -37,7 +42,7 @@ export async function generateMetadata({ params }: { params: { locale: string } 
       images: ['https://bubbleshooters.org/images/og-image.jpg']
     },
     alternates: {
-      canonical: 'https://bubbleshooters.org/',
+      canonical: canonicalUrl,
       languages: {
         'en': 'https://bubbleshooters.org/',
         'zh': 'https://bubbleshooters.org/zh',
