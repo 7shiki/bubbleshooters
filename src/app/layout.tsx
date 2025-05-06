@@ -3,7 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import { ThemeScript } from "@/components/layout/ThemeToggle";
 import GoogleAnalytics from '@/components/GoogleAnalytics'
-
+import Script from "next/script";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -24,6 +24,12 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <head>
         <ThemeScript />
+        <Script 
+          defer 
+          data-domain="bubbleshooters.org" 
+          src="https://plausible.io/js/script.js"
+          strategy="afterInteractive"
+        />
       </head>
       <body className={`${inter.className} bg-white dark:bg-gray-900`}>
         {children}
